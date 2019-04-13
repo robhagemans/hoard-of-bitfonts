@@ -1,11 +1,12 @@
 # Acorn BBC Micro Teletext (Mode 7) font
 #
-# based on the Acorn BBC Micro user's guide, page 478
+# based on the Acorn BBC Micro user's guide, appendix A, page 478-479
 # with help from Tom Seddon's teletext font; differences:
 # 0x00-0x1f, 0x40 (@), 0x5b-0x60, 0x6a (j), 0x7b-0x7e, 0x7f-0xff
 #
 # code points 0xa0-0xfe are repetitions of 0x20-0x7e
-# with only 0xa3 and 0xe0 (hash and sterling sign) swapped
+# with only 0xa3, 0xdf, 0xe0 (hash, sterling sign, underscore) swapped
+# and underscore 0xe0 one scanline lower than its counterpart in the lower set
 
 20:	------
 	------
@@ -1747,24 +1748,24 @@ de:	------
 	------
 	------
 
-df:	------
+df:	--#-#-
+	--#-#-
+	-#####
+	--#-#-
+	-#####
+	--#-#-
+	--#-#-
+	------
+	------
+	------
+
+e0:	------
+	------
 	------
 	------
 	------
 	-####-
 	------
-	------
-	------
-	------
-	------
-
-e0:	--#-#-
-	--#-#-
-	-#####
-	--#-#-
-	-#####
-	--#-#-
-	--#-#-
 	------
 	------
 	------
