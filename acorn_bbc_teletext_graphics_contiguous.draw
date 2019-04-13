@@ -2,7 +2,7 @@
 #
 # based on the Acorn BBC Micro user's guide, Appendix B, page 480-481
 # in the guide, the semigraphic "sixels" are all equal sized blocks
-# which of course doesn't work on a 6cx10 grid. inspection of
+# which of course doesn't work on a 6x10 grid. inspection of
 # screenshots suggests the middle sixels are one scanline larger
 # than the others.
 #
