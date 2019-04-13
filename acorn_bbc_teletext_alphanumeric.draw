@@ -1,4 +1,5 @@
 # Acorn BBC Micro Teletext (Mode 7) font
+# Mullard SAA-5050 teletext video chip
 #
 # based on the Acorn BBC Micro user's guide, appendix A, page 478-479
 # with help from Tom Seddon's teletext font; differences:
