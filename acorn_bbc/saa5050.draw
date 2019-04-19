@@ -1,5 +1,6 @@
 # Mullard SAA5050
 # source: https://github.com/textmodes/font/tree/master/rom
+# character 7b (1/4) corrected based on SAA5050 datasheet
 
 20:
 	------
@@ -1095,11 +1096,11 @@
 
 7b:
 	------
-	-#----
-	-#----
-	-#----
-	-#----
-	-#---#
+	--#---
+	--#---
+	--#---
+	--#---
+	--#--#
 	----##
 	---#-#
 	---###

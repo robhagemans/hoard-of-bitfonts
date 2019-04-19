@@ -1,6 +1,6 @@
 # Mullard SAA5057
 # source: https://github.com/textmodes/font/tree/master/rom
-
+# character 44 (Cyrillic De), 5c (Cyrillic E) corrected based on SA5057 datasheet
 
 20:
 	------
@@ -437,11 +437,11 @@
 44:
 	------
 	---##-
-	--#--#
-	--#--#
-	--#--#
-	--#--#
-	--#--#
+	--#-#-
+	--#-#-
+	--#-#-
+	--#-#-
+	--#-#-
 	-#####
 	-#---#
 	------
@@ -731,7 +731,7 @@
 	-----#
 	-#--#-
 	--##--
-	-----#
+	------
 	------
 
 5d:
