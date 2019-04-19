@@ -1,6 +1,9 @@
 Amiga fonts
 ===========
 
-Amiga Workbench fonts were extracted from .bdf files at http://umlautllama.com/projects/font/  
-mO'sOul, Micro Knight and P0T-NOoDLE were extracted from the raw versions at Marcus Hoffren's Github repo https://github.com/rewtnull/amigafonts
+Amiga Workbench fonts were extracted from .bdf files at http://umlautllama.com/projects/font/.
+
+The original files had metadata issues where the boundingbox is set to values over 65536 for some glyphs.
+I have corrected these, but I'm not sure if this faithfully reproduces the original glyphs' widths.
+ 
 
