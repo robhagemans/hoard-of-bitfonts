@@ -1,5 +1,6 @@
 # Radio-86RK Partner character set
 # source: http://bashkiria-2m.narod.ru/
+# corrected bit errors in line drawing character 0x90
 
 
 00:
@@ -1446,7 +1447,7 @@
 	------
 	------
 	-#####
-	-#-###
+	-#----
 	-#--##
 	-#--#-
 	-#--#-
