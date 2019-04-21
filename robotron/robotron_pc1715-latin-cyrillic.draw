@@ -1,6 +1,6 @@
-# Robotron PC 1715 character set (latin & cyrillic uppercase)
+# Robotron PC 1715 character set (Latin & Cyrillic uppercase)
 # source: http://bashkiria-2m.narod.ru/  
-#         stored sideways in s619.bin (sha1 93fba51ed26392ec3eff1037886576fa12443fe5)
+#         s643.bin sha1: 357760974d944b9782734504b9820771e7e37645 offset: 0 strike
 #         all chars' first rows followed by all chars' second rows, etc.
 
 
