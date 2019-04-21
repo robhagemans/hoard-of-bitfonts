@@ -6,3 +6,5 @@ This repository contains bitmapped fonts from various sources, in human-readable
 The plain-text `.draw` format is a generalisation of [Roman Czyborra's hexdraw format](http://czyborra.com/unifont/), in that:
 - I use it to store fonts of all sizes (in the obvious way)  
 - The code points can be those of the original character set, rather than unicode  
+
+You can also <a href="http://robhagemans.github.io/monobit/">see the fonts as images</a>.
