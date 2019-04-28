@@ -1,5 +1,5 @@
-Custom Amiga fonts
-==================
+UmlautLlama Amiga fonts
+=======================
 
 These custom Amiga fonts were extracted from .bdf files at http://umlautllama.com/projects/font/.
 
