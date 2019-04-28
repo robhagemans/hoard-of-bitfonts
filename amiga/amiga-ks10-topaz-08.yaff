@@ -1,8 +1,11 @@
-# Amiga topaz/8
-# Kickstart v1.0
+# Amiga topaz/8 from Kickstart v1.0
+#
 # source: Kickstart-v1.0-1985-Commodore-A1000-NTSC.rom sha1: 00c15406beb4b8ab1a16aa66c05860e1a7c1ad79 
 # chardata: 0x14ac4 modulo: 152 charloc: 0x14f88 charspace: 0x14ac4 charkern: 0x154cc lo: 0x21 hi: 0xff
 # this skips the space - added back in by hand
+#
+# the two 'placeholder' glyphs are present in the strike but not mapped in the location table
+# 80-9f and f7 are not present in the strike but mapped o default char in the location table
 
 name: topaz/8
 revision: 1
@@ -2264,3 +2267,22 @@ default:
 	.@@@@@@.
 	........
 
+placeholder_d7:
+	.@...@..
+	..@...@.
+	...@...@
+	@...@...
+	.@...@..
+	..@...@.
+	...@...@
+	@...@...
+
+placeholder_f7:
+	@.@.@.@.
+	.@.@.@.@
+	........
+	.@.@.@.@
+	@.@.@.@.
+	........
+	@.@.@.@.
+	.@.@.@.@
