@@ -13,7 +13,7 @@ _BOLDSMEAR: 1
 _TAG: $VER: times15 37.2 (19.3.91)
 _PROPERTIES: DISKFONT DESIGNED
 offset-before: -1
-encoding: amiga-1251
+encoding: iso8859-1
 default-char: default
 
 20:

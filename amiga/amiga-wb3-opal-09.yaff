@@ -12,7 +12,7 @@ spacing: proportional
 _BOLDSMEAR: 1
 _TAG: $VER: opal9 37.1 (12.1.91)
 _PROPERTIES: DISKFONT DESIGNED
-encoding: amiga-1251
+encoding: iso8859-1
 default-char: default
 
 20:

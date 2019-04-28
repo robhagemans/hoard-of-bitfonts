@@ -12,7 +12,7 @@ spacing: proportional
 _BOLDSMEAR: 1
 _PROPERTIES: DESIGNED
 offset-before: -3
-encoding: amiga-1251
+encoding: iso8859-1
 default-char: default
 
 20:
