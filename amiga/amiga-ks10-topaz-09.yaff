@@ -1,11 +1,11 @@
-# Amiga topaz/9
-# Kickstart v1.0
+# Amiga topaz/9 from Kickstart v1.0 (1985)
+#
 # source: Kickstart-v1.0-1985-Commodore-A1000-NTSC.rom sha1: 00c15406beb4b8ab1a16aa66c05860e1a7c1ad79 
 # chardata: 0x13d82 modulo: 172 charloc: 0x14392 charspace: 0x14710 charkern: 0x148d6 lo: 0x21 hi: 0xff
 # this skips the space - added back in by hand
 
 name: topaz/9
-revision: 1
+revision: 1.0
 foundry: Amiga
 spacing: monospace
 size: 8

@@ -1,5 +1,20 @@
+# Amiga topaz/9 from Kickstart v1.3 (1987)
+#
+# source: Kickstart-v1.3-rev34.5-1987-Commodore-A500-A1000-A2000-CDTV.rom
+# sha1: 891e9a547772fe0c6c19b610baf8bc4ea7fcb785
+# chardata: 0x8512 modulo: 240 - stored as fixed 10-pixel cells
+#
 # extracted without charloc table; adding dash glyph for 0xad SHY
 # which is likely to be mapped there
+
+name: topaz/9
+revision: 1.3
+foundry: Amiga
+spacing: monospace
+size: 9
+bottom: -2
+encoding: iso8859-1
+source-format: Amiga
 
 20:
 	..........

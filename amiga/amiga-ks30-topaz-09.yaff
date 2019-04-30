@@ -1,3 +1,18 @@
+# Amiga topaz/9 from Kickstart v3.0 (1992)
+#
+# source: Kickstart-v3.0-rev39.106-1992-Commodore-A1200.rom
+# sha1: 70033828182fffc7ed106e5373a8b89dda76faa5
+# chardata: 0x3b946 charloc: 0x3b5c2
+
+name: topaz/9
+revision: 3.0
+foundry: Amiga
+spacing: monospace
+size: 9
+bottom: -2
+encoding: iso8859-1
+source-format: Amiga
+
 20:
 	..........
 	..........

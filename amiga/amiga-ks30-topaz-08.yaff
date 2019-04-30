@@ -1,5 +1,21 @@
+# Amiga topaz/8 from Kickstart v3.0 (1992)
+#
+# source: Kickstart-v3.0-rev39.106-1992-Commodore-A1200.rom
+# sha1: 70033828182fffc7ed106e5373a8b89dda76faa5
+# chardata: 0x3c436
+#
 # extracted without charloc table; adding dash glyph for 0xad SHY
 # which is likely to be mapped there
+
+name: topaz/8
+revision: 3.0
+foundry: Amiga
+spacing: monospace
+size: 8
+bottom: -1
+encoding: iso8859-1
+source-format: Amiga
+
 
 20:
 	........
