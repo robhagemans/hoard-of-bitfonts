@@ -1,10 +1,18 @@
 Bitmap fonts for humans
 -----------------------
 
-This repository contains bitmapped fonts from various sources, in human-readable text format.
+This repository contains bitmapped fonts from disused operating systems and graphical user interfaces.
 
-The plain-text `.draw` format is a generalisation of [Roman Czyborra's hexdraw format](http://czyborra.com/unifont/), in that:
-- I use it to store fonts of all sizes (in the obvious way)  
-- The code points can be those of the original character set, rather than unicode  
+As operating systems and GUIs have moved on to scalable vector fonts, the bitmap fonts that dominated
+the 1980s and 1990s languish away in non-obvious and often binary formats that are rapidly falling
+into obscurity.
 
-You can also <a href="http://robhagemans.github.io/monobit/">see the fonts as images</a>.
+The main purpose of this repository is to liberate these fonts from their binary shackles,
+preserving the ancient art of monochrome bitmap typography for human appreciation. I say this in jest,
+but only partly.
+
+The fonts in this repository are stored in a human-friendly text-based format. As such, the easiest way
+to view them is to open the text files directly. Alternatively, you can use
+[`monobit`](https://github.com/robhagemans/monobit) to render them to images or convert them to
+font formats supported by current operating systems. You can also
+[see the fonts as images here](http://robhagemans.github.io/monobit/").
