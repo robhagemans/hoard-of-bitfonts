@@ -5,8 +5,8 @@ point-size: 24
 dpi: 96 96
 spacing: proportional
 x-width: 16
-pixel-size: 37
 ascent: 24
+descent: 8
 offset: 0 -8
 encoding: windows-ansi-2.0
 default-char: 0x80

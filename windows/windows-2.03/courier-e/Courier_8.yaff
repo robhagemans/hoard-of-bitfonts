@@ -4,7 +4,6 @@ family: Courier
 point-size: 8
 dpi: 96 96
 spacing: character-cell
-pixel-size: 13
 ascent: 9
 offset: 0 -2
 encoding: windows-ansi-2.0

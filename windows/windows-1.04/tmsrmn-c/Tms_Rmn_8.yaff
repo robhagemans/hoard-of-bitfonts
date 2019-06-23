@@ -5,7 +5,6 @@ point-size: 8
 dpi: 60 72
 spacing: proportional
 x-width: 5
-pixel-size: 10
 ascent: 7
 offset: 0 -1
 encoding: windows-ansi-2.0

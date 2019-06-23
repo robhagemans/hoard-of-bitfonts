@@ -4,7 +4,6 @@ family: System
 point-size: 12
 dpi: 96 96
 spacing: character-cell
-pixel-size: 15
 ascent: 9
 offset: 0 -3
 encoding: windows-ansi-2.0
