@@ -8,11 +8,10 @@ the 1980s and 1990s languish away in non-obvious and often binary formats that a
 into obscurity.
 
 The main purpose of this repository is to liberate these fonts from their binary shackles,
-preserving the ancient art of monochrome bitmap typography for human appreciation. I say this in jest,
-but only partly.
+preserving the ancient art of monochrome bitmap typography for human appreciation.
 
 The fonts in this repository are stored in a human-friendly text-based format. As such, the easiest way
 to view them is to open the text files directly. Alternatively, you can use
 [`monobit`](https://github.com/robhagemans/monobit) to render them to images or convert them to
 font formats supported by current operating systems. You can also
-[see the fonts as images here](http://robhagemans.github.io/monobit/").
+[see the fonts as images here](http://robhagemans.github.io/monobit/).
