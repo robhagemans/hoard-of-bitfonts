@@ -4,7 +4,6 @@ family: Tms Rmn
 point-size: 14
 dpi: 96 48
 spacing: proportional
-x-width: 14
 ascent: 7
 offset: 0 -2
 encoding: windows-ansi-2.0

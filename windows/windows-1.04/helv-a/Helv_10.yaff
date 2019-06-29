@@ -4,7 +4,6 @@ family: Helv
 point-size: 10
 dpi: 96 48
 spacing: proportional
-x-width: 9
 ascent: 6
 offset: 0 -1
 encoding: windows-ansi-2.0
