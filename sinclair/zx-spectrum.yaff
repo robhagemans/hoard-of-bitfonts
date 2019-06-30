@@ -1,7 +1,7 @@
 # ZX Spectrum default font
 # source: https://upload.wikimedia.org/wikipedia/commons/e/ec/ZX_Spectrum_character_set.png
 
-name: zx_spectrum 8
+name: ZX Spectrum
 point-size: 8
 spacing: character-cell
 encoding: zx-spectrum
