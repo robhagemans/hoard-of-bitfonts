@@ -55,6 +55,6 @@ The following code points differ:
 |Germany|  # |  § | Ä  |  Ö |  Ü | \` |  ä |  ö |  ü |  ß |
 
 Notes:
-- All five sets contain the same glyphs; only the codepoint mappings differ. 
+- All glyphs are contained in the US set; only the codepoint mappings differ. 
 - These mappings agree with the DEC National Replacement Character Sets.
  
