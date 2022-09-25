@@ -1,9 +1,14 @@
 name: MSX Korean
 spacing: character-cell
 raster-size: 8 8
-converter: monobit v0.21
-source-name: MSXKR.rom
+source-name: 180bios.rom
 source-format: raw binary
+converter: monobit v0.21
+
+# from Daewoo DPC-180 
+# character mapping MSXVIDKR.TXT, attached to 
+# Terminals Working Group Unicode proposal L2/21-235 2021-12-20
+
 
 
 0x00:
@@ -17,7 +22,10 @@ source-format: raw binary
     ........
 
 
+
+# IDEOGRAPHIC SPACE
 0x01:
+u+3000:
     ........
     ........
     ........
@@ -28,7 +36,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL SYLLABLE PO
 0x02:
+u+d3ec:
     .@@@@@..
     ..@.@...
     ..@.@...
@@ -39,7 +50,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL SYLLABLE PYO
 0x03:
+u+d45c:
     .@@@@@..
     ..@.@...
     ..@.@...
@@ -50,7 +64,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL SYLLABLE PU
 0x04:
+u+d478:
     .@@@@@..
     ..@.@...
     ..@.@...
@@ -61,7 +78,10 @@ source-format: raw binary
     ...@....
 
 
+
+# HANGUL SYLLABLE PYU
 0x05:
+u+d4e8:
     .@@@@@..
     ..@.@...
     ..@.@...
@@ -72,7 +92,10 @@ source-format: raw binary
     ..@.@...
 
 
+
+# HANGUL SYLLABLE PEU
 0x06:
+u+d504:
     .@@@@@..
     ..@.@...
     ..@.@...
@@ -83,7 +106,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL SYLLABLE HO
 0x07:
+u+d638:
     ...@....
     .@@@@@..
     ..@@@...
@@ -94,7 +120,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL SYLLABLE HYO
 0x08:
+u+d6a8:
     ...@....
     .@@@@@..
     ..@@@...
@@ -105,7 +134,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL SYLLABLE HU
 0x09:
+u+d6c4:
     ...@....
     .@@@@@..
     ..@@@...
@@ -116,7 +148,10 @@ source-format: raw binary
     ...@....
 
 
+
+# HANGUL SYLLABLE HYU
 0x0a:
+u+d734:
     ...@....
     .@@@@@..
     ..@@@...
@@ -127,7 +162,10 @@ source-format: raw binary
     ..@.@...
 
 
+
+# HANGUL SYLLABLE HEU
 0x0b:
+u+d750:
     ...@....
     .@@@@@..
     ..@@@...
@@ -138,7 +176,10 @@ source-format: raw binary
     ........
 
 
+
+# LEFT SINGLE QUOTATION MARK
 0x0c:
+u+2018:
     .@......
     .@......
     .@......
@@ -149,7 +190,10 @@ source-format: raw binary
     ........
 
 
+
+# RIGHT SINGLE QUOTATION MARK
 0x0d:
+u+2019:
     ..@.....
     ..@.....
     ..@.....
@@ -160,7 +204,10 @@ source-format: raw binary
     ........
 
 
+
+# LEFT DOUBLE QUOTATION MARK
 0x0e:
+u+201c:
     .@.@....
     .@.@....
     .@.@....
@@ -171,7 +218,10 @@ source-format: raw binary
     ........
 
 
+
+# RIGHT DOUBLE QUOTATION MARK
 0x0f:
+u+201d:
     .@.@....
     .@.@....
     .@.@....
@@ -182,7 +232,10 @@ source-format: raw binary
     ........
 
 
+
+# GREEK SMALL LETTER PI
 0x10:
+u+03c0:
     ........
     .@@@@@..
     ..@.@...
@@ -193,7 +246,10 @@ source-format: raw binary
     ........
 
 
+
+# BOX DRAWINGS LIGHT UP AND HORIZONTAL
 0x11:
+u+2534:
     ...@....
     ...@....
     ...@....
@@ -204,7 +260,10 @@ source-format: raw binary
     ........
 
 
+
+# BOX DRAWINGS LIGHT DOWN AND HORIZONTAL
 0x12:
+u+252c:
     ........
     ........
     ........
@@ -215,7 +274,10 @@ source-format: raw binary
     ...@....
 
 
+
+# BOX DRAWINGS LIGHT VERTICAL AND LEFT
 0x13:
+u+2524:
     ...@....
     ...@....
     ...@....
@@ -226,7 +288,10 @@ source-format: raw binary
     ...@....
 
 
+
+# BOX DRAWINGS LIGHT VERTICAL AND RIGHT
 0x14:
+u+251c:
     ...@....
     ...@....
     ...@....
@@ -237,7 +302,10 @@ source-format: raw binary
     ...@....
 
 
+
+# BOX DRAWINGS LIGHT VERTICAL AND HORIZONTAL
 0x15:
+u+253c:
     ...@....
     ...@....
     ...@....
@@ -248,7 +316,10 @@ source-format: raw binary
     ...@....
 
 
+
+# BOX DRAWINGS LIGHT VERTICAL
 0x16:
+u+2502:
     ...@....
     ...@....
     ...@....
@@ -259,7 +330,10 @@ source-format: raw binary
     ...@....
 
 
+
+# BOX DRAWINGS LIGHT HORIZONTAL
 0x17:
+u+2500:
     ........
     ........
     ........
@@ -270,7 +344,10 @@ source-format: raw binary
     ........
 
 
+
+# BOX DRAWINGS LIGHT DOWN AND RIGHT
 0x18:
+u+250c:
     ........
     ........
     ........
@@ -281,7 +358,10 @@ source-format: raw binary
     ...@....
 
 
+
+# BOX DRAWINGS LIGHT DOWN AND LEFT
 0x19:
+u+2510:
     ........
     ........
     ........
@@ -292,7 +372,10 @@ source-format: raw binary
     ...@....
 
 
+
+# BOX DRAWINGS LIGHT UP AND RIGHT
 0x1a:
+u+2514:
     ...@....
     ...@....
     ...@....
@@ -303,7 +386,10 @@ source-format: raw binary
     ........
 
 
+
+# BOX DRAWINGS LIGHT UP AND LEFT
 0x1b:
+u+2518:
     ...@....
     ...@....
     ...@....
@@ -314,7 +400,10 @@ source-format: raw binary
     ........
 
 
+
+# BOX DRAWINGS LIGHT DIAGONAL CROSS
 0x1c:
+u+2573:
     @......@
     .@....@.
     ..@..@..
@@ -358,7 +447,10 @@ source-format: raw binary
     ........
 
 
+
+# SPACE
 0x20:
+u+0020:
     ........
     ........
     ........
@@ -369,7 +461,10 @@ source-format: raw binary
     ........
 
 
+
+# EXCLAMATION MARK
 0x21:
+u+0021:
     ..@.....
     ..@.....
     ..@.....
@@ -380,7 +475,10 @@ source-format: raw binary
     ........
 
 
+
+# QUOTATION MARK
 0x22:
+u+0022:
     .@.@....
     .@.@....
     .@.@....
@@ -391,7 +489,10 @@ source-format: raw binary
     ........
 
 
+
+# NUMBER SIGN
 0x23:
+u+0023:
     .@.@....
     .@.@....
     @@@@@...
@@ -402,7 +503,10 @@ source-format: raw binary
     ........
 
 
+
+# DOLLAR SIGN
 0x24:
+u+0024:
     ..@.....
     .@@@@...
     @.@.....
@@ -413,7 +517,10 @@ source-format: raw binary
     ........
 
 
+
+# PERCENT SIGN
 0x25:
+u+0025:
     @@......
     @@..@...
     ...@....
@@ -424,7 +531,10 @@ source-format: raw binary
     ........
 
 
+
+# AMPERSAND
 0x26:
+u+0026:
     .@......
     @.@.....
     .@......
@@ -435,7 +545,10 @@ source-format: raw binary
     ........
 
 
+
+# APOSTROPHE
 0x27:
+u+0027:
     ...@....
     ..@.....
     .@......
@@ -446,7 +559,10 @@ source-format: raw binary
     ........
 
 
+
+# LEFT PARENTHESIS
 0x28:
+u+0028:
     ...@....
     ..@.....
     .@......
@@ -457,7 +573,10 @@ source-format: raw binary
     ........
 
 
+
+# RIGHT PARENTHESIS
 0x29:
+u+0029:
     .@......
     ..@.....
     ...@....
@@ -468,7 +587,10 @@ source-format: raw binary
     ........
 
 
+
+# ASTERISK
 0x2a:
+u+002a:
     ..@.....
     @.@.@...
     .@@@....
@@ -479,7 +601,10 @@ source-format: raw binary
     ........
 
 
+
+# PLUS SIGN
 0x2b:
+u+002b:
     ........
     ..@.....
     ..@.....
@@ -490,7 +615,10 @@ source-format: raw binary
     ........
 
 
+
+# COMMA
 0x2c:
+u+002c:
     ........
     ........
     ........
@@ -501,7 +629,10 @@ source-format: raw binary
     .@......
 
 
+
+# HYPHEN-MINUS
 0x2d:
+u+002d:
     ........
     ........
     ........
@@ -512,7 +643,10 @@ source-format: raw binary
     ........
 
 
+
+# FULL STOP
 0x2e:
+u+002e:
     ........
     ........
     ........
@@ -523,7 +657,10 @@ source-format: raw binary
     ........
 
 
+
+# SOLIDUS
 0x2f:
+u+002f:
     ........
     ........
     ....@...
@@ -534,7 +671,10 @@ source-format: raw binary
     ........
 
 
+
+# DIGIT ZERO
 0x30:
+u+0030:
     .@@@....
     @...@...
     @..@@...
@@ -545,7 +685,10 @@ source-format: raw binary
     ........
 
 
+
+# DIGIT ONE
 0x31:
+u+0031:
     ..@.....
     .@@.....
     @.@.....
@@ -556,7 +699,10 @@ source-format: raw binary
     ........
 
 
+
+# DIGIT TWO
 0x32:
+u+0032:
     .@@@....
     @...@...
     ....@...
@@ -567,7 +713,10 @@ source-format: raw binary
     ........
 
 
+
+# DIGIT THREE
 0x33:
+u+0033:
     .@@@....
     @...@...
     ....@...
@@ -578,7 +727,10 @@ source-format: raw binary
     ........
 
 
+
+# DIGIT FOUR
 0x34:
+u+0034:
     ...@....
     ..@@....
     .@.@....
@@ -589,7 +741,10 @@ source-format: raw binary
     ........
 
 
+
+# DIGIT FIVE
 0x35:
+u+0035:
     @@@@@...
     @.......
     @@@.....
@@ -600,7 +755,10 @@ source-format: raw binary
     ........
 
 
+
+# DIGIT SIX
 0x36:
+u+0036:
     ..@@....
     .@......
     @.......
@@ -611,7 +769,10 @@ source-format: raw binary
     ........
 
 
+
+# DIGIT SEVEN
 0x37:
+u+0037:
     @@@@@...
     @...@...
     ...@....
@@ -622,7 +783,10 @@ source-format: raw binary
     ........
 
 
+
+# DIGIT EIGHT
 0x38:
+u+0038:
     .@@@....
     @...@...
     @...@...
@@ -633,7 +797,10 @@ source-format: raw binary
     ........
 
 
+
+# DIGIT NINE
 0x39:
+u+0039:
     .@@@....
     @...@...
     @...@...
@@ -644,7 +811,10 @@ source-format: raw binary
     ........
 
 
+
+# COLON
 0x3a:
+u+003a:
     ........
     ........
     ..@.....
@@ -655,7 +825,10 @@ source-format: raw binary
     ........
 
 
+
+# SEMICOLON
 0x3b:
+u+003b:
     ........
     ........
     ..@.....
@@ -666,7 +839,10 @@ source-format: raw binary
     .@......
 
 
+
+# LESS-THAN SIGN
 0x3c:
+u+003c:
     ...@@...
     ..@@....
     .@@.....
@@ -677,7 +853,10 @@ source-format: raw binary
     ........
 
 
+
+# EQUALS SIGN
 0x3d:
+u+003d:
     ........
     ........
     @@@@@...
@@ -688,7 +867,10 @@ source-format: raw binary
     ........
 
 
+
+# GREATER-THAN SIGN
 0x3e:
+u+003e:
     @@......
     .@@.....
     ..@@....
@@ -699,7 +881,10 @@ source-format: raw binary
     ........
 
 
+
+# QUESTION MARK
 0x3f:
+u+003f:
     .@@@....
     @...@...
     ....@...
@@ -710,7 +895,10 @@ source-format: raw binary
     ........
 
 
+
+# COMMERCIAL AT
 0x40:
+u+0040:
     .@@@....
     @...@...
     ....@...
@@ -721,7 +909,10 @@ source-format: raw binary
     ........
 
 
+
+# LATIN CAPITAL LETTER A
 0x41:
+u+0041:
     ..@.....
     .@.@....
     @...@...
@@ -732,7 +923,10 @@ source-format: raw binary
     ........
 
 
+
+# LATIN CAPITAL LETTER B
 0x42:
+u+0042:
     @@@@....
     .@..@...
     .@..@...
@@ -743,7 +937,10 @@ source-format: raw binary
     ........
 
 
+
+# LATIN CAPITAL LETTER C
 0x43:
+u+0043:
     ..@@....
     .@..@...
     @.......
@@ -754,7 +951,10 @@ source-format: raw binary
     ........
 
 
+
+# LATIN CAPITAL LETTER D
 0x44:
+u+0044:
     @@@.....
     .@.@....
     .@..@...
@@ -765,7 +965,10 @@ source-format: raw binary
     ........
 
 
+
+# LATIN CAPITAL LETTER E
 0x45:
+u+0045:
     @@@@@...
     @.......
     @.......
@@ -776,7 +979,10 @@ source-format: raw binary
     ........
 
 
+
+# LATIN CAPITAL LETTER F
 0x46:
+u+0046:
     @@@@@...
     @.......
     @.......
@@ -787,7 +993,10 @@ source-format: raw binary
     ........
 
 
+
+# LATIN CAPITAL LETTER G
 0x47:
+u+0047:
     .@@@....
     @...@...
     @.......
@@ -798,7 +1007,10 @@ source-format: raw binary
     ........
 
 
+
+# LATIN CAPITAL LETTER H
 0x48:
+u+0048:
     @...@...
     @...@...
     @...@...
@@ -809,7 +1021,10 @@ source-format: raw binary
     ........
 
 
+
+# LATIN CAPITAL LETTER I
 0x49:
+u+0049:
     .@@@....
     ..@.....
     ..@.....
@@ -820,7 +1035,10 @@ source-format: raw binary
     ........
 
 
+
+# LATIN CAPITAL LETTER J
 0x4a:
+u+004a:
     ..@@@...
     ...@....
     ...@....
@@ -831,7 +1049,10 @@ source-format: raw binary
     ........
 
 
+
+# LATIN CAPITAL LETTER K
 0x4b:
+u+004b:
     @...@...
     @..@....
     @.@.....
@@ -842,7 +1063,10 @@ source-format: raw binary
     ........
 
 
+
+# LATIN CAPITAL LETTER L
 0x4c:
+u+004c:
     @.......
     @.......
     @.......
@@ -853,7 +1077,10 @@ source-format: raw binary
     ........
 
 
+
+# LATIN CAPITAL LETTER M
 0x4d:
+u+004d:
     @...@...
     @@.@@...
     @.@.@...
@@ -864,7 +1091,10 @@ source-format: raw binary
     ........
 
 
+
+# LATIN CAPITAL LETTER N
 0x4e:
+u+004e:
     @...@...
     @@..@...
     @@..@...
@@ -875,7 +1105,10 @@ source-format: raw binary
     ........
 
 
+
+# LATIN CAPITAL LETTER O
 0x4f:
+u+004f:
     .@@@....
     @...@...
     @...@...
@@ -886,7 +1119,10 @@ source-format: raw binary
     ........
 
 
+
+# LATIN CAPITAL LETTER P
 0x50:
+u+0050:
     @@@@....
     @...@...
     @...@...
@@ -897,7 +1133,10 @@ source-format: raw binary
     ........
 
 
+
+# LATIN CAPITAL LETTER Q
 0x51:
+u+0051:
     .@@@....
     @...@...
     @...@...
@@ -908,7 +1147,10 @@ source-format: raw binary
     ........
 
 
+
+# LATIN CAPITAL LETTER R
 0x52:
+u+0052:
     @@@@....
     @...@...
     @...@...
@@ -919,7 +1161,10 @@ source-format: raw binary
     ........
 
 
+
+# LATIN CAPITAL LETTER S
 0x53:
+u+0053:
     .@@@....
     @...@...
     @.......
@@ -930,7 +1175,10 @@ source-format: raw binary
     ........
 
 
+
+# LATIN CAPITAL LETTER T
 0x54:
+u+0054:
     @@@@@...
     ..@.....
     ..@.....
@@ -941,7 +1189,10 @@ source-format: raw binary
     ........
 
 
+
+# LATIN CAPITAL LETTER U
 0x55:
+u+0055:
     @...@...
     @...@...
     @...@...
@@ -952,7 +1203,10 @@ source-format: raw binary
     ........
 
 
+
+# LATIN CAPITAL LETTER V
 0x56:
+u+0056:
     @...@...
     @...@...
     @...@...
@@ -963,7 +1217,10 @@ source-format: raw binary
     ........
 
 
+
+# LATIN CAPITAL LETTER W
 0x57:
+u+0057:
     @...@...
     @...@...
     @...@...
@@ -974,7 +1231,10 @@ source-format: raw binary
     ........
 
 
+
+# LATIN CAPITAL LETTER X
 0x58:
+u+0058:
     @...@...
     @...@...
     .@.@....
@@ -985,7 +1245,10 @@ source-format: raw binary
     ........
 
 
+
+# LATIN CAPITAL LETTER Y
 0x59:
+u+0059:
     @...@...
     @...@...
     @...@...
@@ -996,7 +1259,10 @@ source-format: raw binary
     ........
 
 
+
+# LATIN CAPITAL LETTER Z
 0x5a:
+u+005a:
     @@@@@...
     ....@...
     ...@....
@@ -1007,7 +1273,10 @@ source-format: raw binary
     ........
 
 
+
+# LEFT SQUARE BRACKET
 0x5b:
+u+005b:
     .@@@....
     .@......
     .@......
@@ -1018,7 +1287,10 @@ source-format: raw binary
     ........
 
 
+
+# WON SIGN
 0x5c:
+u+20a9:
     .@...@..
     @@@@@@@.
     .@...@..
@@ -1029,7 +1301,10 @@ source-format: raw binary
     ........
 
 
+
+# RIGHT SQUARE BRACKET
 0x5d:
+u+005d:
     .@@@....
     ...@....
     ...@....
@@ -1040,7 +1315,10 @@ source-format: raw binary
     ........
 
 
+
+# CIRCUMFLEX ACCENT
 0x5e:
+u+005e:
     ..@.....
     .@.@....
     @...@...
@@ -1051,7 +1329,10 @@ source-format: raw binary
     ........
 
 
+
+# LOW LINE
 0x5f:
+u+005f:
     ........
     ........
     ........
@@ -1062,7 +1343,10 @@ source-format: raw binary
     ........
 
 
+
+# GRAVE ACCENT
 0x60:
+u+0060:
     .@......
     ..@.....
     ...@....
@@ -1073,7 +1357,10 @@ source-format: raw binary
     ........
 
 
+
+# LATIN SMALL LETTER A
 0x61:
+u+0061:
     ........
     ........
     .@@@....
@@ -1084,7 +1371,10 @@ source-format: raw binary
     ........
 
 
+
+# LATIN SMALL LETTER B
 0x62:
+u+0062:
     @.......
     @.......
     @.@@....
@@ -1095,7 +1385,10 @@ source-format: raw binary
     ........
 
 
+
+# LATIN SMALL LETTER C
 0x63:
+u+0063:
     ........
     ........
     .@@@....
@@ -1106,7 +1399,10 @@ source-format: raw binary
     ........
 
 
+
+# LATIN SMALL LETTER D
 0x64:
+u+0064:
     ....@...
     ....@...
     .@@.@...
@@ -1117,7 +1413,10 @@ source-format: raw binary
     ........
 
 
+
+# LATIN SMALL LETTER E
 0x65:
+u+0065:
     ........
     ........
     .@@@....
@@ -1128,7 +1427,10 @@ source-format: raw binary
     ........
 
 
+
+# LATIN SMALL LETTER F
 0x66:
+u+0066:
     ...@....
     ..@.@...
     ..@.....
@@ -1139,7 +1441,10 @@ source-format: raw binary
     ........
 
 
+
+# LATIN SMALL LETTER G
 0x67:
+u+0067:
     ........
     ........
     .@@.@...
@@ -1150,7 +1455,10 @@ source-format: raw binary
     .@@@....
 
 
+
+# LATIN SMALL LETTER H
 0x68:
+u+0068:
     @.......
     @.......
     @@@@....
@@ -1161,7 +1469,10 @@ source-format: raw binary
     ........
 
 
+
+# LATIN SMALL LETTER I
 0x69:
+u+0069:
     ..@.....
     ........
     .@@.....
@@ -1172,7 +1483,10 @@ source-format: raw binary
     ........
 
 
+
+# LATIN SMALL LETTER J
 0x6a:
+u+006a:
     ...@....
     ........
     ..@@....
@@ -1183,7 +1497,10 @@ source-format: raw binary
     .@@.....
 
 
+
+# LATIN SMALL LETTER K
 0x6b:
+u+006b:
     .@......
     .@......
     .@..@...
@@ -1194,7 +1511,10 @@ source-format: raw binary
     ........
 
 
+
+# LATIN SMALL LETTER L
 0x6c:
+u+006c:
     .@@.....
     ..@.....
     ..@.....
@@ -1205,7 +1525,10 @@ source-format: raw binary
     ........
 
 
+
+# LATIN SMALL LETTER M
 0x6d:
+u+006d:
     ........
     ........
     @@.@....
@@ -1216,7 +1539,10 @@ source-format: raw binary
     ........
 
 
+
+# LATIN SMALL LETTER N
 0x6e:
+u+006e:
     ........
     ........
     @.@@....
@@ -1227,7 +1553,10 @@ source-format: raw binary
     ........
 
 
+
+# LATIN SMALL LETTER O
 0x6f:
+u+006f:
     ........
     ........
     .@@@....
@@ -1238,7 +1567,10 @@ source-format: raw binary
     ........
 
 
+
+# LATIN SMALL LETTER P
 0x70:
+u+0070:
     ........
     ........
     @.@@....
@@ -1249,7 +1581,10 @@ source-format: raw binary
     @.......
 
 
+
+# LATIN SMALL LETTER Q
 0x71:
+u+0071:
     ........
     ........
     .@@.@...
@@ -1260,7 +1595,10 @@ source-format: raw binary
     ....@...
 
 
+
+# LATIN SMALL LETTER R
 0x72:
+u+0072:
     ........
     ........
     @.@@....
@@ -1271,7 +1609,10 @@ source-format: raw binary
     ........
 
 
+
+# LATIN SMALL LETTER S
 0x73:
+u+0073:
     ........
     ........
     .@@@@...
@@ -1282,7 +1623,10 @@ source-format: raw binary
     ........
 
 
+
+# LATIN SMALL LETTER T
 0x74:
+u+0074:
     .@......
     .@......
     @@@@....
@@ -1293,7 +1637,10 @@ source-format: raw binary
     ........
 
 
+
+# LATIN SMALL LETTER U
 0x75:
+u+0075:
     ........
     ........
     @..@....
@@ -1304,7 +1651,10 @@ source-format: raw binary
     ........
 
 
+
+# LATIN SMALL LETTER V
 0x76:
+u+0076:
     ........
     ........
     @...@...
@@ -1315,7 +1665,10 @@ source-format: raw binary
     ........
 
 
+
+# LATIN SMALL LETTER W
 0x77:
+u+0077:
     ........
     ........
     @...@...
@@ -1326,7 +1679,10 @@ source-format: raw binary
     ........
 
 
+
+# LATIN SMALL LETTER X
 0x78:
+u+0078:
     ........
     ........
     @...@...
@@ -1337,7 +1693,10 @@ source-format: raw binary
     ........
 
 
+
+# LATIN SMALL LETTER Y
 0x79:
+u+0079:
     ........
     ........
     @...@...
@@ -1348,7 +1707,10 @@ source-format: raw binary
     .@@@....
 
 
+
+# LATIN SMALL LETTER Z
 0x7a:
+u+007a:
     ........
     ........
     @@@@@...
@@ -1359,7 +1721,10 @@ source-format: raw binary
     ........
 
 
+
+# LEFT CURLY BRACKET
 0x7b:
+u+007b:
     ...@@...
     ..@.....
     ..@.....
@@ -1370,7 +1735,10 @@ source-format: raw binary
     ........
 
 
+
+# VERTICAL LINE
 0x7c:
+u+007c:
     ..@.....
     ..@.....
     ..@.....
@@ -1381,7 +1749,10 @@ source-format: raw binary
     ........
 
 
+
+# RIGHT CURLY BRACKET
 0x7d:
+u+007d:
     @@......
     ..@.....
     ..@.....
@@ -1392,7 +1763,10 @@ source-format: raw binary
     ........
 
 
+
+# TILDE
 0x7e:
+u+007e:
     .@......
     @.@.@...
     ...@....
@@ -1414,7 +1788,10 @@ source-format: raw binary
     ........
 
 
+
+# BLACK SPADE SUIT
 0x80:
+u+2660:
     ...@....
     ..@@@...
     .@@@@@..
@@ -1425,7 +1802,10 @@ source-format: raw binary
     ........
 
 
+
+# BLACK HEART SUIT
 0x81:
+u+2665:
     .@@.@@..
     @@@@@@@.
     @@@@@@@.
@@ -1436,7 +1816,10 @@ source-format: raw binary
     ........
 
 
+
+# BLACK CLUB SUIT
 0x82:
+u+2663:
     ..@@@...
     ..@@@...
     @@@@@@@.
@@ -1447,7 +1830,10 @@ source-format: raw binary
     ........
 
 
+
+# BLACK DIAMOND SUIT
 0x83:
+u+2666:
     ...@....
     ..@@@...
     .@@@@@..
@@ -1458,7 +1844,10 @@ source-format: raw binary
     ........
 
 
+
+# WHITE CIRCLE
 0x84:
+u+25cb:
     ........
     .@@@@...
     @....@..
@@ -1469,7 +1858,10 @@ source-format: raw binary
     ........
 
 
+
+# BLACK CIRCLE
 0x85:
+u+25cf:
     ........
     .@@@@...
     @@@@@@..
@@ -1480,7 +1872,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL LETTER KIYEOK
 0x86:
+u+3131:
     .@@@@@..
     .....@..
     .....@..
@@ -1491,7 +1886,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL LETTER SSANGKIYEOK
 0x87:
+u+3132:
     .@@@@@..
     ...@.@..
     ...@.@..
@@ -1502,7 +1900,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL LETTER NIEUN
 0x88:
+u+3134:
     .@......
     .@......
     .@......
@@ -1513,7 +1914,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL LETTER TIKEUT
 0x89:
+u+3137:
     .@@@@@..
     .@......
     .@......
@@ -1524,7 +1928,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL LETTER SSANGTIKEUT
 0x8a:
+u+3138:
     .@@@@@..
     .@.@....
     .@.@....
@@ -1535,7 +1942,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL LETTER RIEUL
 0x8b:
+u+3139:
     .@@@@@..
     .....@..
     .@@@@@..
@@ -1546,7 +1956,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL LETTER MIEUM
 0x8c:
+u+3141:
     .@@@@@..
     .@...@..
     .@...@..
@@ -1557,7 +1970,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL LETTER PIEUP
 0x8d:
+u+3142:
     .@...@..
     .@...@..
     .@@@@@..
@@ -1568,7 +1984,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL LETTER SSANGPIEUP
 0x8e:
+u+3143:
     .@.@.@..
     .@.@.@..
     .@@@@@..
@@ -1579,7 +1998,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL LETTER SIOS
 0x8f:
+u+3145:
     ...@....
     ...@....
     ...@....
@@ -1590,7 +2012,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL LETTER SSANGSIOS
 0x90:
+u+3146:
     ..@.@...
     ..@.@...
     ..@.@...
@@ -1601,7 +2026,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL LETTER IEUNG
 0x91:
+u+3147:
     ..@@@...
     .@...@..
     .@...@..
@@ -1612,7 +2040,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL LETTER CIEUC
 0x92:
+u+3148:
     .@@@@@..
     ...@....
     ...@....
@@ -1623,7 +2054,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL LETTER SSANGCIEUC
 0x93:
+u+3149:
     .@@@@@..
     ..@.@...
     ..@.@...
@@ -1634,7 +2068,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL LETTER CHIEUCH
 0x94:
+u+314a:
     ..@@@...
     .@@@@@..
     ...@....
@@ -1645,7 +2082,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL LETTER KHIEUKH
 0x95:
+u+314b:
     .@@@@@..
     .....@..
     .@@@@@..
@@ -1656,7 +2096,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL LETTER THIEUTH
 0x96:
+u+314c:
     .@@@@@..
     .@......
     .@@@@@..
@@ -1667,7 +2110,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL LETTER PHIEUPH
 0x97:
+u+314d:
     .@@@@@..
     ..@.@...
     ..@.@...
@@ -1678,7 +2124,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL LETTER HIEUH
 0x98:
+u+314e:
     ..@@@...
     .@@@@@..
     ..@@@...
@@ -1689,7 +2138,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL LETTER A
 0x99:
+u+314f:
     .@......
     .@......
     .@@@....
@@ -1700,7 +2152,10 @@ source-format: raw binary
     .@......
 
 
+
+# HANGUL LETTER AE
 0x9a:
+u+3150:
     .@.@....
     .@.@....
     .@@@....
@@ -1711,7 +2166,10 @@ source-format: raw binary
     .@.@....
 
 
+
+# HANGUL LETTER YA
 0x9b:
+u+3151:
     .@......
     .@@@....
     .@......
@@ -1722,7 +2180,10 @@ source-format: raw binary
     .@......
 
 
+
+# HANGUL LETTER YAE
 0x9c:
+u+3152:
     .@.@....
     .@@@....
     .@.@....
@@ -1733,7 +2194,10 @@ source-format: raw binary
     .@.@....
 
 
+
+# HANGUL LETTER EO
 0x9d:
+u+3153:
     ..@.....
     ..@.....
     @@@.....
@@ -1744,7 +2208,10 @@ source-format: raw binary
     ..@.....
 
 
+
+# HANGUL LETTER E
 0x9e:
+u+3154:
     .@.@....
     .@.@....
     @@.@....
@@ -1755,7 +2222,10 @@ source-format: raw binary
     .@.@....
 
 
+
+# HANGUL LETTER YEO
 0x9f:
+u+3155:
     ..@.....
     @@@.....
     ..@.....
@@ -1766,7 +2236,10 @@ source-format: raw binary
     ..@.....
 
 
+
+# HANGUL LETTER YE
 0xa0:
+u+3156:
     .@.@....
     @@.@....
     .@.@....
@@ -1777,7 +2250,10 @@ source-format: raw binary
     .@.@....
 
 
+
+# HANGUL LETTER O
 0xa1:
+u+3157:
     ...@....
     ...@....
     ...@....
@@ -1788,7 +2264,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL LETTER YO
 0xa2:
+u+315b:
     ..@.@...
     ..@.@...
     ..@.@...
@@ -1799,7 +2278,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL LETTER U
 0xa3:
+u+315c:
     @@@@@@@.
     ...@....
     ...@....
@@ -1810,7 +2292,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL LETTER YU
 0xa4:
+u+3160:
     @@@@@@@.
     ..@.@...
     ..@.@...
@@ -1821,7 +2306,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL LETTER EU
 0xa5:
+u+3161:
     ........
     @@@@@@@.
     ........
@@ -1832,7 +2320,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL LETTER I
 0xa6:
+u+3163:
     .@......
     .@......
     .@......
@@ -1843,7 +2334,10 @@ source-format: raw binary
     .@......
 
 
+
+# HANGUL SYLLABLE GO
 0xa7:
+u+ace0:
     .@@@@@..
     .....@..
     .....@..
@@ -1854,7 +2348,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL SYLLABLE GYO
 0xa8:
+u+ad50:
     .@@@@@..
     .....@..
     .....@..
@@ -1865,7 +2362,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL SYLLABLE GU
 0xa9:
+u+ad6c:
     .@@@@@..
     .....@..
     .....@..
@@ -1876,7 +2376,10 @@ source-format: raw binary
     ...@....
 
 
+
+# HANGUL SYLLABLE GYU
 0xaa:
+u+addc:
     .@@@@@..
     .....@..
     .....@..
@@ -1887,7 +2390,10 @@ source-format: raw binary
     ..@.@...
 
 
+
+# HANGUL SYLLABLE GEU
 0xab:
+u+adf8:
     .@@@@@..
     .....@..
     .....@..
@@ -1898,7 +2404,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL SYLLABLE GGO
 0xac:
+u+af2c:
     .@@@@@..
     ...@.@..
     ...@.@..
@@ -1909,7 +2418,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL SYLLABLE GGYO
 0xad:
+u+af9c:
     .@@@@@..
     ...@.@..
     ...@.@..
@@ -1920,7 +2432,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL SYLLABLE GGU
 0xae:
+u+afb8:
     .@@@@@..
     ...@.@..
     ...@.@..
@@ -1931,7 +2446,10 @@ source-format: raw binary
     ...@....
 
 
+
+# HANGUL SYLLABLE GGYU
 0xaf:
+u+b028:
     .@@@@@..
     ...@.@..
     ...@.@..
@@ -1942,7 +2460,10 @@ source-format: raw binary
     ..@.@...
 
 
+
+# HANGUL SYLLABLE GGEU
 0xb0:
+u+b044:
     .@@@@@..
     ...@.@..
     ...@.@..
@@ -1953,7 +2474,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL SYLLABLE NO
 0xb1:
+u+b178:
     .@......
     .@......
     .@......
@@ -1964,7 +2488,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL SYLLABLE NYO
 0xb2:
+u+b1e8:
     .@......
     .@......
     .@......
@@ -1975,7 +2502,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL SYLLABLE NU
 0xb3:
+u+b204:
     .@......
     .@......
     .@......
@@ -1986,7 +2516,10 @@ source-format: raw binary
     ...@....
 
 
+
+# HANGUL SYLLABLE NYU
 0xb4:
+u+b274:
     .@......
     .@......
     .@......
@@ -1997,7 +2530,10 @@ source-format: raw binary
     ..@.@...
 
 
+
+# HANGUL SYLLABLE NEU
 0xb5:
+u+b290:
     .@......
     .@......
     .@......
@@ -2008,7 +2544,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL SYLLABLE DO
 0xb6:
+u+b3c4:
     .@@@@@..
     .@......
     .@......
@@ -2019,7 +2558,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL SYLLABLE DYO
 0xb7:
+u+b434:
     .@@@@@..
     .@......
     .@......
@@ -2030,7 +2572,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL SYLLABLE DU
 0xb8:
+u+b450:
     .@@@@@..
     .@......
     .@......
@@ -2041,7 +2586,10 @@ source-format: raw binary
     ...@....
 
 
+
+# HANGUL SYLLABLE DYU
 0xb9:
+u+b4c0:
     .@@@@@..
     .@......
     .@......
@@ -2052,7 +2600,10 @@ source-format: raw binary
     ..@.@...
 
 
+
+# HANGUL SYLLABLE DEU
 0xba:
+u+b4dc:
     .@@@@@..
     .@......
     .@......
@@ -2063,7 +2614,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL SYLLABLE DDO
 0xbb:
+u+b610:
     .@@@@@..
     .@.@....
     .@.@....
@@ -2074,7 +2628,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL SYLLABLE DDYO
 0xbc:
+u+b680:
     .@@@@@..
     .@.@....
     .@.@....
@@ -2085,7 +2642,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL SYLLABLE DDU
 0xbd:
+u+b69c:
     .@@@@@..
     .@.@....
     .@.@....
@@ -2096,7 +2656,10 @@ source-format: raw binary
     ...@....
 
 
+
+# HANGUL SYLLABLE DDYU
 0xbe:
+u+b70c:
     .@@@@@..
     .@.@....
     .@.@....
@@ -2107,7 +2670,10 @@ source-format: raw binary
     ..@.@...
 
 
+
+# HANGUL SYLLABLE DDEU
 0xbf:
+u+b728:
     .@@@@@..
     .@.@....
     .@.@....
@@ -2118,7 +2684,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL SYLLABLE RO
 0xc0:
+u+b85c:
     .@@@@@..
     .....@..
     .@@@@@..
@@ -2129,7 +2698,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL SYLLABLE RYO
 0xc1:
+u+b8cc:
     .@@@@@..
     .....@..
     .@@@@@..
@@ -2140,7 +2712,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL SYLLABLE RU
 0xc2:
+u+b8e8:
     .@@@@@..
     .....@..
     .@@@@@..
@@ -2151,7 +2726,10 @@ source-format: raw binary
     ...@....
 
 
+
+# HANGUL SYLLABLE RYU
 0xc3:
+u+b958:
     .@@@@@..
     .....@..
     .@@@@@..
@@ -2162,7 +2740,10 @@ source-format: raw binary
     ..@.@...
 
 
+
+# HANGUL SYLLABLE REU
 0xc4:
+u+b974:
     .@@@@@..
     .....@..
     .@@@@@..
@@ -2173,7 +2754,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL SYLLABLE MO
 0xc5:
+u+baa8:
     .@@@@@..
     .@...@..
     .@...@..
@@ -2184,7 +2768,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL SYLLABLE MYO
 0xc6:
+u+bb18:
     .@@@@@..
     .@...@..
     .@...@..
@@ -2195,7 +2782,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL SYLLABLE MU
 0xc7:
+u+bb34:
     .@@@@@..
     .@...@..
     .@...@..
@@ -2206,7 +2796,10 @@ source-format: raw binary
     ...@....
 
 
+
+# HANGUL SYLLABLE MYU
 0xc8:
+u+bba4:
     .@@@@@..
     .@...@..
     .@...@..
@@ -2217,7 +2810,10 @@ source-format: raw binary
     ..@.@...
 
 
+
+# HANGUL SYLLABLE MEU
 0xc9:
+u+bbc0:
     .@@@@@..
     .@...@..
     .@...@..
@@ -2228,7 +2824,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL SYLLABLE BO
 0xca:
+u+bcf4:
     .@...@..
     .@...@..
     .@@@@@..
@@ -2239,7 +2838,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL SYLLABLE BYO
 0xcb:
+u+bd64:
     .@...@..
     .@...@..
     .@@@@@..
@@ -2250,7 +2852,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL SYLLABLE BU
 0xcc:
+u+bd80:
     .@...@..
     .@@@@@..
     .@...@..
@@ -2261,7 +2866,10 @@ source-format: raw binary
     ...@....
 
 
+
+# HANGUL SYLLABLE BYU
 0xcd:
+u+bdf0:
     .@...@..
     .@@@@@..
     .@...@..
@@ -2272,7 +2880,10 @@ source-format: raw binary
     ..@.@...
 
 
+
+# HANGUL SYLLABLE BEU
 0xce:
+u+be0c:
     .@...@..
     .@...@..
     .@@@@@..
@@ -2283,7 +2894,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL SYLLABLE BBO
 0xcf:
+u+bf40:
     .@.@.@..
     .@.@.@..
     .@@@@@..
@@ -2294,7 +2908,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL SYLLABLE BBYO
 0xd0:
+u+bfb0:
     .@.@.@..
     .@.@.@..
     .@@@@@..
@@ -2305,7 +2922,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL SYLLABLE BBU
 0xd1:
+u+bfcc:
     .@.@.@..
     .@@@@@..
     .@.@.@..
@@ -2316,7 +2936,10 @@ source-format: raw binary
     ...@....
 
 
+
+# HANGUL SYLLABLE BBYU
 0xd2:
+u+c03c:
     .@.@.@..
     .@@@@@..
     .@.@.@..
@@ -2327,7 +2950,10 @@ source-format: raw binary
     ..@.@...
 
 
+
+# HANGUL SYLLABLE BBEU
 0xd3:
+u+c058:
     .@.@.@..
     .@.@.@..
     .@@@@@..
@@ -2338,7 +2964,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL SYLLABLE SO
 0xd4:
+u+c18c:
     ...@....
     ...@....
     ..@.@...
@@ -2349,7 +2978,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL SYLLABLE SYO
 0xd5:
+u+c1fc:
     ...@....
     ...@....
     ..@.@...
@@ -2360,7 +2992,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL SYLLABLE SU
 0xd6:
+u+c218:
     ...@....
     ...@....
     ..@.@...
@@ -2371,7 +3006,10 @@ source-format: raw binary
     ...@....
 
 
+
+# HANGUL SYLLABLE SYU
 0xd7:
+u+c288:
     ...@....
     ...@....
     ..@.@...
@@ -2382,7 +3020,10 @@ source-format: raw binary
     ..@.@...
 
 
+
+# HANGUL SYLLABLE SEU
 0xd8:
+u+c2a4:
     ...@....
     ...@....
     ...@....
@@ -2393,7 +3034,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL SYLLABLE SSO
 0xd9:
+u+c3d8:
     ..@.@...
     ..@.@...
     ..@.@...
@@ -2404,7 +3048,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL SYLLABLE SSYO
 0xda:
+u+c448:
     ..@.@...
     ..@.@...
     ..@.@...
@@ -2415,7 +3062,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL SYLLABLE SSU
 0xdb:
+u+c464:
     ..@.@...
     ..@.@...
     .@.@.@..
@@ -2426,7 +3076,10 @@ source-format: raw binary
     ...@....
 
 
+
+# HANGUL SYLLABLE SSYU
 0xdc:
+u+c4d4:
     ..@.@...
     ..@.@...
     .@.@.@..
@@ -2437,7 +3090,10 @@ source-format: raw binary
     ..@.@...
 
 
+
+# HANGUL SYLLABLE SSEU
 0xdd:
+u+c4f0:
     ..@.@...
     ..@.@...
     ..@.@...
@@ -2448,7 +3104,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL SYLLABLE O
 0xde:
+u+c624:
     ..@@@...
     .@...@..
     .@...@..
@@ -2459,7 +3118,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL SYLLABLE YO
 0xdf:
+u+c694:
     ..@@@...
     .@...@..
     .@...@..
@@ -2470,7 +3132,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL SYLLABLE U
 0xe0:
+u+c6b0:
     ..@@@...
     .@...@..
     .@...@..
@@ -2481,7 +3146,10 @@ source-format: raw binary
     ...@....
 
 
+
+# HANGUL SYLLABLE YU
 0xe1:
+u+c720:
     ..@@@...
     .@...@..
     .@...@..
@@ -2492,7 +3160,10 @@ source-format: raw binary
     ..@.@...
 
 
+
+# HANGUL SYLLABLE EU
 0xe2:
+u+c73c:
     ..@@@...
     .@...@..
     .@...@..
@@ -2503,7 +3174,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL SYLLABLE JO
 0xe3:
+u+c870:
     .@@@@@..
     ...@....
     ..@.@...
@@ -2514,7 +3188,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL SYLLABLE JYO
 0xe4:
+u+c8e0:
     .@@@@@..
     ...@....
     ..@.@...
@@ -2525,7 +3202,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL SYLLABLE JU
 0xe5:
+u+c8fc:
     .@@@@@..
     ...@....
     ..@.@...
@@ -2536,7 +3216,10 @@ source-format: raw binary
     ...@....
 
 
+
+# HANGUL SYLLABLE JYU
 0xe6:
+u+c96c:
     .@@@@@..
     ...@....
     ..@.@...
@@ -2547,7 +3230,10 @@ source-format: raw binary
     ..@.@...
 
 
+
+# HANGUL SYLLABLE JEU
 0xe7:
+u+c988:
     .@@@@@..
     ...@....
     ...@....
@@ -2558,7 +3244,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL SYLLABLE JJO
 0xe8:
+u+cabc:
     .@@@@@..
     ..@.@...
     ..@.@...
@@ -2569,7 +3258,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL SYLLABLE JJYO
 0xe9:
+u+cb2c:
     .@@@@@..
     ..@.@...
     ..@.@...
@@ -2580,7 +3272,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL SYLLABLE JJU
 0xea:
+u+cb48:
     .@@@@@..
     ..@.@...
     .@.@.@..
@@ -2591,7 +3286,10 @@ source-format: raw binary
     ...@....
 
 
+
+# HANGUL SYLLABLE JJYU
 0xeb:
+u+cbb8:
     .@@@@@..
     ..@.@...
     .@.@.@..
@@ -2602,7 +3300,10 @@ source-format: raw binary
     ..@.@...
 
 
+
+# HANGUL SYLLABLE JJEU
 0xec:
+u+cbd4:
     .@@@@@..
     ..@.@...
     ..@.@...
@@ -2613,7 +3314,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL SYLLABLE CO
 0xed:
+u+cd08:
     ..@@@...
     .@@@@@..
     ...@....
@@ -2624,7 +3328,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL SYLLABLE CYO
 0xee:
+u+cd78:
     ..@@@...
     .@@@@@..
     ...@....
@@ -2635,7 +3342,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL SYLLABLE CU
 0xef:
+u+cd94:
     ..@@@...
     .@@@@@..
     ...@....
@@ -2646,7 +3356,10 @@ source-format: raw binary
     ...@....
 
 
+
+# HANGUL SYLLABLE CYU
 0xf0:
+u+ce04:
     ..@@@...
     .@@@@@..
     ...@....
@@ -2657,7 +3370,10 @@ source-format: raw binary
     ..@.@...
 
 
+
+# HANGUL SYLLABLE CEU
 0xf1:
+u+ce20:
     ..@@@...
     .@@@@@..
     ...@....
@@ -2668,7 +3384,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL SYLLABLE KO
 0xf2:
+u+cf54:
     .@@@@@..
     .....@..
     .@@@@@..
@@ -2679,7 +3398,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL SYLLABLE KYO
 0xf3:
+u+cfc4:
     .@@@@@..
     .....@..
     .@@@@@..
@@ -2690,7 +3412,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL SYLLABLE KU
 0xf4:
+u+cfe0:
     .@@@@@..
     .....@..
     .@@@@@..
@@ -2701,7 +3426,10 @@ source-format: raw binary
     ...@....
 
 
+
+# HANGUL SYLLABLE KYU
 0xf5:
+u+d050:
     .@@@@@..
     .....@..
     .@@@@@..
@@ -2712,7 +3440,10 @@ source-format: raw binary
     ..@.@...
 
 
+
+# HANGUL SYLLABLE KEU
 0xf6:
+u+d06c:
     .@@@@@..
     .....@..
     .@@@@@..
@@ -2723,7 +3454,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL SYLLABLE TO
 0xf7:
+u+d1a0:
     .@@@@@..
     .@......
     .@@@@@..
@@ -2734,7 +3468,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL SYLLABLE TYO
 0xf8:
+u+d210:
     .@@@@@..
     .@......
     .@@@@@..
@@ -2745,7 +3482,10 @@ source-format: raw binary
     ........
 
 
+
+# HANGUL SYLLABLE TU
 0xf9:
+u+d22c:
     .@@@@@..
     .@......
     .@@@@@..
@@ -2756,7 +3496,10 @@ source-format: raw binary
     ...@....
 
 
+
+# HANGUL SYLLABLE TYU
 0xfa:
+u+d29c:
     .@@@@@..
     .@......
     .@@@@@..
@@ -2767,7 +3510,10 @@ source-format: raw binary
     ..@.@...
 
 
+
+# HANGUL SYLLABLE TEU
 0xfb:
+u+d2b8:
     .@@@@@..
     .@......
     .@@@@@..
