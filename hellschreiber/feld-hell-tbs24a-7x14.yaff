@@ -5,6 +5,8 @@ name: S&H Feld-Hell Tbs 24a
 spacing: character-cell
 raster-size: 7 14
 source-url: https://www.nonstopsystems.com/radio/hellschreiber-fonts.htm#7-line-a
+tracking: 1
+offset: 1 0
 
 
 u+002b:
@@ -745,9 +747,6 @@ pause:
     .......
 
 
-# the Hellschreiber operator generated spaces by pausing
-# so this space character is ahistorical
-# but it  makes the font more usable
 u+0020:
 " ":
     .......

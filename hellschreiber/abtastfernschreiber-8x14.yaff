@@ -5,6 +5,8 @@ name: Abtastfernschreiber 8x14
 spacing: character-cell
 raster-size: 8 14
 source-url: https://www.nonstopsystems.com/radio/hellschreiber-fonts.htm#7-line-ATF
+tracking: 2
+
 
 u+0028:
 "(":
