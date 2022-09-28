@@ -27,6 +27,8 @@
 name: Epson FX-80
 spacing: proportional
 bounding-box: 11 9
+# normal line spacing is 12 dots, though this is adjustable
+leading: 3
 converter: monobit v0.21
 source-name: fx80.fcr
 source-format: raw binary
