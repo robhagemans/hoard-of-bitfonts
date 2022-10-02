@@ -1,6 +1,7 @@
 name: MSX Kanji ROM Fullwidth non-Kanji
 spacing: character-cell
 raster-size: 16 16
+encoding: jisx0208
 converter: monobit v0.22
 source-name: KANJI.rom
 source-format: binary
@@ -28,7 +29,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x61
+# [　] IDEOGRAPHIC SPACE
 0x21, 0x21:
+u+3000:
     ................
     ................
     ................
@@ -48,7 +51,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x62
+# [、] IDEOGRAPHIC COMMA
 0x21, 0x22:
+u+3001:
     ................
     ................
     ................
@@ -68,7 +73,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x63
+# [。] IDEOGRAPHIC FULL STOP
 0x21, 0x23:
+u+3002:
     ................
     ................
     ................
@@ -88,7 +95,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x64
+# [，] FULLWIDTH COMMA
 0x21, 0x24:
+u+ff0c:
     ................
     ................
     ................
@@ -108,7 +117,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x65
+# [．] FULLWIDTH FULL STOP
 0x21, 0x25:
+u+ff0e:
     ................
     ................
     ................
@@ -128,7 +139,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x66
+# [・] KATAKANA MIDDLE DOT
 0x21, 0x26:
+u+30fb:
     ................
     ................
     ................
@@ -148,7 +161,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x67
+# [：] FULLWIDTH COLON
 0x21, 0x27:
+u+ff1a:
     ................
     ................
     .......@........
@@ -168,7 +183,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x68
+# [；] FULLWIDTH SEMICOLON
 0x21, 0x28:
+u+ff1b:
     ................
     ................
     .......@........
@@ -188,7 +205,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x69
+# [？] FULLWIDTH QUESTION MARK
 0x21, 0x29:
+u+ff1f:
     ................
     .....@@@@@......
     ....@.....@.....
@@ -208,7 +227,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x6a
+# [！] FULLWIDTH EXCLAMATION MARK
 0x21, 0x2a:
+u+ff01:
     .......@........
     ......@@@.......
     ......@@@.......
@@ -228,7 +249,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x6b
+# [゛] KATAKANA-HIRAGANA VOICED SOUND MARK
 0x21, 0x2b:
+u+309b:
     ................
     .@...@..........
     ..@...@.........
@@ -248,7 +271,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x6c
+# [゜] KATAKANA-HIRAGANA SEMI-VOICED SOUND MARK
 0x21, 0x2c:
+u+309c:
     ................
     ...@@@..........
     ..@...@.........
@@ -268,7 +293,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x6d
+# [´] ACUTE ACCENT
 0x21, 0x2d:
+u+00b4:
     ........@@......
     ......@@........
     ....@@..........
@@ -288,7 +315,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x6e
+# [｀] FULLWIDTH GRAVE ACCENT
 0x21, 0x2e:
+u+ff40:
     .....@@.........
     .......@@.......
     .........@@.....
@@ -308,7 +337,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x6f
+# [¨] DIAERESIS
 0x21, 0x2f:
+u+00a8:
     ................
     .....@...@......
     .....@...@......
@@ -328,7 +359,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x70
+# [＾] FULLWIDTH CIRCUMFLEX ACCENT
 0x21, 0x30:
+u+ff3e:
     .......@........
     ......@.@.......
     .....@...@......
@@ -348,7 +381,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x71
+# [￣] FULLWIDTH MACRON
 0x21, 0x31:
+u+ffe3:
     @@@@@@@@@@@@@@@.
     ................
     ................
@@ -368,7 +403,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x72
+# [＿] FULLWIDTH LOW LINE
 0x21, 0x32:
+u+ff3f:
     ................
     ................
     ................
@@ -388,7 +425,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x73
+# [ヽ] KATAKANA ITERATION MARK
 0x21, 0x33:
+u+30fd:
     ................
     ................
     ................
@@ -408,7 +447,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x74
+# [ヾ] KATAKANA VOICED ITERATION MARK
 0x21, 0x34:
+u+30fe:
     ................
     ................
     ................
@@ -428,7 +469,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x75
+# [ゝ] HIRAGANA ITERATION MARK
 0x21, 0x35:
+u+309d:
     ................
     ................
     ................
@@ -448,7 +491,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x76
+# [ゞ] HIRAGANA VOICED ITERATION MARK
 0x21, 0x36:
+u+309e:
     ................
     ................
     ................
@@ -468,7 +513,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x77
+# [〃] DITTO MARK
 0x21, 0x37:
+u+3003:
     ................
     ................
     ................
@@ -488,7 +535,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x78
+# [仝] CJK UNIFIED IDEOGRAPH-4EDD
 0x21, 0x38:
+u+4edd:
     .......@........
     ......@.@.......
     ......@..@......
@@ -508,7 +557,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x79
+# [々] IDEOGRAPHIC ITERATION MARK
 0x21, 0x39:
+u+3005:
     ................
     ......@.........
     ......@.........
@@ -528,7 +579,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x7a
+# [〆] IDEOGRAPHIC CLOSING MARK
 0x21, 0x3a:
+u+3006:
     ................
     ............@...
     ...........@....
@@ -548,7 +601,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x7b
+# [〇] IDEOGRAPHIC NUMBER ZERO
 0x21, 0x3b:
+u+3007:
     ................
     .....@@@@@......
     ...@@.....@@....
@@ -568,7 +623,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x7c
+# [ー] KATAKANA-HIRAGANA PROLONGED SOUND MARK
 0x21, 0x3c:
+u+30fc:
     ................
     ................
     ................
@@ -588,7 +645,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x7d
+# [―] HORIZONTAL BAR
 0x21, 0x3d:
+u+2015:
     ................
     ................
     ................
@@ -608,7 +667,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x7e
+# [‐] HYPHEN
 0x21, 0x3e:
+u+2010:
     ................
     ................
     ................
@@ -628,7 +689,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x7f
+# [／] FULLWIDTH SOLIDUS
 0x21, 0x3f:
+u+ff0f:
     ................
     ..............@.
     .............@..
@@ -648,7 +711,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x80
+# [\] REVERSE SOLIDUS
 0x21, 0x40:
+u+005c:
     ................
     .@..............
     ..@.............
@@ -668,7 +733,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x81
+# [〜] WAVE DASH
 0x21, 0x41:
+u+301c:
     ................
     ................
     ................
@@ -688,7 +755,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x82
+# [‖] DOUBLE VERTICAL LINE
 0x21, 0x42:
+u+2016:
     ......@..@......
     ......@..@......
     ......@..@......
@@ -708,7 +777,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x83
+# [｜] FULLWIDTH VERTICAL LINE
 0x21, 0x43:
+u+ff5c:
     .......@........
     .......@........
     .......@........
@@ -728,7 +799,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x84
+# […] HORIZONTAL ELLIPSIS
 0x21, 0x44:
+u+2026:
     ................
     ................
     ................
@@ -748,7 +821,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x85
+# [‥] TWO DOT LEADER
 0x21, 0x45:
+u+2025:
     ................
     ................
     ................
@@ -768,7 +843,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x86
+# [‘] LEFT SINGLE QUOTATION MARK
 0x21, 0x46:
+u+2018:
     .............@..
     ............@...
     ...........@@...
@@ -788,7 +865,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x87
+# [’] RIGHT SINGLE QUOTATION MARK
 0x21, 0x47:
+u+2019:
     ................
     ..@@............
     ..@@............
@@ -808,7 +887,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x88
+# [“] LEFT DOUBLE QUOTATION MARK
 0x21, 0x48:
+u+201c:
     .........@...@..
     ........@...@...
     .......@@..@@...
@@ -828,7 +909,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x89
+# [”] RIGHT DOUBLE QUOTATION MARK
 0x21, 0x49:
+u+201d:
     ................
     ..@@..@@........
     ..@@..@@........
@@ -848,7 +931,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x8a
+# [（] FULLWIDTH LEFT PARENTHESIS
 0x21, 0x4a:
+u+ff08:
     ............@...
     ...........@....
     ..........@.....
@@ -868,7 +953,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x8b
+# [）] FULLWIDTH RIGHT PARENTHESIS
 0x21, 0x4b:
+u+ff09:
     ..@.............
     ...@............
     ....@...........
@@ -888,7 +975,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x8c
+# [〔] LEFT TORTOISE SHELL BRACKET
 0x21, 0x4c:
+u+3014:
     ...........@....
     ..........@.....
     .........@......
@@ -908,7 +997,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x8d
+# [〕] RIGHT TORTOISE SHELL BRACKET
 0x21, 0x4d:
+u+3015:
     ...@............
     ....@...........
     .....@..........
@@ -928,7 +1019,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x8e
+# [［] FULLWIDTH LEFT SQUARE BRACKET
 0x21, 0x4e:
+u+ff3b:
     ........@@@@....
     ........@.......
     ........@.......
@@ -948,7 +1041,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x8f
+# [］] FULLWIDTH RIGHT SQUARE BRACKET
 0x21, 0x4f:
+u+ff3d:
     ...@@@@.........
     ......@.........
     ......@.........
@@ -968,7 +1063,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x90
+# [｛] FULLWIDTH LEFT CURLY BRACKET
 0x21, 0x50:
+u+ff5b:
     ..........@@....
     .........@......
     .........@......
@@ -988,7 +1085,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x91
+# [｝] FULLWIDTH RIGHT CURLY BRACKET
 0x21, 0x51:
+u+ff5d:
     ...@@...........
     .....@..........
     .....@..........
@@ -1008,7 +1107,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x92
+# [〈] LEFT ANGLE BRACKET
 0x21, 0x52:
+u+3008:
     ............@...
     ...........@....
     ..........@.....
@@ -1028,7 +1129,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x93
+# [〉] RIGHT ANGLE BRACKET
 0x21, 0x53:
+u+3009:
     ..@.............
     ...@............
     ....@...........
@@ -1048,7 +1151,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x94
+# [《] LEFT DOUBLE ANGLE BRACKET
 0x21, 0x54:
+u+300a:
     ..........@..@..
     .........@..@...
     ........@..@....
@@ -1068,7 +1173,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x95
+# [》] RIGHT DOUBLE ANGLE BRACKET
 0x21, 0x55:
+u+300b:
     ..@..@..........
     ...@..@.........
     ....@..@........
@@ -1088,7 +1195,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x96
+# [「] LEFT CORNER BRACKET
 0x21, 0x56:
+u+300c:
     ........@@@@@...
     ........@.......
     ........@.......
@@ -1108,7 +1217,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x97
+# [」] RIGHT CORNER BRACKET
 0x21, 0x57:
+u+300d:
     ......@.........
     ......@.........
     ......@.........
@@ -1128,7 +1239,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x98
+# [『] LEFT WHITE CORNER BRACKET
 0x21, 0x58:
+u+300e:
     ........@@@@@@..
     ........@....@..
     ........@.@@@@..
@@ -1148,7 +1261,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x99
+# [』] RIGHT WHITE CORNER BRACKET
 0x21, 0x59:
+u+300f:
     .....@@@........
     .....@.@........
     .....@.@........
@@ -1168,7 +1283,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x9a
+# [【] LEFT BLACK LENTICULAR BRACKET
 0x21, 0x5a:
+u+3010:
     ........@@@@....
     ........@@@.....
     ........@@@.....
@@ -1188,7 +1305,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x9b
+# [】] RIGHT BLACK LENTICULAR BRACKET
 0x21, 0x5b:
+u+3011:
     ...@@@@.........
     ....@@@.........
     ....@@@.........
@@ -1208,7 +1327,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x9c
+# [＋] FULLWIDTH PLUS SIGN
 0x21, 0x5c:
+u+ff0b:
     ................
     ................
     ................
@@ -1228,7 +1349,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x9d
+# [−] MINUS SIGN
 0x21, 0x5d:
+u+2212:
     ................
     ................
     ................
@@ -1248,7 +1371,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x9e
+# [±] PLUS-MINUS SIGN
 0x21, 0x5e:
+u+00b1:
     ................
     .......@........
     .......@........
@@ -1268,7 +1393,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x9f
+# [×] MULTIPLICATION SIGN
 0x21, 0x5f:
+u+00d7:
     ................
     ................
     ................
@@ -1288,7 +1415,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0xa0
+# [÷] DIVISION SIGN
 0x21, 0x60:
+u+00f7:
     ................
     ................
     ................
@@ -1308,7 +1437,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0xa1
+# [＝] FULLWIDTH EQUALS SIGN
 0x21, 0x61:
+u+ff1d:
     ................
     ................
     ................
@@ -1328,7 +1459,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0xa2
+# [≠] NOT EQUAL TO
 0x21, 0x62:
+u+2260:
     ................
     ..........@.....
     ..........@.....
@@ -1348,7 +1481,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0xa3
+# [＜] FULLWIDTH LESS-THAN SIGN
 0x21, 0x63:
+u+ff1c:
     ................
     ................
     ................
@@ -1368,7 +1503,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0xa4
+# [＞] FULLWIDTH GREATER-THAN SIGN
 0x21, 0x64:
+u+ff1e:
     ................
     ................
     ................
@@ -1388,7 +1525,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0xa5
+# [≦] LESS-THAN OVER EQUAL TO
 0x21, 0x65:
+u+2266:
     ................
     ..........@@....
     ........@@......
@@ -1408,7 +1547,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0xa6
+# [≧] GREATER-THAN OVER EQUAL TO
 0x21, 0x66:
+u+2267:
     ................
     ..@@............
     ....@@..........
@@ -1428,7 +1569,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0xa7
+# [∞] INFINITY
 0x21, 0x67:
+u+221e:
     ................
     ................
     ................
@@ -1448,7 +1591,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0xa8
+# [∴] THEREFORE
 0x21, 0x68:
+u+2234:
     ................
     ................
     .......@........
@@ -1468,7 +1613,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0xa9
+# [♂] MALE SIGN
 0x21, 0x69:
+u+2642:
     ................
     .......@........
     ......@@@.......
@@ -1488,7 +1635,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0xaa
+# [♀] FEMALE SIGN
 0x21, 0x6a:
+u+2640:
     ................
     ......@@@.......
     .....@...@......
@@ -1508,7 +1657,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0xab
+# [°] DEGREE SIGN
 0x21, 0x6b:
+u+00b0:
     ................
     .@@@............
     @...@...........
@@ -1528,7 +1679,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0xac
+# [′] PRIME
 0x21, 0x6c:
+u+2032:
     ................
     ..@.............
     ..@.............
@@ -1548,7 +1701,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0xad
+# [″] DOUBLE PRIME
 0x21, 0x6d:
+u+2033:
     ................
     ..@..@..........
     ..@..@..........
@@ -1568,7 +1723,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0xae
+# [℃] DEGREE CELSIUS
 0x21, 0x6e:
+u+2103:
     ................
     .@@@............
     @...@...@@@@....
@@ -1588,7 +1745,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0xaf
+# [￥] FULLWIDTH YEN SIGN
 0x21, 0x6f:
+u+ffe5:
     ................
     ...@.......@....
     ...@.......@....
@@ -1608,7 +1767,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0xb0
+# [＄] FULLWIDTH DOLLAR SIGN
 0x21, 0x70:
+u+ff04:
     .......@........
     .....@@@@.......
     ...@@..@.@@.....
@@ -1628,7 +1789,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0xb1
+# [¢] CENT SIGN
 0x21, 0x71:
+u+00a2:
     ................
     ................
     ................
@@ -1648,7 +1811,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0xb2
+# [£] POUND SIGN
 0x21, 0x72:
+u+00a3:
     ................
     ......@@@@@.....
     .....@.....@....
@@ -1668,7 +1833,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0xb3
+# [％] FULLWIDTH PERCENT SIGN
 0x21, 0x73:
+u+ff05:
     ................
     ...@@.......@...
     ..@..@.....@....
@@ -1688,7 +1855,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0xb4
+# [＃] FULLWIDTH NUMBER SIGN
 0x21, 0x74:
+u+ff03:
     ................
     .....@....@.....
     .....@....@.....
@@ -1708,7 +1877,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0xb5
+# [＆] FULLWIDTH AMPERSAND
 0x21, 0x75:
+u+ff06:
     ................
     .....@@@........
     ....@...@.......
@@ -1728,7 +1899,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0xb6
+# [＊] FULLWIDTH ASTERISK
 0x21, 0x76:
+u+ff0a:
     ................
     .......@........
     ......@@@.......
@@ -1748,7 +1921,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0xb7
+# [＠] FULLWIDTH COMMERCIAL AT
 0x21, 0x77:
+u+ff20:
     ................
     ......@@@@......
     ....@@....@@....
@@ -1768,7 +1943,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0xb8
+# [§] SECTION SIGN
 0x21, 0x78:
+u+00a7:
     ................
     .....@@@@.......
     ....@....@......
@@ -1788,7 +1965,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0xb9
+# [☆] WHITE STAR
 0x21, 0x79:
+u+2606:
     .......@........
     .......@........
     ......@.@.......
@@ -1808,7 +1987,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0xba
+# [★] BLACK STAR
 0x21, 0x7a:
+u+2605:
     .......@........
     .......@........
     .......@........
@@ -1828,7 +2009,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0xbb
+# [○] WHITE CIRCLE
 0x21, 0x7b:
+u+25cb:
     ................
     .....@@@@@......
     ...@@.....@@....
@@ -1848,7 +2031,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0xbc
+# [●] BLACK CIRCLE
 0x21, 0x7c:
+u+25cf:
     ................
     .....@@@@@......
     ...@@@@@@@@@....
@@ -1868,7 +2053,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0xbd
+# [◎] BULLSEYE
 0x21, 0x7d:
+u+25ce:
     ................
     .....@@@@@......
     ...@@.....@@....
@@ -1888,7 +2075,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0xbe
+# [◇] WHITE DIAMOND
 0x21, 0x7e:
+u+25c7:
     ................
     .......@........
     ......@.@.......
@@ -1948,7 +2137,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0xc1
+# [◆] BLACK DIAMOND
 0x22, 0x21:
+u+25c6:
     ................
     .......@........
     ......@@@.......
@@ -1968,7 +2159,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0xc2
+# [□] WHITE SQUARE
 0x22, 0x22:
+u+25a1:
     ................
     .@@@@@@@@@@@@@@.
     .@............@.
@@ -1988,7 +2181,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0xc3
+# [■] BLACK SQUARE
 0x22, 0x23:
+u+25a0:
     ................
     .@@@@@@@@@@@@@..
     .@@@@@@@@@@@@@..
@@ -2008,7 +2203,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0xc4
+# [△] WHITE UP-POINTING TRIANGLE
 0x22, 0x24:
+u+25b3:
     ................
     .......@........
     ......@.@.......
@@ -2028,7 +2225,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0xc5
+# [▲] BLACK UP-POINTING TRIANGLE
 0x22, 0x25:
+u+25b2:
     ................
     .......@........
     ......@@@.......
@@ -2048,7 +2247,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0xc6
+# [▽] WHITE DOWN-POINTING TRIANGLE
 0x22, 0x26:
+u+25bd:
     ................
     ................
     @@@@@@@@@@@@@@@.
@@ -2068,7 +2269,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0xc7
+# [▼] BLACK DOWN-POINTING TRIANGLE
 0x22, 0x27:
+u+25bc:
     ................
     ................
     @@@@@@@@@@@@@@@.
@@ -2088,7 +2291,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0xc8
+# [※] REFERENCE MARK
 0x22, 0x28:
+u+203b:
     ................
     @......@......@.
     .@....@@@....@..
@@ -2108,7 +2313,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0xc9
+# [〒] POSTAL MARK
 0x22, 0x29:
+u+3012:
     ................
     ................
     ..@@@@@@@@@@@@..
@@ -2128,7 +2335,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0xca
+# [→] RIGHTWARDS ARROW
 0x22, 0x2a:
+u+2192:
     ................
     ................
     ................
@@ -2148,7 +2357,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0xcb
+# [←] LEFTWARDS ARROW
 0x22, 0x2b:
+u+2190:
     ................
     ................
     ................
@@ -2168,7 +2379,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0xcc
+# [↑] UPWARDS ARROW
 0x22, 0x2c:
+u+2191:
     ................
     .......@........
     ......@@@.......
@@ -2188,7 +2401,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0xcd
+# [↓] DOWNWARDS ARROW
 0x22, 0x2d:
+u+2193:
     .......@........
     .......@........
     .......@........
@@ -2208,7 +2423,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0xce
+# [〓] GETA MARK
 0x22, 0x2e:
+u+3013:
     ................
     ................
     ................
@@ -2868,7 +3085,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0xef
+# [∀] FOR ALL
 0x22, 0x4f:
+u+2200:
     ................
     .@@@............
     ....@@..........
@@ -4168,7 +4387,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x130
+# [０] FULLWIDTH DIGIT ZERO
 0x23, 0x30:
+u+ff10:
     ................
     .......@@.......
     ......@..@......
@@ -4188,7 +4409,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x131
+# [１] FULLWIDTH DIGIT ONE
 0x23, 0x31:
+u+ff11:
     ................
     .......@........
     ......@@........
@@ -4208,7 +4431,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x132
+# [２] FULLWIDTH DIGIT TWO
 0x23, 0x32:
+u+ff12:
     ................
     ......@@@@......
     .....@....@.....
@@ -4228,7 +4453,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x133
+# [３] FULLWIDTH DIGIT THREE
 0x23, 0x33:
+u+ff13:
     ................
     ......@@@@......
     .....@....@.....
@@ -4248,7 +4475,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x134
+# [４] FULLWIDTH DIGIT FOUR
 0x23, 0x34:
+u+ff14:
     ................
     ........@@......
     .......@@@......
@@ -4268,7 +4497,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x135
+# [５] FULLWIDTH DIGIT FIVE
 0x23, 0x35:
+u+ff15:
     ................
     ....@@@@@@@.....
     ....@...........
@@ -4288,7 +4519,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x136
+# [６] FULLWIDTH DIGIT SIX
 0x23, 0x36:
+u+ff16:
     ................
     ......@@@@......
     .....@....@.....
@@ -4308,7 +4541,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x137
+# [７] FULLWIDTH DIGIT SEVEN
 0x23, 0x37:
+u+ff17:
     ................
     ....@@@@@@@@....
     ....@......@....
@@ -4328,7 +4563,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x138
+# [８] FULLWIDTH DIGIT EIGHT
 0x23, 0x38:
+u+ff18:
     ................
     ......@@@@......
     .....@....@.....
@@ -4348,7 +4585,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x139
+# [９] FULLWIDTH DIGIT NINE
 0x23, 0x39:
+u+ff19:
     ................
     ......@@@@......
     .....@....@.....
@@ -4508,7 +4747,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x141
+# [Ａ] FULLWIDTH LATIN CAPITAL LETTER A
 0x23, 0x41:
+u+ff21:
     ................
     .......@........
     .......@........
@@ -4528,7 +4769,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x142
+# [Ｂ] FULLWIDTH LATIN CAPITAL LETTER B
 0x23, 0x42:
+u+ff22:
     ................
     ...@@@@@@@......
     ....@.....@.....
@@ -4548,7 +4791,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x143
+# [Ｃ] FULLWIDTH LATIN CAPITAL LETTER C
 0x23, 0x43:
+u+ff23:
     ................
     ......@@@@.@....
     .....@....@@....
@@ -4568,7 +4813,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x144
+# [Ｄ] FULLWIDTH LATIN CAPITAL LETTER D
 0x23, 0x44:
+u+ff24:
     ................
     ...@@@@@@.......
     ....@....@@.....
@@ -4588,7 +4835,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x145
+# [Ｅ] FULLWIDTH LATIN CAPITAL LETTER E
 0x23, 0x45:
+u+ff25:
     ................
     ...@@@@@@@@.....
     ....@......@....
@@ -4608,7 +4857,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x146
+# [Ｆ] FULLWIDTH LATIN CAPITAL LETTER F
 0x23, 0x46:
+u+ff26:
     ................
     ...@@@@@@@@.....
     ....@......@....
@@ -4628,7 +4879,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x147
+# [Ｇ] FULLWIDTH LATIN CAPITAL LETTER G
 0x23, 0x47:
+u+ff27:
     ................
     ......@@@@.@....
     .....@....@@....
@@ -4648,7 +4901,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x148
+# [Ｈ] FULLWIDTH LATIN CAPITAL LETTER H
 0x23, 0x48:
+u+ff28:
     ................
     ...@@@....@@@...
     ....@......@....
@@ -4668,7 +4923,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x149
+# [Ｉ] FULLWIDTH LATIN CAPITAL LETTER I
 0x23, 0x49:
+u+ff29:
     ................
     ......@@@.......
     .......@........
@@ -4688,7 +4945,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x14a
+# [Ｊ] FULLWIDTH LATIN CAPITAL LETTER J
 0x23, 0x4a:
+u+ff2a:
     ................
     ........@@@.....
     .........@......
@@ -4708,7 +4967,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x14b
+# [Ｋ] FULLWIDTH LATIN CAPITAL LETTER K
 0x23, 0x4b:
+u+ff2b:
     ................
     ...@@@....@@@...
     ....@......@....
@@ -4728,7 +4989,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x14c
+# [Ｌ] FULLWIDTH LATIN CAPITAL LETTER L
 0x23, 0x4c:
+u+ff2c:
     ................
     ...@@@..........
     ....@...........
@@ -4748,7 +5011,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x14d
+# [Ｍ] FULLWIDTH LATIN CAPITAL LETTER M
 0x23, 0x4d:
+u+ff2d:
     ................
     .@@.........@@..
     ..@.........@...
@@ -4768,7 +5033,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x14e
+# [Ｎ] FULLWIDTH LATIN CAPITAL LETTER N
 0x23, 0x4e:
+u+ff2e:
     ................
     ..@@......@@@...
     ...@@......@....
@@ -4788,7 +5055,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x14f
+# [Ｏ] FULLWIDTH LATIN CAPITAL LETTER O
 0x23, 0x4f:
+u+ff2f:
     ................
     .....@@@@@@.....
     ....@......@....
@@ -4808,7 +5077,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x150
+# [Ｐ] FULLWIDTH LATIN CAPITAL LETTER P
 0x23, 0x50:
+u+ff30:
     ................
     ...@@@@@@@......
     ....@.....@.....
@@ -4828,7 +5099,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x151
+# [Ｑ] FULLWIDTH LATIN CAPITAL LETTER Q
 0x23, 0x51:
+u+ff31:
     ................
     ......@@@@......
     .....@....@.....
@@ -4848,7 +5121,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x152
+# [Ｒ] FULLWIDTH LATIN CAPITAL LETTER R
 0x23, 0x52:
+u+ff32:
     ................
     ...@@@@@@@......
     ....@.....@.....
@@ -4868,7 +5143,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x153
+# [Ｓ] FULLWIDTH LATIN CAPITAL LETTER S
 0x23, 0x53:
+u+ff33:
     ................
     ......@@@@.@....
     .....@....@@....
@@ -4888,7 +5165,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x154
+# [Ｔ] FULLWIDTH LATIN CAPITAL LETTER T
 0x23, 0x54:
+u+ff34:
     ................
     ...@@@@@@@@@....
     ...@...@...@....
@@ -4908,7 +5187,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x155
+# [Ｕ] FULLWIDTH LATIN CAPITAL LETTER U
 0x23, 0x55:
+u+ff35:
     ................
     ...@@@....@@@...
     ....@......@....
@@ -4928,7 +5209,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x156
+# [Ｖ] FULLWIDTH LATIN CAPITAL LETTER V
 0x23, 0x56:
+u+ff36:
     ................
     ..@@@.....@@@...
     ...@.......@....
@@ -4948,7 +5231,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x157
+# [Ｗ] FULLWIDTH LATIN CAPITAL LETTER W
 0x23, 0x57:
+u+ff37:
     ................
     @@@...@@@...@@@.
     .@.....@.....@..
@@ -4968,7 +5253,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x158
+# [Ｘ] FULLWIDTH LATIN CAPITAL LETTER X
 0x23, 0x58:
+u+ff38:
     ................
     ..@@@.....@@@...
     ...@.......@....
@@ -4988,7 +5275,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x159
+# [Ｙ] FULLWIDTH LATIN CAPITAL LETTER Y
 0x23, 0x59:
+u+ff39:
     ................
     ..@@@.....@@@...
     ...@.......@....
@@ -5008,7 +5297,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x15a
+# [Ｚ] FULLWIDTH LATIN CAPITAL LETTER Z
 0x23, 0x5a:
+u+ff3a:
     ................
     ...@@@@@@@@.....
     ...@......@.....
@@ -5148,7 +5439,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x161
+# [ａ] FULLWIDTH LATIN SMALL LETTER A
 0x23, 0x61:
+u+ff41:
     ................
     ................
     ................
@@ -5168,7 +5461,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x162
+# [ｂ] FULLWIDTH LATIN SMALL LETTER B
 0x23, 0x62:
+u+ff42:
     ................
     ....@@..........
     .....@..........
@@ -5188,7 +5483,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x163
+# [ｃ] FULLWIDTH LATIN SMALL LETTER C
 0x23, 0x63:
+u+ff43:
     ................
     ................
     ................
@@ -5208,7 +5505,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x164
+# [ｄ] FULLWIDTH LATIN SMALL LETTER D
 0x23, 0x64:
+u+ff44:
     ................
     .........@@.....
     ..........@.....
@@ -5228,7 +5527,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x165
+# [ｅ] FULLWIDTH LATIN SMALL LETTER E
 0x23, 0x65:
+u+ff45:
     ................
     ................
     ................
@@ -5248,7 +5549,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x166
+# [ｆ] FULLWIDTH LATIN SMALL LETTER F
 0x23, 0x66:
+u+ff46:
     ................
     ........@@......
     .......@..@.....
@@ -5268,7 +5571,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x167
+# [ｇ] FULLWIDTH LATIN SMALL LETTER G
 0x23, 0x67:
+u+ff47:
     ................
     ................
     ................
@@ -5288,7 +5593,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x168
+# [ｈ] FULLWIDTH LATIN SMALL LETTER H
 0x23, 0x68:
+u+ff48:
     ................
     ....@@..........
     .....@..........
@@ -5308,7 +5615,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x169
+# [ｉ] FULLWIDTH LATIN SMALL LETTER I
 0x23, 0x69:
+u+ff49:
     ................
     .......@........
     .......@........
@@ -5328,7 +5637,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x16a
+# [ｊ] FULLWIDTH LATIN SMALL LETTER J
 0x23, 0x6a:
+u+ff4a:
     ................
     ........@.......
     ........@.......
@@ -5348,7 +5659,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x16b
+# [ｋ] FULLWIDTH LATIN SMALL LETTER K
 0x23, 0x6b:
+u+ff4b:
     ................
     ....@@..........
     .....@..........
@@ -5368,7 +5681,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x16c
+# [ｌ] FULLWIDTH LATIN SMALL LETTER L
 0x23, 0x6c:
+u+ff4c:
     ................
     ......@@........
     .......@........
@@ -5388,7 +5703,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x16d
+# [ｍ] FULLWIDTH LATIN SMALL LETTER M
 0x23, 0x6d:
+u+ff4d:
     ................
     ................
     ................
@@ -5408,7 +5725,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x16e
+# [ｎ] FULLWIDTH LATIN SMALL LETTER N
 0x23, 0x6e:
+u+ff4e:
     ................
     ................
     ................
@@ -5428,7 +5747,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x16f
+# [ｏ] FULLWIDTH LATIN SMALL LETTER O
 0x23, 0x6f:
+u+ff4f:
     ................
     ................
     ................
@@ -5448,7 +5769,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x170
+# [ｐ] FULLWIDTH LATIN SMALL LETTER P
 0x23, 0x70:
+u+ff50:
     ................
     ................
     ................
@@ -5468,7 +5791,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x171
+# [ｑ] FULLWIDTH LATIN SMALL LETTER Q
 0x23, 0x71:
+u+ff51:
     ................
     ................
     ................
@@ -5488,7 +5813,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x172
+# [ｒ] FULLWIDTH LATIN SMALL LETTER R
 0x23, 0x72:
+u+ff52:
     ................
     ................
     ................
@@ -5508,7 +5835,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x173
+# [ｓ] FULLWIDTH LATIN SMALL LETTER S
 0x23, 0x73:
+u+ff53:
     ................
     ................
     ................
@@ -5528,7 +5857,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x174
+# [ｔ] FULLWIDTH LATIN SMALL LETTER T
 0x23, 0x74:
+u+ff54:
     ................
     .......@........
     .......@........
@@ -5548,7 +5879,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x175
+# [ｕ] FULLWIDTH LATIN SMALL LETTER U
 0x23, 0x75:
+u+ff55:
     ................
     ................
     ................
@@ -5568,7 +5901,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x176
+# [ｖ] FULLWIDTH LATIN SMALL LETTER V
 0x23, 0x76:
+u+ff56:
     ................
     ................
     ................
@@ -5588,7 +5923,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x177
+# [ｗ] FULLWIDTH LATIN SMALL LETTER W
 0x23, 0x77:
+u+ff57:
     ................
     ................
     ................
@@ -5608,7 +5945,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x178
+# [ｘ] FULLWIDTH LATIN SMALL LETTER X
 0x23, 0x78:
+u+ff58:
     ................
     ................
     ................
@@ -5628,7 +5967,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x179
+# [ｙ] FULLWIDTH LATIN SMALL LETTER Y
 0x23, 0x79:
+u+ff59:
     ................
     ................
     ................
@@ -5648,7 +5989,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x17a
+# [ｚ] FULLWIDTH LATIN SMALL LETTER Z
 0x23, 0x7a:
+u+ff5a:
     ................
     ................
     ................
@@ -5788,7 +6131,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x181
+# [ぁ] HIRAGANA LETTER SMALL A
 0x24, 0x21:
+u+3041:
     ................
     ................
     ................
@@ -5808,7 +6153,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x182
+# [あ] HIRAGANA LETTER A
 0x24, 0x22:
+u+3042:
     ................
     ....@...........
     .....@......@...
@@ -5828,7 +6175,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x183
+# [ぃ] HIRAGANA LETTER SMALL I
 0x24, 0x23:
+u+3043:
     ................
     ................
     ................
@@ -5848,7 +6197,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x184
+# [い] HIRAGANA LETTER I
 0x24, 0x24:
+u+3044:
     ................
     ................
     ..@.............
@@ -5868,7 +6219,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x185
+# [ぅ] HIRAGANA LETTER SMALL U
 0x24, 0x25:
+u+3045:
     ................
     ................
     ................
@@ -5888,7 +6241,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x186
+# [う] HIRAGANA LETTER U
 0x24, 0x26:
+u+3046:
     ................
     ....@@@@........
     ........@@@.....
@@ -5908,7 +6263,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x187
+# [ぇ] HIRAGANA LETTER SMALL E
 0x24, 0x27:
+u+3047:
     ................
     ................
     ................
@@ -5928,7 +6285,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x188
+# [え] HIRAGANA LETTER E
 0x24, 0x28:
+u+3048:
     ................
     ....@@@.........
     .......@@@......
@@ -5948,7 +6307,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x189
+# [ぉ] HIRAGANA LETTER SMALL O
 0x24, 0x29:
+u+3049:
     ................
     ................
     ................
@@ -5968,7 +6329,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x18a
+# [お] HIRAGANA LETTER O
 0x24, 0x2a:
+u+304a:
     ................
     ....@...........
     .....@.....@....
@@ -5988,7 +6351,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x18b
+# [か] HIRAGANA LETTER KA
 0x24, 0x2b:
+u+304b:
     ................
     .....@..........
     ......@.........
@@ -6008,7 +6373,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x18c
+# [が] HIRAGANA LETTER GA
 0x24, 0x2c:
+u+304c:
     ..........@..@..
     .....@.....@..@.
     ......@....@..@.
@@ -6028,7 +6395,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x18d
+# [き] HIRAGANA LETTER KI
 0x24, 0x2d:
+u+304d:
     ................
     .......@........
     .......@....@...
@@ -6048,7 +6417,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x18e
+# [ぎ] HIRAGANA LETTER GI
 0x24, 0x2e:
+u+304e:
     .............@..
     ......@....@..@.
     ......@.....@.@.
@@ -6068,7 +6439,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x18f
+# [く] HIRAGANA LETTER KU
 0x24, 0x2f:
+u+304f:
     ................
     ..........@.....
     .........@......
@@ -6088,7 +6461,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x190
+# [ぐ] HIRAGANA LETTER GU
 0x24, 0x30:
+u+3050:
     ................
     ..........@.....
     .........@......
@@ -6108,7 +6483,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x191
+# [け] HIRAGANA LETTER KE
 0x24, 0x31:
+u+3051:
     ................
     .........@......
     ..@.......@.....
@@ -6128,7 +6505,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x192
+# [げ] HIRAGANA LETTER GE
 0x24, 0x32:
+u+3052:
     ...........@.@..
     ............@.@.
     ..@......@..@.@.
@@ -6148,7 +6527,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x193
+# [こ] HIRAGANA LETTER KO
 0x24, 0x33:
+u+3053:
     ................
     ................
     ....@.......@...
@@ -6168,7 +6549,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x194
+# [ご] HIRAGANA LETTER GO
 0x24, 0x34:
+u+3054:
     .............@..
     ...........@..@.
     ...@........@.@.
@@ -6188,7 +6571,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x195
+# [さ] HIRAGANA LETTER SA
 0x24, 0x35:
+u+3055:
     ................
     .......@........
     .......@........
@@ -6208,7 +6593,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x196
+# [ざ] HIRAGANA LETTER ZA
 0x24, 0x36:
+u+3056:
     ..........@..@..
     .......@...@..@.
     .......@...@..@.
@@ -6228,7 +6615,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x197
+# [し] HIRAGANA LETTER SI
 0x24, 0x37:
+u+3057:
     ................
     ...@............
     ...@............
@@ -6248,7 +6637,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x198
+# [じ] HIRAGANA LETTER ZI
 0x24, 0x38:
+u+3058:
     ................
     ...@............
     ...@.......@....
@@ -6268,7 +6659,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x199
+# [す] HIRAGANA LETTER SU
 0x24, 0x39:
+u+3059:
     ................
     ........@.......
     .........@...@..
@@ -6288,7 +6681,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x19a
+# [ず] HIRAGANA LETTER ZU
 0x24, 0x3a:
+u+305a:
     ..........@..@..
     .......@...@..@.
     ........@..@....
@@ -6308,7 +6703,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x19b
+# [せ] HIRAGANA LETTER SE
 0x24, 0x3b:
+u+305b:
     .........@......
     ...@......@.....
     ....@.....@.....
@@ -6328,7 +6725,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x19c
+# [ぜ] HIRAGANA LETTER ZE
 0x24, 0x3c:
+u+305c:
     ..........@..@..
     ...........@..@.
     ...@.....@.@..@.
@@ -6348,7 +6747,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x19d
+# [そ] HIRAGANA LETTER SO
 0x24, 0x3d:
+u+305d:
     ................
     ..@....@@@@.....
     ...@@@@...@.....
@@ -6368,7 +6769,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x19e
+# [ぞ] HIRAGANA LETTER ZO
 0x24, 0x3e:
+u+305e:
     ................
     ..@...@@@@...@..
     ...@@@...@.@..@.
@@ -6388,7 +6791,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x19f
+# [た] HIRAGANA LETTER TA
 0x24, 0x3f:
+u+305f:
     ................
     ...@............
     ....@...@.......
@@ -6408,7 +6813,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1a0
+# [だ] HIRAGANA LETTER DA
 0x24, 0x40:
+u+3060:
     ............@...
     ...@......@..@..
     ....@...@..@.@..
@@ -6428,7 +6835,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1a1
+# [ち] HIRAGANA LETTER TI
 0x24, 0x41:
+u+3061:
     ................
     ...@............
     ....@......@....
@@ -6448,7 +6857,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1a2
+# [ぢ] HIRAGANA LETTER DI
 0x24, 0x42:
+u+3062:
     ..........@..@..
     ...@.......@..@.
     ....@......@..@.
@@ -6468,7 +6879,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1a3
+# [っ] HIRAGANA LETTER SMALL TU
 0x24, 0x43:
+u+3063:
     ................
     ................
     ................
@@ -6488,7 +6901,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1a4
+# [つ] HIRAGANA LETTER TU
 0x24, 0x44:
+u+3064:
     ................
     ................
     ................
@@ -6508,7 +6923,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1a5
+# [づ] HIRAGANA LETTER DU
 0x24, 0x45:
+u+3065:
     ..........@..@..
     ...........@..@.
     ...........@..@.
@@ -6528,7 +6945,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1a6
+# [て] HIRAGANA LETTER TE
 0x24, 0x46:
+u+3066:
     ................
     ............@...
     .@....@@@@@@@@..
@@ -6548,7 +6967,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1a7
+# [で] HIRAGANA LETTER DE
 0x24, 0x47:
+u+3067:
     ................
     ............@...
     .@....@@@@@@@@..
@@ -6568,7 +6989,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1a8
+# [と] HIRAGANA LETTER TO
 0x24, 0x48:
+u+3068:
     ................
     .....@..........
     .....@..........
@@ -6588,7 +7011,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1a9
+# [ど] HIRAGANA LETTER DO
 0x24, 0x49:
+u+3069:
     ...........@....
     .....@...@..@...
     .....@....@.@...
@@ -6608,7 +7033,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1aa
+# [な] HIRAGANA LETTER NA
 0x24, 0x4a:
+u+306a:
     ................
     ....@...........
     .....@..@.......
@@ -6628,7 +7055,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1ab
+# [に] HIRAGANA LETTER NI
 0x24, 0x4b:
+u+306b:
     ................
     ...@............
     ...@.........@..
@@ -6648,7 +7077,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1ac
+# [ぬ] HIRAGANA LETTER NU
 0x24, 0x4c:
+u+306c:
     ................
     ........@.......
     ..@.....@.......
@@ -6668,7 +7099,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1ad
+# [ね] HIRAGANA LETTER NE
 0x24, 0x4d:
+u+306d:
     ................
     ...@............
     ....@...........
@@ -6688,7 +7121,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1ae
+# [の] HIRAGANA LETTER NO
 0x24, 0x4e:
+u+306e:
     ................
     ................
     .....@@@@@......
@@ -6708,7 +7143,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1af
+# [は] HIRAGANA LETTER HA
 0x24, 0x4f:
+u+306f:
     ................
     ...@.....@......
     ...@......@.....
@@ -6728,7 +7165,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1b0
+# [ば] HIRAGANA LETTER BA
 0x24, 0x50:
+u+3070:
     ..........@..@..
     ...........@..@.
     ...@.....@.@..@.
@@ -6748,7 +7187,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1b1
+# [ぱ] HIRAGANA LETTER PA
 0x24, 0x51:
+u+3071:
     ............@@..
     ...........@..@.
     ...@.....@.@..@.
@@ -6768,7 +7209,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1b2
+# [ひ] HIRAGANA LETTER HI
 0x24, 0x52:
+u+3072:
     ................
     ................
     @...@@....@.....
@@ -6788,7 +7231,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1b3
+# [び] HIRAGANA LETTER BI
 0x24, 0x53:
+u+3073:
     ...........@.@..
     ............@.@.
     @...@@....@.@.@.
@@ -6808,7 +7253,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1b4
+# [ぴ] HIRAGANA LETTER PI
 0x24, 0x54:
+u+3074:
     ............@@..
     ...........@..@.
     @...@@....@@..@.
@@ -6828,7 +7275,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1b5
+# [ふ] HIRAGANA LETTER HU
 0x24, 0x55:
+u+3075:
     ................
     ....@@..........
     ......@@........
@@ -6848,7 +7297,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1b6
+# [ぶ] HIRAGANA LETTER BU
 0x24, 0x56:
+u+3076:
     ..........@..@..
     ....@@.....@..@.
     ......@@...@..@.
@@ -6868,7 +7319,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1b7
+# [ぷ] HIRAGANA LETTER PU
 0x24, 0x57:
+u+3077:
     ............@@..
     ....@@.....@..@.
     ......@@...@..@.
@@ -6888,7 +7341,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1b8
+# [へ] HIRAGANA LETTER HE
 0x24, 0x58:
+u+3078:
     ................
     ................
     ................
@@ -6908,7 +7363,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1b9
+# [べ] HIRAGANA LETTER BE
 0x24, 0x59:
+u+3079:
     ................
     ................
     ..........@..@..
@@ -6928,7 +7385,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1ba
+# [ぺ] HIRAGANA LETTER PE
 0x24, 0x5a:
+u+307a:
     ................
     ................
     ............@@..
@@ -6948,7 +7407,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1bb
+# [ほ] HIRAGANA LETTER HO
 0x24, 0x5b:
+u+307b:
     ................
     ............@...
     ..@...@@@@@@....
@@ -6968,7 +7429,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1bc
+# [ぼ] HIRAGANA LETTER BO
 0x24, 0x5c:
+u+307c:
     ..........@..@..
     ...........@..@.
     ...........@@.@.
@@ -6988,7 +7451,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1bd
+# [ぽ] HIRAGANA LETTER PO
 0x24, 0x5d:
+u+307d:
     ............@@..
     ...........@..@.
     ...........@..@.
@@ -7008,7 +7473,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1be
+# [ま] HIRAGANA LETTER MA
 0x24, 0x5e:
+u+307e:
     ................
     .......@........
     ........@...@...
@@ -7028,7 +7495,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1bf
+# [み] HIRAGANA LETTER MI
 0x24, 0x5f:
+u+307f:
     ................
     ......@@........
     ..@@@@.@@.......
@@ -7048,7 +7517,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1c0
+# [む] HIRAGANA LETTER MU
 0x24, 0x60:
+u+3080:
     ................
     .....@..........
     .....@..@.......
@@ -7068,7 +7539,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1c1
+# [め] HIRAGANA LETTER ME
 0x24, 0x61:
+u+3081:
     ................
     ...@.....@......
     ...@.....@......
@@ -7088,7 +7561,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1c2
+# [も] HIRAGANA LETTER MO
 0x24, 0x62:
+u+3082:
     ......@.........
     ......@.........
     ......@..@......
@@ -7108,7 +7583,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1c3
+# [ゃ] HIRAGANA LETTER SMALL YA
 0x24, 0x63:
+u+3083:
     ................
     ................
     ................
@@ -7128,7 +7605,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1c4
+# [や] HIRAGANA LETTER YA
 0x24, 0x64:
+u+3084:
     ................
     ...@...@........
     ....@...@.......
@@ -7148,7 +7627,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1c5
+# [ゅ] HIRAGANA LETTER SMALL YU
 0x24, 0x65:
+u+3085:
     ................
     ................
     ................
@@ -7168,7 +7649,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1c6
+# [ゆ] HIRAGANA LETTER YU
 0x24, 0x66:
+u+3086:
     ................
     .......@........
     ...@....@.......
@@ -7188,7 +7671,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1c7
+# [ょ] HIRAGANA LETTER SMALL YO
 0x24, 0x67:
+u+3087:
     ................
     ................
     ................
@@ -7208,7 +7693,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1c8
+# [よ] HIRAGANA LETTER YO
 0x24, 0x68:
+u+3088:
     ................
     ......@.........
     .......@........
@@ -7228,7 +7715,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1c9
+# [ら] HIRAGANA LETTER RA
 0x24, 0x69:
+u+3089:
     ................
     ....@@@@........
     ........@@......
@@ -7248,7 +7737,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1ca
+# [り] HIRAGANA LETTER RI
 0x24, 0x6a:
+u+308a:
     ................
     ...@............
     ...@....@@@.....
@@ -7268,7 +7759,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1cb
+# [る] HIRAGANA LETTER RU
 0x24, 0x6b:
+u+308b:
     ................
     .......@@@......
     ...@.@@...@.....
@@ -7288,7 +7781,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1cc
+# [れ] HIRAGANA LETTER RE
 0x24, 0x6c:
+u+308c:
     ................
     ...@............
     ....@...........
@@ -7308,7 +7803,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1cd
+# [ろ] HIRAGANA LETTER RO
 0x24, 0x6d:
+u+308d:
     ................
     ........@@@.....
     ..@..@@@..@.....
@@ -7328,7 +7825,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1ce
+# [ゎ] HIRAGANA LETTER SMALL WA
 0x24, 0x6e:
+u+308e:
     ................
     ................
     ................
@@ -7348,7 +7847,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1cf
+# [わ] HIRAGANA LETTER WA
 0x24, 0x6f:
+u+308f:
     ................
     ...@............
     ....@...........
@@ -7368,7 +7869,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1d0
+# [ゐ] HIRAGANA LETTER WI
 0x24, 0x70:
+u+3090:
     ................
     ..@...@@@.......
     ...@@@..@.......
@@ -7388,7 +7891,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1d1
+# [ゑ] HIRAGANA LETTER WE
 0x24, 0x71:
+u+3091:
     ................
     ......@@@@......
     ..@@@@...@@.....
@@ -7408,7 +7913,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1d2
+# [を] HIRAGANA LETTER WO
 0x24, 0x72:
+u+3092:
     ................
     .....@..........
     ......@...@.....
@@ -7428,7 +7935,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1d3
+# [ん] HIRAGANA LETTER N
 0x24, 0x73:
+u+3093:
     ................
     ....@...........
     .....@..........
@@ -7708,7 +8217,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1e1
+# [ァ] KATAKANA LETTER SMALL A
 0x25, 0x21:
+u+30a1:
     ................
     ................
     ................
@@ -7728,7 +8239,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1e2
+# [ア] KATAKANA LETTER A
 0x25, 0x22:
+u+30a2:
     ................
     ............@...
     .@......@@@@@@..
@@ -7748,7 +8261,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1e3
+# [ィ] KATAKANA LETTER SMALL I
 0x25, 0x23:
+u+30a3:
     ................
     ................
     ................
@@ -7768,7 +8283,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1e4
+# [イ] KATAKANA LETTER I
 0x25, 0x24:
+u+30a4:
     ................
     ...........@....
     ...........@@...
@@ -7788,7 +8305,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1e5
+# [ゥ] KATAKANA LETTER SMALL U
 0x25, 0x25:
+u+30a5:
     ................
     ................
     ................
@@ -7808,7 +8327,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1e6
+# [ウ] KATAKANA LETTER U
 0x25, 0x26:
+u+30a6:
     ......@.........
     .......@........
     .......@....@...
@@ -7828,7 +8349,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1e7
+# [ェ] KATAKANA LETTER SMALL E
 0x25, 0x27:
+u+30a7:
     ................
     ................
     ................
@@ -7848,7 +8371,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1e8
+# [エ] KATAKANA LETTER E
 0x25, 0x28:
+u+30a8:
     ................
     ................
     ............@...
@@ -7868,7 +8393,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1e9
+# [ォ] KATAKANA LETTER SMALL O
 0x25, 0x29:
+u+30a9:
     ................
     ................
     ................
@@ -7888,7 +8415,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1ea
+# [オ] KATAKANA LETTER O
 0x25, 0x2a:
+u+30aa:
     ................
     ........@.......
     .........@......
@@ -7908,7 +8437,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1eb
+# [カ] KATAKANA LETTER KA
 0x25, 0x2b:
+u+30ab:
     ................
     .....@..........
     ......@.........
@@ -7928,7 +8459,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1ec
+# [ガ] KATAKANA LETTER GA
 0x25, 0x2c:
+u+30ac:
     ...........@..@.
     .....@......@..@
     ......@.....@..@
@@ -7948,7 +8481,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1ed
+# [キ] KATAKANA LETTER KI
 0x25, 0x2d:
+u+30ad:
     ................
     .....@..........
     ......@.........
@@ -7968,7 +8503,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1ee
+# [ギ] KATAKANA LETTER GI
 0x25, 0x2e:
+u+30ae:
     ...........@..@.
     .....@......@..@
     ......@.....@..@
@@ -7988,7 +8525,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1ef
+# [ク] KATAKANA LETTER KU
 0x25, 0x2f:
+u+30af:
     ................
     .....@..........
     ......@.........
@@ -8008,7 +8547,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1f0
+# [グ] KATAKANA LETTER GU
 0x25, 0x30:
+u+30b0:
     ...........@..@.
     .....@......@..@
     ......@.....@..@
@@ -8028,7 +8569,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1f1
+# [ケ] KATAKANA LETTER KE
 0x25, 0x31:
+u+30b1:
     ................
     ....@...........
     .....@..........
@@ -8048,7 +8591,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1f2
+# [ゲ] KATAKANA LETTER GE
 0x25, 0x32:
+u+30b2:
     ...........@..@.
     ....@.......@..@
     .....@......@..@
@@ -8068,7 +8613,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1f3
+# [コ] KATAKANA LETTER KO
 0x25, 0x33:
+u+30b3:
     ................
     ................
     ................
@@ -8088,7 +8635,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1f4
+# [ゴ] KATAKANA LETTER GO
 0x25, 0x34:
+u+30b4:
     ...........@..@.
     ............@..@
     ............@..@
@@ -8108,7 +8657,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1f5
+# [サ] KATAKANA LETTER SA
 0x25, 0x35:
+u+30b5:
     ................
     ...@.....@......
     ....@.....@.....
@@ -8128,7 +8679,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1f6
+# [ザ] KATAKANA LETTER ZA
 0x25, 0x36:
+u+30b6:
     ...........@..@.
     ...@.....@..@..@
     ....@.....@.@..@
@@ -8148,7 +8701,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1f7
+# [シ] KATAKANA LETTER SI
 0x25, 0x37:
+u+30b7:
     ................
     ................
     ...@@...........
@@ -8168,7 +8723,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1f8
+# [ジ] KATAKANA LETTER ZI
 0x25, 0x38:
+u+30b8:
     ................
     ...........@..@.
     ...@@.......@..@
@@ -8188,7 +8745,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1f9
+# [ス] KATAKANA LETTER SU
 0x25, 0x39:
+u+30b9:
     ................
     ................
     ...........@....
@@ -8208,7 +8767,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1fa
+# [ズ] KATAKANA LETTER ZU
 0x25, 0x3a:
+u+30ba:
     ...........@..@.
     ............@..@
     ............@..@
@@ -8228,7 +8789,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1fb
+# [セ] KATAKANA LETTER SE
 0x25, 0x3b:
+u+30bb:
     ................
     ....@...........
     .....@..........
@@ -8248,7 +8811,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1fc
+# [ゼ] KATAKANA LETTER ZE
 0x25, 0x3c:
+u+30bc:
     ...........@..@.
     ....@.......@..@
     .....@......@..@
@@ -8268,7 +8833,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1fd
+# [ソ] KATAKANA LETTER SO
 0x25, 0x3d:
+u+30bd:
     ................
     ................
     ................
@@ -8288,7 +8855,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1fe
+# [ゾ] KATAKANA LETTER ZO
 0x25, 0x3e:
+u+30be:
     ..........@..@..
     ...........@..@.
     ...........@..@.
@@ -8308,7 +8877,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x1ff
+# [タ] KATAKANA LETTER TA
 0x25, 0x3f:
+u+30bf:
     ................
     ....@...........
     .....@..........
@@ -8328,7 +8899,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x200
+# [ダ] KATAKANA LETTER DA
 0x25, 0x40:
+u+30c0:
     ...........@..@.
     ....@.......@..@
     .....@......@..@
@@ -8348,7 +8921,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x201
+# [チ] KATAKANA LETTER TI
 0x25, 0x41:
+u+30c1:
     ................
     ................
     ..........@.....
@@ -8368,7 +8943,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x202
+# [ヂ] KATAKANA LETTER DI
 0x25, 0x42:
+u+30c2:
     ...........@..@.
     ............@..@
     ............@..@
@@ -8388,7 +8965,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x203
+# [ッ] KATAKANA LETTER SMALL TU
 0x25, 0x43:
+u+30c3:
     ................
     ................
     ................
@@ -8408,7 +8987,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x204
+# [ツ] KATAKANA LETTER TU
 0x25, 0x44:
+u+30c4:
     ................
     .....@..........
     ......@.....@...
@@ -8428,7 +9009,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x205
+# [ヅ] KATAKANA LETTER DU
 0x25, 0x45:
+u+30c5:
     ................
     .....@....@..@..
     ......@....@..@.
@@ -8448,7 +9031,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x206
+# [テ] KATAKANA LETTER TE
 0x25, 0x46:
+u+30c6:
     ................
     ..........@.....
     ...@....@@@@....
@@ -8468,7 +9053,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x207
+# [デ] KATAKANA LETTER DE
 0x25, 0x47:
+u+30c7:
     ...........@..@.
     ............@..@
     ...@....@@@.@..@
@@ -8488,7 +9075,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x208
+# [ト] KATAKANA LETTER TO
 0x25, 0x48:
+u+30c8:
     ................
     ...@............
     ....@...........
@@ -8508,7 +9097,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x209
+# [ド] KATAKANA LETTER DO
 0x25, 0x49:
+u+30c9:
     ................
     ...@.....@..@...
     ....@.....@..@..
@@ -8528,7 +9119,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x20a
+# [ナ] KATAKANA LETTER NA
 0x25, 0x4a:
+u+30ca:
     ................
     .......@........
     ........@.......
@@ -8548,7 +9141,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x20b
+# [ニ] KATAKANA LETTER NI
 0x25, 0x4b:
+u+30cb:
     ................
     ................
     ..........@.....
@@ -8568,7 +9163,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x20c
+# [ヌ] KATAKANA LETTER NU
 0x25, 0x4c:
+u+30cc:
     ................
     ...........@....
     ..@.....@@@@@...
@@ -8588,7 +9185,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x20d
+# [ネ] KATAKANA LETTER NE
 0x25, 0x4d:
+u+30cd:
     ................
     ....@@@.........
     .......@@.......
@@ -8608,7 +9207,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x20e
+# [ノ] KATAKANA LETTER NO
 0x25, 0x4e:
+u+30ce:
     ................
     ..........@.....
     ...........@....
@@ -8628,7 +9229,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x20f
+# [ハ] KATAKANA LETTER HA
 0x25, 0x4f:
+u+30cf:
     ................
     ................
     ................
@@ -8648,7 +9251,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x210
+# [バ] KATAKANA LETTER BA
 0x25, 0x50:
+u+30d0:
     ................
     ..........@..@..
     ...........@..@.
@@ -8668,7 +9273,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x211
+# [パ] KATAKANA LETTER PA
 0x25, 0x51:
+u+30d1:
     ................
     ............@@..
     ...........@..@.
@@ -8688,7 +9295,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x212
+# [ヒ] KATAKANA LETTER HI
 0x25, 0x52:
+u+30d2:
     ................
     ................
     ..@.............
@@ -8708,7 +9317,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x213
+# [ビ] KATAKANA LETTER BI
 0x25, 0x53:
+u+30d3:
     ................
     .........@..@...
     ..@.......@..@..
@@ -8728,7 +9339,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x214
+# [ピ] KATAKANA LETTER PI
 0x25, 0x54:
+u+30d4:
     ................
     ............@@..
     ..@........@..@.
@@ -8748,7 +9361,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x215
+# [フ] KATAKANA LETTER HU
 0x25, 0x55:
+u+30d5:
     ................
     ................
     ............@...
@@ -8768,7 +9383,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x216
+# [ブ] KATAKANA LETTER BU
 0x25, 0x56:
+u+30d6:
     ................
     ..........@..@..
     ...........@..@.
@@ -8788,7 +9405,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x217
+# [プ] KATAKANA LETTER PU
 0x25, 0x57:
+u+30d7:
     ................
     ............@@..
     ...........@..@.
@@ -8808,7 +9427,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x218
+# [ヘ] KATAKANA LETTER HE
 0x25, 0x58:
+u+30d8:
     ................
     ................
     ................
@@ -8828,7 +9449,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x219
+# [ベ] KATAKANA LETTER BE
 0x25, 0x59:
+u+30d9:
     ................
     ................
     ..........@..@..
@@ -8848,7 +9471,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x21a
+# [ペ] KATAKANA LETTER PE
 0x25, 0x5a:
+u+30da:
     ................
     ................
     ............@@..
@@ -8868,7 +9493,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x21b
+# [ホ] KATAKANA LETTER HO
 0x25, 0x5b:
+u+30db:
     ................
     ......@.........
     .......@........
@@ -8888,7 +9515,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x21c
+# [ボ] KATAKANA LETTER BO
 0x25, 0x5c:
+u+30dc:
     ................
     ......@...@..@..
     .......@...@..@.
@@ -8908,7 +9537,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x21d
+# [ポ] KATAKANA LETTER PO
 0x25, 0x5d:
+u+30dd:
     ............@@..
     ......@....@..@.
     .......@...@..@.
@@ -8928,7 +9559,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x21e
+# [マ] KATAKANA LETTER MA
 0x25, 0x5e:
+u+30de:
     ................
     ................
     ............@...
@@ -8948,7 +9581,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x21f
+# [ミ] KATAKANA LETTER MI
 0x25, 0x5f:
+u+30df:
     ................
     ...@@@..........
     ......@@@.......
@@ -8968,7 +9603,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x220
+# [ム] KATAKANA LETTER MU
 0x25, 0x60:
+u+30e0:
     ................
     ......@.........
     ......@@........
@@ -8988,7 +9625,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x221
+# [メ] KATAKANA LETTER ME
 0x25, 0x61:
+u+30e1:
     ................
     ..........@.....
     ...........@....
@@ -9008,7 +9647,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x222
+# [モ] KATAKANA LETTER MO
 0x25, 0x62:
+u+30e2:
     ................
     ..........@.....
     ..@....@@@@@....
@@ -9028,7 +9669,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x223
+# [ャ] KATAKANA LETTER SMALL YA
 0x25, 0x63:
+u+30e3:
     ................
     ................
     ................
@@ -9048,7 +9691,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x224
+# [ヤ] KATAKANA LETTER YA
 0x25, 0x64:
+u+30e4:
     ................
     ....@...........
     .....@..........
@@ -9068,7 +9713,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x225
+# [ュ] KATAKANA LETTER SMALL YU
 0x25, 0x65:
+u+30e5:
     ................
     ................
     ................
@@ -9088,7 +9735,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x226
+# [ユ] KATAKANA LETTER YU
 0x25, 0x66:
+u+30e6:
     ................
     ................
     ..........@.....
@@ -9108,7 +9757,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x227
+# [ョ] KATAKANA LETTER SMALL YO
 0x25, 0x67:
+u+30e7:
     ................
     ................
     ................
@@ -9128,7 +9779,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x228
+# [ヨ] KATAKANA LETTER YO
 0x25, 0x68:
+u+30e8:
     ................
     ................
     ............@...
@@ -9148,7 +9801,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x229
+# [ラ] KATAKANA LETTER RA
 0x25, 0x69:
+u+30e9:
     ................
     ..........@.....
     ...@...@@@@@....
@@ -9168,7 +9823,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x22a
+# [リ] KATAKANA LETTER RI
 0x25, 0x6a:
+u+30ea:
     ................
     ..........@.....
     ...@.......@....
@@ -9188,7 +9845,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x22b
+# [ル] KATAKANA LETTER RU
 0x25, 0x6b:
+u+30eb:
     ................
     ......@.........
     ...@...@........
@@ -9208,7 +9867,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x22c
+# [レ] KATAKANA LETTER RE
 0x25, 0x6c:
+u+30ec:
     ................
     ..@.............
     ...@............
@@ -9228,7 +9889,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x22d
+# [ロ] KATAKANA LETTER RO
 0x25, 0x6d:
+u+30ed:
     ................
     ................
     ............@...
@@ -9248,7 +9911,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x22e
+# [ヮ] KATAKANA LETTER SMALL WA
 0x25, 0x6e:
+u+30ee:
     ................
     ................
     ................
@@ -9268,7 +9933,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x22f
+# [ワ] KATAKANA LETTER WA
 0x25, 0x6f:
+u+30ef:
     ................
     ................
     ............@...
@@ -9288,7 +9955,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x230
+# [ヰ] KATAKANA LETTER WI
 0x25, 0x70:
+u+30f0:
     ................
     .......@........
     ........@.......
@@ -9308,7 +9977,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x231
+# [ヱ] KATAKANA LETTER WE
 0x25, 0x71:
+u+30f1:
     ................
     ................
     ...........@....
@@ -9328,7 +9999,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x232
+# [ヲ] KATAKANA LETTER WO
 0x25, 0x72:
+u+30f2:
     ................
     ................
     ............@...
@@ -9348,7 +10021,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x233
+# [ン] KATAKANA LETTER N
 0x25, 0x73:
+u+30f3:
     ................
     ................
     ..@.............
@@ -9368,7 +10043,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x234
+# [ヴ] KATAKANA LETTER VU
 0x25, 0x74:
+u+30f4:
     ..........@..@..
     ......@....@..@.
     .......@...@..@.
@@ -9388,7 +10065,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x235
+# [ヵ] KATAKANA LETTER SMALL KA
 0x25, 0x75:
+u+30f5:
     ................
     ................
     ................
@@ -9408,7 +10087,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x236
+# [ヶ] KATAKANA LETTER SMALL KE
 0x25, 0x76:
+u+30f6:
     ................
     ................
     ................
@@ -9628,7 +10309,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x241
+# [Α] GREEK CAPITAL LETTER ALPHA
 0x26, 0x21:
+u+0391:
     ................
     .......@@.......
     .......@@.......
@@ -9648,7 +10331,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x242
+# [Β] GREEK CAPITAL LETTER BETA
 0x26, 0x22:
+u+0392:
     ................
     ..@@@@@@@@......
     ..@.......@.....
@@ -9668,7 +10353,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x243
+# [Γ] GREEK CAPITAL LETTER GAMMA
 0x26, 0x23:
+u+0393:
     ................
     ....@@@@@@@@@...
     ....@...........
@@ -9688,7 +10375,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x244
+# [Δ] GREEK CAPITAL LETTER DELTA
 0x26, 0x24:
+u+0394:
     ................
     ......@@........
     ......@@........
@@ -9708,7 +10397,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x245
+# [Ε] GREEK CAPITAL LETTER EPSILON
 0x26, 0x25:
+u+0395:
     ................
     ...@@@@@@@@@....
     ...@............
@@ -9728,7 +10419,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x246
+# [Ζ] GREEK CAPITAL LETTER ZETA
 0x26, 0x26:
+u+0396:
     ................
     ...@@@@@@@@@@...
     ............@...
@@ -9748,7 +10441,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x247
+# [Η] GREEK CAPITAL LETTER ETA
 0x26, 0x27:
+u+0397:
     ................
     ..@.........@...
     ..@.........@...
@@ -9768,7 +10463,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x248
+# [Θ] GREEK CAPITAL LETTER THETA
 0x26, 0x28:
+u+0398:
     ................
     .....@@@@@......
     ....@.....@.....
@@ -9788,7 +10485,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x249
+# [Ι] GREEK CAPITAL LETTER IOTA
 0x26, 0x29:
+u+0399:
     ................
     .......@........
     .......@........
@@ -9808,7 +10507,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x24a
+# [Κ] GREEK CAPITAL LETTER KAPPA
 0x26, 0x2a:
+u+039a:
     ................
     ..@........@....
     ..@.......@.....
@@ -9828,7 +10529,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x24b
+# [Λ] GREEK CAPITAL LETTER LAMDA
 0x26, 0x2b:
+u+039b:
     ................
     .......@........
     ......@.@.......
@@ -9848,7 +10551,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x24c
+# [Μ] GREEK CAPITAL LETTER MU
 0x26, 0x2c:
+u+039c:
     ................
     .@@.........@@..
     .@.@.......@.@..
@@ -9868,7 +10573,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x24d
+# [Ν] GREEK CAPITAL LETTER NU
 0x26, 0x2d:
+u+039d:
     ................
     .@@.........@...
     .@.@........@...
@@ -9888,7 +10595,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x24e
+# [Ξ] GREEK CAPITAL LETTER XI
 0x26, 0x2e:
+u+039e:
     ................
     ..@@@@@@@@@@....
     ................
@@ -9908,7 +10617,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x24f
+# [Ο] GREEK CAPITAL LETTER OMICRON
 0x26, 0x2f:
+u+039f:
     ................
     .....@@@@@......
     ....@.....@.....
@@ -9928,7 +10639,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x250
+# [Π] GREEK CAPITAL LETTER PI
 0x26, 0x30:
+u+03a0:
     ................
     ..@@@@@@@@@@....
     ..@........@....
@@ -9948,7 +10661,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x251
+# [Ρ] GREEK CAPITAL LETTER RHO
 0x26, 0x31:
+u+03a1:
     ................
     ...@@@@@@@@.....
     ...@.......@....
@@ -9968,7 +10683,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x252
+# [Σ] GREEK CAPITAL LETTER SIGMA
 0x26, 0x32:
+u+03a3:
     ................
     ...@@@@@@@@@....
     ....@...........
@@ -9988,7 +10705,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x253
+# [Τ] GREEK CAPITAL LETTER TAU
 0x26, 0x33:
+u+03a4:
     ................
     ..@@@@@@@@@@@...
     .......@........
@@ -10008,7 +10727,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x254
+# [Υ] GREEK CAPITAL LETTER UPSILON
 0x26, 0x34:
+u+03a5:
     ................
     ...@@.....@@....
     ..@..@...@..@...
@@ -10028,7 +10749,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x255
+# [Φ] GREEK CAPITAL LETTER PHI
 0x26, 0x35:
+u+03a6:
     ................
     .......@........
     .....@@@@@......
@@ -10048,7 +10771,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x256
+# [Χ] GREEK CAPITAL LETTER CHI
 0x26, 0x36:
+u+03a7:
     ................
     ..@..........@..
     ...@........@...
@@ -10068,7 +10793,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x257
+# [Ψ] GREEK CAPITAL LETTER PSI
 0x26, 0x37:
+u+03a8:
     ................
     .@@....@....@@..
     ..@....@....@...
@@ -10088,7 +10815,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x258
+# [Ω] GREEK CAPITAL LETTER OMEGA
 0x26, 0x38:
+u+03a9:
     ................
     ......@@@.......
     ....@@...@@.....
@@ -10268,7 +10997,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x261
+# [α] GREEK SMALL LETTER ALPHA
 0x26, 0x41:
+u+03b1:
     ................
     ................
     ................
@@ -10288,7 +11019,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x262
+# [β] GREEK SMALL LETTER BETA
 0x26, 0x42:
+u+03b2:
     ................
     ......@@@.......
     .....@...@......
@@ -10308,7 +11041,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x263
+# [γ] GREEK SMALL LETTER GAMMA
 0x26, 0x43:
+u+03b3:
     ................
     ................
     ................
@@ -10328,7 +11063,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x264
+# [δ] GREEK SMALL LETTER DELTA
 0x26, 0x44:
+u+03b4:
     .......@@.......
     ......@..@......
     ......@...@.....
@@ -10348,7 +11085,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x265
+# [ε] GREEK SMALL LETTER EPSILON
 0x26, 0x45:
+u+03b5:
     ................
     ................
     ................
@@ -10368,7 +11107,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x266
+# [ζ] GREEK SMALL LETTER ZETA
 0x26, 0x46:
+u+03b6:
     .....@..........
     ....@....@@.....
     ....@..@@.......
@@ -10388,7 +11129,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x267
+# [η] GREEK SMALL LETTER ETA
 0x26, 0x47:
+u+03b7:
     ................
     ................
     ................
@@ -10408,7 +11151,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x268
+# [θ] GREEK SMALL LETTER THETA
 0x26, 0x48:
+u+03b8:
     .......@@@......
     ......@...@.....
     .....@.....@....
@@ -10428,7 +11173,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x269
+# [ι] GREEK SMALL LETTER IOTA
 0x26, 0x49:
+u+03b9:
     ................
     ................
     ................
@@ -10448,7 +11195,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x26a
+# [κ] GREEK SMALL LETTER KAPPA
 0x26, 0x4a:
+u+03ba:
     ................
     ................
     ................
@@ -10468,7 +11217,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x26b
+# [λ] GREEK SMALL LETTER LAMDA
 0x26, 0x4b:
+u+03bb:
     ........@@......
     ..........@.....
     ..........@.....
@@ -10488,7 +11239,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x26c
+# [μ] GREEK SMALL LETTER MU
 0x26, 0x4c:
+u+03bc:
     ................
     ................
     ................
@@ -10508,7 +11261,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x26d
+# [ν] GREEK SMALL LETTER NU
 0x26, 0x4d:
+u+03bd:
     ................
     ................
     ................
@@ -10528,7 +11283,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x26e
+# [ξ] GREEK SMALL LETTER XI
 0x26, 0x4e:
+u+03be:
     .......@@@......
     ......@.........
     .......@@@@@....
@@ -10548,7 +11305,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x26f
+# [ο] GREEK SMALL LETTER OMICRON
 0x26, 0x4f:
+u+03bf:
     ................
     ................
     ................
@@ -10568,7 +11327,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x270
+# [π] GREEK SMALL LETTER PI
 0x26, 0x50:
+u+03c0:
     ................
     ................
     ................
@@ -10588,7 +11349,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x271
+# [ρ] GREEK SMALL LETTER RHO
 0x26, 0x51:
+u+03c1:
     ................
     ................
     ................
@@ -10608,7 +11371,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x272
+# [σ] GREEK SMALL LETTER SIGMA
 0x26, 0x52:
+u+03c3:
     ................
     ................
     ................
@@ -10628,7 +11393,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x273
+# [τ] GREEK SMALL LETTER TAU
 0x26, 0x53:
+u+03c4:
     ................
     ................
     ................
@@ -10648,7 +11415,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x274
+# [υ] GREEK SMALL LETTER UPSILON
 0x26, 0x54:
+u+03c5:
     ................
     ................
     ................
@@ -10668,7 +11437,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x275
+# [φ] GREEK SMALL LETTER PHI
 0x26, 0x55:
+u+03c6:
     ........@.......
     ........@.......
     ........@.......
@@ -10688,7 +11459,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x276
+# [χ] GREEK SMALL LETTER CHI
 0x26, 0x56:
+u+03c7:
     ................
     ................
     ................
@@ -10708,7 +11481,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x277
+# [ψ] GREEK SMALL LETTER PSI
 0x26, 0x57:
+u+03c8:
     ........@.......
     ........@.......
     ........@.......
@@ -10728,7 +11503,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x278
+# [ω] GREEK SMALL LETTER OMEGA
 0x26, 0x58:
+u+03c9:
     ................
     ................
     ................
@@ -11548,7 +12325,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x2a1
+# [А] CYRILLIC CAPITAL LETTER A
 0x27, 0x21:
+u+0410:
     ................
     .......@@.......
     .......@@.......
@@ -11568,7 +12347,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x2a2
+# [Б] CYRILLIC CAPITAL LETTER BE
 0x27, 0x22:
+u+0411:
     ................
     ..@@@@@@@@@.....
     ..@.............
@@ -11588,7 +12369,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x2a3
+# [В] CYRILLIC CAPITAL LETTER VE
 0x27, 0x23:
+u+0412:
     ................
     ..@@@@@@@@......
     ..@.......@.....
@@ -11608,7 +12391,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x2a4
+# [Г] CYRILLIC CAPITAL LETTER GHE
 0x27, 0x24:
+u+0413:
     ................
     ....@@@@@@@@@...
     ....@...........
@@ -11628,7 +12413,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x2a5
+# [Д] CYRILLIC CAPITAL LETTER DE
 0x27, 0x25:
+u+0414:
     ................
     ....@@@@@@@.....
     ....@.....@.....
@@ -11648,7 +12435,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x2a6
+# [Е] CYRILLIC CAPITAL LETTER IE
 0x27, 0x26:
+u+0415:
     ................
     ...@@@@@@@@@....
     ...@............
@@ -11668,7 +12457,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x2a7
+# [Ё] CYRILLIC CAPITAL LETTER IO
 0x27, 0x27:
+u+0401:
     ....@@...@@.....
     ................
     ...@@@@@@@@@....
@@ -11688,7 +12479,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x2a8
+# [Ж] CYRILLIC CAPITAL LETTER ZHE
 0x27, 0x28:
+u+0416:
     ................
     .@.....@.....@..
     ..@....@....@...
@@ -11708,7 +12501,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x2a9
+# [З] CYRILLIC CAPITAL LETTER ZE
 0x27, 0x29:
+u+0417:
     ................
     .....@@@@@......
     ....@.....@.....
@@ -11728,7 +12523,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x2aa
+# [И] CYRILLIC CAPITAL LETTER I
 0x27, 0x2a:
+u+0418:
     ................
     ..@........@@...
     ..@.......@.@...
@@ -11748,7 +12545,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x2ab
+# [Й] CYRILLIC CAPITAL LETTER SHORT I
 0x27, 0x2b:
+u+0419:
     .....@...@......
     ......@@@.......
     ..@........@@...
@@ -11768,7 +12567,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x2ac
+# [К] CYRILLIC CAPITAL LETTER KA
 0x27, 0x2c:
+u+041a:
     ................
     ..@........@....
     ..@.......@.....
@@ -11788,7 +12589,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x2ad
+# [Л] CYRILLIC CAPITAL LETTER EL
 0x27, 0x2d:
+u+041b:
     ................
     .....@@@@@@@....
     .....@.....@....
@@ -11808,7 +12611,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x2ae
+# [М] CYRILLIC CAPITAL LETTER EM
 0x27, 0x2e:
+u+041c:
     ................
     ...@@.....@@....
     ...@@.....@@....
@@ -11828,7 +12633,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x2af
+# [Н] CYRILLIC CAPITAL LETTER EN
 0x27, 0x2f:
+u+041d:
     ................
     ..@.........@...
     ..@.........@...
@@ -11848,7 +12655,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x2b0
+# [О] CYRILLIC CAPITAL LETTER O
 0x27, 0x30:
+u+041e:
     ................
     .....@@@@@......
     ....@.....@.....
@@ -11868,7 +12677,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x2b1
+# [П] CYRILLIC CAPITAL LETTER PE
 0x27, 0x31:
+u+041f:
     ................
     ..@@@@@@@@@@....
     ..@........@....
@@ -11888,7 +12699,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x2b2
+# [Р] CYRILLIC CAPITAL LETTER ER
 0x27, 0x32:
+u+0420:
     ................
     ...@@@@@@@@.....
     ...@.......@....
@@ -11908,7 +12721,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x2b3
+# [С] CYRILLIC CAPITAL LETTER ES
 0x27, 0x33:
+u+0421:
     ................
     ......@@@@@.....
     ....@@.....@....
@@ -11928,7 +12743,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x2b4
+# [Т] CYRILLIC CAPITAL LETTER TE
 0x27, 0x34:
+u+0422:
     ................
     ..@@@@@@@@@@@...
     .......@........
@@ -11948,7 +12765,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x2b5
+# [У] CYRILLIC CAPITAL LETTER U
 0x27, 0x35:
+u+0423:
     ................
     ...@........@...
     ...@........@...
@@ -11968,7 +12787,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x2b6
+# [Ф] CYRILLIC CAPITAL LETTER EF
 0x27, 0x36:
+u+0424:
     ................
     .......@........
     .....@@@@@......
@@ -11988,7 +12809,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x2b7
+# [Х] CYRILLIC CAPITAL LETTER HA
 0x27, 0x37:
+u+0425:
     ................
     ..@..........@..
     ...@........@...
@@ -12008,7 +12831,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x2b8
+# [Ц] CYRILLIC CAPITAL LETTER TSE
 0x27, 0x38:
+u+0426:
     ................
     ..@........@....
     ..@........@....
@@ -12028,7 +12853,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x2b9
+# [Ч] CYRILLIC CAPITAL LETTER CHE
 0x27, 0x39:
+u+0427:
     ................
     ..@........@....
     ..@........@....
@@ -12048,7 +12875,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x2ba
+# [Ш] CYRILLIC CAPITAL LETTER SHA
 0x27, 0x3a:
+u+0428:
     ................
     .@....@.....@...
     .@....@.....@...
@@ -12068,7 +12897,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x2bb
+# [Щ] CYRILLIC CAPITAL LETTER SHCHA
 0x27, 0x3b:
+u+0429:
     ................
     .@....@.....@...
     .@....@.....@...
@@ -12088,7 +12919,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x2bc
+# [Ъ] CYRILLIC CAPITAL LETTER HARD SIGN
 0x27, 0x3c:
+u+042a:
     ................
     .@@@@...........
     ....@...........
@@ -12108,7 +12941,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x2bd
+# [Ы] CYRILLIC CAPITAL LETTER YERU
 0x27, 0x3d:
+u+042b:
     ................
     .@..........@...
     .@..........@...
@@ -12128,7 +12963,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x2be
+# [Ь] CYRILLIC CAPITAL LETTER SOFT SIGN
 0x27, 0x3e:
+u+042c:
     ................
     ..@.............
     ..@.............
@@ -12148,7 +12985,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x2bf
+# [Э] CYRILLIC CAPITAL LETTER E
 0x27, 0x3f:
+u+042d:
     ................
     ....@@@@@@......
     ...@......@.....
@@ -12168,7 +13007,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x2c0
+# [Ю] CYRILLIC CAPITAL LETTER YU
 0x27, 0x40:
+u+042e:
     ................
     .@.....@@@@@....
     .@....@.....@...
@@ -12188,7 +13029,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x2c1
+# [Я] CYRILLIC CAPITAL LETTER YA
 0x27, 0x41:
+u+042f:
     ................
     ....@@@@@@@@....
     ...@.......@....
@@ -12508,7 +13351,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x2d1
+# [а] CYRILLIC SMALL LETTER A
 0x27, 0x51:
+u+0430:
     ................
     ................
     ................
@@ -12528,7 +13373,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x2d2
+# [б] CYRILLIC SMALL LETTER BE
 0x27, 0x52:
+u+0431:
     ..........@.....
     .......@@@......
     .....@@.........
@@ -12548,7 +13395,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x2d3
+# [в] CYRILLIC SMALL LETTER VE
 0x27, 0x53:
+u+0432:
     ................
     ................
     ................
@@ -12568,7 +13417,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x2d4
+# [г] CYRILLIC SMALL LETTER GHE
 0x27, 0x54:
+u+0433:
     ................
     ................
     ................
@@ -12588,7 +13439,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x2d5
+# [д] CYRILLIC SMALL LETTER DE
 0x27, 0x55:
+u+0434:
     ................
     ................
     ................
@@ -12608,7 +13461,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x2d6
+# [е] CYRILLIC SMALL LETTER IE
 0x27, 0x56:
+u+0435:
     ................
     ................
     ................
@@ -12628,7 +13483,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x2d7
+# [ё] CYRILLIC SMALL LETTER IO
 0x27, 0x57:
+u+0451:
     ................
     .....@...@......
     ................
@@ -12648,7 +13505,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x2d8
+# [ж] CYRILLIC SMALL LETTER ZHE
 0x27, 0x58:
+u+0436:
     ................
     ................
     ................
@@ -12668,7 +13527,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x2d9
+# [з] CYRILLIC SMALL LETTER ZE
 0x27, 0x59:
+u+0437:
     ................
     ................
     ................
@@ -12688,7 +13549,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x2da
+# [и] CYRILLIC SMALL LETTER I
 0x27, 0x5a:
+u+0438:
     ................
     ................
     ................
@@ -12708,7 +13571,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x2db
+# [й] CYRILLIC SMALL LETTER SHORT I
 0x27, 0x5b:
+u+0439:
     ................
     .....@...@......
     .....@...@......
@@ -12728,7 +13593,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x2dc
+# [к] CYRILLIC SMALL LETTER KA
 0x27, 0x5c:
+u+043a:
     ................
     ................
     ................
@@ -12748,7 +13615,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x2dd
+# [л] CYRILLIC SMALL LETTER EL
 0x27, 0x5d:
+u+043b:
     ................
     ................
     ................
@@ -12768,7 +13637,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x2de
+# [м] CYRILLIC SMALL LETTER EM
 0x27, 0x5e:
+u+043c:
     ................
     ................
     ................
@@ -12788,7 +13659,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x2df
+# [н] CYRILLIC SMALL LETTER EN
 0x27, 0x5f:
+u+043d:
     ................
     ................
     ................
@@ -12808,7 +13681,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x2e0
+# [о] CYRILLIC SMALL LETTER O
 0x27, 0x60:
+u+043e:
     ................
     ................
     ................
@@ -12828,7 +13703,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x2e1
+# [п] CYRILLIC SMALL LETTER PE
 0x27, 0x61:
+u+043f:
     ................
     ................
     ................
@@ -12848,7 +13725,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x2e2
+# [р] CYRILLIC SMALL LETTER ER
 0x27, 0x62:
+u+0440:
     ................
     ................
     ................
@@ -12868,7 +13747,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x2e3
+# [с] CYRILLIC SMALL LETTER ES
 0x27, 0x63:
+u+0441:
     ................
     ................
     ................
@@ -12888,7 +13769,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x2e4
+# [т] CYRILLIC SMALL LETTER TE
 0x27, 0x64:
+u+0442:
     ................
     ................
     ................
@@ -12908,7 +13791,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x2e5
+# [у] CYRILLIC SMALL LETTER U
 0x27, 0x65:
+u+0443:
     ................
     ................
     ................
@@ -12928,7 +13813,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x2e6
+# [ф] CYRILLIC SMALL LETTER EF
 0x27, 0x66:
+u+0444:
     .......@........
     .......@........
     .......@........
@@ -12948,7 +13835,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x2e7
+# [х] CYRILLIC SMALL LETTER HA
 0x27, 0x67:
+u+0445:
     ................
     ................
     ................
@@ -12968,7 +13857,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x2e8
+# [ц] CYRILLIC SMALL LETTER TSE
 0x27, 0x68:
+u+0446:
     ................
     ................
     ................
@@ -12988,7 +13879,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x2e9
+# [ч] CYRILLIC SMALL LETTER CHE
 0x27, 0x69:
+u+0447:
     ................
     ................
     ................
@@ -13008,7 +13901,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x2ea
+# [ш] CYRILLIC SMALL LETTER SHA
 0x27, 0x6a:
+u+0448:
     ................
     ................
     ................
@@ -13028,7 +13923,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x2eb
+# [щ] CYRILLIC SMALL LETTER SHCHA
 0x27, 0x6b:
+u+0449:
     ................
     ................
     ................
@@ -13048,7 +13945,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x2ec
+# [ъ] CYRILLIC SMALL LETTER HARD SIGN
 0x27, 0x6c:
+u+044a:
     ................
     ................
     ................
@@ -13068,7 +13967,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x2ed
+# [ы] CYRILLIC SMALL LETTER YERU
 0x27, 0x6d:
+u+044b:
     ................
     ................
     ................
@@ -13088,7 +13989,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x2ee
+# [ь] CYRILLIC SMALL LETTER SOFT SIGN
 0x27, 0x6e:
+u+044c:
     ................
     ................
     ................
@@ -13108,7 +14011,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x2ef
+# [э] CYRILLIC SMALL LETTER E
 0x27, 0x6f:
+u+044d:
     ................
     ................
     ................
@@ -13128,7 +14033,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x2f0
+# [ю] CYRILLIC SMALL LETTER YU
 0x27, 0x70:
+u+044e:
     ................
     ................
     ................
@@ -13148,7 +14055,9 @@ source-url: http://bluemsx.msxblue.com/
 
 
 # 0x2f1
+# [я] CYRILLIC SMALL LETTER YA
 0x27, 0x71:
+u+044f:
     ................
     ................
     ................
