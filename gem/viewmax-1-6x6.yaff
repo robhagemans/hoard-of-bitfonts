@@ -4,10 +4,11 @@ cell-size: 6 6
 point-size: 8
 ascent: 5
 descent: 1
+encoding: cp850
 converter: monobit v0.32
-source-name: v1-cga-6x6.fnt
+source-name: cgafont0.a86
+source-url: https://www.seasip.info/Gem/Software/v1drvs.zip
 source-format: gdos
-history: load --format=gdos
 gdos: font-id=1 left-offset=0 right-offset=2
 shift-up: -1
 
@@ -19,6 +20,9 @@ shift-up: -1
     ......
     ......
 
+
+# [☺] WHITE SMILING FACE
+u+263a:
 0x01:
     .@@@@.
     @....@
@@ -27,6 +31,9 @@ shift-up: -1
     @.@@.@
     .@@@@.
 
+
+# [☻] BLACK SMILING FACE
+u+263b:
 0x02:
     .@@@@.
     @@@@@@
@@ -35,6 +42,9 @@ shift-up: -1
     @@..@@
     .@@@@.
 
+
+# [♥] BLACK HEART SUIT
+u+2665:
 0x03:
     ......
     ..@.@.
@@ -43,6 +53,9 @@ shift-up: -1
     ...@..
     ......
 
+
+# [♦] BLACK DIAMOND SUIT
+u+2666:
 0x04:
     ......
     ...@..
@@ -51,6 +64,9 @@ shift-up: -1
     ...@..
     ......
 
+
+# [♣] BLACK CLUB SUIT
+u+2663:
 0x05:
     ......
     ...@..
@@ -59,6 +75,9 @@ shift-up: -1
     ...@..
     ......
 
+
+# [♠] BLACK SPADE SUIT
+u+2660:
 0x06:
     ......
     ...@..
@@ -67,6 +86,9 @@ shift-up: -1
     ...@..
     ......
 
+
+# [•] BULLET
+u+2022:
 0x07:
     ......
     ......
@@ -75,6 +97,9 @@ shift-up: -1
     ......
     ......
 
+
+# [◘] INVERSE BULLET
+u+25d8:
 0x08:
     @@@@@@
     @@@@@@
@@ -83,6 +108,9 @@ shift-up: -1
     @@@@@@
     @@@@@@
 
+
+# [○] WHITE CIRCLE
+u+25cb:
 0x09:
     ......
     ..@@..
@@ -91,6 +119,9 @@ shift-up: -1
     ..@@..
     ......
 
+
+# [◙] INVERSE WHITE CIRCLE
+u+25d9:
 0x0a:
     @@@@@@
     @@..@@
@@ -99,6 +130,9 @@ shift-up: -1
     @@..@@
     @@@@@@
 
+
+# [♂] MALE SIGN
+u+2642:
 0x0b:
     ....@.
     ..@@..
@@ -107,6 +141,9 @@ shift-up: -1
     ..@@..
     ......
 
+
+# [♀] FEMALE SIGN
+u+2640:
 0x0c:
     ......
     ..@@..
@@ -115,6 +152,9 @@ shift-up: -1
     ..@@..
     ......
 
+
+# [♪] EIGHTH NOTE
+u+266a:
 0x0d:
     ...@..
     ...@@.
@@ -123,6 +163,9 @@ shift-up: -1
     .@@...
     ......
 
+
+# [♫] BEAMED EIGHTH NOTES
+u+266b:
 0x0e:
     ....@@
     ..@@.@
@@ -131,6 +174,9 @@ shift-up: -1
     @@.@@.
     @@....
 
+
+# [☼] WHITE SUN WITH RAYS
+u+263c:
 0x0f:
     ..@.@.
     @.@@..
@@ -139,6 +185,9 @@ shift-up: -1
     ..@@.@
     .@.@..
 
+
+# [►] BLACK RIGHT-POINTING POINTER
+u+25ba:
 0x10:
     ......
     .@@...
@@ -147,6 +196,9 @@ shift-up: -1
     ......
     ......
 
+
+# [◄] BLACK LEFT-POINTING POINTER
+u+25c4:
 0x11:
     ......
     ...@@.
@@ -155,6 +207,9 @@ shift-up: -1
     ......
     ......
 
+
+# [↕] UP DOWN ARROW
+u+2195:
 0x12:
     ...@..
     ..@@@.
@@ -163,6 +218,9 @@ shift-up: -1
     ...@..
     ......
 
+
+# [‼] DOUBLE EXCLAMATION MARK
+u+203c:
 0x13:
     .@..@.
     .@..@.
@@ -171,6 +229,9 @@ shift-up: -1
     .@..@.
     ......
 
+
+# [¶] PILCROW SIGN
+u+00b6:
 0x14:
     .@@@@@
     @@@.@.
@@ -179,6 +240,9 @@ shift-up: -1
     ..@.@.
     ......
 
+
+# [§] SECTION SIGN
+u+00a7:
 0x15:
     ..@@..
     .@....
@@ -187,6 +251,9 @@ shift-up: -1
     ....@.
     ..@@..
 
+
+# [▬] BLACK RECTANGLE
+u+25ac:
 0x16:
     ......
     ......
@@ -195,6 +262,9 @@ shift-up: -1
     ......
     ......
 
+
+# [↨] UP DOWN ARROW WITH BASE
+u+21a8:
 0x17:
     ...@..
     ..@@@.
@@ -203,6 +273,9 @@ shift-up: -1
     ...@..
     .@@@@@
 
+
+# [↑] UPWARDS ARROW
+u+2191:
 0x18:
     ...@..
     ..@@@.
@@ -211,6 +284,9 @@ shift-up: -1
     ...@..
     ......
 
+
+# [↓] DOWNWARDS ARROW
+u+2193:
 0x19:
     ...@..
     ...@..
@@ -219,6 +295,9 @@ shift-up: -1
     ...@..
     ......
 
+
+# [→] RIGHTWARDS ARROW
+u+2192:
 0x1a:
     ......
     ...@..
@@ -227,6 +306,9 @@ shift-up: -1
     ......
     ......
 
+
+# [←] LEFTWARDS ARROW
+u+2190:
 0x1b:
     ......
     ..@...
@@ -235,6 +317,9 @@ shift-up: -1
     ......
     ......
 
+
+# [∟] RIGHT ANGLE
+u+221f:
 0x1c:
     ......
     @.....
@@ -243,6 +328,9 @@ shift-up: -1
     ......
     ......
 
+
+# [↔] LEFT RIGHT ARROW
+u+2194:
 0x1d:
     ......
     .@..@.
@@ -251,6 +339,9 @@ shift-up: -1
     ......
     ......
 
+
+# [▲] BLACK UP-POINTING TRIANGLE
+u+25b2:
 0x1e:
     ......
     ...@..
@@ -259,6 +350,9 @@ shift-up: -1
     ......
     ......
 
+
+# [▼] BLACK DOWN-POINTING TRIANGLE
+u+25bc:
 0x1f:
     ......
     .@@@@@
@@ -267,6 +361,9 @@ shift-up: -1
     ......
     ......
 
+
+# [ ] SPACE
+u+0020:
 0x20:
     ......
     ......
@@ -275,6 +372,9 @@ shift-up: -1
     ......
     ......
 
+
+# [!] EXCLAMATION MARK
+u+0021:
 0x21:
     ...@..
     ...@..
@@ -283,6 +383,9 @@ shift-up: -1
     ...@..
     ......
 
+
+# ["] QUOTATION MARK
+u+0022:
 0x22:
     .@..@.
     .@..@.
@@ -291,6 +394,9 @@ shift-up: -1
     ......
     ......
 
+
+# [#] NUMBER SIGN
+u+0023:
 0x23:
     ..@.@.
     .@@@@@
@@ -299,6 +405,9 @@ shift-up: -1
     ..@.@.
     ......
 
+
+# [$] DOLLAR SIGN
+u+0024:
 0x24:
     ...@..
     ..@@@.
@@ -307,6 +416,9 @@ shift-up: -1
     .@@@..
     ..@...
 
+
+# [%] PERCENT SIGN
+u+0025:
 0x25:
     .@@..@
     .@@.@.
@@ -315,6 +427,9 @@ shift-up: -1
     .@..@@
     ......
 
+
+# [&] AMPERSAND
+u+0026:
 0x26:
     ..@...
     .@.@..
@@ -323,6 +438,9 @@ shift-up: -1
     ..@@.@
     ......
 
+
+# ['] APOSTROPHE
+u+0027:
 0x27:
     ..@@..
     ...@..
@@ -331,6 +449,9 @@ shift-up: -1
     ......
     ......
 
+
+# [(] LEFT PARENTHESIS
+u+0028:
 0x28:
     ...@..
     ..@...
@@ -339,6 +460,9 @@ shift-up: -1
     ...@..
     ......
 
+
+# [)] RIGHT PARENTHESIS
+u+0029:
 0x29:
     ..@...
     ...@..
@@ -347,6 +471,9 @@ shift-up: -1
     ..@...
     ......
 
+
+# [*] ASTERISK
+u+002a:
 0x2a:
     .@..@.
     ..@@..
@@ -355,6 +482,9 @@ shift-up: -1
     .@..@.
     ......
 
+
+# [+] PLUS SIGN
+u+002b:
 0x2b:
     ......
     ...@..
@@ -363,6 +493,9 @@ shift-up: -1
     ......
     ......
 
+
+# [,] COMMA
+u+002c:
 0x2c:
     ......
     ......
@@ -371,6 +504,9 @@ shift-up: -1
     ...@..
     ..@...
 
+
+# [-] HYPHEN-MINUS
+u+002d:
 0x2d:
     ......
     ......
@@ -379,6 +515,9 @@ shift-up: -1
     ......
     ......
 
+
+# [.] FULL STOP
+u+002e:
 0x2e:
     ......
     ......
@@ -387,6 +526,9 @@ shift-up: -1
     ..@@..
     ......
 
+
+# [/] SOLIDUS
+u+002f:
 0x2f:
     .....@
     ....@.
@@ -395,6 +537,9 @@ shift-up: -1
     .@....
     ......
 
+
+# [0] DIGIT ZERO
+u+0030:
 0x30:
     ..@@@.
     .@..@.
@@ -403,6 +548,9 @@ shift-up: -1
     .@@@..
     ......
 
+
+# [1] DIGIT ONE
+u+0031:
 0x31:
     ...@..
     ..@@..
@@ -411,6 +559,9 @@ shift-up: -1
     ..@@@.
     ......
 
+
+# [2] DIGIT TWO
+u+0032:
 0x32:
     .@@@..
     ....@.
@@ -419,6 +570,9 @@ shift-up: -1
     .@@@@.
     ......
 
+
+# [3] DIGIT THREE
+u+0033:
 0x33:
     .@@@..
     ....@.
@@ -427,6 +581,9 @@ shift-up: -1
     .@@@..
     ......
 
+
+# [4] DIGIT FOUR
+u+0034:
 0x34:
     ....@.
     ...@@.
@@ -435,6 +592,9 @@ shift-up: -1
     ....@.
     ......
 
+
+# [5] DIGIT FIVE
+u+0035:
 0x35:
     .@@@@.
     .@....
@@ -443,6 +603,9 @@ shift-up: -1
     .@@@..
     ......
 
+
+# [6] DIGIT SIX
+u+0036:
 0x36:
     ...@@.
     ..@...
@@ -451,6 +614,9 @@ shift-up: -1
     ..@@..
     ......
 
+
+# [7] DIGIT SEVEN
+u+0037:
 0x37:
     .@@@@.
     ....@.
@@ -459,6 +625,9 @@ shift-up: -1
     ..@...
     ......
 
+
+# [8] DIGIT EIGHT
+u+0038:
 0x38:
     ..@@..
     .@..@.
@@ -467,6 +636,9 @@ shift-up: -1
     ..@@..
     ......
 
+
+# [9] DIGIT NINE
+u+0039:
 0x39:
     ..@@..
     .@..@.
@@ -475,6 +647,9 @@ shift-up: -1
     .@@...
     ......
 
+
+# [:] COLON
+u+003a:
 0x3a:
     ......
     ..@@..
@@ -483,6 +658,9 @@ shift-up: -1
     ..@@..
     ......
 
+
+# [;] SEMICOLON
+u+003b:
 0x3b:
     ......
     ..@@..
@@ -491,6 +669,9 @@ shift-up: -1
     ...@..
     ..@...
 
+
+# [<] LESS-THAN SIGN
+u+003c:
 0x3c:
     ...@..
     ..@...
@@ -499,6 +680,9 @@ shift-up: -1
     ...@..
     ......
 
+
+# [=] EQUALS SIGN
+u+003d:
 0x3d:
     ......
     .@@@@.
@@ -507,6 +691,9 @@ shift-up: -1
     ......
     ......
 
+
+# [>] GREATER-THAN SIGN
+u+003e:
 0x3e:
     ..@...
     ...@..
@@ -515,6 +702,9 @@ shift-up: -1
     ..@...
     ......
 
+
+# [?] QUESTION MARK
+u+003f:
 0x3f:
     .@@@..
     ....@.
@@ -523,6 +713,9 @@ shift-up: -1
     ..@@..
     ......
 
+
+# [@] COMMERCIAL AT
+u+0040:
 0x40:
     ..@@@.
     .@...@
@@ -531,6 +724,9 @@ shift-up: -1
     .@....
     ..@@@.
 
+
+# [A] LATIN CAPITAL LETTER A
+u+0041:
 0x41:
     ..@@..
     .@..@.
@@ -539,6 +735,9 @@ shift-up: -1
     .@..@.
     ......
 
+
+# [B] LATIN CAPITAL LETTER B
+u+0042:
 0x42:
     .@@@..
     .@..@.
@@ -547,6 +746,9 @@ shift-up: -1
     .@@@..
     ......
 
+
+# [C] LATIN CAPITAL LETTER C
+u+0043:
 0x43:
     ..@@@.
     .@....
@@ -555,6 +757,9 @@ shift-up: -1
     ..@@@.
     ......
 
+
+# [D] LATIN CAPITAL LETTER D
+u+0044:
 0x44:
     .@@@..
     .@..@.
@@ -563,6 +768,9 @@ shift-up: -1
     .@@@..
     ......
 
+
+# [E] LATIN CAPITAL LETTER E
+u+0045:
 0x45:
     .@@@@.
     .@....
@@ -571,6 +779,9 @@ shift-up: -1
     .@@@@.
     ......
 
+
+# [F] LATIN CAPITAL LETTER F
+u+0046:
 0x46:
     .@@@@.
     .@....
@@ -579,6 +790,9 @@ shift-up: -1
     .@....
     ......
 
+
+# [G] LATIN CAPITAL LETTER G
+u+0047:
 0x47:
     ..@@@.
     .@....
@@ -587,6 +801,9 @@ shift-up: -1
     ..@@@.
     ......
 
+
+# [H] LATIN CAPITAL LETTER H
+u+0048:
 0x48:
     .@..@.
     .@..@.
@@ -595,6 +812,9 @@ shift-up: -1
     .@..@.
     ......
 
+
+# [I] LATIN CAPITAL LETTER I
+u+0049:
 0x49:
     ..@@@.
     ...@..
@@ -603,6 +823,9 @@ shift-up: -1
     ..@@@.
     ......
 
+
+# [J] LATIN CAPITAL LETTER J
+u+004a:
 0x4a:
     ....@.
     ....@.
@@ -611,6 +834,9 @@ shift-up: -1
     ..@@..
     ......
 
+
+# [K] LATIN CAPITAL LETTER K
+u+004b:
 0x4b:
     .@..@.
     .@.@..
@@ -619,6 +845,9 @@ shift-up: -1
     .@..@.
     ......
 
+
+# [L] LATIN CAPITAL LETTER L
+u+004c:
 0x4c:
     .@....
     .@....
@@ -627,6 +856,9 @@ shift-up: -1
     .@@@@.
     ......
 
+
+# [M] LATIN CAPITAL LETTER M
+u+004d:
 0x4d:
     .@...@
     .@@.@@
@@ -635,6 +867,9 @@ shift-up: -1
     .@...@
     ......
 
+
+# [N] LATIN CAPITAL LETTER N
+u+004e:
 0x4e:
     .@...@
     .@@..@
@@ -643,6 +878,9 @@ shift-up: -1
     .@...@
     ......
 
+
+# [O] LATIN CAPITAL LETTER O
+u+004f:
 0x4f:
     ..@@..
     .@..@.
@@ -651,6 +889,9 @@ shift-up: -1
     ..@@..
     ......
 
+
+# [P] LATIN CAPITAL LETTER P
+u+0050:
 0x50:
     .@@@..
     .@..@.
@@ -659,6 +900,9 @@ shift-up: -1
     .@....
     ......
 
+
+# [Q] LATIN CAPITAL LETTER Q
+u+0051:
 0x51:
     ..@@..
     .@..@.
@@ -667,6 +911,9 @@ shift-up: -1
     ..@@..
     ...@@.
 
+
+# [R] LATIN CAPITAL LETTER R
+u+0052:
 0x52:
     .@@@..
     .@..@.
@@ -675,6 +922,9 @@ shift-up: -1
     .@...@
     ......
 
+
+# [S] LATIN CAPITAL LETTER S
+u+0053:
 0x53:
     ..@@@.
     .@....
@@ -683,6 +933,9 @@ shift-up: -1
     .@@@..
     ......
 
+
+# [T] LATIN CAPITAL LETTER T
+u+0054:
 0x54:
     .@@@@@
     ...@..
@@ -691,6 +944,9 @@ shift-up: -1
     ...@..
     ......
 
+
+# [U] LATIN CAPITAL LETTER U
+u+0055:
 0x55:
     .@..@.
     .@..@.
@@ -699,6 +955,9 @@ shift-up: -1
     .@@@@.
     ......
 
+
+# [V] LATIN CAPITAL LETTER V
+u+0056:
 0x56:
     .@..@.
     .@..@.
@@ -707,6 +966,9 @@ shift-up: -1
     ..@...
     ......
 
+
+# [W] LATIN CAPITAL LETTER W
+u+0057:
 0x57:
     .@...@
     .@...@
@@ -715,6 +977,9 @@ shift-up: -1
     .@...@
     ......
 
+
+# [X] LATIN CAPITAL LETTER X
+u+0058:
 0x58:
     .@...@
     ..@.@.
@@ -723,6 +988,9 @@ shift-up: -1
     .@...@
     ......
 
+
+# [Y] LATIN CAPITAL LETTER Y
+u+0059:
 0x59:
     .@...@
     .@...@
@@ -731,6 +999,9 @@ shift-up: -1
     ...@..
     ......
 
+
+# [Z] LATIN CAPITAL LETTER Z
+u+005a:
 0x5a:
     .@@@@.
     ...@..
@@ -739,6 +1010,9 @@ shift-up: -1
     .@@@@.
     ......
 
+
+# [[] LEFT SQUARE BRACKET
+u+005b:
 0x5b:
     ..@@@.
     ..@...
@@ -747,6 +1021,9 @@ shift-up: -1
     ..@@@.
     ......
 
+
+# [\] REVERSE SOLIDUS
+u+005c:
 0x5c:
     .@....
     ..@...
@@ -755,6 +1032,9 @@ shift-up: -1
     .....@
     ......
 
+
+# []] RIGHT SQUARE BRACKET
+u+005d:
 0x5d:
     .@@@..
     ...@..
@@ -763,6 +1043,9 @@ shift-up: -1
     .@@@..
     ......
 
+
+# [^] CIRCUMFLEX ACCENT
+u+005e:
 0x5e:
     ...@..
     ..@.@.
@@ -771,6 +1054,9 @@ shift-up: -1
     ......
     ......
 
+
+# [_] LOW LINE
+u+005f:
 0x5f:
     ......
     ......
@@ -779,6 +1065,9 @@ shift-up: -1
     ......
     @@@@@@
 
+
+# [`] GRAVE ACCENT
+u+0060:
 0x60:
     ..@@..
     ..@...
@@ -787,6 +1076,9 @@ shift-up: -1
     ......
     ......
 
+
+# [a] LATIN SMALL LETTER A
+u+0061:
 0x61:
     ......
     ..@@@.
@@ -795,6 +1087,9 @@ shift-up: -1
     ..@@@.
     ......
 
+
+# [b] LATIN SMALL LETTER B
+u+0062:
 0x62:
     .@....
     .@@@..
@@ -803,6 +1098,9 @@ shift-up: -1
     .@@@..
     ......
 
+
+# [c] LATIN SMALL LETTER C
+u+0063:
 0x63:
     ......
     ..@@@.
@@ -811,6 +1109,9 @@ shift-up: -1
     ..@@@.
     ......
 
+
+# [d] LATIN SMALL LETTER D
+u+0064:
 0x64:
     ....@.
     ..@@@.
@@ -819,6 +1120,9 @@ shift-up: -1
     ..@@@.
     ......
 
+
+# [e] LATIN SMALL LETTER E
+u+0065:
 0x65:
     ......
     ..@@..
@@ -827,6 +1131,9 @@ shift-up: -1
     ..@@@.
     ......
 
+
+# [f] LATIN SMALL LETTER F
+u+0066:
 0x66:
     ...@@@
     ..@...
@@ -835,6 +1142,9 @@ shift-up: -1
     ..@...
     ......
 
+
+# [g] LATIN SMALL LETTER G
+u+0067:
 0x67:
     ......
     ..@@@.
@@ -843,6 +1153,9 @@ shift-up: -1
     ....@.
     .@@@..
 
+
+# [h] LATIN SMALL LETTER H
+u+0068:
 0x68:
     .@....
     .@@@..
@@ -851,6 +1164,9 @@ shift-up: -1
     .@..@.
     ......
 
+
+# [i] LATIN SMALL LETTER I
+u+0069:
 0x69:
     ...@..
     .@@@..
@@ -859,6 +1175,9 @@ shift-up: -1
     .@@@@.
     ......
 
+
+# [j] LATIN SMALL LETTER J
+u+006a:
 0x6a:
     ...@..
     .@@@..
@@ -867,6 +1186,9 @@ shift-up: -1
     ...@..
     .@@...
 
+
+# [k] LATIN SMALL LETTER K
+u+006b:
 0x6b:
     .@....
     .@..@.
@@ -875,6 +1197,9 @@ shift-up: -1
     .@..@.
     ......
 
+
+# [l] LATIN SMALL LETTER L
+u+006c:
 0x6c:
     ..@@..
     ...@..
@@ -883,6 +1208,9 @@ shift-up: -1
     .@@@@.
     ......
 
+
+# [m] LATIN SMALL LETTER M
+u+006d:
 0x6d:
     ......
     .@@.@.
@@ -891,6 +1219,9 @@ shift-up: -1
     .@...@
     ......
 
+
+# [n] LATIN SMALL LETTER N
+u+006e:
 0x6e:
     ......
     .@@@..
@@ -899,6 +1230,9 @@ shift-up: -1
     .@..@.
     ......
 
+
+# [o] LATIN SMALL LETTER O
+u+006f:
 0x6f:
     ......
     ..@@..
@@ -907,6 +1241,9 @@ shift-up: -1
     ..@@..
     ......
 
+
+# [p] LATIN SMALL LETTER P
+u+0070:
 0x70:
     ......
     .@@@..
@@ -915,6 +1252,9 @@ shift-up: -1
     .@@@..
     .@....
 
+
+# [q] LATIN SMALL LETTER Q
+u+0071:
 0x71:
     ......
     ..@@@.
@@ -923,6 +1263,9 @@ shift-up: -1
     ..@@@.
     ....@.
 
+
+# [r] LATIN SMALL LETTER R
+u+0072:
 0x72:
     ......
     .@.@@.
@@ -931,6 +1274,9 @@ shift-up: -1
     .@....
     ......
 
+
+# [s] LATIN SMALL LETTER S
+u+0073:
 0x73:
     ......
     ..@@@.
@@ -939,6 +1285,9 @@ shift-up: -1
     .@@@..
     ......
 
+
+# [t] LATIN SMALL LETTER T
+u+0074:
 0x74:
     ..@...
     .@@@@.
@@ -947,6 +1296,9 @@ shift-up: -1
     ...@@.
     ......
 
+
+# [u] LATIN SMALL LETTER U
+u+0075:
 0x75:
     ......
     .@..@.
@@ -955,6 +1307,9 @@ shift-up: -1
     ..@@@.
     ......
 
+
+# [v] LATIN SMALL LETTER V
+u+0076:
 0x76:
     ......
     .@..@.
@@ -963,6 +1318,9 @@ shift-up: -1
     ..@...
     ......
 
+
+# [w] LATIN SMALL LETTER W
+u+0077:
 0x77:
     ......
     .@...@
@@ -971,6 +1329,9 @@ shift-up: -1
     ..@.@.
     ......
 
+
+# [x] LATIN SMALL LETTER X
+u+0078:
 0x78:
     ......
     .@..@.
@@ -979,6 +1340,9 @@ shift-up: -1
     .@..@.
     ......
 
+
+# [y] LATIN SMALL LETTER Y
+u+0079:
 0x79:
     ......
     .@..@.
@@ -987,6 +1351,9 @@ shift-up: -1
     ..@...
     .@....
 
+
+# [z] LATIN SMALL LETTER Z
+u+007a:
 0x7a:
     ......
     .@@@@.
@@ -995,6 +1362,9 @@ shift-up: -1
     .@@@@.
     ......
 
+
+# [{] LEFT CURLY BRACKET
+u+007b:
 0x7b:
     ...@@.
     ...@..
@@ -1003,6 +1373,9 @@ shift-up: -1
     ...@@.
     ......
 
+
+# [|] VERTICAL LINE
+u+007c:
 0x7c:
     ...@..
     ...@..
@@ -1011,6 +1384,9 @@ shift-up: -1
     ...@..
     ...@..
 
+
+# [}] RIGHT CURLY BRACKET
+u+007d:
 0x7d:
     .@@...
     ..@...
@@ -1019,6 +1395,9 @@ shift-up: -1
     .@@...
     ......
 
+
+# [~] TILDE
+u+007e:
 0x7e:
     ..@..@
     .@.@.@
@@ -1027,6 +1406,9 @@ shift-up: -1
     ......
     ......
 
+
+# [⌂] HOUSE
+u+2302:
 0x7f:
     ...@..
     ..@.@.
@@ -1035,6 +1417,9 @@ shift-up: -1
     .@@@@@
     ......
 
+
+# [Ç] LATIN CAPITAL LETTER C WITH CEDILLA
+u+00c7:
 0x80:
     ..@@@.
     .@....
@@ -1043,6 +1428,9 @@ shift-up: -1
     ..@@@.
     .@@...
 
+
+# [ü] LATIN SMALL LETTER U WITH DIAERESIS
+u+00fc:
 0x81:
     .@..@.
     ......
@@ -1051,6 +1439,9 @@ shift-up: -1
     ..@@@.
     ......
 
+
+# [é] LATIN SMALL LETTER E WITH ACUTE
+u+00e9:
 0x82:
     ....@.
     ...@..
@@ -1059,6 +1450,9 @@ shift-up: -1
     ..@@@.
     ......
 
+
+# [â] LATIN SMALL LETTER A WITH CIRCUMFLEX
+u+00e2:
 0x83:
     ...@..
     ..@.@.
@@ -1067,6 +1461,9 @@ shift-up: -1
     ..@@@.
     ......
 
+
+# [ä] LATIN SMALL LETTER A WITH DIAERESIS
+u+00e4:
 0x84:
     .@..@.
     ......
@@ -1075,6 +1472,9 @@ shift-up: -1
     ..@@@.
     ......
 
+
+# [à] LATIN SMALL LETTER A WITH GRAVE
+u+00e0:
 0x85:
     .@....
     ..@...
@@ -1083,6 +1483,9 @@ shift-up: -1
     ..@@@.
     ......
 
+
+# [å] LATIN SMALL LETTER A WITH RING ABOVE
+u+00e5:
 0x86:
     ..@@@.
     ..@.@.
@@ -1091,6 +1494,9 @@ shift-up: -1
     ..@@@.
     ......
 
+
+# [ç] LATIN SMALL LETTER C WITH CEDILLA
+u+00e7:
 0x87:
     ......
     ..@@@.
@@ -1099,6 +1505,9 @@ shift-up: -1
     ..@@@.
     .@@...
 
+
+# [ê] LATIN SMALL LETTER E WITH CIRCUMFLEX
+u+00ea:
 0x88:
     ...@..
     ..@.@.
@@ -1107,6 +1516,9 @@ shift-up: -1
     ..@@@.
     ......
 
+
+# [ë] LATIN SMALL LETTER E WITH DIAERESIS
+u+00eb:
 0x89:
     .@..@.
     ......
@@ -1115,6 +1527,9 @@ shift-up: -1
     ..@@@.
     ......
 
+
+# [è] LATIN SMALL LETTER E WITH GRAVE
+u+00e8:
 0x8a:
     .@....
     ..@...
@@ -1123,6 +1538,9 @@ shift-up: -1
     ..@@@.
     ......
 
+
+# [ï] LATIN SMALL LETTER I WITH DIAERESIS
+u+00ef:
 0x8b:
     .@..@.
     ......
@@ -1131,6 +1549,9 @@ shift-up: -1
     .@@@@.
     ......
 
+
+# [î] LATIN SMALL LETTER I WITH CIRCUMFLEX
+u+00ee:
 0x8c:
     ..@@..
     .@..@.
@@ -1139,6 +1560,9 @@ shift-up: -1
     .@@@@.
     ......
 
+
+# [ì] LATIN SMALL LETTER I WITH GRAVE
+u+00ec:
 0x8d:
     .@....
     ..@...
@@ -1147,6 +1571,9 @@ shift-up: -1
     .@@@@.
     ......
 
+
+# [Ä] LATIN CAPITAL LETTER A WITH DIAERESIS
+u+00c4:
 0x8e:
     .@..@.
     ..@@..
@@ -1155,6 +1582,9 @@ shift-up: -1
     .@..@.
     ......
 
+
+# [Å] LATIN CAPITAL LETTER A WITH RING ABOVE
+u+00c5:
 0x8f:
     ..@@..
     ..@@..
@@ -1163,6 +1593,9 @@ shift-up: -1
     .@..@.
     ......
 
+
+# [É] LATIN CAPITAL LETTER E WITH ACUTE
+u+00c9:
 0x90:
     ...@@.
     .@@@@.
@@ -1171,6 +1604,9 @@ shift-up: -1
     .@@@@.
     ......
 
+
+# [æ] LATIN SMALL LETTER AE
+u+00e6:
 0x91:
     ......
     .@@.@@
@@ -1179,6 +1615,9 @@ shift-up: -1
     ..@@@@
     ......
 
+
+# [Æ] LATIN CAPITAL LETTER AE
+u+00c6:
 0x92:
     ..@@@@
     .@.@..
@@ -1187,6 +1626,9 @@ shift-up: -1
     .@.@@@
     ......
 
+
+# [ô] LATIN SMALL LETTER O WITH CIRCUMFLEX
+u+00f4:
 0x93:
     ...@..
     ..@.@.
@@ -1195,6 +1637,9 @@ shift-up: -1
     ..@@..
     ......
 
+
+# [ö] LATIN SMALL LETTER O WITH DIAERESIS
+u+00f6:
 0x94:
     .@..@.
     ......
@@ -1203,6 +1648,9 @@ shift-up: -1
     ..@@..
     ......
 
+
+# [ò] LATIN SMALL LETTER O WITH GRAVE
+u+00f2:
 0x95:
     .@....
     ..@...
@@ -1211,6 +1659,9 @@ shift-up: -1
     ..@@..
     ......
 
+
+# [û] LATIN SMALL LETTER U WITH CIRCUMFLEX
+u+00fb:
 0x96:
     ...@..
     ..@.@.
@@ -1219,6 +1670,9 @@ shift-up: -1
     ..@@@.
     ......
 
+
+# [ù] LATIN SMALL LETTER U WITH GRAVE
+u+00f9:
 0x97:
     .@....
     ..@...
@@ -1227,6 +1681,9 @@ shift-up: -1
     ..@@@.
     ......
 
+
+# [ÿ] LATIN SMALL LETTER Y WITH DIAERESIS
+u+00ff:
 0x98:
     .@..@.
     ......
@@ -1235,6 +1692,9 @@ shift-up: -1
     ..@...
     .@....
 
+
+# [Ö] LATIN CAPITAL LETTER O WITH DIAERESIS
+u+00d6:
 0x99:
     .@..@.
     ..@@..
@@ -1243,6 +1703,9 @@ shift-up: -1
     ..@@..
     ......
 
+
+# [Ü] LATIN CAPITAL LETTER U WITH DIAERESIS
+u+00dc:
 0x9a:
     .@..@.
     ......
@@ -1251,6 +1714,9 @@ shift-up: -1
     .@@@@.
     ......
 
+
+# [ø] LATIN SMALL LETTER O WITH STROKE
+u+00f8:
 0x9b:
     ....@.
     ..@@..
@@ -1259,6 +1725,9 @@ shift-up: -1
     ..@@..
     .@....
 
+
+# [£] POUND SIGN
+u+00a3:
 0x9c:
     ...@@.
     ..@...
@@ -1267,6 +1736,9 @@ shift-up: -1
     .@@@@.
     ......
 
+
+# [Ø] LATIN CAPITAL LETTER O WITH STROKE
+u+00d8:
 0x9d:
     ..@@.@
     .@..@.
@@ -1275,6 +1747,9 @@ shift-up: -1
     @.@@..
     ......
 
+
+# [×] MULTIPLICATION SIGN
+u+00d7:
 0x9e:
     ......
     ......
@@ -1283,6 +1758,9 @@ shift-up: -1
     .@..@.
     ......
 
+
+# [ƒ] LATIN SMALL LETTER F WITH HOOK
+u+0192:
 0x9f:
     ....@@
     ...@..
@@ -1291,6 +1769,9 @@ shift-up: -1
     .@@...
     ......
 
+
+# [á] LATIN SMALL LETTER A WITH ACUTE
+u+00e1:
 0xa0:
     ....@.
     ...@..
@@ -1299,6 +1780,9 @@ shift-up: -1
     ..@@@.
     ......
 
+
+# [í] LATIN SMALL LETTER I WITH ACUTE
+u+00ed:
 0xa1:
     ....@.
     ...@..
@@ -1307,6 +1791,9 @@ shift-up: -1
     .@@@@.
     ......
 
+
+# [ó] LATIN SMALL LETTER O WITH ACUTE
+u+00f3:
 0xa2:
     ....@.
     ...@..
@@ -1315,6 +1802,9 @@ shift-up: -1
     ..@@..
     ......
 
+
+# [ú] LATIN SMALL LETTER U WITH ACUTE
+u+00fa:
 0xa3:
     ....@.
     ...@..
@@ -1323,6 +1813,9 @@ shift-up: -1
     ..@@@.
     ......
 
+
+# [ñ] LATIN SMALL LETTER N WITH TILDE
+u+00f1:
 0xa4:
     .@@@@.
     ......
@@ -1331,6 +1824,9 @@ shift-up: -1
     .@..@.
     ......
 
+
+# [Ñ] LATIN CAPITAL LETTER N WITH TILDE
+u+00d1:
 0xa5:
     .@@@@.
     ......
@@ -1339,6 +1835,9 @@ shift-up: -1
     .@..@.
     ......
 
+
+# [ª] FEMININE ORDINAL INDICATOR
+u+00aa:
 0xa6:
     ..@@@.
     .@..@.
@@ -1347,6 +1846,9 @@ shift-up: -1
     .@@@@.
     ......
 
+
+# [º] MASCULINE ORDINAL INDICATOR
+u+00ba:
 0xa7:
     ..@@..
     .@..@.
@@ -1355,6 +1857,9 @@ shift-up: -1
     .@@@@.
     ......
 
+
+# [¿] INVERTED QUESTION MARK
+u+00bf:
 0xa8:
     ......
     ...@..
@@ -1363,6 +1868,9 @@ shift-up: -1
     .@....
     ..@@@.
 
+
+# [®] REGISTERED SIGN
+u+00ae:
 0xa9:
     .@@@@.
     @@@..@
@@ -1371,6 +1879,9 @@ shift-up: -1
     @@.@.@
     .@@@@.
 
+
+# [¬] NOT SIGN
+u+00ac:
 0xaa:
     ......
     ......
@@ -1379,6 +1890,9 @@ shift-up: -1
     .....@
     ......
 
+
+# [½] VULGAR FRACTION ONE HALF
+u+00bd:
 0xab:
     @.....
     @.@@..
@@ -1387,6 +1901,9 @@ shift-up: -1
     ..@@@.
     ......
 
+
+# [¼] VULGAR FRACTION ONE QUARTER
+u+00bc:
 0xac:
     @.....
     @..@..
@@ -1395,6 +1912,9 @@ shift-up: -1
     ...@..
     ......
 
+
+# [¡] INVERTED EXCLAMATION MARK
+u+00a1:
 0xad:
     ......
     ..@...
@@ -1403,6 +1923,9 @@ shift-up: -1
     ..@...
     ..@...
 
+
+# [«] LEFT-POINTING DOUBLE ANGLE QUOTATION MARK
+u+00ab:
 0xae:
     ......
     ......
@@ -1411,6 +1934,9 @@ shift-up: -1
     ..@..@
     ......
 
+
+# [»] RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK
+u+00bb:
 0xaf:
     ......
     ......
@@ -1419,6 +1945,9 @@ shift-up: -1
     .@..@.
     ......
 
+
+# [░] LIGHT SHADE
+u+2591:
 0xb0:
     @.@.@.
     ......
@@ -1427,6 +1956,9 @@ shift-up: -1
     @.@.@.
     ......
 
+
+# [▒] MEDIUM SHADE
+u+2592:
 0xb1:
     @.@.@.
     .@.@.@
@@ -1435,6 +1967,9 @@ shift-up: -1
     @.@.@.
     .@.@.@
 
+
+# [▓] DARK SHADE
+u+2593:
 0xb2:
     .@.@.@
     .@.@.@
@@ -1443,6 +1978,9 @@ shift-up: -1
     .@.@.@
     .@.@.@
 
+
+# [│] BOX DRAWINGS LIGHT VERTICAL
+u+2502:
 0xb3:
     ...@..
     ...@..
@@ -1451,6 +1989,9 @@ shift-up: -1
     ...@..
     ...@..
 
+
+# [┤] BOX DRAWINGS LIGHT VERTICAL AND LEFT
+u+2524:
 0xb4:
     ...@..
     ...@..
@@ -1459,6 +2000,9 @@ shift-up: -1
     ...@..
     ...@..
 
+
+# [Á] LATIN CAPITAL LETTER A WITH ACUTE
+u+00c1:
 0xb5:
     ...@@.
     ..@@..
@@ -1467,6 +2011,9 @@ shift-up: -1
     .@..@.
     ......
 
+
+# [Â] LATIN CAPITAL LETTER A WITH CIRCUMFLEX
+u+00c2:
 0xb6:
     ..@@..
     .@@@@.
@@ -1475,6 +2022,9 @@ shift-up: -1
     .@..@.
     ......
 
+
+# [À] LATIN CAPITAL LETTER A WITH GRAVE
+u+00c0:
 0xb7:
     .@@...
     ..@@..
@@ -1483,6 +2033,9 @@ shift-up: -1
     .@..@.
     ......
 
+
+# [©] COPYRIGHT SIGN
+u+00a9:
 0xb8:
     .@@@@.
     @.@@.@
@@ -1491,6 +2044,9 @@ shift-up: -1
     @.@@.@
     .@@@@.
 
+
+# [╣] BOX DRAWINGS DOUBLE VERTICAL AND LEFT
+u+2563:
 0xb9:
     .@..@.
     @@..@.
@@ -1499,6 +2055,9 @@ shift-up: -1
     @@..@.
     .@..@.
 
+
+# [║] BOX DRAWINGS DOUBLE VERTICAL
+u+2551:
 0xba:
     .@..@.
     .@..@.
@@ -1507,6 +2066,9 @@ shift-up: -1
     .@..@.
     .@..@.
 
+
+# [╗] BOX DRAWINGS DOUBLE DOWN AND LEFT
+u+2557:
 0xbb:
     ......
     @@@@@.
@@ -1515,6 +2077,9 @@ shift-up: -1
     @@..@.
     .@..@.
 
+
+# [╝] BOX DRAWINGS DOUBLE UP AND LEFT
+u+255d:
 0xbc:
     .@..@.
     @@..@.
@@ -1523,6 +2088,9 @@ shift-up: -1
     @@@@@.
     ......
 
+
+# [¢] CENT SIGN
+u+00a2:
 0xbd:
     ...@..
     ..@@@.
@@ -1531,6 +2099,9 @@ shift-up: -1
     ...@..
     ......
 
+
+# [¥] YEN SIGN
+u+00a5:
 0xbe:
     .@...@
     ..@.@.
@@ -1539,6 +2110,9 @@ shift-up: -1
     ...@..
     ......
 
+
+# [┐] BOX DRAWINGS LIGHT DOWN AND LEFT
+u+2510:
 0xbf:
     ......
     ......
@@ -1547,6 +2121,9 @@ shift-up: -1
     ...@..
     ...@..
 
+
+# [└] BOX DRAWINGS LIGHT UP AND RIGHT
+u+2514:
 0xc0:
     ...@..
     ...@..
@@ -1555,6 +2132,9 @@ shift-up: -1
     ......
     ......
 
+
+# [┴] BOX DRAWINGS LIGHT UP AND HORIZONTAL
+u+2534:
 0xc1:
     ...@..
     ...@..
@@ -1563,6 +2143,9 @@ shift-up: -1
     ......
     ......
 
+
+# [┬] BOX DRAWINGS LIGHT DOWN AND HORIZONTAL
+u+252c:
 0xc2:
     ......
     ......
@@ -1571,6 +2154,9 @@ shift-up: -1
     ...@..
     ...@..
 
+
+# [├] BOX DRAWINGS LIGHT VERTICAL AND RIGHT
+u+251c:
 0xc3:
     ...@..
     ...@..
@@ -1579,6 +2165,9 @@ shift-up: -1
     ...@..
     ...@..
 
+
+# [─] BOX DRAWINGS LIGHT HORIZONTAL
+u+2500:
 0xc4:
     ......
     ......
@@ -1587,6 +2176,9 @@ shift-up: -1
     ......
     ......
 
+
+# [┼] BOX DRAWINGS LIGHT VERTICAL AND HORIZONTAL
+u+253c:
 0xc5:
     ...@..
     ...@..
@@ -1595,6 +2187,9 @@ shift-up: -1
     ...@..
     ...@..
 
+
+# [ã] LATIN SMALL LETTER A WITH TILDE
+u+00e3:
 0xc6:
     .@@@@.
     ......
@@ -1603,6 +2198,9 @@ shift-up: -1
     ..@@@.
     ......
 
+
+# [Ã] LATIN CAPITAL LETTER A WITH TILDE
+u+00c3:
 0xc7:
     .@@@@.
     ..@@..
@@ -1611,6 +2209,9 @@ shift-up: -1
     .@..@.
     ......
 
+
+# [╚] BOX DRAWINGS DOUBLE UP AND RIGHT
+u+255a:
 0xc8:
     .@..@.
     .@..@@
@@ -1619,6 +2220,9 @@ shift-up: -1
     .@@@@@
     ......
 
+
+# [╔] BOX DRAWINGS DOUBLE DOWN AND RIGHT
+u+2554:
 0xc9:
     ......
     .@@@@@
@@ -1627,6 +2231,9 @@ shift-up: -1
     .@..@@
     .@..@.
 
+
+# [╩] BOX DRAWINGS DOUBLE UP AND HORIZONTAL
+u+2569:
 0xca:
     .@..@.
     @@..@@
@@ -1635,6 +2242,9 @@ shift-up: -1
     @@@@@@
     ......
 
+
+# [╦] BOX DRAWINGS DOUBLE DOWN AND HORIZONTAL
+u+2566:
 0xcb:
     ......
     @@@@@@
@@ -1643,6 +2253,9 @@ shift-up: -1
     @@..@@
     .@..@.
 
+
+# [╠] BOX DRAWINGS DOUBLE VERTICAL AND RIGHT
+u+2560:
 0xcc:
     .@..@.
     .@..@@
@@ -1651,6 +2264,9 @@ shift-up: -1
     .@..@@
     .@..@.
 
+
+# [═] BOX DRAWINGS DOUBLE HORIZONTAL
+u+2550:
 0xcd:
     ......
     @@@@@@
@@ -1659,6 +2275,9 @@ shift-up: -1
     @@@@@@
     ......
 
+
+# [╬] BOX DRAWINGS DOUBLE VERTICAL AND HORIZONTAL
+u+256c:
 0xce:
     .@..@.
     @@..@@
@@ -1667,6 +2286,9 @@ shift-up: -1
     @@..@@
     .@..@.
 
+
+# [¤] CURRENCY SIGN
+u+00a4:
 0xcf:
     @....@
     .@@@@.
@@ -1675,6 +2297,9 @@ shift-up: -1
     .@@@@.
     @....@
 
+
+# [ð] LATIN SMALL LETTER ETH
+u+00f0:
 0xd0:
     ...@..
     ....@.
@@ -1683,6 +2308,9 @@ shift-up: -1
     ..@@@.
     ......
 
+
+# [Ð] LATIN CAPITAL LETTER ETH
+u+00d0:
 0xd1:
     .@@@..
     .@..@.
@@ -1691,6 +2319,9 @@ shift-up: -1
     .@@@..
     ......
 
+
+# [Ê] LATIN CAPITAL LETTER E WITH CIRCUMFLEX
+u+00ca:
 0xd2:
     .@@@@.
     .@@@@.
@@ -1699,6 +2330,9 @@ shift-up: -1
     .@@@@.
     ......
 
+
+# [Ë] LATIN CAPITAL LETTER E WITH DIAERESIS
+u+00cb:
 0xd3:
     .@..@.
     .@@@@.
@@ -1707,6 +2341,9 @@ shift-up: -1
     .@@@@.
     ......
 
+
+# [È] LATIN CAPITAL LETTER E WITH GRAVE
+u+00c8:
 0xd4:
     .@@...
     .@@@@.
@@ -1715,6 +2352,9 @@ shift-up: -1
     .@@@@.
     ......
 
+
+# [ı] LATIN SMALL LETTER DOTLESS I
+u+0131:
 0xd5:
     ......
     ...@..
@@ -1723,6 +2363,9 @@ shift-up: -1
     ..@@@.
     ......
 
+
+# [Í] LATIN CAPITAL LETTER I WITH ACUTE
+u+00cd:
 0xd6:
     ...@@.
     ..@@@.
@@ -1731,6 +2374,9 @@ shift-up: -1
     ..@@@.
     ......
 
+
+# [Î] LATIN CAPITAL LETTER I WITH CIRCUMFLEX
+u+00ce:
 0xd7:
     ..@@@.
     ..@@@.
@@ -1739,6 +2385,9 @@ shift-up: -1
     ..@@@.
     ......
 
+
+# [Ï] LATIN CAPITAL LETTER I WITH DIAERESIS
+u+00cf:
 0xd8:
     ..@.@.
     ..@@@.
@@ -1747,6 +2396,9 @@ shift-up: -1
     ..@@@.
     ......
 
+
+# [┘] BOX DRAWINGS LIGHT UP AND LEFT
+u+2518:
 0xd9:
     ...@..
     ...@..
@@ -1755,6 +2407,9 @@ shift-up: -1
     ......
     ......
 
+
+# [┌] BOX DRAWINGS LIGHT DOWN AND RIGHT
+u+250c:
 0xda:
     ......
     ......
@@ -1763,6 +2418,9 @@ shift-up: -1
     ...@..
     ...@..
 
+
+# [█] FULL BLOCK
+u+2588:
 0xdb:
     @@@@@@
     @@@@@@
@@ -1771,6 +2429,9 @@ shift-up: -1
     @@@@@@
     @@@@@@
 
+
+# [▄] LOWER HALF BLOCK
+u+2584:
 0xdc:
     ......
     ......
@@ -1779,6 +2440,9 @@ shift-up: -1
     @@@@@@
     @@@@@@
 
+
+# [¦] BROKEN BAR
+u+00a6:
 0xdd:
     ...@..
     ...@..
@@ -1787,6 +2451,9 @@ shift-up: -1
     ...@..
     ......
 
+
+# [Ì] LATIN CAPITAL LETTER I WITH GRAVE
+u+00cc:
 0xde:
     ..@@..
     ..@@@.
@@ -1795,6 +2462,9 @@ shift-up: -1
     ..@@@.
     ......
 
+
+# [▀] UPPER HALF BLOCK
+u+2580:
 0xdf:
     @@@@@@
     @@@@@@
@@ -1803,6 +2473,9 @@ shift-up: -1
     ......
     ......
 
+
+# [Ó] LATIN CAPITAL LETTER O WITH ACUTE
+u+00d3:
 0xe0:
     ...@@.
     ..@@..
@@ -1811,6 +2484,9 @@ shift-up: -1
     ..@@..
     ......
 
+
+# [ß] LATIN SMALL LETTER SHARP S
+u+00df:
 0xe1:
     ..@@..
     .@..@.
@@ -1819,6 +2495,9 @@ shift-up: -1
     .@@@..
     .@....
 
+
+# [Ô] LATIN CAPITAL LETTER O WITH CIRCUMFLEX
+u+00d4:
 0xe2:
     ..@@..
     .@@@@.
@@ -1827,6 +2506,9 @@ shift-up: -1
     ..@@..
     ......
 
+
+# [Ò] LATIN CAPITAL LETTER O WITH GRAVE
+u+00d2:
 0xe3:
     .@@...
     ..@@..
@@ -1835,6 +2517,9 @@ shift-up: -1
     ..@@..
     ......
 
+
+# [õ] LATIN SMALL LETTER O WITH TILDE
+u+00f5:
 0xe4:
     .@@@@.
     ......
@@ -1843,6 +2528,9 @@ shift-up: -1
     ..@@..
     ......
 
+
+# [Õ] LATIN CAPITAL LETTER O WITH TILDE
+u+00d5:
 0xe5:
     .@@@@.
     ..@@..
@@ -1851,6 +2539,9 @@ shift-up: -1
     ..@@..
     ......
 
+
+# [µ] MICRO SIGN
+u+00b5:
 0xe6:
     ......
     .@..@.
@@ -1859,6 +2550,9 @@ shift-up: -1
     .@@@..
     @.....
 
+
+# [þ] LATIN SMALL LETTER THORN
+u+00fe:
 0xe7:
     .@....
     .@@@..
@@ -1867,6 +2561,9 @@ shift-up: -1
     .@....
     ......
 
+
+# [Þ] LATIN CAPITAL LETTER THORN
+u+00de:
 0xe8:
     .@@...
     .@@@..
@@ -1875,6 +2572,9 @@ shift-up: -1
     .@....
     .@@...
 
+
+# [Ú] LATIN CAPITAL LETTER U WITH ACUTE
+u+00da:
 0xe9:
     ...@@.
     .@..@.
@@ -1883,6 +2583,9 @@ shift-up: -1
     .@@@@.
     ......
 
+
+# [Û] LATIN CAPITAL LETTER U WITH CIRCUMFLEX
+u+00db:
 0xea:
     .@@@@.
     ......
@@ -1891,6 +2594,9 @@ shift-up: -1
     .@@@@.
     ......
 
+
+# [Ù] LATIN CAPITAL LETTER U WITH GRAVE
+u+00d9:
 0xeb:
     .@@...
     .@..@.
@@ -1899,6 +2605,9 @@ shift-up: -1
     .@@@@.
     ......
 
+
+# [ý] LATIN SMALL LETTER Y WITH ACUTE
+u+00fd:
 0xec:
     ...@@.
     ......
@@ -1907,6 +2616,9 @@ shift-up: -1
     ..@...
     .@....
 
+
+# [Ý] LATIN CAPITAL LETTER Y WITH ACUTE
+u+00dd:
 0xed:
     ...@@@
     .@...@
@@ -1915,6 +2627,9 @@ shift-up: -1
     ...@..
     ......
 
+
+# [¯] MACRON
+u+00af:
 0xee:
     .@@@@.
     ......
@@ -1923,6 +2638,9 @@ shift-up: -1
     ......
     ......
 
+
+# [´] ACUTE ACCENT
+u+00b4:
 0xef:
     ....@.
     ...@..
@@ -1931,6 +2649,9 @@ shift-up: -1
     ......
     ......
 
+
+# SOFT HYPHEN
+u+00ad:
 0xf0:
     ......
     ......
@@ -1939,6 +2660,9 @@ shift-up: -1
     ......
     ......
 
+
+# [±] PLUS-MINUS SIGN
+u+00b1:
 0xf1:
     ...@..
     .@@@@@
@@ -1947,6 +2671,9 @@ shift-up: -1
     .@@@@@
     ......
 
+
+# [‗] DOUBLE LOW LINE
+u+2017:
 0xf2:
     ......
     ......
@@ -1955,6 +2682,9 @@ shift-up: -1
     ......
     @@@@@@
 
+
+# [¾] VULGAR FRACTION THREE QUARTERS
+u+00be:
 0xf3:
     @@@...
     .@.@..
@@ -1963,6 +2693,9 @@ shift-up: -1
     ...@..
     ......
 
+
+# [¶] PILCROW SIGN
+u+00b6:
 0xf4:
     .@@@@@
     @@@.@.
@@ -1971,6 +2704,9 @@ shift-up: -1
     ..@.@.
     ......
 
+
+# [§] SECTION SIGN
+u+00a7:
 0xf5:
     ..@@..
     .@....
@@ -1979,6 +2715,9 @@ shift-up: -1
     ....@.
     ..@@..
 
+
+# [÷] DIVISION SIGN
+u+00f7:
 0xf6:
     ...@..
     ......
@@ -1987,6 +2726,9 @@ shift-up: -1
     ...@..
     ......
 
+
+# [¸] CEDILLA
+u+00b8:
 0xf7:
     ......
     ......
@@ -1995,6 +2737,9 @@ shift-up: -1
     ..@@@.
     ......
 
+
+# [°] DEGREE SIGN
+u+00b0:
 0xf8:
     ..@@..
     .@..@.
@@ -2003,6 +2748,9 @@ shift-up: -1
     ......
     ......
 
+
+# [¨] DIAERESIS
+u+00a8:
 0xf9:
     .@..@.
     ......
@@ -2011,6 +2759,9 @@ shift-up: -1
     ......
     ......
 
+
+# [·] MIDDLE DOT
+u+00b7:
 0xfa:
     ......
     ......
@@ -2019,6 +2770,9 @@ shift-up: -1
     ......
     ......
 
+
+# [¹] SUPERSCRIPT ONE
+u+00b9:
 0xfb:
     ...@..
     ..@@..
@@ -2027,6 +2781,9 @@ shift-up: -1
     ......
     ......
 
+
+# [³] SUPERSCRIPT THREE
+u+00b3:
 0xfc:
     .@@@..
     ....@.
@@ -2035,6 +2792,9 @@ shift-up: -1
     .@@@..
     ......
 
+
+# [²] SUPERSCRIPT TWO
+u+00b2:
 0xfd:
     .@@@..
     ...@@.
@@ -2043,6 +2803,9 @@ shift-up: -1
     ......
     ......
 
+
+# [■] BLACK SQUARE
+u+25a0:
 0xfe:
     ......
     ..@@@.
@@ -2051,6 +2814,9 @@ shift-up: -1
     ..@@@.
     ......
 
+
+# [ ] NO-BREAK SPACE
+u+00a0:
 0xff:
     ......
     ......
