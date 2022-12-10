@@ -4,10 +4,11 @@ cell-size: 6 6
 point-size: 8
 ascent: 5
 descent: 1
+encoding: ascii
 converter: monobit v0.32
-source-name: g12-cga-6x6.fnt
+source-name: cgafont0.a86
+source-url: https://www.seasip.info/Gem/Software/g12drvs.zip
 source-format: gdos
-history: load --format=gdos
 gdos: font-id=1 left-offset=0 right-offset=2
 shift-up: -1
 
@@ -267,6 +268,9 @@ shift-up: -1
     ......
     ......
 
+
+# [ ] SPACE
+u+0020:
 0x20:
     ......
     ......
@@ -275,6 +279,9 @@ shift-up: -1
     ......
     ......
 
+
+# [!] EXCLAMATION MARK
+u+0021:
 0x21:
     ...@..
     ...@..
@@ -283,6 +290,9 @@ shift-up: -1
     ...@..
     ......
 
+
+# ["] QUOTATION MARK
+u+0022:
 0x22:
     .@..@.
     .@..@.
@@ -291,6 +301,9 @@ shift-up: -1
     ......
     ......
 
+
+# [#] NUMBER SIGN
+u+0023:
 0x23:
     ..@.@.
     .@@@@@
@@ -299,6 +312,9 @@ shift-up: -1
     ..@.@.
     ......
 
+
+# [$] DOLLAR SIGN
+u+0024:
 0x24:
     ...@..
     ..@@@.
@@ -307,6 +323,9 @@ shift-up: -1
     .@@@..
     ..@...
 
+
+# [%] PERCENT SIGN
+u+0025:
 0x25:
     .@@..@
     .@@.@.
@@ -315,6 +334,9 @@ shift-up: -1
     .@..@@
     ......
 
+
+# [&] AMPERSAND
+u+0026:
 0x26:
     ..@...
     .@.@..
@@ -323,6 +345,9 @@ shift-up: -1
     ..@@.@
     ......
 
+
+# ['] APOSTROPHE
+u+0027:
 0x27:
     ..@@..
     ...@..
@@ -331,6 +356,9 @@ shift-up: -1
     ......
     ......
 
+
+# [(] LEFT PARENTHESIS
+u+0028:
 0x28:
     ...@..
     ..@...
@@ -339,6 +367,9 @@ shift-up: -1
     ...@..
     ......
 
+
+# [)] RIGHT PARENTHESIS
+u+0029:
 0x29:
     ..@...
     ...@..
@@ -347,6 +378,9 @@ shift-up: -1
     ..@...
     ......
 
+
+# [*] ASTERISK
+u+002a:
 0x2a:
     .@..@.
     ..@@..
@@ -355,6 +389,9 @@ shift-up: -1
     .@..@.
     ......
 
+
+# [+] PLUS SIGN
+u+002b:
 0x2b:
     ......
     ...@..
@@ -363,6 +400,9 @@ shift-up: -1
     ......
     ......
 
+
+# [,] COMMA
+u+002c:
 0x2c:
     ......
     ......
@@ -371,6 +411,9 @@ shift-up: -1
     ...@..
     ..@...
 
+
+# [-] HYPHEN-MINUS
+u+002d:
 0x2d:
     ......
     ......
@@ -379,6 +422,9 @@ shift-up: -1
     ......
     ......
 
+
+# [.] FULL STOP
+u+002e:
 0x2e:
     ......
     ......
@@ -387,6 +433,9 @@ shift-up: -1
     ..@@..
     ......
 
+
+# [/] SOLIDUS
+u+002f:
 0x2f:
     .....@
     ....@.
@@ -395,6 +444,9 @@ shift-up: -1
     .@....
     ......
 
+
+# [0] DIGIT ZERO
+u+0030:
 0x30:
     ..@@@.
     .@..@.
@@ -403,6 +455,9 @@ shift-up: -1
     .@@@..
     ......
 
+
+# [1] DIGIT ONE
+u+0031:
 0x31:
     ...@..
     ..@@..
@@ -411,6 +466,9 @@ shift-up: -1
     ...@..
     ......
 
+
+# [2] DIGIT TWO
+u+0032:
 0x32:
     .@@@..
     ....@.
@@ -419,6 +477,9 @@ shift-up: -1
     .@@@@.
     ......
 
+
+# [3] DIGIT THREE
+u+0033:
 0x33:
     .@@@..
     ....@.
@@ -427,6 +488,9 @@ shift-up: -1
     .@@@..
     ......
 
+
+# [4] DIGIT FOUR
+u+0034:
 0x34:
     ....@.
     ...@@.
@@ -435,6 +499,9 @@ shift-up: -1
     ....@.
     ......
 
+
+# [5] DIGIT FIVE
+u+0035:
 0x35:
     .@@@@.
     .@....
@@ -443,6 +510,9 @@ shift-up: -1
     .@@@..
     ......
 
+
+# [6] DIGIT SIX
+u+0036:
 0x36:
     ...@@.
     ..@...
@@ -451,6 +521,9 @@ shift-up: -1
     ..@@..
     ......
 
+
+# [7] DIGIT SEVEN
+u+0037:
 0x37:
     .@@@@.
     ....@.
@@ -459,6 +532,9 @@ shift-up: -1
     ..@...
     ......
 
+
+# [8] DIGIT EIGHT
+u+0038:
 0x38:
     ..@@..
     .@..@.
@@ -467,6 +543,9 @@ shift-up: -1
     ..@@..
     ......
 
+
+# [9] DIGIT NINE
+u+0039:
 0x39:
     ..@@..
     .@..@.
@@ -475,6 +554,9 @@ shift-up: -1
     .@@...
     ......
 
+
+# [:] COLON
+u+003a:
 0x3a:
     ......
     ..@@..
@@ -483,6 +565,9 @@ shift-up: -1
     ..@@..
     ......
 
+
+# [;] SEMICOLON
+u+003b:
 0x3b:
     ......
     ..@@..
@@ -491,6 +576,9 @@ shift-up: -1
     ...@..
     ..@...
 
+
+# [<] LESS-THAN SIGN
+u+003c:
 0x3c:
     ...@..
     ..@...
@@ -499,6 +587,9 @@ shift-up: -1
     ...@..
     ......
 
+
+# [=] EQUALS SIGN
+u+003d:
 0x3d:
     ......
     .@@@@.
@@ -507,6 +598,9 @@ shift-up: -1
     ......
     ......
 
+
+# [>] GREATER-THAN SIGN
+u+003e:
 0x3e:
     ..@...
     ...@..
@@ -515,6 +609,9 @@ shift-up: -1
     ..@...
     ......
 
+
+# [?] QUESTION MARK
+u+003f:
 0x3f:
     .@@@..
     ....@.
@@ -523,6 +620,9 @@ shift-up: -1
     ..@...
     ......
 
+
+# [@] COMMERCIAL AT
+u+0040:
 0x40:
     ..@@@.
     .@...@
@@ -531,6 +631,9 @@ shift-up: -1
     .@....
     ..@@@.
 
+
+# [A] LATIN CAPITAL LETTER A
+u+0041:
 0x41:
     ..@@..
     .@..@.
@@ -539,6 +642,9 @@ shift-up: -1
     .@..@.
     ......
 
+
+# [B] LATIN CAPITAL LETTER B
+u+0042:
 0x42:
     .@@@..
     .@..@.
@@ -547,6 +653,9 @@ shift-up: -1
     .@@@..
     ......
 
+
+# [C] LATIN CAPITAL LETTER C
+u+0043:
 0x43:
     ..@@@.
     .@....
@@ -555,6 +664,9 @@ shift-up: -1
     ..@@@.
     ......
 
+
+# [D] LATIN CAPITAL LETTER D
+u+0044:
 0x44:
     .@@@..
     .@..@.
@@ -563,6 +675,9 @@ shift-up: -1
     .@@@..
     ......
 
+
+# [E] LATIN CAPITAL LETTER E
+u+0045:
 0x45:
     .@@@@.
     .@....
@@ -571,6 +686,9 @@ shift-up: -1
     .@@@@.
     ......
 
+
+# [F] LATIN CAPITAL LETTER F
+u+0046:
 0x46:
     .@@@@.
     .@....
@@ -579,6 +697,9 @@ shift-up: -1
     .@....
     ......
 
+
+# [G] LATIN CAPITAL LETTER G
+u+0047:
 0x47:
     ..@@@.
     .@....
@@ -587,6 +708,9 @@ shift-up: -1
     ..@@@.
     ......
 
+
+# [H] LATIN CAPITAL LETTER H
+u+0048:
 0x48:
     .@..@.
     .@..@.
@@ -595,6 +719,9 @@ shift-up: -1
     .@..@.
     ......
 
+
+# [I] LATIN CAPITAL LETTER I
+u+0049:
 0x49:
     ..@@@.
     ...@..
@@ -603,6 +730,9 @@ shift-up: -1
     ..@@@.
     ......
 
+
+# [J] LATIN CAPITAL LETTER J
+u+004a:
 0x4a:
     ....@.
     ....@.
@@ -611,6 +741,9 @@ shift-up: -1
     ..@@..
     ......
 
+
+# [K] LATIN CAPITAL LETTER K
+u+004b:
 0x4b:
     .@..@.
     .@.@..
@@ -619,6 +752,9 @@ shift-up: -1
     .@..@.
     ......
 
+
+# [L] LATIN CAPITAL LETTER L
+u+004c:
 0x4c:
     .@....
     .@....
@@ -627,6 +763,9 @@ shift-up: -1
     .@@@@.
     ......
 
+
+# [M] LATIN CAPITAL LETTER M
+u+004d:
 0x4d:
     .@...@
     .@@.@@
@@ -635,6 +774,9 @@ shift-up: -1
     .@...@
     ......
 
+
+# [N] LATIN CAPITAL LETTER N
+u+004e:
 0x4e:
     .@...@
     .@@..@
@@ -643,6 +785,9 @@ shift-up: -1
     .@...@
     ......
 
+
+# [O] LATIN CAPITAL LETTER O
+u+004f:
 0x4f:
     ..@@..
     .@..@.
@@ -651,6 +796,9 @@ shift-up: -1
     ..@@..
     ......
 
+
+# [P] LATIN CAPITAL LETTER P
+u+0050:
 0x50:
     .@@@..
     .@..@.
@@ -659,6 +807,9 @@ shift-up: -1
     .@....
     ......
 
+
+# [Q] LATIN CAPITAL LETTER Q
+u+0051:
 0x51:
     ..@@..
     .@..@.
@@ -667,6 +818,9 @@ shift-up: -1
     ..@@..
     ...@@.
 
+
+# [R] LATIN CAPITAL LETTER R
+u+0052:
 0x52:
     .@@@..
     .@..@.
@@ -675,6 +829,9 @@ shift-up: -1
     .@...@
     ......
 
+
+# [S] LATIN CAPITAL LETTER S
+u+0053:
 0x53:
     ..@@@.
     .@....
@@ -683,6 +840,9 @@ shift-up: -1
     .@@@..
     ......
 
+
+# [T] LATIN CAPITAL LETTER T
+u+0054:
 0x54:
     .@@@@@
     ...@..
@@ -691,6 +851,9 @@ shift-up: -1
     ...@..
     ......
 
+
+# [U] LATIN CAPITAL LETTER U
+u+0055:
 0x55:
     .@..@.
     .@..@.
@@ -699,6 +862,9 @@ shift-up: -1
     .@@@@.
     ......
 
+
+# [V] LATIN CAPITAL LETTER V
+u+0056:
 0x56:
     .@..@.
     .@..@.
@@ -707,6 +873,9 @@ shift-up: -1
     ..@...
     ......
 
+
+# [W] LATIN CAPITAL LETTER W
+u+0057:
 0x57:
     .@...@
     .@...@
@@ -715,6 +884,9 @@ shift-up: -1
     .@...@
     ......
 
+
+# [X] LATIN CAPITAL LETTER X
+u+0058:
 0x58:
     .@...@
     ..@.@.
@@ -723,6 +895,9 @@ shift-up: -1
     .@...@
     ......
 
+
+# [Y] LATIN CAPITAL LETTER Y
+u+0059:
 0x59:
     .@...@
     .@...@
@@ -731,6 +906,9 @@ shift-up: -1
     ...@..
     ......
 
+
+# [Z] LATIN CAPITAL LETTER Z
+u+005a:
 0x5a:
     .@@@@.
     ...@..
@@ -739,6 +917,9 @@ shift-up: -1
     .@@@@.
     ......
 
+
+# [[] LEFT SQUARE BRACKET
+u+005b:
 0x5b:
     ..@@@.
     ..@...
@@ -747,6 +928,9 @@ shift-up: -1
     ..@@@.
     ......
 
+
+# [\] REVERSE SOLIDUS
+u+005c:
 0x5c:
     .@....
     ..@...
@@ -755,6 +939,9 @@ shift-up: -1
     .....@
     ......
 
+
+# []] RIGHT SQUARE BRACKET
+u+005d:
 0x5d:
     .@@@..
     ...@..
@@ -763,6 +950,9 @@ shift-up: -1
     .@@@..
     ......
 
+
+# [^] CIRCUMFLEX ACCENT
+u+005e:
 0x5e:
     ...@..
     ..@.@.
@@ -771,6 +961,9 @@ shift-up: -1
     ......
     ......
 
+
+# [_] LOW LINE
+u+005f:
 0x5f:
     ......
     ......
@@ -779,6 +972,9 @@ shift-up: -1
     ......
     @@@@@@
 
+
+# [`] GRAVE ACCENT
+u+0060:
 0x60:
     ..@@..
     ..@...
@@ -787,6 +983,9 @@ shift-up: -1
     ......
     ......
 
+
+# [a] LATIN SMALL LETTER A
+u+0061:
 0x61:
     ......
     ..@@@.
@@ -795,6 +994,9 @@ shift-up: -1
     ..@@@.
     ......
 
+
+# [b] LATIN SMALL LETTER B
+u+0062:
 0x62:
     .@....
     .@@@..
@@ -803,6 +1005,9 @@ shift-up: -1
     .@@@..
     ......
 
+
+# [c] LATIN SMALL LETTER C
+u+0063:
 0x63:
     ......
     ..@@@.
@@ -811,6 +1016,9 @@ shift-up: -1
     ..@@@.
     ......
 
+
+# [d] LATIN SMALL LETTER D
+u+0064:
 0x64:
     ....@.
     ..@@@.
@@ -819,6 +1027,9 @@ shift-up: -1
     ..@@@.
     ......
 
+
+# [e] LATIN SMALL LETTER E
+u+0065:
 0x65:
     ......
     ..@@..
@@ -827,6 +1038,9 @@ shift-up: -1
     ..@@@.
     ......
 
+
+# [f] LATIN SMALL LETTER F
+u+0066:
 0x66:
     ...@@@
     ..@...
@@ -835,6 +1049,9 @@ shift-up: -1
     ..@...
     ......
 
+
+# [g] LATIN SMALL LETTER G
+u+0067:
 0x67:
     ......
     ..@@@.
@@ -843,6 +1060,9 @@ shift-up: -1
     ....@.
     .@@@..
 
+
+# [h] LATIN SMALL LETTER H
+u+0068:
 0x68:
     .@....
     .@@@..
@@ -851,6 +1071,9 @@ shift-up: -1
     .@..@.
     ......
 
+
+# [i] LATIN SMALL LETTER I
+u+0069:
 0x69:
     ...@..
     .@@@..
@@ -859,6 +1082,9 @@ shift-up: -1
     .@@@@.
     ......
 
+
+# [j] LATIN SMALL LETTER J
+u+006a:
 0x6a:
     ...@..
     .@@@..
@@ -867,6 +1093,9 @@ shift-up: -1
     ...@..
     .@@...
 
+
+# [k] LATIN SMALL LETTER K
+u+006b:
 0x6b:
     .@....
     .@..@.
@@ -875,6 +1104,9 @@ shift-up: -1
     .@..@.
     ......
 
+
+# [l] LATIN SMALL LETTER L
+u+006c:
 0x6c:
     ..@@..
     ...@..
@@ -883,6 +1115,9 @@ shift-up: -1
     .@@@@.
     ......
 
+
+# [m] LATIN SMALL LETTER M
+u+006d:
 0x6d:
     ......
     .@@.@.
@@ -891,6 +1126,9 @@ shift-up: -1
     .@...@
     ......
 
+
+# [n] LATIN SMALL LETTER N
+u+006e:
 0x6e:
     ......
     .@@@..
@@ -899,6 +1137,9 @@ shift-up: -1
     .@..@.
     ......
 
+
+# [o] LATIN SMALL LETTER O
+u+006f:
 0x6f:
     ......
     ..@@..
@@ -907,6 +1148,9 @@ shift-up: -1
     ..@@..
     ......
 
+
+# [p] LATIN SMALL LETTER P
+u+0070:
 0x70:
     ......
     .@@@..
@@ -915,6 +1159,9 @@ shift-up: -1
     .@@@..
     .@....
 
+
+# [q] LATIN SMALL LETTER Q
+u+0071:
 0x71:
     ......
     ..@@@.
@@ -923,6 +1170,9 @@ shift-up: -1
     ..@@@.
     ....@.
 
+
+# [r] LATIN SMALL LETTER R
+u+0072:
 0x72:
     ......
     .@.@@.
@@ -931,6 +1181,9 @@ shift-up: -1
     .@....
     ......
 
+
+# [s] LATIN SMALL LETTER S
+u+0073:
 0x73:
     ......
     ..@@@.
@@ -939,6 +1192,9 @@ shift-up: -1
     .@@@..
     ......
 
+
+# [t] LATIN SMALL LETTER T
+u+0074:
 0x74:
     ..@...
     .@@@@.
@@ -947,6 +1203,9 @@ shift-up: -1
     ...@@.
     ......
 
+
+# [u] LATIN SMALL LETTER U
+u+0075:
 0x75:
     ......
     .@..@.
@@ -955,6 +1214,9 @@ shift-up: -1
     ..@@@.
     ......
 
+
+# [v] LATIN SMALL LETTER V
+u+0076:
 0x76:
     ......
     .@..@.
@@ -963,6 +1225,9 @@ shift-up: -1
     ..@...
     ......
 
+
+# [w] LATIN SMALL LETTER W
+u+0077:
 0x77:
     ......
     .@...@
@@ -971,6 +1236,9 @@ shift-up: -1
     ..@.@.
     ......
 
+
+# [x] LATIN SMALL LETTER X
+u+0078:
 0x78:
     ......
     .@..@.
@@ -979,6 +1247,9 @@ shift-up: -1
     .@..@.
     ......
 
+
+# [y] LATIN SMALL LETTER Y
+u+0079:
 0x79:
     ......
     .@..@.
@@ -987,6 +1258,9 @@ shift-up: -1
     ..@...
     .@....
 
+
+# [z] LATIN SMALL LETTER Z
+u+007a:
 0x7a:
     ......
     .@@@@.
@@ -995,6 +1269,9 @@ shift-up: -1
     .@@@@.
     ......
 
+
+# [{] LEFT CURLY BRACKET
+u+007b:
 0x7b:
     ...@@.
     ...@..
@@ -1003,6 +1280,9 @@ shift-up: -1
     ...@@.
     ......
 
+
+# [|] VERTICAL LINE
+u+007c:
 0x7c:
     ...@..
     ...@..
@@ -1011,6 +1291,9 @@ shift-up: -1
     ...@..
     ...@..
 
+
+# [}] RIGHT CURLY BRACKET
+u+007d:
 0x7d:
     .@@...
     ..@...
@@ -1019,6 +1302,9 @@ shift-up: -1
     .@@...
     ......
 
+
+# [~] TILDE
+u+007e:
 0x7e:
     ..@..@
     .@.@.@
