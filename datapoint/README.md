@@ -5,8 +5,8 @@ This directory contains the ROM font of the Datapoint 8600.
 
 ROM images were read out by the crew of the museum of computer history in Visselhövede, Germany, and are provided here:
 
-[https://mecrisp.sourceforge.net/Datapoint/905-007-1.bin](905-007-1.bin)
-[https://mecrisp.sourceforge.net/Datapoint/905-008-1.bin](905-008-1.bin)
+[905-007-1.bin](https://mecrisp.sourceforge.net/Datapoint/905-007-1.bin)
+[905-008-1.bin](https://mecrisp.sourceforge.net/Datapoint/905-008-1.bin)
 
 The font data is in 905-008-1.bin and starts at $10AF.
 
