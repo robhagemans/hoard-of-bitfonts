@@ -9,34 +9,31 @@ line-height: 17
 encoding: mac-symbol
 default-char: missing
 converter: monobit v0.32
-source-name: system608.suit
-source-format: MacOS FONT (AppleDouble container)
-history: load --format=mac-rsrc
+source-name: .rsrc
+source-format: MacOS FONT
+history: load -format=mac
 shift-up: -4
 
 0x00:
     -
 
-    right-bearing: 1
+    right-bearing: 3
 
 
 0x09:
     -
 
-    right-bearing: 1
+    right-bearing: 3
 
 
 0x0d:
     -
 
-    right-bearing: -2
-
-
 u+0020:
 0x20:
     -
 
-    right-bearing: 1
+    right-bearing: 3
 
 
 u+0021:
@@ -60,7 +57,7 @@ u+0021:
     .
 
     left-bearing: 2
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+2200:
@@ -84,7 +81,7 @@ u+2200:
     .......
 
     left-bearing: 1
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+0023:
@@ -107,7 +104,7 @@ u+0023:
     .....
     .....
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+2203:
@@ -130,7 +127,7 @@ u+2203:
     ......
     ......
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+0025:
@@ -154,7 +151,7 @@ u+0025:
     ........
 
     left-bearing: 1
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+0026:
@@ -177,7 +174,7 @@ u+0026:
     ........
     ........
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+220d:
@@ -200,7 +197,7 @@ u+220d:
     ....
     ....
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+0028:
@@ -223,7 +220,7 @@ u+0028:
     ..@
     ...
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+0029:
@@ -246,7 +243,7 @@ u+0029:
     @..
     ...
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+2217:
@@ -269,7 +266,7 @@ u+2217:
     .....
     .....
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+002b:
@@ -292,9 +289,6 @@ u+002b:
     .......
     .......
 
-    right-bearing: -2
-
-
 u+002c:
 0x2c:
     ..
@@ -316,7 +310,7 @@ u+002c:
     ..
 
     left-bearing: 1
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+2212:
@@ -339,7 +333,7 @@ u+2212:
     ......
     ......
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+002e:
@@ -363,6 +357,7 @@ u+002e:
     .
 
     left-bearing: 1
+    right-bearing: 2
 
 
 u+002f:
@@ -385,7 +380,7 @@ u+002f:
     ..
     ..
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+0030:
@@ -408,7 +403,7 @@ u+0030:
     .....
     .....
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+0031:
@@ -432,6 +427,7 @@ u+0031:
     ...
 
     left-bearing: 1
+    right-bearing: 2
 
 
 u+0032:
@@ -454,7 +450,7 @@ u+0032:
     .....
     .....
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+0033:
@@ -477,7 +473,7 @@ u+0033:
     .....
     .....
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+0034:
@@ -500,7 +496,7 @@ u+0034:
     .....
     .....
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+0035:
@@ -523,7 +519,7 @@ u+0035:
     .....
     .....
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+0036:
@@ -546,7 +542,7 @@ u+0036:
     .....
     .....
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+0037:
@@ -569,7 +565,7 @@ u+0037:
     .....
     .....
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+0038:
@@ -592,7 +588,7 @@ u+0038:
     .....
     .....
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+0039:
@@ -615,7 +611,7 @@ u+0039:
     .....
     .....
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+003a:
@@ -639,7 +635,7 @@ u+003a:
     .
 
     left-bearing: 1
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+003b:
@@ -662,7 +658,7 @@ u+003b:
     ..
     ..
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+003c:
@@ -685,7 +681,7 @@ u+003c:
     ......
     ......
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+003d:
@@ -708,7 +704,7 @@ u+003d:
     ......
     ......
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+003e:
@@ -731,7 +727,7 @@ u+003e:
     ......
     ......
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+003f:
@@ -755,7 +751,7 @@ u+003f:
     ....
 
     left-bearing: 1
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+2245:
@@ -778,7 +774,7 @@ u+2245:
     ......
     ......
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+0391:
@@ -801,9 +797,6 @@ u+0391:
     .........
     .........
 
-    right-bearing: -2
-
-
 u+0392:
 0x42:
     ......
@@ -825,7 +818,7 @@ u+0392:
     ......
 
     left-bearing: 1
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+03a7:
@@ -848,7 +841,7 @@ u+03a7:
     ........
     ........
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+0394:
@@ -871,7 +864,7 @@ u+0394:
     .......
     .......
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+0395:
@@ -894,7 +887,7 @@ u+0395:
     .......
     .......
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+03a6:
@@ -918,7 +911,7 @@ u+03a6:
     .......
 
     left-bearing: 1
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+0393:
@@ -941,7 +934,7 @@ u+0393:
     ......
     ......
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+0397:
@@ -965,7 +958,7 @@ u+0397:
     .......
 
     left-bearing: 1
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+0399:
@@ -988,7 +981,7 @@ u+0399:
     ...
     ...
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+03d1:
@@ -1011,7 +1004,7 @@ u+03d1:
     .......
     .......
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+039a:
@@ -1034,7 +1027,7 @@ u+039a:
     ........
     ........
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+039b:
@@ -1057,7 +1050,7 @@ u+039b:
     .......
     .......
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+039c:
@@ -1081,7 +1074,7 @@ u+039c:
     .........
 
     left-bearing: 1
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+039d:
@@ -1104,7 +1097,7 @@ u+039d:
     ........
     ........
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+039f:
@@ -1128,7 +1121,7 @@ u+039f:
     .......
 
     left-bearing: 1
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+03a0:
@@ -1151,7 +1144,7 @@ u+03a0:
     ........
     ........
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+0398:
@@ -1175,7 +1168,7 @@ u+0398:
     .......
 
     left-bearing: 1
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+03a1:
@@ -1198,7 +1191,7 @@ u+03a1:
     ......
     ......
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+03a3:
@@ -1222,7 +1215,7 @@ u+03a3:
     ......
 
     left-bearing: 1
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+03a4:
@@ -1245,7 +1238,7 @@ u+03a4:
     .......
     .......
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+03a5:
@@ -1268,7 +1261,7 @@ u+03a5:
     .......
     .......
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+03c2:
@@ -1291,7 +1284,7 @@ u+03c2:
     ....
     ....
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+03a9:
@@ -1314,7 +1307,7 @@ u+03a9:
     ........
     ........
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+039e:
@@ -1337,7 +1330,7 @@ u+039e:
     .......
     .......
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+03a8:
@@ -1360,7 +1353,7 @@ u+03a8:
     .........
     .........
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+0396:
@@ -1383,7 +1376,7 @@ u+0396:
     .......
     .......
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+005b:
@@ -1407,7 +1400,7 @@ u+005b:
     ..
 
     left-bearing: 1
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+2234:
@@ -1431,7 +1424,7 @@ u+2234:
     ........
 
     left-bearing: 1
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+005d:
@@ -1455,7 +1448,7 @@ u+005d:
     ..
 
     left-bearing: 1
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+22a5:
@@ -1478,7 +1471,7 @@ u+22a5:
     .......
     .......
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+005f:
@@ -1501,9 +1494,6 @@ u+005f:
     @@@@@@
     ......
 
-    right-bearing: -2
-
-
 u+f8e5:
 0x60:
     .....
@@ -1524,9 +1514,6 @@ u+f8e5:
     .....
     .....
 
-    right-bearing: -2
-
-
 u+03b1:
 0x61:
     ........
@@ -1546,9 +1533,6 @@ u+03b1:
     ........
     ........
     ........
-
-    right-bearing: -2
-
 
 u+03b2:
 0x62:
@@ -1571,7 +1555,7 @@ u+03b2:
     .....
 
     left-bearing: 1
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+03c7:
@@ -1594,9 +1578,6 @@ u+03c7:
     .@...@.
     .......
 
-    right-bearing: -2
-
-
 u+03b4:
 0x64:
     .....
@@ -1617,7 +1598,7 @@ u+03b4:
     .....
     .....
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+03b5:
@@ -1640,7 +1621,7 @@ u+03b5:
     ....
     ....
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+03c6:
@@ -1663,7 +1644,7 @@ u+03c6:
     .....
     .....
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+03b3:
@@ -1686,9 +1667,6 @@ u+03b3:
     ..@..
     .....
 
-    right-bearing: -2
-
-
 u+03b7:
 0x68:
     ......
@@ -1709,7 +1687,7 @@ u+03b7:
     .....@
     ......
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+03b9:
@@ -1732,7 +1710,7 @@ u+03b9:
     ...
     ...
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+03d5:
@@ -1756,7 +1734,7 @@ u+03d5:
     .....
 
     left-bearing: 1
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+03ba:
@@ -1779,7 +1757,7 @@ u+03ba:
     ......
     ......
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+03bb:
@@ -1802,7 +1780,7 @@ u+03bb:
     ......
     ......
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+03bc:
@@ -1825,7 +1803,7 @@ u+03bc:
     @.....
     ......
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+03bd:
@@ -1848,9 +1826,6 @@ u+03bd:
     ......
     ......
 
-    right-bearing: -2
-
-
 u+03bf:
 0x6f:
     .....
@@ -1872,7 +1847,7 @@ u+03bf:
     .....
 
     left-bearing: 1
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+03c0:
@@ -1895,9 +1870,6 @@ u+03c0:
     .......
     .......
 
-    right-bearing: -2
-
-
 u+03b8:
 0x71:
     .....
@@ -1919,7 +1891,7 @@ u+03b8:
     .....
 
     left-bearing: 1
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+03c1:
@@ -1943,7 +1915,7 @@ u+03c1:
     .....
 
     left-bearing: 1
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+03c3:
@@ -1966,7 +1938,7 @@ u+03c3:
     ......
     ......
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+03c4:
@@ -1989,9 +1961,6 @@ u+03c4:
     .....
     .....
 
-    right-bearing: -2
-
-
 u+03c5:
 0x75:
     ......
@@ -2012,7 +1981,7 @@ u+03c5:
     ......
     ......
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+03d6:
@@ -2036,7 +2005,7 @@ u+03d6:
     .......
 
     left-bearing: 1
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+03c9:
@@ -2059,7 +2028,7 @@ u+03c9:
     .......
     .......
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+03be:
@@ -2082,7 +2051,7 @@ u+03be:
     ...@.
     .....
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+03c8:
@@ -2105,7 +2074,7 @@ u+03c8:
     ...@...
     .......
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+03b6:
@@ -2128,7 +2097,7 @@ u+03b6:
     ..@@.
     .....
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+007b:
@@ -2152,7 +2121,7 @@ u+007b:
     ....
 
     left-bearing: 1
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+007c:
@@ -2175,7 +2144,7 @@ u+007c:
     @
     .
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+007d:
@@ -2199,7 +2168,7 @@ u+007d:
     ....
 
     left-bearing: 1
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+223c:
@@ -2222,7 +2191,7 @@ u+223c:
     ......
     ......
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+03d2:
@@ -2245,7 +2214,7 @@ u+03d2:
     ......
     ......
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+2032:
@@ -2268,9 +2237,6 @@ u+2032:
     ...
     ...
 
-    right-bearing: -2
-
-
 u+2264:
 0xa3:
     ......
@@ -2291,7 +2257,7 @@ u+2264:
     ......
     ......
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+2044:
@@ -2314,9 +2280,6 @@ u+2044:
     ..
     ..
 
-    right-bearing: -2
-
-
 u+221e:
 0xa5:
     .......
@@ -2338,7 +2301,7 @@ u+221e:
     .......
 
     left-bearing: 1
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+0192:
@@ -2362,6 +2325,7 @@ u+0192:
     ...
 
     left-bearing: 1
+    right-bearing: 2
 
 
 u+2663:
@@ -2385,7 +2349,7 @@ u+2663:
     .......
 
     left-bearing: 1
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+2666:
@@ -2409,7 +2373,7 @@ u+2666:
     .......
 
     left-bearing: 1
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+2665:
@@ -2433,7 +2397,7 @@ u+2665:
     .......
 
     left-bearing: 1
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+2660:
@@ -2457,7 +2421,7 @@ u+2660:
     .......
 
     left-bearing: 1
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+2194:
@@ -2480,7 +2444,7 @@ u+2194:
     ............
     ............
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+2190:
@@ -2503,7 +2467,7 @@ u+2190:
     ...........
     ...........
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+2191:
@@ -2526,9 +2490,6 @@ u+2191:
     .......
     .......
 
-    right-bearing: -2
-
-
 u+2192:
 0xae:
     ..........
@@ -2550,7 +2511,7 @@ u+2192:
     ..........
 
     left-bearing: 1
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+2193:
@@ -2573,9 +2534,6 @@ u+2193:
     .......
     .......
 
-    right-bearing: -2
-
-
 u+00b0:
 0xb0:
     ....
@@ -2596,7 +2554,7 @@ u+00b0:
     ....
     ....
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+00b1:
@@ -2619,9 +2577,6 @@ u+00b1:
     .......
     .......
 
-    right-bearing: -2
-
-
 u+2033:
 0xb2:
     .....
@@ -2641,9 +2596,6 @@ u+2033:
     .....
     .....
     .....
-
-    right-bearing: -2
-
 
 u+2265:
 0xb3:
@@ -2665,7 +2617,7 @@ u+2265:
     ......
     ......
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+00d7:
@@ -2688,9 +2640,6 @@ u+00d7:
     .......
     .......
 
-    right-bearing: -2
-
-
 u+221d:
 0xb5:
     ........
@@ -2711,7 +2660,7 @@ u+221d:
     ........
     ........
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+2202:
@@ -2735,7 +2684,7 @@ u+2202:
     ....
 
     left-bearing: 1
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+2022:
@@ -2759,7 +2708,7 @@ u+2022:
     ....
 
     left-bearing: 1
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+00f7:
@@ -2783,7 +2732,7 @@ u+00f7:
     .....
 
     left-bearing: 1
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+2260:
@@ -2806,7 +2755,7 @@ u+2260:
     ......
     ......
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+2261:
@@ -2829,7 +2778,7 @@ u+2261:
     ......
     ......
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+2248:
@@ -2852,7 +2801,7 @@ u+2248:
     ......
     ......
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+2026:
@@ -2876,6 +2825,7 @@ u+2026:
     .........
 
     left-bearing: 1
+    right-bearing: 2
 
 
 u+23d0:
@@ -2899,7 +2849,7 @@ u+23d0:
     .
 
     left-bearing: 3
-    right-bearing: 1
+    right-bearing: 3
 
 
 u+23af:
@@ -2922,7 +2872,7 @@ u+23af:
     ...........
     ...........
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+21b5:
@@ -2945,7 +2895,7 @@ u+21b5:
     .......
     .......
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+2135:
@@ -2969,6 +2919,7 @@ u+2135:
     .......
 
     left-bearing: 1
+    right-bearing: 2
 
 
 u+2111:
@@ -2991,7 +2942,7 @@ u+2111:
     .......
     .......
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+211c:
@@ -3014,9 +2965,6 @@ u+211c:
     ..........
     ..........
 
-    right-bearing: -2
-
-
 u+2118:
 0xc3:
     .........
@@ -3038,7 +2986,7 @@ u+2118:
     .........
 
     left-bearing: 2
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+2297:
@@ -3061,7 +3009,7 @@ u+2297:
     .........
     .........
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+2295:
@@ -3084,7 +3032,7 @@ u+2295:
     .........
     .........
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+2205:
@@ -3107,7 +3055,7 @@ u+2205:
     .........
     .........
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+2229:
@@ -3130,7 +3078,7 @@ u+2229:
     ........
     ........
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+222a:
@@ -3153,7 +3101,7 @@ u+222a:
     ........
     ........
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+2283:
@@ -3176,7 +3124,7 @@ u+2283:
     ........
     ........
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+2287:
@@ -3199,7 +3147,7 @@ u+2287:
     ........
     ........
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+2284:
@@ -3222,7 +3170,7 @@ u+2284:
     ........
     ........
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+2282:
@@ -3245,7 +3193,7 @@ u+2282:
     ........
     ........
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+2286:
@@ -3268,7 +3216,7 @@ u+2286:
     ........
     ........
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+2208:
@@ -3292,6 +3240,7 @@ u+2208:
     ......
 
     left-bearing: 1
+    right-bearing: 2
 
 
 u+2209:
@@ -3315,6 +3264,7 @@ u+2209:
     ......
 
     left-bearing: 1
+    right-bearing: 2
 
 
 u+2220:
@@ -3337,7 +3287,7 @@ u+2220:
     ........
     ........
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+2207:
@@ -3361,7 +3311,7 @@ u+2207:
     .......
 
     left-bearing: 1
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+00ae:
@@ -3384,7 +3334,7 @@ u+00ae:
     ........
     ........
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+00a9:
@@ -3407,7 +3357,7 @@ u+00a9:
     ........
     ........
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+2122:
@@ -3430,7 +3380,7 @@ u+2122:
     ..........
     ..........
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+220f:
@@ -3454,7 +3404,7 @@ u+220f:
     ........
 
     left-bearing: 1
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+221a:
@@ -3477,9 +3427,6 @@ u+221a:
     .......
     .......
 
-    right-bearing: -2
-
-
 u+22c5:
 0xd7:
     .
@@ -3501,7 +3448,7 @@ u+22c5:
     .
 
     left-bearing: 3
-    right-bearing: 1
+    right-bearing: 3
 
 
 u+00ac:
@@ -3525,7 +3472,7 @@ u+00ac:
     .......
 
     left-bearing: 1
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+2227:
@@ -3549,7 +3496,7 @@ u+2227:
     .....
 
     left-bearing: 1
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+2228:
@@ -3573,7 +3520,7 @@ u+2228:
     .....
 
     left-bearing: 1
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+21d4:
@@ -3596,7 +3543,7 @@ u+21d4:
     ............
     ............
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+21d0:
@@ -3619,7 +3566,7 @@ u+21d0:
     ...........
     ...........
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+21d1:
@@ -3642,7 +3589,7 @@ u+21d1:
     ......
     ......
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+21d2:
@@ -3665,7 +3612,7 @@ u+21d2:
     ...........
     ...........
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+21d3:
@@ -3688,7 +3635,7 @@ u+21d3:
     ......
     ......
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+25ca:
@@ -3711,7 +3658,7 @@ u+25ca:
     .....
     .....
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+3008:
@@ -3734,7 +3681,7 @@ u+3008:
     ...
     ...
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+00ae, u+f87f:
@@ -3757,7 +3704,7 @@ u+00ae, u+f87f:
     ........
     ........
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+00a9, u+f87f:
@@ -3780,7 +3727,7 @@ u+00a9, u+f87f:
     ........
     ........
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+2122, u+f87f:
@@ -3803,7 +3750,7 @@ u+2122, u+f87f:
     ........
     ........
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+2211:
@@ -3827,7 +3774,7 @@ u+2211:
     .......
 
     left-bearing: 1
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+239b:
@@ -3850,7 +3797,7 @@ u+239b:
     @...
     @...
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+239c:
@@ -3873,7 +3820,7 @@ u+239c:
     @
     @
 
-    right-bearing: 2
+    right-bearing: 4
 
 
 u+239d:
@@ -3896,7 +3843,7 @@ u+239d:
     ..@.
     ...@
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+23a1:
@@ -3919,7 +3866,7 @@ u+23a1:
     @...
     @...
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+23a2:
@@ -3942,7 +3889,7 @@ u+23a2:
     @
     @
 
-    right-bearing: 2
+    right-bearing: 4
 
 
 u+23a3:
@@ -3965,7 +3912,7 @@ u+23a3:
     ....
     ....
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+23a7:
@@ -3989,7 +3936,7 @@ u+23a7:
     @..
 
     left-bearing: 2
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+23a8:
@@ -4012,7 +3959,7 @@ u+23a8:
     ..@
     ..@
 
-    right-bearing: 1
+    right-bearing: 3
 
 
 u+23a9:
@@ -4036,7 +3983,7 @@ u+23a9:
     ...
 
     left-bearing: 2
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+23aa:
@@ -4060,7 +4007,7 @@ u+23aa:
     @
 
     left-bearing: 2
-    right-bearing: 1
+    right-bearing: 3
 
 
 u+f8ff:
@@ -4083,7 +4030,7 @@ u+f8ff:
     .........
     .........
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+3009:
@@ -4106,7 +4053,7 @@ u+3009:
     ...
     ...
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+222b:
@@ -4129,7 +4076,7 @@ u+222b:
     ...
     ...
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+2320:
@@ -4153,7 +4100,6 @@ u+2320:
     @...
 
     left-bearing: 4
-    right-bearing: -2
 
 
 u+23ae:
@@ -4177,7 +4123,7 @@ u+23ae:
     @
 
     left-bearing: 4
-    right-bearing: 1
+    right-bearing: 3
 
 
 u+2321:
@@ -4201,7 +4147,7 @@ u+2321:
     ....
 
     left-bearing: 1
-    right-bearing: 1
+    right-bearing: 3
 
 
 u+239e:
@@ -4224,7 +4170,7 @@ u+239e:
     ...@
     ...@
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+239f:
@@ -4248,7 +4194,7 @@ u+239f:
     @
 
     left-bearing: 3
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+23a0:
@@ -4271,7 +4217,7 @@ u+23a0:
     .@..
     @...
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+23a4:
@@ -4294,7 +4240,7 @@ u+23a4:
     ...@
     ...@
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+23a5:
@@ -4318,7 +4264,7 @@ u+23a5:
     @
 
     left-bearing: 3
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+23a6:
@@ -4341,7 +4287,7 @@ u+23a6:
     ....
     ....
 
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+23ab:
@@ -4364,7 +4310,7 @@ u+23ab:
     ..@
     ..@
 
-    right-bearing: 1
+    right-bearing: 3
 
 
 u+23ac:
@@ -4388,7 +4334,7 @@ u+23ac:
     @..
 
     left-bearing: 2
-    right-bearing: -1
+    right-bearing: 1
 
 
 u+23ad:
@@ -4411,14 +4357,11 @@ u+23ad:
     ...
     ...
 
-    right-bearing: 1
+    right-bearing: 3
 
 
 0xff:
     -
-
-    right-bearing: -2
-
 
 missing:
     ...
@@ -4440,6 +4383,5 @@ missing:
     ...
 
     left-bearing: -2
-    right-bearing: -2
 
 
