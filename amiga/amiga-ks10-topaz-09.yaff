@@ -8,7 +8,7 @@ name: topaz/9
 foundry: Amiga
 revision: 1.0
 spacing: monospace
-bottom: -2
+shift-up: -2
 size: 8
 encoding: iso8859-1
 default-char: default
