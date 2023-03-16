@@ -4,7 +4,7 @@ family: Symbol
 point-size: 8
 dpi: 96 48
 spacing: proportional
-offset: 0 -1
+shift-up: -1
 encoding: mac-symbol
 default-char: 0x80
 converter: monobit v0.10

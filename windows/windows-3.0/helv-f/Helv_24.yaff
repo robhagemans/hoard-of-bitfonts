@@ -5,7 +5,7 @@ point-size: 24
 dpi: 120 120
 spacing: proportional
 ascent: 31
-offset: 0 -9
+shift-up: -9
 encoding: windows-ansi-2.0
 default-char: 0x80
 converter: monobit v0.10

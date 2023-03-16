@@ -4,7 +4,7 @@ family: Courier
 point-size: 15
 dpi: 120 120
 spacing: character-cell
-offset: 0 -5
+shift-up: -5
 encoding: windows-ansi-2.0
 default-char: 0x40
 converter: monobit v0.10
