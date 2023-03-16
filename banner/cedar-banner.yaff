@@ -5,7 +5,7 @@ name: Cedar Software Banner
 spacing: proportional
 bounding-box: 8 7
 converter: monobit v0.21
-tracking: 2
+right-bearing: 2
 leading: 2
 
 

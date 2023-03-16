@@ -5,7 +5,7 @@ name: FACIT
 spacing: character-cell
 raster-size: 5 7
 source-url: https://www.nonstopsystems.com/radio/hellschreiber-fonts.htm#5-line-sp
-tracking: 3
+right-bearing: 3
 leading: 1
 
 u+0020:

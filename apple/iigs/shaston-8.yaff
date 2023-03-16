@@ -1,7 +1,7 @@
 name: Shaston 8
 point-size: 8
 spacing: proportional
-offset: 0 -1
+shift-up: -1
 leading: 1
 encoding: mac-roman
 default-char: missing

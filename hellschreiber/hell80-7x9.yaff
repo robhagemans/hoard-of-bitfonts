@@ -5,7 +5,7 @@ name: Hell-80 7x9
 spacing: character-cell
 raster-size: 7 9
 source-url: https://www.nonstopsystems.com/radio/hellschreiber-fonts.htm#7-line-x9-sp
-tracking: 1
+right-bearing: 1
 
 u+002b:
 "+":

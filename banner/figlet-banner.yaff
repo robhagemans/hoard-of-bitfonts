@@ -17,7 +17,7 @@ bounding-box: 11 8
 ascent: 7
 descent: 1
 direction: left-to-right
-offset: 0 -1
+shift-up: -1
 encoding: unicode
 converter: monobit v0.21
 source-name: banner.flf
