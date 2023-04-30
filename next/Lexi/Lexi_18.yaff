@@ -1,0 +1,102 @@
+name: Lexi 18
+spacing: proportional
+bounding-box: 13x16
+font-id: 50331651
+family: Lexi
+dpi: 75x75
+point-size: 18
+encoding: ""
+converter: monobit v0.40
+source-format: prebuilt
+source-name: Lexi.bepf
+
+comma:
+u+002c:
+    @@
+    @@
+    @@
+    @@
+    @@
+
+    left-bearing: 1
+    right-bearing: 1
+    shift-up: -3
+    scalable-width: 3.47
+
+
+"e":
+u+0065:
+    .@@@@..
+    @@..@@.
+    .....@@
+    .....@@
+    .....@@
+    @@@@@@@
+    @....@@
+    @@..@@.
+    .@@@@..
+
+    right-bearing: 1
+    scalable-width: 8.89
+
+
+"n":
+u+006e:
+    @@@..@@.
+    .@@.@@@@
+    .@@@..@@
+    .@@...@@
+    .@@...@@
+    .@@...@@
+    .@@...@@
+    .@@...@@
+    @@@@..@@
+    ......@@
+    ......@@
+    ....@@@.
+    ....@@..
+
+    right-bearing: 2
+    shift-up: -4
+    scalable-width: 9.24
+
+
+quoteright:
+u+2019:
+    @@
+    @@
+    @@
+    @@
+    @@
+
+    left-bearing: 1
+    right-bearing: 1
+    shift-up: 7
+    scalable-width: 3.47
+
+
+space:
+u+0020:
+    -
+
+    right-bearing: 3
+    scalable-width: 2.81
+
+
+"u":
+u+0075:
+    @@@..@@@@@@@.
+    .@@...@@@..@@
+    .@@...@@....@
+    .@@...@@@@@@@
+    .@@...@@.....
+    .@@...@@.....
+    .@@...@@.....
+    .@@@.@@@@..@@
+    ..@@@.@@@@@@.
+
+    left-bearing: -1
+    right-bearing: 1
+    scalable-width: 15.28
+
+

@@ -1,0 +1,3127 @@
+name: Ohlfs 9
+spacing: monospace
+bounding-box: 7x11
+font-id: 50331650
+family: Ohlfs
+dpi: 75x75
+point-size: 9
+encoding: latin-1
+converter: monobit v0.40
+source-format: prebuilt
+source-name: Ohlfs.bepf
+
+"A":
+u+0041:
+    .@@.
+    @..@
+    @..@
+    @..@
+    @@@@
+    @..@
+    @..@
+
+    right-bearing: 1
+    scalable-width: 5.62
+
+
+AE:
+u+00c6:
+    .@@@@@
+    ..@@..
+    .@.@@@
+    .@@@..
+    @..@..
+    @..@@@
+
+    right-bearing: -1
+    scalable-width: 5.62
+
+
+Aacute:
+u+00c1:
+    ...@..
+    ..@...
+    ......
+    .@@@..
+    ..@.@.
+    .@..@.
+    .@@@@.
+    .@..@.
+    @@..@@
+
+    right-bearing: -1
+    scalable-width: 5.62
+
+
+Acircumflex:
+u+00c2:
+    ..@...
+    .@.@..
+    ......
+    .@@@..
+    ..@.@.
+    .@..@.
+    .@@@@.
+    .@..@.
+    @@..@@
+
+    right-bearing: -1
+    scalable-width: 5.62
+
+
+Adieresis:
+u+00c4:
+    .@.@..
+    ......
+    .@@@..
+    ..@.@.
+    .@..@.
+    .@@@@.
+    .@..@.
+    @@..@@
+
+    right-bearing: -1
+    scalable-width: 5.62
+
+
+Agrave:
+u+00c0:
+    ..@...
+    ...@..
+    ......
+    .@@@..
+    ..@.@.
+    .@..@.
+    .@@@@.
+    .@..@.
+    @@..@@
+
+    right-bearing: -1
+    scalable-width: 5.62
+
+
+Aring:
+u+00c5:
+    ...@..
+    ..@.@.
+    ...@..
+    .@@@..
+    ..@.@.
+    .@..@.
+    .@@@@.
+    .@..@.
+    @@..@@
+
+    right-bearing: -1
+    scalable-width: 5.62
+
+
+Atilde:
+u+00c3:
+    ..@.@.
+    .@.@..
+    ......
+    .@@@..
+    ..@.@.
+    .@..@.
+    .@@@@.
+    .@..@.
+    @@..@@
+
+    right-bearing: -1
+    scalable-width: 5.62
+
+
+"B":
+u+0042:
+    @@@.
+    @..@
+    @..@
+    @@@.
+    @..@
+    @..@
+    @@@.
+
+    right-bearing: 1
+    scalable-width: 5.62
+
+
+"C":
+u+0043:
+    .@@.
+    @..@
+    @..@
+    @...
+    @...
+    @..@
+    .@@.
+
+    right-bearing: 1
+    scalable-width: 5.62
+
+
+Ccedilla:
+u+00c7:
+    .@@.
+    @..@
+    @...
+    @...
+    @..@
+    .@@.
+    ..@.
+    @@..
+
+    left-bearing: 1
+    shift-up: -2
+    scalable-width: 5.62
+
+
+"D":
+u+0044:
+    @@@.
+    @..@
+    @..@
+    @..@
+    @..@
+    @..@
+    @@@.
+
+    right-bearing: 1
+    scalable-width: 5.62
+
+
+"E":
+u+0045:
+    @@@@
+    @...
+    @...
+    @@@.
+    @...
+    @...
+    @@@@
+
+    right-bearing: 1
+    scalable-width: 5.62
+
+
+Eacute:
+u+00c9:
+    ...@.
+    ..@..
+    .....
+    @@@@@
+    .@..@
+    .@@@.
+    .@...
+    .@..@
+    @@@@@
+
+    scalable-width: 5.62
+
+
+Ecircumflex:
+u+00ca:
+    ..@..
+    .@.@.
+    .....
+    @@@@@
+    .@..@
+    .@@@.
+    .@...
+    .@..@
+    @@@@@
+
+    scalable-width: 5.62
+
+
+Edieresis:
+u+00cb:
+    .@.@.
+    .....
+    @@@@@
+    .@..@
+    .@@@.
+    .@...
+    .@..@
+    @@@@@
+
+    scalable-width: 5.62
+
+
+Egrave:
+u+00c8:
+    ..@..
+    ...@.
+    .....
+    @@@@@
+    .@..@
+    .@@@.
+    .@...
+    .@..@
+    @@@@@
+
+    scalable-width: 5.62
+
+
+Eth:
+u+00d0:
+    @@@@.
+    .@..@
+    @@@.@
+    .@..@
+    .@..@
+    @@@@.
+
+    scalable-width: 5.62
+
+
+"F":
+u+0046:
+    @@@@
+    @...
+    @...
+    @@@.
+    @...
+    @...
+    @...
+
+    right-bearing: 1
+    scalable-width: 5.62
+
+
+"G":
+u+0047:
+    .@@.
+    @..@
+    @...
+    @.@@
+    @..@
+    @..@
+    .@@.
+
+    right-bearing: 1
+    scalable-width: 5.62
+
+
+"H":
+u+0048:
+    @..@
+    @..@
+    @..@
+    @@@@
+    @..@
+    @..@
+    @..@
+
+    right-bearing: 1
+    scalable-width: 5.62
+
+
+"I":
+u+0049:
+    @@@
+    .@.
+    .@.
+    .@.
+    .@.
+    .@.
+    @@@
+
+    right-bearing: 2
+    scalable-width: 5.62
+
+
+Iacute:
+u+00cd:
+    ...@.
+    ..@..
+    .....
+    @@@@@
+    ..@..
+    ..@..
+    ..@..
+    ..@..
+    @@@@@
+
+    scalable-width: 5.62
+
+
+Icircumflex:
+u+00ce:
+    ..@..
+    .@.@.
+    .....
+    @@@@@
+    ..@..
+    ..@..
+    ..@..
+    ..@..
+    @@@@@
+
+    scalable-width: 5.62
+
+
+Idieresis:
+u+00cf:
+    .@.@.
+    .....
+    @@@@@
+    ..@..
+    ..@..
+    ..@..
+    ..@..
+    @@@@@
+
+    scalable-width: 5.62
+
+
+Igrave:
+u+00cc:
+    .@...
+    ..@..
+    .....
+    @@@@@
+    ..@..
+    ..@..
+    ..@..
+    ..@..
+    @@@@@
+
+    scalable-width: 5.62
+
+
+"J":
+u+004a:
+    ...@
+    ...@
+    ...@
+    ...@
+    @..@
+    @..@
+    .@@.
+
+    right-bearing: 1
+    scalable-width: 5.62
+
+
+"K":
+u+004b:
+    @..@
+    @..@
+    @.@.
+    @@..
+    @@..
+    @.@.
+    @..@
+
+    right-bearing: 1
+    scalable-width: 5.62
+
+
+"L":
+u+004c:
+    @...
+    @...
+    @...
+    @...
+    @...
+    @...
+    @@@@
+
+    right-bearing: 1
+    scalable-width: 5.62
+
+
+Lslash:
+u+0141:
+    @@@..
+    .@...
+    .@@..
+    @@...
+    .@..@
+    @@@@@
+
+    scalable-width: 5.62
+
+
+"M":
+u+004d:
+    @..@
+    @@@@
+    @@@@
+    @..@
+    @..@
+    @..@
+    @..@
+
+    right-bearing: 1
+    scalable-width: 5.62
+
+
+"N":
+u+004e:
+    @..@
+    @@.@
+    @@.@
+    @.@@
+    @.@@
+    @..@
+    @..@
+
+    right-bearing: 1
+    scalable-width: 5.62
+
+
+Ntilde:
+u+00d1:
+    ..@.@
+    .@.@.
+    .....
+    @@.@@
+    .@..@
+    .@@.@
+    .@.@@
+    .@..@
+    @@..@
+
+    scalable-width: 5.62
+
+
+"O":
+u+004f:
+    .@@.
+    @..@
+    @..@
+    @..@
+    @..@
+    @..@
+    .@@.
+
+    right-bearing: 1
+    scalable-width: 5.62
+
+
+OE:
+u+0152:
+    .@@@@@
+    @..@..
+    @..@@@
+    @..@..
+    @..@.@
+    .@@@@@
+
+    right-bearing: -1
+    scalable-width: 5.62
+
+
+Oacute:
+u+00d3:
+    ..@.
+    .@..
+    ....
+    .@@.
+    @..@
+    @..@
+    @..@
+    @..@
+    .@@.
+
+    left-bearing: 1
+    scalable-width: 5.62
+
+
+Ocircumflex:
+u+00d4:
+    ..@.
+    .@.@
+    ....
+    .@@.
+    @..@
+    @..@
+    @..@
+    @..@
+    .@@.
+
+    left-bearing: 1
+    scalable-width: 5.62
+
+
+Odieresis:
+u+00d6:
+    @.@.
+    ....
+    .@@.
+    @..@
+    @..@
+    @..@
+    @..@
+    .@@.
+
+    left-bearing: 1
+    scalable-width: 5.62
+
+
+Ograve:
+u+00d2:
+    .@..
+    ..@.
+    ....
+    .@@.
+    @..@
+    @..@
+    @..@
+    @..@
+    .@@.
+
+    left-bearing: 1
+    scalable-width: 5.62
+
+
+Oslash:
+u+00d8:
+    ..@@.@
+    .@..@.
+    .@.@@.
+    .@@.@.
+    .@..@.
+    @.@@..
+
+    right-bearing: -1
+    scalable-width: 5.62
+
+
+Otilde:
+u+00d5:
+    .@.@
+    @.@.
+    ....
+    .@@.
+    @..@
+    @..@
+    @..@
+    @..@
+    .@@.
+
+    left-bearing: 1
+    scalable-width: 5.62
+
+
+"P":
+u+0050:
+    @@@.
+    @..@
+    @..@
+    @..@
+    @@@.
+    @...
+    @...
+
+    right-bearing: 1
+    scalable-width: 5.62
+
+
+"Q":
+u+0051:
+    .@@.
+    @..@
+    @..@
+    @..@
+    @..@
+    @..@
+    .@@.
+    ...@
+
+    right-bearing: 1
+    shift-up: -1
+    scalable-width: 5.62
+
+
+"R":
+u+0052:
+    @@@.
+    @..@
+    @..@
+    @..@
+    @@@.
+    @..@
+    @..@
+
+    right-bearing: 1
+    scalable-width: 5.62
+
+
+"S":
+u+0053:
+    .@@.
+    @..@
+    @...
+    .@@.
+    ...@
+    @..@
+    .@@.
+
+    right-bearing: 1
+    scalable-width: 5.62
+
+
+Scaron:
+u+0160:
+    .@.@
+    ..@.
+    ....
+    .@@@
+    @...
+    .@@.
+    ...@
+    @..@
+    @@@.
+
+    left-bearing: 1
+    scalable-width: 5.62
+
+
+"T":
+u+0054:
+    @@@@@
+    ..@..
+    ..@..
+    ..@..
+    ..@..
+    ..@..
+    ..@..
+
+    scalable-width: 5.62
+
+
+Thorn:
+u+00de:
+    @@...
+    .@@@.
+    .@..@
+    .@@@.
+    .@...
+    @@@..
+
+    scalable-width: 5.62
+
+
+"U":
+u+0055:
+    @..@
+    @..@
+    @..@
+    @..@
+    @..@
+    @..@
+    .@@.
+
+    right-bearing: 1
+    scalable-width: 5.62
+
+
+Uacute:
+u+00da:
+    ...@..
+    ..@...
+    ......
+    @@..@@
+    .@..@.
+    .@..@.
+    .@..@.
+    .@..@.
+    ..@@..
+
+    right-bearing: -1
+    scalable-width: 5.62
+
+
+Ucircumflex:
+u+00db:
+    ...@..
+    ..@.@.
+    ......
+    @@..@@
+    .@..@.
+    .@..@.
+    .@..@.
+    .@..@.
+    ..@@..
+
+    right-bearing: -1
+    scalable-width: 5.62
+
+
+Udieresis:
+u+00dc:
+    .@.@..
+    ......
+    @@..@@
+    .@..@.
+    .@..@.
+    .@..@.
+    .@..@.
+    ..@@..
+
+    right-bearing: -1
+    scalable-width: 5.62
+
+
+Ugrave:
+u+00d9:
+    ..@...
+    ...@..
+    ......
+    @@..@@
+    .@..@.
+    .@..@.
+    .@..@.
+    .@..@.
+    ..@@..
+
+    right-bearing: -1
+    scalable-width: 5.62
+
+
+"V":
+u+0056:
+    @..@
+    @..@
+    @..@
+    @.@.
+    @.@.
+    .@..
+    .@..
+
+    right-bearing: 1
+    scalable-width: 5.62
+
+
+"W":
+u+0057:
+    @..@
+    @..@
+    @..@
+    @..@
+    @@@@
+    @@@@
+    @..@
+
+    right-bearing: 1
+    scalable-width: 5.62
+
+
+"X":
+u+0058:
+    @..@
+    @..@
+    .@@.
+    .@@.
+    @..@
+    @..@
+    @..@
+
+    right-bearing: 1
+    scalable-width: 5.62
+
+
+"Y":
+u+0059:
+    @..@
+    @..@
+    @..@
+    .@@.
+    ..@.
+    ..@.
+    ..@.
+
+    right-bearing: 1
+    scalable-width: 5.62
+
+
+Yacute:
+u+00dd:
+    ...@.
+    ..@..
+    .....
+    @@.@@
+    @...@
+    .@.@.
+    ..@..
+    ..@..
+    .@@@.
+
+    scalable-width: 5.62
+
+
+Ydieresis:
+u+0178:
+    .@.@.
+    .....
+    @@.@@
+    @...@
+    .@.@.
+    ..@..
+    ..@..
+    .@@@.
+
+    scalable-width: 5.62
+
+
+"Z":
+u+005a:
+    @@@@
+    ...@
+    ..@.
+    .@..
+    .@..
+    @...
+    @@@@
+
+    right-bearing: 1
+    scalable-width: 5.62
+
+
+Zcaron:
+u+017d:
+    .@.@
+    ..@.
+    ....
+    @@@@
+    @..@
+    ..@.
+    .@..
+    @..@
+    @@@@
+
+    left-bearing: 1
+    scalable-width: 5.62
+
+
+"a":
+u+0061:
+    .@@.
+    @..@
+    .@@@
+    @..@
+    @..@
+    .@@@
+
+    right-bearing: 1
+    scalable-width: 5.62
+
+
+aacute:
+u+00e1:
+    ..@..
+    .@...
+    .....
+    .@@..
+    ...@.
+    .@@@.
+    @..@.
+    .@@.@
+
+    scalable-width: 5.62
+
+
+acircumflex:
+u+00e2:
+    ..@..
+    .@.@.
+    .....
+    .@@..
+    ...@.
+    .@@@.
+    @..@.
+    .@@.@
+
+    scalable-width: 5.62
+
+
+acute:
+u+00b4:
+    .@
+    @.
+
+    left-bearing: 2
+    right-bearing: 1
+    shift-up: 6
+    scalable-width: 5.62
+
+
+adieresis:
+u+00e4:
+    .@.@.
+    .....
+    .@@..
+    ...@.
+    .@@@.
+    @..@.
+    .@@.@
+
+    scalable-width: 5.62
+
+
+ae:
+u+00e6:
+    .@@.@@
+    @..@.@
+    .@@@@@
+    @..@..
+    @@@.@@
+
+    right-bearing: -1
+    scalable-width: 5.62
+
+
+agrave:
+u+00e0:
+    .@...
+    ..@..
+    .....
+    .@@..
+    ...@.
+    .@@@.
+    @..@.
+    .@@.@
+
+    scalable-width: 5.62
+
+
+ampersand:
+u+0026:
+    ..@@.
+    .@...
+    .@.@.
+    @@@..
+    @..@.
+    @..@.
+    .@@@@
+
+    scalable-width: 5.62
+
+
+aring:
+u+00e5:
+    ..@..
+    .@.@.
+    ..@..
+    .....
+    .@@..
+    ...@.
+    .@@@.
+    @..@.
+    .@@.@
+
+    scalable-width: 5.62
+
+
+asciicircum:
+u+005e:
+    ..@..
+    .@.@.
+    @...@
+
+    shift-up: 4
+    scalable-width: 5.62
+
+
+asciitilde:
+u+007e:
+    .@.@
+    @.@.
+
+    right-bearing: 1
+    shift-up: 3
+    scalable-width: 5.62
+
+
+asterisk:
+u+002a:
+    ..@..
+    @@.@@
+    ..@..
+    .@.@.
+
+    shift-up: 3
+    scalable-width: 5.62
+
+
+at:
+u+0040:
+    ..@@.
+    .@..@
+    @..@@
+    @.@.@
+    @.@@@
+    @....
+    .@@@@
+
+    scalable-width: 5.62
+
+
+atilde:
+u+00e3:
+    .@.@.
+    @.@..
+    .....
+    .@@..
+    ...@.
+    .@@@.
+    @..@.
+    .@@.@
+
+    scalable-width: 5.62
+
+
+"b":
+u+0062:
+    @...
+    @@@.
+    @..@
+    @..@
+    @..@
+    @..@
+    @@@.
+
+    right-bearing: 1
+    scalable-width: 5.62
+
+
+backslash:
+u+005c:
+    @...
+    @...
+    .@..
+    .@..
+    ..@.
+    ..@.
+    ...@
+    ...@
+
+    right-bearing: 1
+    shift-up: -1
+    scalable-width: 5.62
+
+
+bar:
+u+007c:
+    @
+    @
+    @
+    @
+    @
+    @
+    @
+    @
+    @
+    @
+
+    left-bearing: 2
+    right-bearing: 2
+    shift-up: -2
+    scalable-width: 5.62
+
+
+braceleft:
+u+007b:
+    ..@
+    .@.
+    .@.
+    .@.
+    @..
+    .@.
+    .@.
+    .@.
+    .@.
+    ..@
+
+    left-bearing: 1
+    right-bearing: 1
+    shift-up: -2
+    scalable-width: 5.62
+
+
+braceright:
+u+007d:
+    @..
+    .@.
+    .@.
+    .@.
+    ..@
+    .@.
+    .@.
+    .@.
+    .@.
+    @..
+
+    left-bearing: 1
+    right-bearing: 1
+    shift-up: -2
+    scalable-width: 5.62
+
+
+bracketleft:
+u+005b:
+    @@
+    @.
+    @.
+    @.
+    @.
+    @.
+    @.
+    @.
+    @.
+    @@
+
+    left-bearing: 1
+    right-bearing: 2
+    shift-up: -2
+    scalable-width: 5.62
+
+
+bracketright:
+u+005d:
+    @@
+    .@
+    .@
+    .@
+    .@
+    .@
+    .@
+    .@
+    .@
+    @@
+
+    left-bearing: 1
+    right-bearing: 2
+    shift-up: -2
+    scalable-width: 5.62
+
+
+breve:
+u+02d8:
+    @..@
+    .@@.
+
+    left-bearing: 1
+    shift-up: 6
+    scalable-width: 5.62
+
+
+brokenbar:
+u+00a6:
+    @
+    @
+    @
+    .
+    .
+    @
+    @
+    @
+    @
+
+    left-bearing: 2
+    right-bearing: 2
+    shift-up: -2
+    scalable-width: 5.62
+
+
+bullet:
+u+2022:
+    @@
+    @@
+
+    left-bearing: 2
+    right-bearing: 1
+    shift-up: 2
+    scalable-width: 5.62
+
+
+"c":
+u+0063:
+    .@@.
+    @..@
+    @...
+    @...
+    @..@
+    .@@.
+
+    right-bearing: 1
+    scalable-width: 5.62
+
+
+caron:
+u+02c7:
+    @.@
+    .@.
+
+    left-bearing: 1
+    right-bearing: 1
+    shift-up: 6
+    scalable-width: 5.62
+
+
+ccedilla:
+u+00e7:
+    .@@.
+    @..@
+    @...
+    @..@
+    .@@.
+    ..@.
+    @@..
+
+    left-bearing: 1
+    shift-up: -2
+    scalable-width: 5.62
+
+
+cedilla:
+u+00b8:
+    .@.
+    ..@
+    @@.
+
+    left-bearing: 1
+    right-bearing: 1
+    shift-up: -2
+    scalable-width: 5.62
+
+
+cent:
+u+00a2:
+    ..@.
+    ..@.
+    .@@@
+    @...
+    @...
+    .@@@
+    ..@.
+    ..@.
+
+    left-bearing: 1
+    shift-up: -1
+    scalable-width: 5.62
+
+
+circumflex:
+u+02c6:
+    .@.
+    @.@
+
+    left-bearing: 1
+    right-bearing: 1
+    shift-up: 6
+    scalable-width: 5.62
+
+
+colon:
+u+003a:
+    @
+    .
+    .
+    @
+
+    left-bearing: 2
+    right-bearing: 2
+    scalable-width: 5.62
+
+
+comma:
+u+002c:
+    .@
+    .@
+    @.
+
+    left-bearing: 1
+    right-bearing: 2
+    shift-up: -2
+    scalable-width: 5.62
+
+
+copyright:
+u+00a9:
+    ..@@..
+    .@..@.
+    @.@@.@
+    @.@..@
+    @.@@.@
+    .@..@.
+    ..@@..
+
+    right-bearing: -1
+    scalable-width: 5.62
+
+
+currency:
+u+00a4:
+    @...@
+    .@@@.
+    .@.@.
+    .@@@.
+    @...@
+
+    shift-up: 1
+    scalable-width: 5.62
+
+
+"d":
+u+0064:
+    ...@
+    .@@@
+    @..@
+    @..@
+    @..@
+    @..@
+    .@@@
+
+    right-bearing: 1
+    scalable-width: 5.62
+
+
+dagger:
+u+2020:
+    .@.
+    @@@
+    .@.
+    .@.
+    .@.
+    .@.
+    .@.
+
+    left-bearing: 1
+    right-bearing: 1
+    scalable-width: 5.62
+
+
+daggerdbl:
+u+2021:
+    .@.
+    @@@
+    .@.
+    .@.
+    .@.
+    @@@
+    .@.
+
+    left-bearing: 1
+    right-bearing: 1
+    scalable-width: 5.62
+
+
+degree:
+u+00b0:
+    .@@.
+    @..@
+    .@@.
+
+    left-bearing: 1
+    shift-up: 4
+    scalable-width: 5.62
+
+
+dieresis:
+u+00a8:
+    @.@
+
+    left-bearing: 1
+    right-bearing: 1
+    shift-up: 6
+    scalable-width: 5.62
+
+
+divide:
+u+00f7:
+    ..@..
+    .....
+    @@@@@
+    .....
+    ..@..
+
+    shift-up: 1
+    scalable-width: 5.62
+
+
+dollar:
+u+0024:
+    ..@.
+    .@@.
+    @..@
+    .@..
+    ..@.
+    @..@
+    .@@.
+    ..@.
+
+    right-bearing: 1
+    shift-up: -1
+    scalable-width: 5.62
+
+
+dotaccent:
+u+02d9:
+    @
+
+    left-bearing: 2
+    right-bearing: 2
+    shift-up: 6
+    scalable-width: 5.62
+
+
+dotlessi:
+u+0131:
+    .@@..
+    ..@..
+    ..@..
+    ..@..
+    @@@@@
+
+    left-bearing: 1
+    right-bearing: -1
+    scalable-width: 5.62
+
+
+"e":
+u+0065:
+    .@@.
+    @..@
+    @@@@
+    @...
+    @..@
+    .@@.
+
+    right-bearing: 1
+    scalable-width: 5.62
+
+
+eacute:
+u+00e9:
+    ..@.
+    .@..
+    ....
+    .@@.
+    @..@
+    @@@@
+    @...
+    .@@@
+
+    left-bearing: 1
+    scalable-width: 5.62
+
+
+ecircumflex:
+u+00ea:
+    .@..
+    @.@.
+    ....
+    .@@.
+    @..@
+    @@@@
+    @...
+    .@@@
+
+    left-bearing: 1
+    scalable-width: 5.62
+
+
+edieresis:
+u+00eb:
+    @.@.
+    ....
+    .@@.
+    @..@
+    @@@@
+    @...
+    .@@@
+
+    left-bearing: 1
+    scalable-width: 5.62
+
+
+egrave:
+u+00e8:
+    .@..
+    ..@.
+    ....
+    .@@.
+    @..@
+    @@@@
+    @...
+    .@@@
+
+    left-bearing: 1
+    scalable-width: 5.62
+
+
+eight:
+u+0038:
+    .@@.
+    @..@
+    @..@
+    .@@.
+    @..@
+    @..@
+    .@@.
+
+    right-bearing: 1
+    scalable-width: 5.62
+
+
+ellipsis:
+u+2026:
+    @.@.@
+
+    left-bearing: 1
+    right-bearing: -1
+    scalable-width: 5.62
+
+
+emdash:
+u+2014:
+    @@@@@@
+
+    right-bearing: -1
+    shift-up: 3
+    scalable-width: 5.62
+
+
+endash:
+u+2013:
+    @@@@
+
+    left-bearing: 1
+    shift-up: 3
+    scalable-width: 5.62
+
+
+equal:
+u+003d:
+    @@@@
+    ....
+    @@@@
+
+    right-bearing: 1
+    shift-up: 2
+    scalable-width: 5.62
+
+
+eth:
+u+00f0:
+    .@@.@
+    @.@@.
+    .@.@.
+    ..@@@
+    .@..@
+    .@..@
+    .@..@
+    ..@@.
+
+    scalable-width: 5.62
+
+
+exclam:
+u+0021:
+    @
+    @
+    @
+    @
+    @
+    .
+    @
+
+    left-bearing: 2
+    right-bearing: 2
+    scalable-width: 5.62
+
+
+exclamdown:
+u+00a1:
+    @
+    .
+    @
+    @
+    @
+    @
+    @
+
+    left-bearing: 2
+    right-bearing: 2
+    shift-up: -2
+    scalable-width: 5.62
+
+
+"f":
+u+0066:
+    ..@@
+    .@..
+    @@@.
+    .@..
+    .@..
+    .@..
+    .@..
+    .@..
+
+    right-bearing: 1
+    scalable-width: 5.62
+
+
+fi:
+    ..@.@
+    .@...
+    @@@@@
+    .@..@
+    .@..@
+    .@..@
+    @@@@@
+
+    scalable-width: 5.62
+
+
+five:
+u+0035:
+    @@@@
+    @...
+    @@@.
+    ...@
+    ...@
+    @..@
+    .@@.
+
+    right-bearing: 1
+    scalable-width: 5.62
+
+
+fl:
+    ..@@
+    .@.@
+    @@@@
+    .@.@
+    .@.@
+    .@.@
+    .@.@
+
+    right-bearing: 1
+    scalable-width: 5.62
+
+
+florin:
+u+0192:
+    ...@@
+    ..@..
+    .@@@.
+    ..@..
+    ..@..
+    ..@..
+    ..@..
+    @@...
+
+    shift-up: -1
+    scalable-width: 5.62
+
+
+four:
+u+0034:
+    ...@.
+    ..@@.
+    .@.@.
+    @..@.
+    @@@@@
+    ...@.
+    ...@.
+
+    scalable-width: 5.62
+
+
+fraction:
+u+2044:
+    ...@@
+    ..@@.
+    .@@..
+    @@...
+
+    shift-up: 1
+    scalable-width: 5.62
+
+
+"g":
+u+0067:
+    .@@@
+    @..@
+    @..@
+    @..@
+    @..@
+    .@@@
+    ...@
+    @@@.
+
+    right-bearing: 1
+    shift-up: -2
+    scalable-width: 5.62
+
+
+germandbls:
+u+00df:
+    ..@@..
+    .@..@.
+    .@..@.
+    .@.@@.
+    .@...@
+    .@...@
+    @@.@@.
+
+    right-bearing: -1
+    scalable-width: 5.62
+
+
+grave:
+u+0060:
+    @.
+    .@
+
+    left-bearing: 1
+    right-bearing: 2
+    shift-up: 6
+    scalable-width: 5.62
+
+
+greater:
+u+003e:
+    @..
+    .@.
+    ..@
+    .@.
+    @..
+
+    left-bearing: 1
+    right-bearing: 1
+    shift-up: 1
+    scalable-width: 5.62
+
+
+guillemotleft:
+u+00ab:
+    .@..@
+    @..@.
+    .@..@
+
+    shift-up: 1
+    scalable-width: 5.62
+
+
+guillemotright:
+u+00bb:
+    @..@.
+    .@..@
+    @..@.
+
+    left-bearing: 1
+    right-bearing: -1
+    shift-up: 1
+    scalable-width: 5.62
+
+
+guilsinglleft:
+u+2039:
+    .@
+    @.
+    .@
+
+    left-bearing: 1
+    right-bearing: 2
+    shift-up: 1
+    scalable-width: 5.62
+
+
+guilsinglright:
+u+203a:
+    @.
+    .@
+    @.
+
+    left-bearing: 2
+    right-bearing: 1
+    shift-up: 1
+    scalable-width: 5.62
+
+
+"h":
+u+0068:
+    @...
+    @@@.
+    @..@
+    @..@
+    @..@
+    @..@
+    @..@
+
+    right-bearing: 1
+    scalable-width: 5.62
+
+
+hungarumlaut:
+u+02dd:
+    .@..@
+    @..@.
+
+    shift-up: 6
+    scalable-width: 5.62
+
+
+hyphen:
+u+002d:
+    @@@@
+
+    right-bearing: 1
+    shift-up: 3
+    scalable-width: 5.62
+
+
+"i":
+u+0069:
+    .@.
+    ...
+    @@.
+    .@.
+    .@.
+    .@.
+    .@.
+    @@@
+
+    left-bearing: 1
+    right-bearing: 1
+    scalable-width: 5.62
+
+
+iacute:
+u+00ed:
+    ..@..
+    .@...
+    .....
+    .@@..
+    ..@..
+    ..@..
+    ..@..
+    @@@@@
+
+    scalable-width: 5.62
+
+
+icircumflex:
+u+00ee:
+    ..@..
+    .@.@.
+    .....
+    .@@..
+    ..@..
+    ..@..
+    ..@..
+    @@@@@
+
+    scalable-width: 5.62
+
+
+idieresis:
+u+00ef:
+    .@.@.
+    .....
+    .@@..
+    ..@..
+    ..@..
+    ..@..
+    @@@@@
+
+    scalable-width: 5.62
+
+
+igrave:
+u+00ec:
+    .@...
+    ..@..
+    .....
+    .@@..
+    ..@..
+    ..@..
+    ..@..
+    @@@@@
+
+    scalable-width: 5.62
+
+
+"j":
+u+006a:
+    ..@
+    ...
+    .@@
+    ..@
+    ..@
+    ..@
+    ..@
+    ..@
+    ..@
+    @@.
+
+    right-bearing: 2
+    shift-up: -2
+    scalable-width: 5.62
+
+
+"k":
+u+006b:
+    @...
+    @..@
+    @.@.
+    @@..
+    @@..
+    @.@.
+    @..@
+
+    right-bearing: 1
+    scalable-width: 5.62
+
+
+"l":
+u+006c:
+    @@.
+    .@.
+    .@.
+    .@.
+    .@.
+    .@.
+    @@@
+
+    left-bearing: 1
+    right-bearing: 1
+    scalable-width: 5.62
+
+
+less:
+u+003c:
+    ..@
+    .@.
+    @..
+    .@.
+    ..@
+
+    left-bearing: 1
+    right-bearing: 1
+    shift-up: 1
+    scalable-width: 5.62
+
+
+logicalnot:
+u+00ac:
+    @@@@
+    ...@
+    ...@
+
+    right-bearing: 1
+    shift-up: 2
+    scalable-width: 5.62
+
+
+lslash:
+u+0142:
+    .@@..
+    ..@..
+    ..@@.
+    .@@..
+    ..@..
+    ..@..
+    @@@@@
+
+    left-bearing: 1
+    right-bearing: -1
+    scalable-width: 5.62
+
+
+"m":
+u+006d:
+    @..@
+    @@@@
+    @@@@
+    @..@
+    @..@
+    @..@
+
+    right-bearing: 1
+    scalable-width: 5.62
+
+
+macron:
+u+00af:
+    @@@@
+
+    left-bearing: 1
+    shift-up: 6
+    scalable-width: 5.62
+
+
+minus:
+u+2212:
+    @@@@
+
+    right-bearing: 1
+    shift-up: 3
+    scalable-width: 5.62
+
+
+mu:
+u+00b5:
+    @@.@@.
+    .@..@.
+    .@..@.
+    .@..@.
+    .@@@.@
+    .@....
+    .@....
+
+    right-bearing: -1
+    shift-up: -2
+    scalable-width: 5.62
+
+
+multiply:
+u+00d7:
+    @...@
+    .@.@.
+    ..@..
+    .@.@.
+    @...@
+
+    shift-up: 1
+    scalable-width: 5.62
+
+
+"n":
+u+006e:
+    @.@.
+    @@.@
+    @..@
+    @..@
+    @..@
+    @..@
+
+    right-bearing: 1
+    scalable-width: 5.62
+
+
+nine:
+u+0039:
+    .@@.
+    @..@
+    @..@
+    .@@@
+    ...@
+    @..@
+    .@@.
+
+    right-bearing: 1
+    scalable-width: 5.62
+
+
+ntilde:
+u+00f1:
+    ..@.@.
+    .@.@..
+    ......
+    @.@@..
+    .@..@.
+    .@..@.
+    .@..@.
+    @@@.@@
+
+    right-bearing: -1
+    scalable-width: 5.62
+
+
+numbersign:
+u+0023:
+    .@.@
+    .@.@
+    @@@@
+    .@.@
+    @@@@
+    @.@.
+    @.@.
+
+    right-bearing: 1
+    scalable-width: 5.62
+
+
+"o":
+u+006f:
+    .@@.
+    @..@
+    @..@
+    @..@
+    @..@
+    .@@.
+
+    right-bearing: 1
+    scalable-width: 5.62
+
+
+oacute:
+u+00f3:
+    ..@.
+    .@..
+    ....
+    .@@.
+    @..@
+    @..@
+    @..@
+    .@@.
+
+    left-bearing: 1
+    scalable-width: 5.62
+
+
+ocircumflex:
+u+00f4:
+    .@..
+    @.@.
+    ....
+    .@@.
+    @..@
+    @..@
+    @..@
+    .@@.
+
+    left-bearing: 1
+    scalable-width: 5.62
+
+
+odieresis:
+u+00f6:
+    @.@.
+    ....
+    .@@.
+    @..@
+    @..@
+    @..@
+    .@@.
+
+    left-bearing: 1
+    scalable-width: 5.62
+
+
+oe:
+u+0153:
+    .@.@.
+    @.@.@
+    @.@@@
+    @.@..
+    .@.@@
+
+    scalable-width: 5.62
+
+
+ogonek:
+u+02db:
+    .@.
+    @..
+    .@@
+
+    left-bearing: 1
+    right-bearing: 1
+    shift-up: -2
+    scalable-width: 5.62
+
+
+ograve:
+u+00f2:
+    .@..
+    ..@.
+    ....
+    .@@.
+    @..@
+    @..@
+    @..@
+    .@@.
+
+    left-bearing: 1
+    scalable-width: 5.62
+
+
+one:
+u+0031:
+    .@.
+    @@.
+    .@.
+    .@.
+    .@.
+    .@.
+    @@@
+
+    left-bearing: 1
+    right-bearing: 1
+    scalable-width: 5.62
+
+
+onehalf:
+u+00bd:
+    @@.....
+    .@...@.
+    .@..@..
+    @@@@.@@
+    ..@.@.@
+    .@...@.
+    ....@@@
+
+    right-bearing: -2
+    scalable-width: 5.62
+
+
+onequarter:
+u+00bc:
+    @@.....
+    .@...@.
+    .@..@..
+    @@@@.@.
+    ..@.@@.
+    .@.@@@@
+    .....@.
+
+    right-bearing: -2
+    scalable-width: 5.62
+
+
+onesuperior:
+    @@.
+    .@.
+    .@.
+    @@@
+
+    left-bearing: 1
+    right-bearing: 1
+    shift-up: 3
+    scalable-width: 5.62
+
+
+ordfeminine:
+u+00aa:
+    @@@.
+    ...@
+    @@.@
+    ....
+    @@@@
+
+    left-bearing: 1
+    shift-up: 1
+    scalable-width: 5.62
+
+
+ordmasculine:
+u+00ba:
+    .@@.
+    @..@
+    .@@.
+    ....
+    @@@@
+
+    left-bearing: 1
+    shift-up: 1
+    scalable-width: 5.62
+
+
+oslash:
+u+00f8:
+    ..@@.@
+    .@..@.
+    .@..@.
+    .@..@.
+    @.@@..
+
+    right-bearing: -1
+    scalable-width: 5.62
+
+
+otilde:
+u+00f5:
+    .@.@
+    @.@.
+    ....
+    .@@.
+    @..@
+    @..@
+    @..@
+    .@@.
+
+    left-bearing: 1
+    scalable-width: 5.62
+
+
+"p":
+u+0070:
+    @@@.
+    @..@
+    @..@
+    @..@
+    @..@
+    @@@.
+    @...
+    @...
+
+    right-bearing: 1
+    shift-up: -2
+    scalable-width: 5.62
+
+
+paragraph:
+u+00b6:
+    .@@@@@
+    @.@.@.
+    @.@.@.
+    .@@.@.
+    ..@.@.
+    ..@.@.
+    .@@.@@
+
+    right-bearing: -1
+    scalable-width: 5.62
+
+
+parenleft:
+u+0028:
+    ..@
+    .@.
+    .@.
+    @..
+    @..
+    @..
+    @..
+    .@.
+    .@.
+    ..@
+
+    left-bearing: 2
+    shift-up: -2
+    scalable-width: 5.62
+
+
+parenright:
+u+0029:
+    @..
+    .@.
+    .@.
+    ..@
+    ..@
+    ..@
+    ..@
+    .@.
+    .@.
+    @..
+
+    left-bearing: 1
+    right-bearing: 1
+    shift-up: -2
+    scalable-width: 5.62
+
+
+percent:
+u+0025:
+    @@.@
+    @@.@
+    ..@.
+    .@@.
+    .@..
+    @.@@
+    @.@@
+
+    right-bearing: 1
+    scalable-width: 5.62
+
+
+period:
+u+002e:
+    @
+
+    left-bearing: 2
+    right-bearing: 2
+    scalable-width: 5.62
+
+
+periodcentered:
+u+00b7:
+    @
+
+    left-bearing: 2
+    right-bearing: 2
+    shift-up: 3
+    scalable-width: 5.62
+
+
+perthousand:
+u+2030:
+    .@@..
+    @.@..
+    @@..@
+    ..@@.
+    @@...
+    .@@@@
+    @.@.@
+    @@.@@
+
+    scalable-width: 5.62
+
+
+plus:
+u+002b:
+    ..@..
+    ..@..
+    @@@@@
+    ..@..
+    ..@..
+
+    shift-up: 1
+    scalable-width: 5.62
+
+
+plusminus:
+u+00b1:
+    ..@..
+    @@@@@
+    ..@..
+    .....
+    @@@@@
+
+    shift-up: 1
+    scalable-width: 5.62
+
+
+"q":
+u+0071:
+    .@@@
+    @..@
+    @..@
+    @..@
+    @..@
+    .@@@
+    ...@
+    ...@
+
+    right-bearing: 1
+    shift-up: -2
+    scalable-width: 5.62
+
+
+question:
+u+003f:
+    .@@.
+    @..@
+    ..@.
+    .@..
+    ....
+    .@..
+
+    right-bearing: 1
+    scalable-width: 5.62
+
+
+questiondown:
+u+00bf:
+    ..@.
+    ....
+    ..@.
+    .@..
+    @..@
+    .@@.
+
+    right-bearing: 1
+    shift-up: -2
+    scalable-width: 5.62
+
+
+quotedbl:
+u+0022:
+    @.@
+    @.@
+    @.@
+
+    left-bearing: 1
+    right-bearing: 1
+    shift-up: 4
+    scalable-width: 5.62
+
+
+quotedblbase:
+u+201e:
+    .@.@
+    .@.@
+    @.@.
+
+    left-bearing: 1
+    shift-up: -2
+    scalable-width: 5.62
+
+
+quotedblleft:
+u+201c:
+    @.@.
+    @.@.
+    .@.@
+
+    left-bearing: 1
+    shift-up: 4
+    scalable-width: 5.62
+
+
+quotedblright:
+u+201d:
+    .@.@
+    .@.@
+    @.@.
+
+    left-bearing: 1
+    shift-up: 4
+    scalable-width: 5.62
+
+
+quoteleft:
+u+2018:
+    @.
+    @.
+    .@
+
+    left-bearing: 1
+    right-bearing: 2
+    shift-up: 4
+    scalable-width: 5.62
+
+
+quoteright:
+u+2019:
+    .@
+    .@
+    @.
+
+    left-bearing: 1
+    right-bearing: 2
+    shift-up: 4
+    scalable-width: 5.62
+
+
+quotesinglbase:
+u+201a:
+    .@
+    .@
+    @.
+
+    left-bearing: 1
+    right-bearing: 2
+    shift-up: -2
+    scalable-width: 5.62
+
+
+quotesingle:
+u+0027:
+    @
+    @
+    @
+
+    left-bearing: 2
+    right-bearing: 2
+    shift-up: 4
+    scalable-width: 5.62
+
+
+"r":
+u+0072:
+    @.@@
+    .@..
+    .@..
+    .@..
+    .@..
+    @@@.
+
+    right-bearing: 1
+    scalable-width: 5.62
+
+
+registered:
+u+00ae:
+    .@@@.
+    @...@
+    @.@.@
+    @.@.@
+    @...@
+    .@@@.
+
+    scalable-width: 5.62
+
+
+ring:
+u+02da:
+    .@.
+    @.@
+    .@.
+
+    left-bearing: 1
+    right-bearing: 1
+    shift-up: 5
+    scalable-width: 5.62
+
+
+"s":
+u+0073:
+    .@@.
+    @..@
+    .@..
+    ..@.
+    @..@
+    .@@.
+
+    right-bearing: 1
+    scalable-width: 5.62
+
+
+scaron:
+u+0161:
+    .@.@
+    ..@.
+    ....
+    .@@@
+    @...
+    .@@.
+    ...@
+    @@@.
+
+    left-bearing: 1
+    scalable-width: 5.62
+
+
+section:
+u+00a7:
+    .@@@
+    @...
+    .@@.
+    @..@
+    .@@.
+    ...@
+    @@@.
+
+    left-bearing: 1
+    scalable-width: 5.62
+
+
+semicolon:
+u+003b:
+    .@
+    ..
+    ..
+    .@
+    .@
+    @.
+
+    left-bearing: 1
+    right-bearing: 2
+    shift-up: -2
+    scalable-width: 5.62
+
+
+seven:
+u+0037:
+    @@@@
+    @..@
+    ...@
+    ..@.
+    ..@.
+    .@..
+    .@..
+
+    right-bearing: 1
+    scalable-width: 5.62
+
+
+six:
+u+0036:
+    .@@.
+    @..@
+    @...
+    @@@.
+    @..@
+    @..@
+    .@@.
+
+    right-bearing: 1
+    scalable-width: 5.62
+
+
+slash:
+u+002f:
+    ...@
+    ...@
+    ..@.
+    ..@.
+    .@..
+    .@..
+    @...
+    @...
+
+    right-bearing: 1
+    shift-up: -1
+    scalable-width: 5.62
+
+
+space:
+u+0020:
+    -
+
+    right-bearing: 5
+    scalable-width: 5.62
+
+
+sterling:
+u+00a3:
+    ..@@@.
+    .@....
+    @@@@@.
+    ..@...
+    ..@...
+    .@...@
+    @@@@@@
+
+    right-bearing: -1
+    scalable-width: 5.62
+
+
+"t":
+u+0074:
+    .@..
+    @@@@
+    .@..
+    .@..
+    .@..
+    .@..
+    ..@@
+
+    right-bearing: 1
+    scalable-width: 5.62
+
+
+thorn:
+u+00fe:
+    @@...
+    .@...
+    .@@@.
+    .@..@
+    .@..@
+    .@..@
+    .@@@.
+    .@...
+    @@@..
+
+    shift-up: -2
+    scalable-width: 5.62
+
+
+three:
+u+0033:
+    .@@.
+    @..@
+    ...@
+    .@@.
+    ...@
+    @..@
+    .@@.
+
+    right-bearing: 1
+    scalable-width: 5.62
+
+
+threequarters:
+u+00be:
+    @@@....
+    .@...@.
+    ..@.@..
+    @@.@.@.
+    ..@.@@.
+    .@.@@@@
+    .....@.
+
+    right-bearing: -2
+    scalable-width: 5.62
+
+
+threesuperior:
+    @@@
+    .@.
+    ..@
+    @@.
+
+    left-bearing: 1
+    right-bearing: 1
+    shift-up: 3
+    scalable-width: 5.62
+
+
+tilde:
+u+02dc:
+    .@.@
+    @.@.
+
+    left-bearing: 1
+    shift-up: 6
+    scalable-width: 5.62
+
+
+trademark:
+u+2122:
+    @@@@@
+    .@.@@
+    .@.@@
+
+    shift-up: 3
+    scalable-width: 5.62
+
+
+two:
+u+0032:
+    .@@.
+    @..@
+    ...@
+    ..@.
+    .@..
+    @...
+    @@@@
+
+    right-bearing: 1
+    scalable-width: 5.62
+
+
+twosuperior:
+    .@@
+    @.@
+    .@.
+    @@@
+
+    left-bearing: 1
+    right-bearing: 1
+    shift-up: 3
+    scalable-width: 5.62
+
+
+"u":
+u+0075:
+    @..@
+    @..@
+    @..@
+    @..@
+    @..@
+    .@@@
+
+    right-bearing: 1
+    scalable-width: 5.62
+
+
+uacute:
+u+00fa:
+    ...@..
+    ..@...
+    ......
+    @@.@@.
+    .@..@.
+    .@..@.
+    .@..@.
+    ..@@.@
+
+    right-bearing: -1
+    scalable-width: 5.62
+
+
+ucircumflex:
+u+00fb:
+    ..@...
+    .@.@..
+    ......
+    @@.@@.
+    .@..@.
+    .@..@.
+    .@..@.
+    ..@@.@
+
+    right-bearing: -1
+    scalable-width: 5.62
+
+
+udieresis:
+u+00fc:
+    .@.@..
+    ......
+    @@.@@.
+    .@..@.
+    .@..@.
+    .@..@.
+    ..@@.@
+
+    right-bearing: -1
+    scalable-width: 5.62
+
+
+ugrave:
+u+00f9:
+    ..@...
+    ...@..
+    ......
+    @@.@@.
+    .@..@.
+    .@..@.
+    .@..@.
+    ..@@.@
+
+    right-bearing: -1
+    scalable-width: 5.62
+
+
+underscore:
+u+005f:
+    @@@@@
+
+    shift-up: -2
+    scalable-width: 5.62
+
+
+"v":
+u+0076:
+    @..@
+    @..@
+    @.@.
+    @.@.
+    .@..
+    .@..
+
+    right-bearing: 1
+    scalable-width: 5.62
+
+
+"w":
+u+0077:
+    @..@
+    @..@
+    @..@
+    @@@@
+    @@@@
+    @..@
+
+    right-bearing: 1
+    scalable-width: 5.62
+
+
+"x":
+u+0078:
+    @..@
+    @..@
+    .@@.
+    @..@
+    @..@
+    @..@
+
+    right-bearing: 1
+    scalable-width: 5.62
+
+
+"y":
+u+0079:
+    @..@
+    @..@
+    @..@
+    @..@
+    @..@
+    .@@.
+    .@..
+    @...
+
+    right-bearing: 1
+    shift-up: -2
+    scalable-width: 5.62
+
+
+yacute:
+u+00fd:
+    ...@.
+    ..@..
+    .....
+    @@.@@
+    .@..@
+    .@..@
+    .@..@
+    ..@@.
+    ..@..
+    @@...
+
+    shift-up: -2
+    scalable-width: 5.62
+
+
+ydieresis:
+u+00ff:
+    .@.@.
+    .....
+    @@.@@
+    .@..@
+    .@..@
+    .@..@
+    ..@@.
+    ..@..
+    @@...
+
+    shift-up: -2
+    scalable-width: 5.62
+
+
+yen:
+u+00a5:
+    @...@
+    .@.@.
+    @@@@@
+    ..@..
+    @@@@@
+    ..@..
+    .@@@.
+
+    scalable-width: 5.62
+
+
+"z":
+u+007a:
+    @@@@
+    ...@
+    ..@.
+    .@..
+    @...
+    @@@@
+
+    right-bearing: 1
+    scalable-width: 5.62
+
+
+zcaron:
+u+017e:
+    @.@.
+    .@..
+    ....
+    @@@@
+    ..@.
+    .@..
+    @..@
+    @@@@
+
+    left-bearing: 1
+    scalable-width: 5.62
+
+
+zero:
+u+0030:
+    .@@.
+    @..@
+    @..@
+    @..@
+    @..@
+    @..@
+    .@@.
+
+    right-bearing: 1
+    scalable-width: 5.62
+
+

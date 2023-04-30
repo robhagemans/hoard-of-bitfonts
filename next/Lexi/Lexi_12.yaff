@@ -1,0 +1,90 @@
+name: Lexi 12
+spacing: proportional
+bounding-box: 8x12
+font-id: 50331651
+family: Lexi
+dpi: 75x75
+point-size: 12
+encoding: ""
+converter: monobit v0.40
+source-format: prebuilt
+source-name: Lexi.bepf
+
+comma:
+u+002c:
+    @@
+    @@
+    @@
+    @@
+
+    left-bearing: 1
+    right-bearing: 1
+    shift-up: -2
+    scalable-width: 2.31
+
+
+"e":
+u+0065:
+    .@@.
+    @.@@
+    ...@
+    @@@@
+    @..@
+    .@@.
+
+    left-bearing: 1
+    right-bearing: 1
+    scalable-width: 5.92
+
+
+"n":
+u+006e:
+    @.@@.
+    .@..@
+    .@..@
+    .@..@
+    .@..@
+    @@@.@
+    ....@
+    ..@.@
+    ..@@.
+
+    right-bearing: 1
+    shift-up: -3
+    scalable-width: 6.16
+
+
+quoteright:
+u+2019:
+    @@
+    @@
+    @@
+    @@
+
+    left-bearing: 1
+    right-bearing: 1
+    shift-up: 5
+    scalable-width: 2.31
+
+
+space:
+u+0020:
+    -
+
+    right-bearing: 2
+    scalable-width: 1.87
+
+
+"u":
+u+0075:
+    @@.@@@@.
+    .@..@..@
+    .@..@@@@
+    .@..@...
+    .@..@@.@
+    ..@@.@@.
+
+    right-bearing: 1
+    scalable-width: 10.19
+
+
