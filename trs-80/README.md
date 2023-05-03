@@ -30,3 +30,9 @@ This set excludes Kana and includes additional accented Latin characters.
 Color Computer 1/2 & Color Computer 3
 =====================================
 
+
+Others
+======
+
+`trs-80-m2.yaff` is the character set from a TRS-80 Model II ROM.
+`trs-80-dt1.yaff` is the caracter set from a TRS-80 DT-1 Data Terminal ROM.
