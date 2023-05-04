@@ -11,10 +11,12 @@ The original TRS-80 was later referred to as the Model I.
 The Model I set includes the lowercase letters (which were present but not accessible in early models) 
 and has been enriched with the 2x3 semigraphic characters that were accessible in the range 0x80-0xBF.
 
-This is the same as the MCM6674 character set, except for 0x5b-0x5e where arrow symbols have been substituted for the more standard ascii symbols in the MCM6674 set.
+This is the same as the MCM6674 character set, except for 0x5b-0x5e where arrow symbols have been substituted for the more standard ascii symbols in the MCM6674 set. 
 
-Many versions of the Model I character set existed, as it was common to upgrade or modify the TRS-80, 
-for example to make the lowercase set accessible and to reposition its descenders. 
+The first version of the Model I had a manufacturing error where the lowercase `a` was lifted up by two lines, which was later corrected, resulting in the set included here.
+
+Late versions of the Model I included an updated character set where lowercase characters have descenders below the baseline. 
+This set was originally introduced with an official modification kit that made lowercase letters accessible.
 
 
 Model III and Model 4
@@ -29,6 +31,13 @@ This set excludes Kana and includes additional accented Latin characters.
 
 Color Computer 1/2 & Color Computer 3
 =====================================
+
+The CoCo 1 and 2 used the MC-6847 character generator with a characteristic square `O`. 
+The set included here derives from a decapped chip.
+
+A later CoCo 2 used the MC-6847T1 which added lowercase and reshaped letters including a round `O`.
+
+The CoCo 3 used a GIME character generator.
 
 
 Others
