@@ -3,7 +3,9 @@ spacing: character-cell
 cell-size: 8x12
 
 
-0x00:
+# [ ] NO-BREAK SPACE
+0x80:
+u+00a0:
     ........
     ........
     ........
@@ -17,7 +19,10 @@ cell-size: 8x12
     ........
     ........
 
-0x01:
+
+# [▗] QUADRANT LOWER RIGHT
+0x81:
+u+2597:
     ........
     ........
     ........
@@ -31,7 +36,10 @@ cell-size: 8x12
     ....@@@@
     ....@@@@
 
-0x02:
+
+# [▖] QUADRANT LOWER LEFT
+0x82:
+u+2596:
     ........
     ........
     ........
@@ -45,7 +53,10 @@ cell-size: 8x12
     @@@@....
     @@@@....
 
-0x03:
+
+# [▄] LOWER HALF BLOCK
+0x83:
+u+2584:
     ........
     ........
     ........
@@ -59,7 +70,10 @@ cell-size: 8x12
     @@@@@@@@
     @@@@@@@@
 
-0x04:
+
+# [▝] QUADRANT UPPER RIGHT
+0x84:
+u+259d:
     ....@@@@
     ....@@@@
     ....@@@@
@@ -73,7 +87,10 @@ cell-size: 8x12
     ........
     ........
 
-0x05:
+
+# [▐] RIGHT HALF BLOCK
+0x85:
+u+2590:
     ....@@@@
     ....@@@@
     ....@@@@
@@ -87,7 +104,10 @@ cell-size: 8x12
     ....@@@@
     ....@@@@
 
-0x06:
+
+# [▞] QUADRANT UPPER RIGHT AND LOWER LEFT
+0x86:
+u+259e:
     ....@@@@
     ....@@@@
     ....@@@@
@@ -101,7 +121,10 @@ cell-size: 8x12
     @@@@....
     @@@@....
 
-0x07:
+
+# [▟] QUADRANT UPPER RIGHT AND LOWER LEFT AND LOWER RIGHT
+0x87:
+u+259f:
     ....@@@@
     ....@@@@
     ....@@@@
@@ -115,7 +138,10 @@ cell-size: 8x12
     @@@@@@@@
     @@@@@@@@
 
-0x08:
+
+# [▘] QUADRANT UPPER LEFT
+0x88:
+u+2598:
     @@@@....
     @@@@....
     @@@@....
@@ -129,7 +155,10 @@ cell-size: 8x12
     ........
     ........
 
-0x09:
+
+# [▚] QUADRANT UPPER LEFT AND LOWER RIGHT
+0x89:
+u+259a:
     @@@@....
     @@@@....
     @@@@....
@@ -143,7 +172,10 @@ cell-size: 8x12
     ....@@@@
     ....@@@@
 
-0x0a:
+
+# [▌] LEFT HALF BLOCK
+0x8a:
+u+258c:
     @@@@....
     @@@@....
     @@@@....
@@ -157,7 +189,10 @@ cell-size: 8x12
     @@@@....
     @@@@....
 
-0x0b:
+
+# [▙] QUADRANT UPPER LEFT AND LOWER LEFT AND LOWER RIGHT
+0x8b:
+u+2599:
     @@@@....
     @@@@....
     @@@@....
@@ -171,7 +206,10 @@ cell-size: 8x12
     @@@@@@@@
     @@@@@@@@
 
-0x0c:
+
+# [▀] UPPER HALF BLOCK
+0x8c:
+u+2580:
     @@@@@@@@
     @@@@@@@@
     @@@@@@@@
@@ -185,7 +223,10 @@ cell-size: 8x12
     ........
     ........
 
-0x0d:
+
+# [▜] QUADRANT UPPER LEFT AND UPPER RIGHT AND LOWER RIGHT
+0x8d:
+u+259c:
     @@@@@@@@
     @@@@@@@@
     @@@@@@@@
@@ -199,7 +240,10 @@ cell-size: 8x12
     ....@@@@
     ....@@@@
 
-0x0e:
+
+# [▛] QUADRANT UPPER LEFT AND UPPER RIGHT AND LOWER LEFT
+0x8e:
+u+259b:
     @@@@@@@@
     @@@@@@@@
     @@@@@@@@
@@ -213,7 +257,10 @@ cell-size: 8x12
     @@@@....
     @@@@....
 
-0x0f:
+
+# [█] FULL BLOCK
+0x8f:
+u+2588:
     @@@@@@@@
     @@@@@@@@
     @@@@@@@@
