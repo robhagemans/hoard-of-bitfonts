@@ -3,11 +3,16 @@
 
 name: Motorola MC 6674
 spacing: character-cell
-cell-size: 5x8
+cell-size: 6x8
 right-bearing: 1
 
+# codepoints 0x00-0x1a and 0x7f are the ISO-2047 control character symbols
+encoding: ascii
 
+
+# [⎕] APL FUNCTIONAL SYMBOL QUAD
 0x00:
+u+2395:
     .....
     @@@@@
     @...@
@@ -17,7 +22,10 @@ right-bearing: 1
     @...@
     @@@@@
 
+
+# [⌈] LEFT CEILING
 0x01:
+u+2308:
     .....
     @@@@@
     @....
@@ -27,7 +35,10 @@ right-bearing: 1
     @....
     @....
 
+
+# [⊥] UP TACK
 0x02:
+u+22a5:
     .....
     ..@..
     ..@..
@@ -37,7 +48,10 @@ right-bearing: 1
     ..@..
     @@@@@
 
+
+# [⌋] RIGHT FLOOR
 0x03:
+u+230b:
     .....
     ....@
     ....@
@@ -47,7 +61,10 @@ right-bearing: 1
     ....@
     @@@@@
 
+
+# [⌁] ELECTRIC ARROW
 0x04:
+u+2301:
     .....
     .@...
     ..@..
@@ -57,7 +74,10 @@ right-bearing: 1
     ...@.
     ....@
 
+
+# [⊠] SQUARED TIMES
 0x05:
+u+22a0:
     .....
     @@@@@
     @...@
@@ -67,7 +87,10 @@ right-bearing: 1
     @...@
     @@@@@
 
+
+# [✓] CHECK MARK
 0x06:
+u+2713:
     .....
     .....
     ....@
@@ -77,7 +100,10 @@ right-bearing: 1
     @....
     .....
 
+
+# [⍾] BELL SYMBOL
 0x07:
+u+237e:
     .....
     .@@@.
     @...@
@@ -87,7 +113,10 @@ right-bearing: 1
     .@.@.
     @@.@@
 
+
+# [⤺] TOP ARC ANTICLOCKWISE ARROW
 0x08:
+u+293a:
     .....
     ..@..
     .@...
@@ -97,7 +126,10 @@ right-bearing: 1
     ....@
     ....@
 
+
+# [⪫] LARGER THAN
 0x09:
+u+2aab:
     .....
     .....
     ..@..
@@ -107,7 +139,10 @@ right-bearing: 1
     ..@..
     .....
 
+
+# [≡] IDENTICAL TO
 0x0a:
+u+2261:
     .....
     @@@@@
     .....
@@ -117,7 +152,10 @@ right-bearing: 1
     .....
     @@@@@
 
+
+# [⩛] LOGICAL OR WITH MIDDLE STEM
 0x0b:
+u+2a5b:
     .....
     .....
     ..@..
@@ -127,7 +165,10 @@ right-bearing: 1
     ..@..
     .....
 
+
+# [↡] DOWNWARDS TWO HEADED ARROW
 0x0c:
+u+21a1:
     .....
     ..@..
     @.@.@
@@ -137,7 +178,10 @@ right-bearing: 1
     .@@@.
     ..@..
 
+
+# [⪪] SMALLER THAN
 0x0d:
+u+2aaa:
     .....
     .....
     ..@..
@@ -147,7 +191,10 @@ right-bearing: 1
     ..@..
     .....
 
+
+# [⊗] CIRCLED TIMES
 0x0e:
+u+2297:
     .....
     .@@@.
     @...@
@@ -157,7 +204,10 @@ right-bearing: 1
     @...@
     .@@@.
 
+
+# [⊙] CIRCLED DOT OPERATOR
 0x0f:
+u+2299:
     .....
     .@@@.
     @...@
@@ -167,7 +217,10 @@ right-bearing: 1
     @...@
     .@@@.
 
+
+# [⊟] SQUARED MINUS
 0x10:
+u+229f:
     .....
     @@@@@
     @...@
@@ -177,7 +230,10 @@ right-bearing: 1
     @...@
     @@@@@
 
+
+# [◷] WHITE CIRCLE WITH UPPER RIGHT QUADRANT
 0x11:
+u+25f7:
     .....
     .@@@.
     @.@.@
@@ -187,7 +243,10 @@ right-bearing: 1
     @...@
     .@@@.
 
+
+# [◶] WHITE CIRCLE WITH LOWER RIGHT QUADRANT
 0x12:
+u+25f6:
     .....
     .@@@.
     @...@
@@ -197,7 +256,10 @@ right-bearing: 1
     @.@.@
     .@@@.
 
+
+# [◵] WHITE CIRCLE WITH LOWER LEFT QUADRANT
 0x13:
+u+25f5:
     .....
     .@@@.
     @...@
@@ -207,7 +269,10 @@ right-bearing: 1
     @.@.@
     .@@@.
 
+
+# [◴] WHITE CIRCLE WITH UPPER LEFT QUADRANT
 0x14:
+u+25f4:
     .....
     .@@@.
     @.@.@
@@ -217,7 +282,10 @@ right-bearing: 1
     @...@
     .@@@.
 
+
+# [⍻] NOT CHECK MARK
 0x15:
+u+237b:
     .....
     .....
     ..@.@
@@ -227,7 +295,10 @@ right-bearing: 1
     @....
     .....
 
+
+# [⎍] MONOSTABLE SYMBOL
 0x16:
+u+238d:
     .....
     .@@@.
     .@.@.
@@ -237,7 +308,10 @@ right-bearing: 1
     .@.@.
     @@.@@
 
+
+# [⊣] LEFT TACK
 0x17:
+u+22a3:
     .....
     ....@
     ....@
@@ -247,7 +321,10 @@ right-bearing: 1
     ....@
     ....@
 
+
+# [⧖] WHITE HOURGLASS
 0x18:
+u+29d6:
     .....
     @@@@@
     @...@
@@ -257,7 +334,10 @@ right-bearing: 1
     @...@
     @@@@@
 
+
+# [⍿] VERTICAL LINE WITH MIDDLE DOT
 0x19:
+u+237f:
     .....
     ..@..
     ..@..
@@ -267,7 +347,10 @@ right-bearing: 1
     ..@..
     ..@..
 
+
+# [␦] SYMBOL FOR SUBSTITUTE FORM TWO
 0x1a:
+u+2426:
     .....
     .@@@.
     @...@
@@ -277,7 +360,10 @@ right-bearing: 1
     .....
     ..@..
 
+
+# [⊖] CIRCLED MINUS
 0x1b:
+u+2296:
     .....
     .@@@.
     @...@
@@ -287,7 +373,10 @@ right-bearing: 1
     @...@
     .@@@.
 
+
+# [◰] WHITE SQUARE WITH UPPER LEFT QUADRANT
 0x1c:
+u+25f0:
     .....
     @@@@@
     @.@.@
@@ -297,7 +386,10 @@ right-bearing: 1
     @...@
     @@@@@
 
+
+# [◱] WHITE SQUARE WITH LOWER LEFT QUADRANT
 0x1d:
+u+25f1:
     .....
     @@@@@
     @...@
@@ -307,7 +399,10 @@ right-bearing: 1
     @.@.@
     @@@@@
 
+
+# [◲] WHITE SQUARE WITH LOWER RIGHT QUADRANT
 0x1e:
+u+25f2:
     .....
     @@@@@
     @...@
@@ -317,7 +412,10 @@ right-bearing: 1
     @.@.@
     @@@@@
 
+
+# [◳] WHITE SQUARE WITH UPPER RIGHT QUADRANT
 0x1f:
+u+25f3:
     .....
     @@@@@
     @.@.@
@@ -327,7 +425,10 @@ right-bearing: 1
     @...@
     @@@@@
 
+
+# [ ] SPACE
 0x20:
+u+0020:
     .....
     .....
     .....
@@ -337,7 +438,10 @@ right-bearing: 1
     .....
     .....
 
+
+# [!] EXCLAMATION MARK
 0x21:
+u+0021:
     .....
     ..@..
     ..@..
@@ -347,7 +451,10 @@ right-bearing: 1
     .....
     ..@..
 
+
+# ["] QUOTATION MARK
 0x22:
+u+0022:
     .....
     .@.@.
     .@.@.
@@ -357,7 +464,10 @@ right-bearing: 1
     .....
     .....
 
+
+# [#] NUMBER SIGN
 0x23:
+u+0023:
     .....
     .@.@.
     .@.@.
@@ -367,7 +477,10 @@ right-bearing: 1
     .@.@.
     .@.@.
 
+
+# [$] DOLLAR SIGN
 0x24:
+u+0024:
     .....
     ..@..
     .@@@@
@@ -377,7 +490,10 @@ right-bearing: 1
     @@@@.
     ..@..
 
+
+# [%] PERCENT SIGN
 0x25:
+u+0025:
     .....
     @@...
     @@..@
@@ -387,7 +503,10 @@ right-bearing: 1
     @..@@
     ...@@
 
+
+# [&] AMPERSAND
 0x26:
+u+0026:
     .....
     .@...
     @.@..
@@ -397,7 +516,10 @@ right-bearing: 1
     @..@.
     .@@.@
 
+
+# ['] APOSTROPHE
 0x27:
+u+0027:
     .....
     .@@..
     .@@..
@@ -407,7 +529,10 @@ right-bearing: 1
     .....
     .....
 
+
+# [(] LEFT PARENTHESIS
 0x28:
+u+0028:
     .....
     ...@.
     ..@..
@@ -417,7 +542,10 @@ right-bearing: 1
     ..@..
     ...@.
 
+
+# [)] RIGHT PARENTHESIS
 0x29:
+u+0029:
     .....
     .@...
     ..@..
@@ -427,7 +555,10 @@ right-bearing: 1
     ..@..
     .@...
 
+
+# [*] ASTERISK
 0x2a:
+u+002a:
     .....
     ..@..
     @.@.@
@@ -437,7 +568,10 @@ right-bearing: 1
     @.@.@
     ..@..
 
+
+# [+] PLUS SIGN
 0x2b:
+u+002b:
     .....
     .....
     ..@..
@@ -447,7 +581,10 @@ right-bearing: 1
     ..@..
     .....
 
+
+# [,] COMMA
 0x2c:
+u+002c:
     .....
     .....
     .....
@@ -457,7 +594,10 @@ right-bearing: 1
     .@...
     @....
 
+
+# [-] HYPHEN-MINUS
 0x2d:
+u+002d:
     .....
     .....
     .....
@@ -467,7 +607,10 @@ right-bearing: 1
     .....
     .....
 
+
+# [.] FULL STOP
 0x2e:
+u+002e:
     .....
     .....
     .....
@@ -477,7 +620,10 @@ right-bearing: 1
     .@@..
     .@@..
 
+
+# [/] SOLIDUS
 0x2f:
+u+002f:
     .....
     .....
     ....@
@@ -487,7 +633,10 @@ right-bearing: 1
     @....
     .....
 
+
+# [0] DIGIT ZERO
 0x30:
+u+0030:
     .....
     .@@@.
     @...@
@@ -497,7 +646,10 @@ right-bearing: 1
     @...@
     .@@@.
 
+
+# [1] DIGIT ONE
 0x31:
+u+0031:
     .....
     ..@..
     .@@..
@@ -507,7 +659,10 @@ right-bearing: 1
     ..@..
     .@@@.
 
+
+# [2] DIGIT TWO
 0x32:
+u+0032:
     .....
     .@@@.
     @...@
@@ -517,7 +672,10 @@ right-bearing: 1
     @....
     @@@@@
 
+
+# [3] DIGIT THREE
 0x33:
+u+0033:
     .....
     .@@@.
     @...@
@@ -527,7 +685,10 @@ right-bearing: 1
     @...@
     .@@@.
 
+
+# [4] DIGIT FOUR
 0x34:
+u+0034:
     .....
     ...@.
     ..@@.
@@ -537,7 +698,10 @@ right-bearing: 1
     ...@.
     ...@.
 
+
+# [5] DIGIT FIVE
 0x35:
+u+0035:
     .....
     @@@@@
     @....
@@ -547,7 +711,10 @@ right-bearing: 1
     @...@
     .@@@.
 
+
+# [6] DIGIT SIX
 0x36:
+u+0036:
     .....
     ..@@.
     .@...
@@ -557,7 +724,10 @@ right-bearing: 1
     @...@
     .@@@.
 
+
+# [7] DIGIT SEVEN
 0x37:
+u+0037:
     .....
     @@@@@
     ....@
@@ -567,7 +737,10 @@ right-bearing: 1
     @....
     @....
 
+
+# [8] DIGIT EIGHT
 0x38:
+u+0038:
     .....
     .@@@.
     @...@
@@ -577,7 +750,10 @@ right-bearing: 1
     @...@
     .@@@.
 
+
+# [9] DIGIT NINE
 0x39:
+u+0039:
     .....
     .@@@.
     @...@
@@ -587,7 +763,10 @@ right-bearing: 1
     ...@.
     .@@..
 
+
+# [:] COLON
 0x3a:
+u+003a:
     .....
     .....
     .@@..
@@ -597,7 +776,10 @@ right-bearing: 1
     .@@..
     .....
 
+
+# [;] SEMICOLON
 0x3b:
+u+003b:
     .....
     .@@..
     .@@..
@@ -607,7 +789,10 @@ right-bearing: 1
     .@...
     @....
 
+
+# [<] LESS-THAN SIGN
 0x3c:
+u+003c:
     .....
     ...@.
     ..@..
@@ -617,7 +802,10 @@ right-bearing: 1
     ..@..
     ...@.
 
+
+# [=] EQUALS SIGN
 0x3d:
+u+003d:
     .....
     .....
     .....
@@ -627,7 +815,10 @@ right-bearing: 1
     .....
     .....
 
+
+# [>] GREATER-THAN SIGN
 0x3e:
+u+003e:
     .....
     .@...
     ..@..
@@ -637,7 +828,10 @@ right-bearing: 1
     ..@..
     .@...
 
+
+# [?] QUESTION MARK
 0x3f:
+u+003f:
     .....
     .@@@.
     @...@
@@ -647,7 +841,10 @@ right-bearing: 1
     .....
     ..@..
 
+
+# [@] COMMERCIAL AT
 0x40:
+u+0040:
     .....
     .@@@.
     @...@
@@ -657,7 +854,10 @@ right-bearing: 1
     @.@.@
     .@@@.
 
+
+# [A] LATIN CAPITAL LETTER A
 0x41:
+u+0041:
     .....
     ..@..
     .@.@.
@@ -667,7 +867,10 @@ right-bearing: 1
     @...@
     @...@
 
+
+# [B] LATIN CAPITAL LETTER B
 0x42:
+u+0042:
     .....
     @@@@.
     .@..@
@@ -677,7 +880,10 @@ right-bearing: 1
     .@..@
     @@@@.
 
+
+# [C] LATIN CAPITAL LETTER C
 0x43:
+u+0043:
     .....
     .@@@.
     @...@
@@ -687,7 +893,10 @@ right-bearing: 1
     @...@
     .@@@.
 
+
+# [D] LATIN CAPITAL LETTER D
 0x44:
+u+0044:
     .....
     @@@@.
     .@..@
@@ -697,7 +906,10 @@ right-bearing: 1
     .@..@
     @@@@.
 
+
+# [E] LATIN CAPITAL LETTER E
 0x45:
+u+0045:
     .....
     @@@@@
     @....
@@ -707,7 +919,10 @@ right-bearing: 1
     @....
     @@@@@
 
+
+# [F] LATIN CAPITAL LETTER F
 0x46:
+u+0046:
     .....
     @@@@@
     @....
@@ -717,7 +932,10 @@ right-bearing: 1
     @....
     @....
 
+
+# [G] LATIN CAPITAL LETTER G
 0x47:
+u+0047:
     .....
     .@@@@
     @....
@@ -727,7 +945,10 @@ right-bearing: 1
     @...@
     .@@@@
 
+
+# [H] LATIN CAPITAL LETTER H
 0x48:
+u+0048:
     .....
     @...@
     @...@
@@ -737,7 +958,10 @@ right-bearing: 1
     @...@
     @...@
 
+
+# [I] LATIN CAPITAL LETTER I
 0x49:
+u+0049:
     .....
     .@@@.
     ..@..
@@ -747,7 +971,10 @@ right-bearing: 1
     ..@..
     .@@@.
 
+
+# [J] LATIN CAPITAL LETTER J
 0x4a:
+u+004a:
     .....
     ....@
     ....@
@@ -757,7 +984,10 @@ right-bearing: 1
     @...@
     .@@@.
 
+
+# [K] LATIN CAPITAL LETTER K
 0x4b:
+u+004b:
     .....
     @...@
     @..@.
@@ -767,7 +997,10 @@ right-bearing: 1
     @..@.
     @...@
 
+
+# [L] LATIN CAPITAL LETTER L
 0x4c:
+u+004c:
     .....
     @....
     @....
@@ -777,7 +1010,10 @@ right-bearing: 1
     @....
     @@@@@
 
+
+# [M] LATIN CAPITAL LETTER M
 0x4d:
+u+004d:
     .....
     @...@
     @@.@@
@@ -787,7 +1023,10 @@ right-bearing: 1
     @...@
     @...@
 
+
+# [N] LATIN CAPITAL LETTER N
 0x4e:
+u+004e:
     .....
     @...@
     @@..@
@@ -797,7 +1036,10 @@ right-bearing: 1
     @...@
     @...@
 
+
+# [O] LATIN CAPITAL LETTER O
 0x4f:
+u+004f:
     .....
     .@@@.
     @...@
@@ -807,7 +1049,10 @@ right-bearing: 1
     @...@
     .@@@.
 
+
+# [P] LATIN CAPITAL LETTER P
 0x50:
+u+0050:
     .....
     @@@@.
     @...@
@@ -817,7 +1062,10 @@ right-bearing: 1
     @....
     @....
 
+
+# [Q] LATIN CAPITAL LETTER Q
 0x51:
+u+0051:
     .....
     .@@@.
     @...@
@@ -827,7 +1075,10 @@ right-bearing: 1
     @..@.
     .@@.@
 
+
+# [R] LATIN CAPITAL LETTER R
 0x52:
+u+0052:
     .....
     @@@@.
     @...@
@@ -837,7 +1088,10 @@ right-bearing: 1
     @..@.
     @...@
 
+
+# [S] LATIN CAPITAL LETTER S
 0x53:
+u+0053:
     .....
     .@@@.
     @...@
@@ -847,7 +1101,10 @@ right-bearing: 1
     @...@
     .@@@.
 
+
+# [T] LATIN CAPITAL LETTER T
 0x54:
+u+0054:
     .....
     @@@@@
     ..@..
@@ -857,7 +1114,10 @@ right-bearing: 1
     ..@..
     ..@..
 
+
+# [U] LATIN CAPITAL LETTER U
 0x55:
+u+0055:
     .....
     @...@
     @...@
@@ -867,7 +1127,10 @@ right-bearing: 1
     @...@
     .@@@.
 
+
+# [V] LATIN CAPITAL LETTER V
 0x56:
+u+0056:
     .....
     @...@
     @...@
@@ -877,7 +1140,10 @@ right-bearing: 1
     ..@..
     ..@..
 
+
+# [W] LATIN CAPITAL LETTER W
 0x57:
+u+0057:
     .....
     @...@
     @...@
@@ -887,7 +1153,10 @@ right-bearing: 1
     @@.@@
     @...@
 
+
+# [X] LATIN CAPITAL LETTER X
 0x58:
+u+0058:
     .....
     @...@
     @...@
@@ -897,7 +1166,10 @@ right-bearing: 1
     @...@
     @...@
 
+
+# [Y] LATIN CAPITAL LETTER Y
 0x59:
+u+0059:
     .....
     @...@
     @...@
@@ -907,7 +1179,10 @@ right-bearing: 1
     ..@..
     ..@..
 
+
+# [Z] LATIN CAPITAL LETTER Z
 0x5a:
+u+005a:
     .....
     @@@@@
     ....@
@@ -917,7 +1192,10 @@ right-bearing: 1
     @....
     @@@@@
 
+
+# [[] LEFT SQUARE BRACKET
 0x5b:
+u+005b:
     .....
     .@@@.
     .@...
@@ -927,7 +1205,10 @@ right-bearing: 1
     .@...
     .@@@.
 
+
+# [\] REVERSE SOLIDUS
 0x5c:
+u+005c:
     .....
     .....
     @....
@@ -937,7 +1218,10 @@ right-bearing: 1
     ....@
     .....
 
+
+# []] RIGHT SQUARE BRACKET
 0x5d:
+u+005d:
     .....
     .@@@.
     ...@.
@@ -947,7 +1231,10 @@ right-bearing: 1
     ...@.
     .@@@.
 
+
+# [^] CIRCUMFLEX ACCENT
 0x5e:
+u+005e:
     .....
     ..@..
     .@.@.
@@ -957,7 +1244,10 @@ right-bearing: 1
     .....
     .....
 
+
+# [_] LOW LINE
 0x5f:
+u+005f:
     .....
     .....
     .....
@@ -967,7 +1257,10 @@ right-bearing: 1
     .....
     @@@@@
 
+
+# [`] GRAVE ACCENT
 0x60:
+u+0060:
     .....
     ..@@.
     ..@@.
@@ -977,7 +1270,10 @@ right-bearing: 1
     .....
     .....
 
+
+# [a] LATIN SMALL LETTER A
 0x61:
+u+0061:
     .....
     .....
     .....
@@ -987,7 +1283,10 @@ right-bearing: 1
     @...@
     .@@@@
 
+
+# [b] LATIN SMALL LETTER B
 0x62:
+u+0062:
     .....
     @....
     @....
@@ -997,7 +1296,10 @@ right-bearing: 1
     @@..@
     @.@@.
 
+
+# [c] LATIN SMALL LETTER C
 0x63:
+u+0063:
     .....
     .....
     .....
@@ -1007,7 +1309,10 @@ right-bearing: 1
     @...@
     .@@@.
 
+
+# [d] LATIN SMALL LETTER D
 0x64:
+u+0064:
     .....
     ....@
     ....@
@@ -1017,7 +1322,10 @@ right-bearing: 1
     @..@@
     .@@.@
 
+
+# [e] LATIN SMALL LETTER E
 0x65:
+u+0065:
     .....
     .....
     .....
@@ -1027,7 +1335,10 @@ right-bearing: 1
     @....
     .@@@.
 
+
+# [f] LATIN SMALL LETTER F
 0x66:
+u+0066:
     .....
     ...@.
     ..@.@
@@ -1037,7 +1348,10 @@ right-bearing: 1
     ..@..
     ..@..
 
+
+# [g] LATIN SMALL LETTER G
 0x67:
+u+0067:
     .....
     .@@.@
     @..@@
@@ -1047,7 +1361,10 @@ right-bearing: 1
     @...@
     .@@@.
 
+
+# [h] LATIN SMALL LETTER H
 0x68:
+u+0068:
     .....
     @....
     @....
@@ -1057,7 +1374,10 @@ right-bearing: 1
     @...@
     @...@
 
+
+# [i] LATIN SMALL LETTER I
 0x69:
+u+0069:
     .....
     ..@..
     .....
@@ -1067,7 +1387,10 @@ right-bearing: 1
     ..@..
     .@@@.
 
+
+# [j] LATIN SMALL LETTER J
 0x6a:
+u+006a:
     .....
     ....@
     .....
@@ -1077,7 +1400,10 @@ right-bearing: 1
     @...@
     .@@@.
 
+
+# [k] LATIN SMALL LETTER K
 0x6b:
+u+006b:
     .....
     @....
     @....
@@ -1087,7 +1413,10 @@ right-bearing: 1
     @.@..
     @..@.
 
+
+# [l] LATIN SMALL LETTER L
 0x6c:
+u+006c:
     .....
     .@@..
     ..@..
@@ -1097,7 +1426,10 @@ right-bearing: 1
     ..@..
     .@@@.
 
+
+# [m] LATIN SMALL LETTER M
 0x6d:
+u+006d:
     .....
     .....
     .....
@@ -1107,7 +1439,10 @@ right-bearing: 1
     @.@.@
     @.@.@
 
+
+# [n] LATIN SMALL LETTER N
 0x6e:
+u+006e:
     .....
     .....
     .....
@@ -1117,7 +1452,10 @@ right-bearing: 1
     @...@
     @...@
 
+
+# [o] LATIN SMALL LETTER O
 0x6f:
+u+006f:
     .....
     .....
     .....
@@ -1127,7 +1465,10 @@ right-bearing: 1
     @...@
     .@@@.
 
+
+# [p] LATIN SMALL LETTER P
 0x70:
+u+0070:
     .....
     @.@@.
     @@..@
@@ -1137,7 +1478,10 @@ right-bearing: 1
     @....
     @....
 
+
+# [q] LATIN SMALL LETTER Q
 0x71:
+u+0071:
     .....
     .@@.@
     @..@@
@@ -1147,7 +1491,10 @@ right-bearing: 1
     ....@
     ....@
 
+
+# [r] LATIN SMALL LETTER R
 0x72:
+u+0072:
     .....
     .....
     .....
@@ -1157,7 +1504,10 @@ right-bearing: 1
     @....
     @....
 
+
+# [s] LATIN SMALL LETTER S
 0x73:
+u+0073:
     .....
     .....
     .....
@@ -1167,7 +1517,10 @@ right-bearing: 1
     ....@
     @@@@.
 
+
+# [t] LATIN SMALL LETTER T
 0x74:
+u+0074:
     .....
     ..@..
     ..@..
@@ -1177,7 +1530,10 @@ right-bearing: 1
     ..@.@
     ...@.
 
+
+# [u] LATIN SMALL LETTER U
 0x75:
+u+0075:
     .....
     .....
     .....
@@ -1187,7 +1543,10 @@ right-bearing: 1
     @..@@
     .@@.@
 
+
+# [v] LATIN SMALL LETTER V
 0x76:
+u+0076:
     .....
     .....
     .....
@@ -1197,7 +1556,10 @@ right-bearing: 1
     .@.@.
     ..@..
 
+
+# [w] LATIN SMALL LETTER W
 0x77:
+u+0077:
     .....
     .....
     .....
@@ -1207,7 +1569,10 @@ right-bearing: 1
     @.@.@
     .@.@.
 
+
+# [x] LATIN SMALL LETTER X
 0x78:
+u+0078:
     .....
     .....
     .....
@@ -1217,7 +1582,10 @@ right-bearing: 1
     .@.@.
     @...@
 
+
+# [y] LATIN SMALL LETTER Y
 0x79:
+u+0079:
     .....
     @...@
     @...@
@@ -1227,7 +1595,10 @@ right-bearing: 1
     @...@
     .@@@.
 
+
+# [z] LATIN SMALL LETTER Z
 0x7a:
+u+007a:
     .....
     .....
     .....
@@ -1237,7 +1608,10 @@ right-bearing: 1
     .@...
     @@@@@
 
+
+# [{] LEFT CURLY BRACKET
 0x7b:
+u+007b:
     .....
     ...@.
     ..@..
@@ -1247,7 +1621,10 @@ right-bearing: 1
     ..@..
     ...@.
 
+
+# [|] VERTICAL LINE
 0x7c:
+u+007c:
     .....
     ..@..
     ..@..
@@ -1257,7 +1634,10 @@ right-bearing: 1
     ..@..
     ..@..
 
+
+# [}] RIGHT CURLY BRACKET
 0x7d:
+u+007d:
     .....
     .@...
     ..@..
@@ -1267,7 +1647,10 @@ right-bearing: 1
     ..@..
     .@...
 
+
+# [~] TILDE
 0x7e:
+u+007e:
     .....
     .@...
     @.@.@
@@ -1277,7 +1660,10 @@ right-bearing: 1
     .....
     .....
 
+
+# [▒] MEDIUM SHADE
 0x7f:
+u+2592:
     .....
     .@.@.
     @.@.@
