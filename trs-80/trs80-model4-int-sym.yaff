@@ -1,4 +1,4 @@
-name: Tandy-8049007 (TRS-80 Model 4 International)
+name: TRS-80 Model 4 International (with symbols)
 spacing: character-cell
 cell-size: 8x12
 converter: monobit v0.40
