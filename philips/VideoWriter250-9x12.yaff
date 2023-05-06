@@ -6,11 +6,6 @@ source-name: VideoWriter250.gif
 source-format: image
 history: load -format=image
 
-// TODO:
-//    1) For regular chars, add empty column to the right [ok]
-//    2) For double chars, copy 1st column to the left [ok
-//    3) Make a copy, invert the chars and paste them at the end of file [ok]
-//    4) Add indices
 
 0x00:
     .........
