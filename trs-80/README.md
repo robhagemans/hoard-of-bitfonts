@@ -23,9 +23,10 @@ Model III and Model 4
 ---------------------
 
 These models had the same character set. The set included here is the ROM order,
-which excludes the 2x3 semigraphics. All glyphs in this set were accessible, with 0x80-0xBF mapped to semigraphics and 0xC0-0xFF mapped to either Kana or digbats, depending on a toggle. 
+which excludes the 2x3 semigraphics. All glyphs in this set were accessible, 
+with 0x80-0xBF mapped to semigraphics and 0xC0-0xFF mapped to either Kana or dingbats, depending on a toggle. 
 
-additionally, a variant character set from a Model 4P character ROM is included. 
+Additionally, a European variant Model 4 character ROM is included. 
 This set excludes Kana and includes additional accented Latin characters. 
 
 
