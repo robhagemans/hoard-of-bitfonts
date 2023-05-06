@@ -32,7 +32,7 @@ Additionally, a European variant Model 4 character ROM is included.
 Related systems and clones
 --------------------------
 
-The *Mera-Elzab Meritum* was a Polish variant of the TRS-80 Model I.
+The **Mera-Elzab Meritum** was a Polish variant of the TRS-80 Model I.
 - `mera-elzab-meritum` is its glyph set, which was uppercase only and included accented Latin characters needed to write Polish.  
 - `mera-elzab-meritum-lowercase` is a variant without Polish letters but including standard ASCII lowercase. This may have been used in a later experimental networking version of the Meritum.  
 
@@ -40,22 +40,23 @@ The *Mera-Elzab Meritum* was a Polish variant of the TRS-80 Model I.
 Color Computer 1/2 & Color Computer 3
 =====================================
 
-The CoCo 1 and 2 used the MC-6847 character generator with a characteristic square `O`.
+The **CoCo 1 and 2** used the MC-6847 character generator with a characteristic square `O`.
 - `mc6874` is the character generator's glyph set, from a decapped chip.  
 - `mc6874-semigraphics-4` is the 2x2 semigraphics set that was accessible alongside alphanumerics.  
 - `mc6874-semigraphics-6` is the 3x2 semigraphics set that was used in a semigraphics-only mode.
 - `trs80-coco` has the CoCo's glyph set as accessed trough BASIC, including reverse-video and 2x2 semigraphics, repeated as different `CHR$` values corresponded to differnet colours.
 
-A later CoCo 2 used the MC-6847T1 which added lowercase and reshaped letters including a round `O`.
+A later **CoCo 2** used the MC-6847T1 which added lowercase and reshaped letters including a round `O`.
 - `mc6874t1` is the character generator's glyph set, from its datasheet.  
 - `trs80-coco2-lowercase` is the set as seen through BASIC.
 
-The CoCo 3 used a GIME character generator.
+The **CoCo 3** used a GIME character generator.
 - `trs80-coco3` is the character generator's glyph set, given in the ROM order but labelled with `CHR$` values.
 
 
 Others
 ======
 
-`trs-80-m2.yaff` is the character set from a TRS-80 Model II ROM.  
-`trs-80-dt1.yaff` is the caracter set from a TRS-80 DT-1 Data Terminal ROM.
+- `trs-80-m2` is the character set from a **TRS-80 Model II** ROM.  
+- `trs-80-dt1` is the caracter set from a **TRS-80 DT-1 Data Terminal** ROM.  
+- The **TRS-80 Model 100** (a.k.a. Model T) was a variant of the **Kyotronic-85** - see there.
