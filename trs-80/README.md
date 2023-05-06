@@ -37,6 +37,11 @@ The **Mera-Elzab Meritum** was a Polish variant of the TRS-80 Model I.
 - `mera-elzab-meritum-lowercase` is a variant without Polish letters but including standard ASCII lowercase. This may have been used in a later experimental networking version of the Meritum.  
 
 
+The **EACA Video Genie**/**Dick Smith Sytem 80**/**PMC-80** was a mostly compatible Model I variant. It was succeeded by the related but less compatible **EACA Colour Genie**.
+- `eaca-eg3003-video-genie` is based on a ROM dump of an EACA EG3003, used with MAME.
+- `eaca-eg2000-colour-genie-1` and `eaca-eg2000-colour-genie-g` are based on font dumps used with MAME. They look consistent with online images.
+
+
 Color Computer 1/2 & Color Computer 3
 =====================================
 
