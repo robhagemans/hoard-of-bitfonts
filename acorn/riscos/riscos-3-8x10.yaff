@@ -1,13 +1,9 @@
-name: Ic24 8x10
+name: RISC OS 3 8x10
 spacing: character-cell
 cell-size: 8x10
 converter: monobit v0.40
 source-format: raw [offset=132568 count=96 cell=8x10 first-codepoint=0x20]
 source-name: Ic24.rom
-encoding: risc-os
-history:
-    label -char-from=riscos
-    label -comment-from=desc
 
 
 # [ ] SPACE
