@@ -1,4 +1,4 @@
-name: Superpet 8x8
+name: Commodore SuperPET (APL character set)
 spacing: character-cell
 cell-size: 8x8
 converter: monobit v0.40
