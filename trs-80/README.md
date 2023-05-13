@@ -65,6 +65,7 @@ The **Dragon 32/64** was a TRS-80 clone using an MC-6847 VDG.
 - `dragon200e` is the glyph set used in the Dragon 200E, a Spanish variant of the Dragon 64 that uses an external ROM to supply the MC6847 with a custom character set.
   The machine has a daughterboard with the extra ROM and the decode logic, plus a jumper to make it look in normal or inverse video. This set was dumped from the ROM and checked against the original hardware.
 
+The **VTech Laser** / **Dick Smith VZ** series used MC6847 VDGs like the CoCo models, even if these were not CoCo clones and indeed more related to the TRS-80 Model 1.
 
 Others
 ======
