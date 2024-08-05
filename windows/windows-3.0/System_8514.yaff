@@ -6,7 +6,7 @@ weight: bold
 dpi: 120 120
 spacing: proportional
 ascent: 12
-offset: 0 -4
+shift-up: -4
 encoding: windows-ansi-2.0
 default-char: 0x80
 converter: monobit v0.10

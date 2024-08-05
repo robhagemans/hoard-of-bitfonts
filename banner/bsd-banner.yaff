@@ -5,7 +5,7 @@ name: BSD Banner
 spacing: proportional
 bounding-box: 62 123
 converter: monobit v0.21
-tracking: 1
+right-bearing: 1
 
 
 # SPACE

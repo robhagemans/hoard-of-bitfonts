@@ -5,8 +5,8 @@ name: S&H Feld-Hell Tbs 24a
 spacing: character-cell
 raster-size: 7 14
 source-url: https://www.nonstopsystems.com/radio/hellschreiber-fonts.htm#7-line-a
-tracking: 1
-offset: 1 0
+right-bearing: 1
+left-bearing: 1
 
 
 u+002b:

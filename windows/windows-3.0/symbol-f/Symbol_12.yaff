@@ -5,7 +5,7 @@ point-size: 12
 dpi: 120 120
 spacing: proportional
 ascent: 15
-offset: 0 -5
+shift-up: -5
 encoding: mac-symbol
 default-char: 0x80
 converter: monobit v0.10

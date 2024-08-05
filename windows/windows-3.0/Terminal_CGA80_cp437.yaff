@@ -4,7 +4,7 @@ family: Terminal
 point-size: 8
 dpi: 80 48
 spacing: character-cell
-offset: 0 -1
+shift-up: -1
 encoding: cp437
 default-char: 0x20
 word-boundary: 0x20

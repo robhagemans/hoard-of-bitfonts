@@ -4,7 +4,7 @@ family: Small Fonts
 point-size: 2
 dpi: 120 120
 spacing: proportional
-offset: 0 -1
+shift-up: -1
 encoding: windows-ansi-2.0
 default-char: 0x80
 converter: monobit v0.10

@@ -1,10 +1,10 @@
 # Epson FX-80/FX-100 dot-matrix printer font
-# 
+#
 # based on fx80.fcr from Virtual-T
 # with modifications to match the matrices shown in
 # Epson FX Printer Operation Manual
 # https://www.manualslib.com/download/812447/Epson-Fx-80.html
-# 
+#
 # The FX-80 had 9 pins and could print alternating lines at a half-pixel
 # relative horizontal shift.
 # Thus, characters are conceived on a 6x9 grid and defined in 12 bytes.
@@ -18,7 +18,7 @@
 # This way, the leftmost column represents the first main column, followed by
 # the intermediate column, etc. The 11th column is the sixth main column
 # while the 12th column represents the empty intermediate column between two glyphs.
-# 
+#
 # The font could be realised as proportional or monospaced.
 # Glyph widths for proportional spacing derive from a table in the same manual.
 # Remove per-glyph metrics to obtain the monospaced font with a 12x9 cell.
@@ -47,7 +47,7 @@ u+00e0:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -64,7 +64,7 @@ u+00e8:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -81,7 +81,7 @@ u+00f9:
     ............
     ............
 
-    tracking: -1
+    right-bearing: -1
 
 
 
@@ -98,7 +98,7 @@ u+00f2:
     ............
     ............
 
-    tracking: -2
+    right-bearing: -2
 
 
 
@@ -115,7 +115,7 @@ u+00ec:
     ............
     ............
 
-    tracking: -6
+    right-bearing: -6
 
 
 
@@ -132,7 +132,7 @@ u+00b0:
     ............
     ............
 
-    tracking: -4
+    right-bearing: -4
 
 
 
@@ -149,7 +149,7 @@ u+00a3:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -166,7 +166,7 @@ u+00a1:
     ....@.......
     ............
 
-    tracking: -7
+    right-bearing: -7
 
 
 
@@ -183,7 +183,7 @@ u+00bf:
     ..@.@.@.....
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -200,7 +200,7 @@ u+00d1:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -217,7 +217,7 @@ u+00f1:
     ............
     ............
 
-    tracking: -1
+    right-bearing: -1
 
 
 
@@ -234,7 +234,7 @@ u+00a4:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -251,7 +251,7 @@ u+20a7:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -268,7 +268,7 @@ u+00c5:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -285,7 +285,7 @@ u+00e5:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -302,7 +302,7 @@ u+00e7:
     .....@......
     ..@.@.......
 
-    tracking: -1
+    right-bearing: -1
 
 
 
@@ -319,7 +319,7 @@ u+00a7:
     ............
     ............
 
-    tracking: -2
+    right-bearing: -2
 
 
 
@@ -336,7 +336,7 @@ u+00df:
     ............
     ............
 
-    tracking: -1
+    right-bearing: -1
 
 
 
@@ -353,7 +353,7 @@ u+00c6:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -370,7 +370,7 @@ u+00e6:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -387,7 +387,7 @@ u+00d8:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -404,7 +404,7 @@ u+00f8:
     @...........
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -421,7 +421,7 @@ u+00a8:
     ............
     ............
 
-    tracking: -4
+    right-bearing: -4
 
 
 
@@ -438,7 +438,7 @@ u+00c4:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -455,7 +455,7 @@ u+00d6:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -472,7 +472,7 @@ u+00dc:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -489,7 +489,7 @@ u+00e4:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -506,7 +506,7 @@ u+00f6:
     ............
     ............
 
-    tracking: -2
+    right-bearing: -2
 
 
 
@@ -523,7 +523,7 @@ u+00fc:
     ............
     ............
 
-    tracking: -1
+    right-bearing: -1
 
 
 
@@ -540,7 +540,7 @@ u+00c9:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -557,7 +557,7 @@ u+00e9:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -574,7 +574,7 @@ u+00a5:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -591,7 +591,7 @@ u+0020:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -608,7 +608,7 @@ u+0021:
     ............
     ............
 
-    tracking: -7
+    right-bearing: -7
 
 
 
@@ -625,7 +625,7 @@ u+0022:
     ............
     ............
 
-    tracking: -4
+    right-bearing: -4
 
 
 
@@ -642,7 +642,7 @@ u+0023:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -659,7 +659,7 @@ u+0024:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -676,7 +676,7 @@ u+0025:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -693,7 +693,7 @@ u+0026:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -710,7 +710,7 @@ u+0027:
     ............
     ............
 
-    tracking: -7
+    right-bearing: -7
 
 
 
@@ -727,7 +727,7 @@ u+0028:
     ............
     ............
 
-    tracking: -6
+    right-bearing: -6
 
 
 
@@ -744,7 +744,7 @@ u+0029:
     ............
     ............
 
-    tracking: -6
+    right-bearing: -6
 
 
 
@@ -761,7 +761,7 @@ u+002a:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -778,7 +778,7 @@ u+002b:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -795,7 +795,7 @@ u+002c:
     .....@......
     ....@.......
 
-    tracking: -5
+    right-bearing: -5
 
 
 
@@ -812,7 +812,7 @@ u+002d:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -829,7 +829,7 @@ u+002e:
     ............
     ............
 
-    tracking: -6
+    right-bearing: -6
 
 
 
@@ -846,7 +846,7 @@ u+002f:
     ............
     ............
 
-    tracking: -2
+    right-bearing: -2
 
 
 
@@ -863,7 +863,7 @@ u+0030:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -880,7 +880,7 @@ u+0031:
     ............
     ............
 
-    tracking: -4
+    right-bearing: -4
 
 
 
@@ -897,7 +897,7 @@ u+0032:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -914,7 +914,7 @@ u+0033:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -931,7 +931,7 @@ u+0034:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -948,7 +948,7 @@ u+0035:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -965,7 +965,7 @@ u+0036:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -982,7 +982,7 @@ u+0037:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -999,7 +999,7 @@ u+0038:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -1016,7 +1016,7 @@ u+0039:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -1033,7 +1033,7 @@ u+003a:
     ............
     ............
 
-    tracking: -6
+    right-bearing: -6
 
 
 
@@ -1050,7 +1050,7 @@ u+003b:
     ....@.......
     ..@.........
 
-    tracking: -6
+    right-bearing: -6
 
 
 
@@ -1067,7 +1067,7 @@ u+003c:
     ............
     ............
 
-    tracking: -2
+    right-bearing: -2
 
 
 
@@ -1084,7 +1084,7 @@ u+003d:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -1101,7 +1101,7 @@ u+003e:
     ............
     ............
 
-    tracking: -2
+    right-bearing: -2
 
 
 
@@ -1118,7 +1118,7 @@ u+003f:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -1135,7 +1135,7 @@ u+0040:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -1152,7 +1152,7 @@ u+0041:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -1169,7 +1169,7 @@ u+0042:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -1186,7 +1186,7 @@ u+0043:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -1203,7 +1203,7 @@ u+0044:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -1220,7 +1220,7 @@ u+0045:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -1237,7 +1237,7 @@ u+0046:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -1254,7 +1254,7 @@ u+0047:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -1271,7 +1271,7 @@ u+0048:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -1288,7 +1288,7 @@ u+0049:
     ............
     ............
 
-    tracking: -4
+    right-bearing: -4
 
 
 
@@ -1305,7 +1305,7 @@ u+004a:
     ............
     ............
 
-    tracking: -1
+    right-bearing: -1
 
 
 
@@ -1322,7 +1322,7 @@ u+004b:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -1339,7 +1339,7 @@ u+004c:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -1356,7 +1356,7 @@ u+004d:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -1373,7 +1373,7 @@ u+004e:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -1390,7 +1390,7 @@ u+004f:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -1407,7 +1407,7 @@ u+0050:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -1424,7 +1424,7 @@ u+0051:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -1441,7 +1441,7 @@ u+0052:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -1458,7 +1458,7 @@ u+0053:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -1475,7 +1475,7 @@ u+0054:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -1492,7 +1492,7 @@ u+0055:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -1509,7 +1509,7 @@ u+0056:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -1526,7 +1526,7 @@ u+0057:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -1543,7 +1543,7 @@ u+0058:
     ............
     ............
 
-    tracking: -2
+    right-bearing: -2
 
 
 
@@ -1560,7 +1560,7 @@ u+0059:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -1577,7 +1577,7 @@ u+005a:
     ............
     ............
 
-    tracking: -2
+    right-bearing: -2
 
 
 
@@ -1594,7 +1594,7 @@ u+005b:
     ............
     ............
 
-    tracking: -4
+    right-bearing: -4
 
 
 
@@ -1611,7 +1611,7 @@ u+005c:
     ............
     ............
 
-    tracking: -2
+    right-bearing: -2
 
 
 
@@ -1628,7 +1628,7 @@ u+005d:
     ............
     ............
 
-    tracking: -4
+    right-bearing: -4
 
 
 
@@ -1645,7 +1645,7 @@ u+005e:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -1662,7 +1662,7 @@ u+005f:
     ............
     @.@.@.@.@...
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -1679,7 +1679,7 @@ u+0060:
     ............
     ............
 
-    tracking: -7
+    right-bearing: -7
 
 
 
@@ -1696,7 +1696,7 @@ u+0061:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -1713,7 +1713,7 @@ u+0062:
     ............
     ............
 
-    tracking: -1
+    right-bearing: -1
 
 
 
@@ -1730,7 +1730,7 @@ u+0063:
     ............
     ............
 
-    tracking: -1
+    right-bearing: -1
 
 
 
@@ -1747,7 +1747,7 @@ u+0064:
     ............
     ............
 
-    tracking: -1
+    right-bearing: -1
 
 
 
@@ -1764,7 +1764,7 @@ u+0065:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -1781,7 +1781,7 @@ u+0066:
     ............
     ............
 
-    tracking: -2
+    right-bearing: -2
 
 
 
@@ -1798,7 +1798,7 @@ u+0067:
     .......@....
     ..@.@.@.....
 
-    tracking: -1
+    right-bearing: -1
 
 
 
@@ -1815,7 +1815,7 @@ u+0068:
     ............
     ............
 
-    tracking: -1
+    right-bearing: -1
 
 
 
@@ -1832,7 +1832,7 @@ u+0069:
     ............
     ............
 
-    tracking: -4
+    right-bearing: -4
 
 
 
@@ -1849,7 +1849,7 @@ u+006a:
     .@.@.@......
     ............
 
-    tracking: -3
+    right-bearing: -3
 
 
 
@@ -1866,7 +1866,7 @@ u+006b:
     ............
     ............
 
-    tracking: -2
+    right-bearing: -2
 
 
 
@@ -1883,7 +1883,7 @@ u+006c:
     ............
     ............
 
-    tracking: -4
+    right-bearing: -4
 
 
 
@@ -1900,7 +1900,7 @@ u+006d:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -1917,7 +1917,7 @@ u+006e:
     ............
     ............
 
-    tracking: -1
+    right-bearing: -1
 
 
 
@@ -1934,7 +1934,7 @@ u+006f:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -1951,7 +1951,7 @@ u+0070:
     @...........
     @...........
 
-    tracking: -1
+    right-bearing: -1
 
 
 
@@ -1968,7 +1968,7 @@ u+0071:
     .......@....
     .......@....
 
-    tracking: -1
+    right-bearing: -1
 
 
 
@@ -1985,7 +1985,7 @@ u+0072:
     ............
     ............
 
-    tracking: -1
+    right-bearing: -1
 
 
 
@@ -2002,7 +2002,7 @@ u+0073:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -2019,7 +2019,7 @@ u+0074:
     ............
     ............
 
-    tracking: -1
+    right-bearing: -1
 
 
 
@@ -2036,7 +2036,7 @@ u+0075:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -2053,7 +2053,7 @@ u+0076:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -2070,7 +2070,7 @@ u+0077:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -2087,7 +2087,7 @@ u+0078:
     ............
     ............
 
-    tracking: -2
+    right-bearing: -2
 
 
 
@@ -2104,7 +2104,7 @@ u+0079:
     ...@........
     ..@.........
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -2121,7 +2121,7 @@ u+007a:
     ............
     ............
 
-    tracking: -2
+    right-bearing: -2
 
 
 
@@ -2138,7 +2138,7 @@ u+007b:
     ............
     ............
 
-    tracking: -3
+    right-bearing: -3
 
 
 
@@ -2155,7 +2155,7 @@ u+007c:
     ............
     ............
 
-    tracking: -7
+    right-bearing: -7
 
 
 
@@ -2172,7 +2172,7 @@ u+007d:
     ............
     ............
 
-    tracking: -3
+    right-bearing: -3
 
 
 
@@ -2189,7 +2189,7 @@ u+007e:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -2206,7 +2206,7 @@ u+2205:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -2223,7 +2223,7 @@ u+00e0:
     ............
     ............
 
-    tracking: -1
+    right-bearing: -1
 
 
 
@@ -2240,7 +2240,7 @@ u+00e8:
     ............
     ............
 
-    tracking: -1
+    right-bearing: -1
 
 
 
@@ -2257,7 +2257,7 @@ u+00f9:
     ............
     ............
 
-    tracking: -1
+    right-bearing: -1
 
 
 
@@ -2274,7 +2274,7 @@ u+00f2:
     ............
     ............
 
-    tracking: -1
+    right-bearing: -1
 
 
 
@@ -2291,7 +2291,7 @@ u+00ec:
     ............
     ............
 
-    tracking: -4
+    right-bearing: -4
 
 
 
@@ -2308,7 +2308,7 @@ u+00b0:
     ............
     ............
 
-    tracking: -4
+    right-bearing: -4
 
 
 
@@ -2325,7 +2325,7 @@ u+00a3:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -2342,7 +2342,7 @@ u+00a1:
     .@..........
     ............
 
-    tracking: -2
+    right-bearing: -2
 
 
 
@@ -2359,7 +2359,7 @@ u+00bf:
     .@.@.@......
     ............
 
-    tracking: -1
+    right-bearing: -1
 
 
 
@@ -2376,7 +2376,7 @@ u+00d1:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -2393,7 +2393,7 @@ u+00f1:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -2410,7 +2410,7 @@ u+00a4:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -2427,7 +2427,7 @@ u+20a7:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -2444,7 +2444,7 @@ u+00c5:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -2461,7 +2461,7 @@ u+00e5:
     ............
     ............
 
-    tracking: -1
+    right-bearing: -1
 
 
 
@@ -2478,7 +2478,7 @@ u+00e7:
     .....@......
     ..@.@.......
 
-    tracking: -1
+    right-bearing: -1
 
 
 
@@ -2495,7 +2495,7 @@ u+00a7:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -2512,7 +2512,7 @@ u+00df:
     ............
     ............
 
-    tracking: -1
+    right-bearing: -1
 
 
 
@@ -2529,7 +2529,7 @@ u+00c6:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -2546,7 +2546,7 @@ u+00e6:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -2563,7 +2563,7 @@ u+00d8:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -2580,7 +2580,7 @@ u+00f8:
     .@..........
     ............
 
-    tracking: -1
+    right-bearing: -1
 
 
 
@@ -2597,7 +2597,7 @@ u+00a8:
     ............
     ............
 
-    tracking: -3
+    right-bearing: -3
 
 
 
@@ -2614,7 +2614,7 @@ u+00c4:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -2631,7 +2631,7 @@ u+00d6:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -2648,7 +2648,7 @@ u+00dc:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -2665,7 +2665,7 @@ u+00e4:
     ............
     ............
 
-    tracking: -1
+    right-bearing: -1
 
 
 
@@ -2682,7 +2682,7 @@ u+00f6:
     ............
     ............
 
-    tracking: -1
+    right-bearing: -1
 
 
 
@@ -2699,7 +2699,7 @@ u+00fc:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -2716,7 +2716,7 @@ u+00c9:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -2733,7 +2733,7 @@ u+00e9:
     ............
     ............
 
-    tracking: -1
+    right-bearing: -1
 
 
 
@@ -2750,7 +2750,7 @@ u+00a5:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -2767,7 +2767,7 @@ u+0020:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -2784,7 +2784,7 @@ u+0021:
     ............
     ............
 
-    tracking: -2
+    right-bearing: -2
 
 
 
@@ -2801,7 +2801,7 @@ u+0022:
     ............
     ............
 
-    tracking: -2
+    right-bearing: -2
 
 
 
@@ -2818,7 +2818,7 @@ u+0023:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -2835,7 +2835,7 @@ u+0024:
     ............
     ............
 
-    tracking: -1
+    right-bearing: -1
 
 
 
@@ -2852,7 +2852,7 @@ u+0025:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -2869,7 +2869,7 @@ u+0026:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -2886,7 +2886,7 @@ u+0027:
     ............
     ............
 
-    tracking: -7
+    right-bearing: -7
 
 
 
@@ -2903,7 +2903,7 @@ u+0028:
     ............
     ............
 
-    tracking: -4
+    right-bearing: -4
 
 
 
@@ -2920,7 +2920,7 @@ u+0029:
     ............
     ............
 
-    tracking: -4
+    right-bearing: -4
 
 
 
@@ -2937,7 +2937,7 @@ u+002a:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -2954,7 +2954,7 @@ u+002b:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -2971,7 +2971,7 @@ u+002c:
     ...@........
     .@..........
 
-    tracking: -4
+    right-bearing: -4
 
 
 
@@ -2988,7 +2988,7 @@ u+002d:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -3005,7 +3005,7 @@ u+002e:
     ............
     ............
 
-    tracking: -5
+    right-bearing: -5
 
 
 
@@ -3022,7 +3022,7 @@ u+002f:
     ............
     ............
 
-    tracking: -2
+    right-bearing: -2
 
 
 
@@ -3039,7 +3039,7 @@ u+0030:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -3056,7 +3056,7 @@ u+0031:
     ............
     ............
 
-    tracking: -3
+    right-bearing: -3
 
 
 
@@ -3073,7 +3073,7 @@ u+0032:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -3090,7 +3090,7 @@ u+0033:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -3107,7 +3107,7 @@ u+0034:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -3124,7 +3124,7 @@ u+0035:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -3141,7 +3141,7 @@ u+0036:
     ............
     ............
 
-    tracking: -1
+    right-bearing: -1
 
 
 
@@ -3158,7 +3158,7 @@ u+0037:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -3175,7 +3175,7 @@ u+0038:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -3192,7 +3192,7 @@ u+0039:
     ............
     ............
 
-    tracking: -1
+    right-bearing: -1
 
 
 
@@ -3209,7 +3209,7 @@ u+003a:
     ............
     ............
 
-    tracking: -4
+    right-bearing: -4
 
 
 
@@ -3226,7 +3226,7 @@ u+003b:
     ...@........
     .@..........
 
-    tracking: -3
+    right-bearing: -3
 
 
 
@@ -3243,7 +3243,7 @@ u+003c:
     ............
     ............
 
-    tracking: -2
+    right-bearing: -2
 
 
 
@@ -3260,7 +3260,7 @@ u+003d:
     ............
     ............
 
-    tracking: -1
+    right-bearing: -1
 
 
 
@@ -3277,7 +3277,7 @@ u+003e:
     ............
     ............
 
-    tracking: -3
+    right-bearing: -3
 
 
 
@@ -3294,7 +3294,7 @@ u+003f:
     ............
     ............
 
-    tracking: -1
+    right-bearing: -1
 
 
 
@@ -3311,7 +3311,7 @@ u+0040:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -3328,7 +3328,7 @@ u+0041:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -3345,7 +3345,7 @@ u+0042:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -3362,7 +3362,7 @@ u+0043:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -3379,7 +3379,7 @@ u+0044:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -3396,7 +3396,7 @@ u+0045:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -3413,7 +3413,7 @@ u+0046:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -3430,7 +3430,7 @@ u+0047:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -3447,7 +3447,7 @@ u+0048:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -3464,7 +3464,7 @@ u+0049:
     ............
     ............
 
-    tracking: -2
+    right-bearing: -2
 
 
 
@@ -3481,7 +3481,7 @@ u+004a:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -3498,7 +3498,7 @@ u+004b:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -3515,7 +3515,7 @@ u+004c:
     ............
     ............
 
-    tracking: -2
+    right-bearing: -2
 
 
 
@@ -3532,7 +3532,7 @@ u+004d:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -3549,7 +3549,7 @@ u+004e:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -3566,7 +3566,7 @@ u+004f:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -3583,7 +3583,7 @@ u+0050:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -3600,7 +3600,7 @@ u+0051:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -3617,7 +3617,7 @@ u+0052:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -3634,7 +3634,7 @@ u+0053:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -3651,7 +3651,7 @@ u+0054:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -3668,7 +3668,7 @@ u+0055:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -3685,7 +3685,7 @@ u+0056:
     ............
     ............
 
-    tracking: -1
+    right-bearing: -1
 
 
 
@@ -3702,7 +3702,7 @@ u+0057:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -3719,7 +3719,7 @@ u+0058:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -3736,7 +3736,7 @@ u+0059:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -3753,7 +3753,7 @@ u+005a:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -3770,7 +3770,7 @@ u+005b:
     ............
     ............
 
-    tracking: -1
+    right-bearing: -1
 
 
 
@@ -3787,7 +3787,7 @@ u+005c:
     ............
     ............
 
-    tracking: -5
+    right-bearing: -5
 
 
 
@@ -3804,7 +3804,7 @@ u+005d:
     ............
     ............
 
-    tracking: -1
+    right-bearing: -1
 
 
 
@@ -3821,7 +3821,7 @@ u+005e:
     ............
     ............
 
-    tracking: -2
+    right-bearing: -2
 
 
 
@@ -3838,7 +3838,7 @@ u+005f:
     ............
     @.@.@.@.@...
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -3855,7 +3855,7 @@ u+0060:
     ............
     ............
 
-    tracking: -7
+    right-bearing: -7
 
 
 
@@ -3872,7 +3872,7 @@ u+0061:
     ............
     ............
 
-    tracking: -1
+    right-bearing: -1
 
 
 
@@ -3889,7 +3889,7 @@ u+0062:
     ............
     ............
 
-    tracking: -1
+    right-bearing: -1
 
 
 
@@ -3906,7 +3906,7 @@ u+0063:
     ............
     ............
 
-    tracking: -1
+    right-bearing: -1
 
 
 
@@ -3923,7 +3923,7 @@ u+0064:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -3940,7 +3940,7 @@ u+0065:
     ............
     ............
 
-    tracking: -1
+    right-bearing: -1
 
 
 
@@ -3957,7 +3957,7 @@ u+0066:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -3974,7 +3974,7 @@ u+0067:
     .....@......
     .@.@........
 
-    tracking: -1
+    right-bearing: -1
 
 
 
@@ -3991,7 +3991,7 @@ u+0068:
     ............
     ............
 
-    tracking: -1
+    right-bearing: -1
 
 
 
@@ -4008,7 +4008,7 @@ u+0069:
     ............
     ............
 
-    tracking: -3
+    right-bearing: -3
 
 
 
@@ -4025,7 +4025,7 @@ u+006a:
     @.@.........
     ............
 
-    tracking: -2
+    right-bearing: -2
 
 
 
@@ -4042,7 +4042,7 @@ u+006b:
     ............
     ............
 
-    tracking: -1
+    right-bearing: -1
 
 
 
@@ -4059,7 +4059,7 @@ u+006c:
     ............
     ............
 
-    tracking: -3
+    right-bearing: -3
 
 
 
@@ -4076,7 +4076,7 @@ u+006d:
     ............
     ............
 
-    tracking: -1
+    right-bearing: -1
 
 
 
@@ -4093,7 +4093,7 @@ u+006e:
     ............
     ............
 
-    tracking: -2
+    right-bearing: -2
 
 
 
@@ -4110,7 +4110,7 @@ u+006f:
     ............
     ............
 
-    tracking: -1
+    right-bearing: -1
 
 
 
@@ -4127,7 +4127,7 @@ u+0070:
     @...........
     @...........
 
-    tracking: -1
+    right-bearing: -1
 
 
 
@@ -4144,7 +4144,7 @@ u+0071:
     ......@.....
     ......@.....
 
-    tracking: -1
+    right-bearing: -1
 
 
 
@@ -4161,7 +4161,7 @@ u+0072:
     ............
     ............
 
-    tracking: -2
+    right-bearing: -2
 
 
 
@@ -4178,7 +4178,7 @@ u+0073:
     ............
     ............
 
-    tracking: -1
+    right-bearing: -1
 
 
 
@@ -4195,7 +4195,7 @@ u+0074:
     ............
     ............
 
-    tracking: -2
+    right-bearing: -2
 
 
 
@@ -4212,7 +4212,7 @@ u+0075:
     ............
     ............
 
-    tracking: -1
+    right-bearing: -1
 
 
 
@@ -4229,7 +4229,7 @@ u+0076:
     ............
     ............
 
-    tracking: -2
+    right-bearing: -2
 
 
 
@@ -4246,7 +4246,7 @@ u+0077:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -4263,7 +4263,7 @@ u+0078:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -4280,7 +4280,7 @@ u+0079:
     ..@.........
     .@..........
 
-    tracking: -1
+    right-bearing: -1
 
 
 
@@ -4297,7 +4297,7 @@ u+007a:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -4314,7 +4314,7 @@ u+007b:
     ............
     ............
 
-    tracking: -2
+    right-bearing: -2
 
 
 
@@ -4331,7 +4331,7 @@ u+007c:
     ............
     ............
 
-    tracking: -3
+    right-bearing: -3
 
 
 
@@ -4348,7 +4348,7 @@ u+007d:
     ............
     ............
 
-    tracking: -2
+    right-bearing: -2
 
 
 
@@ -4365,7 +4365,7 @@ u+007e:
     ............
     ............
 
-    tracking: 0
+    right-bearing: 0
 
 
 
@@ -4382,6 +4382,4 @@ u+2205:
     ............
     ............
 
-    tracking: 0
-
-
+    right-bearing: 0

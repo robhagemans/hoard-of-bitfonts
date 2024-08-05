@@ -6,7 +6,7 @@ dpi: 96 96
 spacing: proportional
 ascent: 24
 descent: 8
-offset: 0 -8
+shift-up: -8
 encoding: windows-ansi-2.0
 default-char: 0x80
 converter: monobit v0.10

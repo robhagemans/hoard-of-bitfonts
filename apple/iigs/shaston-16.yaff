@@ -1,7 +1,8 @@
 name: Shaston 16
 point-size: 16
 spacing: proportional
-offset: -1 -2
+left-bearing: -1
+shift-up: -2
 leading: 2
 encoding: mac-roman
 default-char: missing

@@ -5,7 +5,7 @@ point-size: 21
 weight: bold
 dpi: 96 96
 spacing: character-cell
-offset: 0 -1
+shift-up: -1
 encoding: cp850
 default-char: 0x60
 converter: monobit v0.10

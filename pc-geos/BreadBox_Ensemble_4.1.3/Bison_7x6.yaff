@@ -1,0 +1,36 @@
+name: Bison 7x6
+spacing: character-cell
+cell-size: 7x6
+family: Bison
+font-id: 2560
+point-size: 13
+average-width: 7
+max-width: 7
+x-height: 7
+ascent: 10
+descent: 3
+line-height: 18
+encoding: pc-geos
+default-char: 0x2a
+underline-descent: 1
+strikethrough-ascent: 5
+converter: monobit v0.44
+source-name: BISON.FNT
+source-path: ENSEMBLE/USERDATA/FONT/BISON.FNT
+source-format: pcgeos
+history: label -char-from=pc-geos
+shift-up: 3
+left-bearing: 1
+right-bearing: 1
+
+0x2a:
+'*':
+    ..@..
+    @.@.@
+    .@@@.
+    .@@@.
+    @.@.@
+    ..@..
+
+
+
