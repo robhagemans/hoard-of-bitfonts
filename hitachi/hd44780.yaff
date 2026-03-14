@@ -1,3 +1,45 @@
 # Hitachi HD44780
 # As per Hitachi LCD Controller/Driver LSI Data Book #U74, P119
 # Most characters are 5x7; a handful are 5x10, and should probably be considered separately
+
+name: Hitachi HD44780
+
+0x20:
+u+0020:
+    .....
+    .....
+    .....
+    .....
+    .....
+    .....
+    .....
+
+0x21:
+u+0021:
+    ..@..
+    ..@..
+    ..@..
+    ..@..
+    .....
+    .....
+    ..@..
+
+0x22:
+u+0022:
+    .@.@.
+    .@.@.
+    .@.@.
+    .....
+    .....
+    .....
+    .....
+
+0x23:
+u+0023:
+    .@.@.
+    .@.@.
+    @@@@@
+    .@.@.
+    @@@@@
+    .@.@.
+    .@.@.
