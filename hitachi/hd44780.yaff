@@ -2,7 +2,7 @@
 # As per Hitachi LCD Controller/Driver LSI Data Book #U74, P119
 # Most characters are 5x7; a handful are 5x10, and should probably be considered separately
 
-# Note to self: this appears to map to Code Page 932.  It might best fit the explicitly half-width characters at http://unicode.org/charts/PDF/UFF00.pdf rather than the regular full-width punctuation at https://www.unicode.org/charts/PDF/U3000.pdf and Katakana at https://www.unicode.org/charts/PDF/U30A0.pdf .
+# Note to self: this appears to map to Code Page 932.  It might best fit the explicitly half-width characters at http://unicode.org/charts/PDF/UFF00.pdf rather than the regular full-width punctuation at https://www.unicode.org/charts/PDF/U3000.pdf and Katakana at https://www.unicode.org/charts/PDF/U30A0.pdf , in terms of contiguous mapping, although these characters are almost as short as they are narrow, so half-width doesn't entirely seem to apply in terms of ratio.
 
 name: Hitachi HD44780
 
