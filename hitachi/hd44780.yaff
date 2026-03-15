@@ -1,6 +1,6 @@
 # Hitachi HD44780
-# As per Hitachi LCD Controller/Driver LSI Data Book #U74, P119
-# Most characters are 5x7; a handful are 5x10, and should probably be considered separately
+# As per the Hitachi LCD Controller/Driver LSI Data Book #U74, page 119
+# Most characters are 5x7 pixels.  A handful are 5x10, and should probably be considered separately.
 
 # This appears to map to Code Page 932.  This is pretty closely mapped by the halfwidth characters at http://unicode.org/charts/PDF/UFF00.pdf , which in turn note their regular fullwidth equivalents.
 
