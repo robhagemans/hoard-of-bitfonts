@@ -4,6 +4,7 @@
 name: ZX Spectrum
 point-size: 8
 spacing: character-cell
+cell-size: 8x8
 encoding: zx-spectrum
 converter: monobit v0.10
 source-name: ZX_Spectrum_character_set.png
