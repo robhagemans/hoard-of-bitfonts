@@ -9,6 +9,8 @@
 name: Hitachi HD44780
 spacing: character-cell
 raster-size: 5 7
+right-bearing: 1
+line-height: 8
 encoding: cp932
 source-format: pdf
 source-url: http://notebook.zoeblade.com/Downloads/Documentation/Hitachi/U74.pdf
