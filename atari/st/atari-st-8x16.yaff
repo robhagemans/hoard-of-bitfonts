@@ -1,4 +1,4 @@
-name: 8x16 system font
+name: Atari ST 8x16
 spacing: character-cell
 cell-size: 8 16
 point-size: 10
