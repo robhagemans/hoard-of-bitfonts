@@ -1,5 +1,9 @@
 # HP/COL 16500B Small Font
 
+# this font is also stored in ROM in the HP 1660
+# there, the glyphs are stored on an 8x16 raster. the bottom 2 lines are not shown an screen
+# those are empty except for the HP glyph at codepoint 0, where the descender of the P has one extra pixel
+
 name: Fixed Medium 8x14
 spacing: character-cell
 cell-size: 8x14
