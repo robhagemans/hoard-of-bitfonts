@@ -1,24 +1,23 @@
-name: URW Mono 12
-spacing: proportional
-bounding-box: 8x12
+name: URW Mono 7x12
+spacing: multi-cell
+cell-size: 7x12
 family: URW Mono
-font-id: 6656
 point-size: 12
 average-width: 7.19921875
 max-width: 7
 x-height: 5
 ascent: 8
 descent: 2
-line-height: 65548
+line-height: 12
 encoding: pc-geos
 default-char: 0x2e
 underline-descent: 0
 strikethrough-ascent: 4
-converter: monobit v0.44
+converter: monobit v0.50
 source-name: MONO.FNT
 source-path: NDO2000/USERDATA/FONT/MONO.FNT
 source-format: pcgeos
-history: label -char-from=pc-geos
+pcgeos.font-id: 6656
 
 0x20:
 ' ':
@@ -2345,7 +2344,7 @@ history: label -char-from=pc-geos
 
 
 0xca:
-' ':
+u+00a0:
     -
 
     shift-up: 10

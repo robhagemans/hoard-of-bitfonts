@@ -1,14 +1,14 @@
-name: Bison 12
-spacing: proportional
-bounding-box: 14x17
+name: Bison 6x11
+spacing: multi-cell
+cell-size: 6x11
 family: Bison
-point-size: 12
-average-width: 7
+point-size: 9
+average-width: 6
 max-width: 14
-x-height: 6
-ascent: 9
-descent: 3
-line-height: 18
+x-height: 5
+ascent: 7
+descent: 2
+line-height: 11
 encoding: pc-geos
 default-char: 0x2e
 underline-descent: 1
@@ -20,131 +20,121 @@ source-format: pcgeos
 pcgeos.font-id: 2560
 
 0x00:
-    .....@@@@@@@@@
-    @...@.........
-    @@.@..........
-    @@@...........
-    @@@@..........
-    @@@@@.........
+    ....@@@@@@@@
+    ...@........
+    @.@.........
+    @@..........
+    @@@.........
 
     shift-up: 2
+    left-bearing: 1
+    right-bearing: 1
 
 
 0x01:
-    ..........@@@@
-    ...........@@@
-    ..........@.@@
-    .........@...@
-    @@@@@@@@@.....
+    .........@@@
+    ..........@@
+    .........@.@
+    ........@...
+    @@@@@@@@....
 
-    shift-up: 7
+    shift-up: 3
+    left-bearing: 1
+    right-bearing: 1
 
 
 0x02:
-    ...@..........
-    ..@@@.........
-    .@@@@@........
-    @@@@@@@.......
-    ...@..........
-    ...@..........
-    ...@@@@@@@@@@@
+    ..@.........
+    .@@@........
+    @@@@@.......
+    ..@.........
+    ..@@@@@@@@@@
 
-    shift-up: 7
+    shift-up: 3
+    left-bearing: 1
+    right-bearing: 1
 
 
 0x03:
-    ...@@@@@@@@@@@
-    ...@..........
-    ...@..........
-    @@@@@@@.......
-    .@@@@@........
-    ..@@@.........
-    ...@..........
+    ..@@@@@@@@@@
+    ..@.........
+    ..@.........
+    @@@@@.......
+    .@@@........
+    ..@.........
 
     shift-up: 1
+    left-bearing: 1
+    right-bearing: 1
+
+
+0x04:
+    @@@.........
+    @@..........
+    @.@.........
+    ...@........
+    ....@@@@@@@@
+
+    shift-up: 3
+    left-bearing: 1
+    right-bearing: 1
 
 
 0x05:
-    ..@@@@@@@@..
-    .@@.......@.
-    @..@.......@
-    @..@.......@
+    .@@@@@@@@@@.
+    @@@@.......@
     @..@.......@
     @..@.......@
     @@@@@@@@@@@@
     .......@@...
     .......@@...
     .......@@...
-    .......@@...
 
-    shift-up: 1
-    right-bearing: 2
+    left-bearing: 2
 
 
 0x06:
-    ......@...
     .....@@...
     ....@.@...
-    ...@..@.@@
-    @@@...@...
-    @.....@.@@
+    ...@..@...
+    @@@...@.@@
     @.....@...
     @@@...@.@@
     ...@..@...
     ....@.@.@@
     .....@@...
-    ......@...
 
-    shift-up: 2
-    right-bearing: 4
+    left-bearing: 1
+    right-bearing: 3
 
 
 0x07:
-    ....@@@@
-    ....@@@@
-    ....@...
-    ....@...
-    ....@...
-    ....@...
-    .@@@@...
-    @@@@@...
-    @@@@@...
-    @@@@@...
-    .@@@....
-
-    shift-up: 2
-    left-bearing: 2
-    right-bearing: 4
-
-
-0x08:
-    @@@@@@@@......
-    ........@.....
-    .........@...@
-    ..........@.@@
-    ...........@@@
-    ..........@@@@
-    .........@@@@@
+    ..@@@
+    ..@..
+    ..@..
+    .@@..
+    @@@..
+    @@@..
+    .@...
 
     shift-up: 1
+    left-bearing: 2
+    right-bearing: 7
 
 
 0x09:
-    @.@.@...
-    ........
-    @...@.@.
-    .......@
-    @...@.@.
-    .......@
-    @.......
-    .......@
-    @.......
-    .......@
-    @.@.@.@.
+    @.@.@..
+    .....@.
+    @..@..@
+    ....@..
+    @.....@
+    .......
+    @.....@
+    .......
+    @.@.@.@
 
-    shift-up: 2
     left-bearing: 2
-    right-bearing: 4
+    right-bearing: 5
 
 
 0x0a:
@@ -158,39 +148,38 @@ pcgeos.font-id: 2560
     @.......@
     .@@@@@@@.
 
-    shift-up: -1
-    right-bearing: 5
+    left-bearing: 1
+    right-bearing: 4
 
 
 0x0b:
-    ...........@
-    ..........@@
-    .........@@.
-    ........@@..
-    .......@@...
-    @.....@@....
-    @@...@@.....
-    .@@.@@......
-    ..@@@.......
-    ...@........
+    .........@@
+    ........@@.
+    .......@@..
+    @.....@@...
+    @@...@@....
+    .@@.@@.....
+    ..@@@......
+    ...@.......
 
-    left-bearing: 2
+    shift-up: 1
+    left-bearing: 1
+    right-bearing: 2
 
 
 0x0c:
-    .@@@@@@@@...
-    @.@....@.@.@
-    @.@....@.@@@
-    @.@....@.@@.
-    @.@@@@@@@@..
-    @......@@@..
-    @.....@@.@..
-    @@...@@..@..
-    @@@.@@...@..
-    @.@@@....@..
-    .@@@@@@@@...
+    .@@@@@@@.@@
+    @.@....@@@.
+    @.@....@@@.
+    @.@@@@@@.@.
+    @@...@@..@.
+    @@@.@@...@.
+    @.@@@....@.
+    @.@@@....@.
+    .@@@@@@@@..
 
-    left-bearing: 2
+    left-bearing: 1
+    right-bearing: 2
 
 
 0x0e:
@@ -201,8 +190,9 @@ pcgeos.font-id: 2560
     .@@@...
     ..@....
 
-    shift-up: 2
-    right-bearing: 7
+    shift-up: 3
+    left-bearing: 1
+    right-bearing: 6
 
 
 0x0f:
@@ -213,67 +203,50 @@ pcgeos.font-id: 2560
     @@@@@@
     .@@@@.
 
-    shift-up: 1
-    left-bearing: 4
-    right-bearing: 4
+    shift-up: 2
+    left-bearing: 1
+    right-bearing: 7
 
 
 0x10:
-    .........@@@@.
-    .........@@@@.
-    .........@....
-    ....@@@@@@@@..
-    ...@@.......@.
-    ...@@@.......@
-    @@@@@@.......@
-    @....@.......@
+    ..........@@@.
+    ...@@@@@@@@@@.
+    @@@@@@....@..@
+    @....@....@..@
     .@...@.......@
     ..@@@@@@@@@@@@
     ..@.@@...@@...
     ..@@@....@@...
     .........@@...
-    .........@@...
 
-    shift-up: -1
-
-
-0x12:
-    @@@@@@@@@@@@@@
-
-    shift-up: 7
 
 
 0x13:
-    .............@
-    ............@@
-    .@@@@@@@...@@.
-    @.......@.@@..
-    @.......@@@...
-    @.@.....@@....
-    @.@@...@@.....
-    @..@@.@@@.....
-    @...@@@.@.....
-    @....@..@.....
-    .@@@@@@@......
+    .@@@@@@@...@@
+    @.......@.@@.
+    @.......@@@..
+    @.@.....@@...
+    @.@@...@@....
+    @..@@.@@@....
+    @...@@@.@....
+    @....@..@....
+    .@@@@@@@.....
 
-    shift-up: -1
+    left-bearing: 1
 
 
 0x14:
-    @@@@@@@@@@
-    @@@@@@@@@@
-    @@@@@@@@@@
-    @@@@@@@@@@
-    @@@@@@@@@@
-    @@@@@@@@@@
-    @@@@@@@@@@
-    @@@@@@@@@@
-    @@@@@@@@@@
-    @@@@@@@@@@
+    @@@@@@@
+    @@@@@@@
+    @@@@@@@
+    @@@@@@@
+    @@@@@@@
+    @@@@@@@
+    @@@@@@@
 
-    shift-up: 2
+    shift-up: 1
     left-bearing: 1
-    right-bearing: 3
+    right-bearing: 6
 
 
 0x15:
@@ -287,33 +260,28 @@ pcgeos.font-id: 2560
     ....@@@@.....
     .....@@......
 
-    shift-up: 2
     right-bearing: 1
 
 
 0x16:
-    @@@@@...
-    @...@@..
-    @...@.@.
-    @...@@@@
-    @......@
-    @......@
-    @......@
-    @......@
-    @......@
-    @......@
-    @@@@@@@@
+    @@@@@..
+    @..@.@.
+    @..@..@
+    @..@@@@
+    @.....@
+    @.....@
+    @.....@
+    @.....@
+    @@@@@@@
 
-    shift-up: 1
-    left-bearing: 3
-    right-bearing: 3
+    left-bearing: 1
+    right-bearing: 6
 
 
 0x17:
-    .@@@.........
-    @...@........
+    .@@@@........
+    @....@.......
     @@@@@@@@@@@@@
-    @...........@
     @...........@
     @...........@
     @...........@
@@ -321,30 +289,24 @@ pcgeos.font-id: 2560
     @...........@
     @@@@@@@@@@@@@
 
-    shift-up: 2
     right-bearing: 1
 
 
 0x18:
-    @@@@@@.@@@@@@
-    @....@.@....@
-    @..@.@@@.@..@
-    @.....@.....@
-    @.....@.....@
-    @.@.@@@@@.@.@
+    @@@@@...@@@@@
+    @...@..@@...@
+    @.@..@.@..@.@
+    @....@.@@...@
     @.@.@...@.@.@
     @..@@...@@..@
     @...@...@...@
     @..@.....@..@
     .@@.......@@.
 
-    shift-up: 1
     right-bearing: 1
 
 
 0x19:
-    ....@@@@@@....
-    @@@........@@@
     ....@@@@@@....
     @@@........@@@
     ....@@@@@@....
@@ -355,41 +317,35 @@ pcgeos.font-id: 2560
     ..@@......@@..
     .....@@@@.....
 
-    shift-up: 1
 
 
 0x1a:
-    ....@@@@@@@@@
-    ....@.@...@.@
-    ..@@@@@@@@@.@
-    ..@.@...@.@.@
-    @@@@@@@@@.@.@
-    @.@...@.@.@.@
-    @.@...@.@.@.@
-    @.@@@@@.@.@@@
-    @.......@.@..
-    @..@@@@.@@@..
-    @..@..@.@....
-    .@@@@@@@@....
+    ..@@@@@@@@@
+    ..@.@...@.@
+    @@@@@@@@@.@
+    @.@...@.@.@
+    @.@...@.@.@
+    @.@@@@@.@.@
+    @.......@.@
+    @..@@@@.@@@
+    @..@..@.@..
+    .@@@@@@@@..
 
-    right-bearing: 1
+    shift-up: -1
+    right-bearing: 3
 
 
 0x1b:
     .@@@.........
-    @...@........
     @...@@@@@@@@.
-    @...@......@.
+    @...@......@@
+    @...@......@@
     .@@@@......@@
     .@...@.....@@
-    .@.........@@
-    .@.........@@
-    .@.........@@
-    .@.........@@
+    .@....@....@@
     .@@@@@@@@@@@@
     ...@@@@@@@@@@
 
-    shift-up: 1
     right-bearing: 1
 
 
@@ -399,32 +355,25 @@ pcgeos.font-id: 2560
     @.....@.....@@
     @.....@.....@@
     @.....@.....@@
-    @.....@.....@@
-    @.....@.....@@
     @..@@@.@@@..@@
     @@@...@...@@@@
     @...@@@@@...@@
     @@@@.@@@.@@@@@
 
-    shift-up: 1
 
 
 0x1d:
     @@@@@@@
     @..@..@
-    @..@..@
-    @..@..@
     @@@@@@@
     @..@..@
-    @..@..@
     @@@@@@@
-    @..@..@
     @..@..@
     @@@@@@@
 
     shift-up: 1
-    left-bearing: 3
-    right-bearing: 4
+    left-bearing: 1
+    right-bearing: 6
 
 
 0x1e:
@@ -436,11 +385,8 @@ pcgeos.font-id: 2560
     @........@
     @........@
     @........@
-    @........@
-    @........@
     .@@@@@@@@.
 
-    shift-up: 1
     left-bearing: 1
     right-bearing: 3
 
@@ -449,8 +395,8 @@ pcgeos.font-id: 2560
 ' ':
     -
 
-    shift-up: 14
-    right-bearing: 7
+    shift-up: 9
+    right-bearing: 6
 
 
 0x21:
@@ -460,12 +406,10 @@ pcgeos.font-id: 2560
     @
     @
     @
-    @
     .
     @
-    @
 
-    left-bearing: 3
+    left-bearing: 2
     right-bearing: 3
 
 
@@ -473,10 +417,9 @@ pcgeos.font-id: 2560
 '"':
     @.@
     @.@
-    @.@
 
-    shift-up: 6
-    left-bearing: 2
+    shift-up: 5
+    left-bearing: 1
     right-bearing: 2
 
 
@@ -485,12 +428,10 @@ pcgeos.font-id: 2560
     .@.@.
     @@@@@
     .@.@.
-    .@.@.
     @@@@@
     .@.@.
 
-    shift-up: 3
-    left-bearing: 1
+    shift-up: 2
     right-bearing: 1
 
 
@@ -500,46 +441,38 @@ pcgeos.font-id: 2560
     .@@@.
     @.@.@
     @.@..
-    .@@..
-    ..@@.
-    ..@.@
+    .@@@.
     ..@.@
     @.@.@
     .@@@.
     ..@..
 
     shift-up: -1
-    left-bearing: 1
     right-bearing: 1
 
 
 0x25:
 '%':
-    .@..@
+    .@@@@
     @.@.@
     @.@@.
-    .@@@.
-    ..@..
     .@.@.
     .@@.@
     @.@.@
     @..@.
 
-    left-bearing: 1
     right-bearing: 1
 
 
 0x26:
 '&':
-    .@@...
-    @..@..
-    @..@..
-    @.@...
-    .@....
-    @.@...
-    @..@.@
-    @...@.
-    .@@@.@
+    .@@..
+    @..@.
+    @.@..
+    .@...
+    @.@.@
+    @..@.
+    .@@.@
 
     right-bearing: 1
 
@@ -548,10 +481,9 @@ pcgeos.font-id: 2560
 ''':
     @
     @
-    @
 
-    shift-up: 6
-    left-bearing: 3
+    shift-up: 5
+    left-bearing: 2
     right-bearing: 3
 
 
@@ -559,18 +491,13 @@ pcgeos.font-id: 2560
 '(':
     ..@
     .@.
-    .@.
     @..
     @..
     @..
-    @..
-    @..
-    .@.
     .@.
     ..@
 
-    shift-up: -1
-    left-bearing: 2
+    left-bearing: 1
     right-bearing: 2
 
 
@@ -578,19 +505,14 @@ pcgeos.font-id: 2560
 ')':
     @..
     .@.
-    .@.
     ..@
     ..@
     ..@
-    ..@
-    ..@
-    .@.
     .@.
     @..
 
-    shift-up: -1
     left-bearing: 2
-    right-bearing: 2
+    right-bearing: 1
 
 
 0x2a:
@@ -598,12 +520,10 @@ pcgeos.font-id: 2560
     ..@..
     @.@.@
     .@@@.
-    .@@@.
     @.@.@
     ..@..
 
-    shift-up: 3
-    left-bearing: 1
+    shift-up: 2
     right-bearing: 1
 
 
@@ -615,8 +535,7 @@ pcgeos.font-id: 2560
     ..@..
     ..@..
 
-    shift-up: 2
-    left-bearing: 1
+    shift-up: 1
     right-bearing: 1
 
 
@@ -624,11 +543,10 @@ pcgeos.font-id: 2560
 ',':
     .@
     .@
-    .@
     @.
 
     shift-up: -2
-    left-bearing: 2
+    left-bearing: 1
     right-bearing: 3
 
 
@@ -637,31 +555,27 @@ pcgeos.font-id: 2560
     @@@@@
 
     shift-up: 3
-    left-bearing: 1
     right-bearing: 1
 
 
 0x2e:
 '.':
     @
-    @
 
-    left-bearing: 3
+    left-bearing: 2
     right-bearing: 3
 
 
 0x2f:
 '/':
-    ....@
-    ....@
-    ...@.
-    ...@.
-    ..@..
-    ..@..
-    .@...
-    .@...
-    @....
-    @....
+    ...@
+    ...@
+    ..@.
+    ..@.
+    .@..
+    .@..
+    @...
+    @...
 
     shift-up: -1
     left-bearing: 1
@@ -676,11 +590,8 @@ pcgeos.font-id: 2560
     @...@
     @...@
     @...@
-    @...@
-    @...@
     .@@@.
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -693,11 +604,9 @@ pcgeos.font-id: 2560
     .@
     .@
     .@
-    .@
-    .@
 
     left-bearing: 2
-    right-bearing: 3
+    right-bearing: 2
 
 
 0x32:
@@ -705,14 +614,11 @@ pcgeos.font-id: 2560
     .@@@.
     @...@
     ....@
-    ....@
     ...@.
     ..@..
     .@...
-    @....
     @@@@@
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -723,12 +629,9 @@ pcgeos.font-id: 2560
     ....@
     ..@@.
     ....@
-    ....@
-    ....@
     @...@
     .@@@.
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -741,10 +644,7 @@ pcgeos.font-id: 2560
     @@@@@
     ...@.
     ...@.
-    ...@.
-    ...@.
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -752,31 +652,25 @@ pcgeos.font-id: 2560
 '5':
     @@@@@
     @....
-    @....
     @@@@.
-    ....@
     ....@
     ....@
     @...@
     .@@@.
 
-    left-bearing: 1
     right-bearing: 1
 
 
 0x36:
 '6':
-    ..@@.
-    .@...
+    .@@@.
     @....
     @@@@.
     @...@
     @...@
     @...@
-    @...@
     .@@@.
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -789,10 +683,7 @@ pcgeos.font-id: 2560
     ..@..
     ..@..
     ..@..
-    ..@..
-    ..@..
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -804,11 +695,8 @@ pcgeos.font-id: 2560
     .@@@.
     @...@
     @...@
-    @...@
-    @...@
     .@@@.
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -818,54 +706,47 @@ pcgeos.font-id: 2560
     @...@
     @...@
     @...@
-    @...@
     .@@@@
     ....@
-    ...@.
-    .@@..
+    .@@@.
 
-    left-bearing: 1
     right-bearing: 1
 
 
 0x3a:
 ':':
     @
-    @
     .
     .
-    @
+    .
     @
 
-    left-bearing: 3
+    left-bearing: 2
     right-bearing: 3
 
 
 0x3b:
 ';':
     .@
-    .@
     ..
     ..
-    .@
+    ..
     .@
     .@
     @.
 
     shift-up: -2
-    left-bearing: 2
+    left-bearing: 1
     right-bearing: 3
 
 
 0x3c:
 '<':
-    ...@
-    ..@.
-    .@..
-    @...
-    .@..
-    ..@.
-    ...@
+    ..@
+    .@.
+    @..
+    .@.
+    ..@
 
     shift-up: 1
     left-bearing: 1
@@ -878,24 +759,21 @@ pcgeos.font-id: 2560
     .....
     @@@@@
 
-    shift-up: 3
-    left-bearing: 1
+    shift-up: 2
     right-bearing: 1
 
 
 0x3e:
 '>':
-    @...
-    .@..
-    ..@.
-    ...@
-    ..@.
-    .@..
-    @...
+    @..
+    .@.
+    ..@
+    .@.
+    @..
 
     shift-up: 1
-    left-bearing: 2
-    right-bearing: 1
+    left-bearing: 1
+    right-bearing: 2
 
 
 0x3f:
@@ -905,24 +783,21 @@ pcgeos.font-id: 2560
     ....@
     ...@.
     ..@..
-    ..@..
     .....
     ..@..
-    ..@..
 
-    left-bearing: 1
     right-bearing: 1
 
 
 0x40:
 '@':
-    .@@@@.
-    @....@
-    @.@@.@
-    @.@@.@
-    @.@@@@
-    @.....
-    .@@@@.
+    .@@@.
+    @...@
+    @@@.@
+    @.@.@
+    @@@@.
+    @....
+    .@@@.
 
     right-bearing: 1
 
@@ -932,14 +807,11 @@ pcgeos.font-id: 2560
     .@@@.
     @...@
     @...@
-    @...@
     @@@@@
     @...@
     @...@
     @...@
-    @...@
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -951,11 +823,8 @@ pcgeos.font-id: 2560
     @@@@.
     @...@
     @...@
-    @...@
-    @...@
     @@@@.
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -963,15 +832,12 @@ pcgeos.font-id: 2560
 'C':
     .@@@.
     @...@
-    @...@
-    @....
     @....
     @....
     @....
     @...@
     .@@@.
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -983,11 +849,8 @@ pcgeos.font-id: 2560
     @...@
     @...@
     @...@
-    @...@
-    @...@
     @@@@.
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -996,14 +859,11 @@ pcgeos.font-id: 2560
     @@@@@
     @....
     @....
-    @....
     @@@@.
-    @....
     @....
     @....
     @@@@@
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -1012,14 +872,11 @@ pcgeos.font-id: 2560
     @@@@@
     @....
     @....
-    @....
     @@@@.
     @....
     @....
     @....
-    @....
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -1028,14 +885,11 @@ pcgeos.font-id: 2560
     .@@@.
     @...@
     @....
-    @....
     @..@@
-    @...@
     @...@
     @...@
     .@@@.
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -1044,14 +898,11 @@ pcgeos.font-id: 2560
     @...@
     @...@
     @...@
-    @...@
     @@@@@
     @...@
     @...@
     @...@
-    @...@
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -1064,10 +915,8 @@ pcgeos.font-id: 2560
     @
     @
     @
-    @
-    @
 
-    left-bearing: 3
+    left-bearing: 2
     right-bearing: 3
 
 
@@ -1077,13 +926,10 @@ pcgeos.font-id: 2560
     ....@
     ....@
     ....@
-    ....@
-    ....@
     @...@
     @...@
     .@@@.
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -1093,13 +939,10 @@ pcgeos.font-id: 2560
     @..@.
     @.@..
     @@...
-    @....
-    @@...
     @.@..
     @..@.
     @...@
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -1111,11 +954,8 @@ pcgeos.font-id: 2560
     @....
     @....
     @....
-    @....
-    @....
     @@@@@
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -1128,16 +968,12 @@ pcgeos.font-id: 2560
     @...@
     @...@
     @...@
-    @...@
-    @...@
 
-    left-bearing: 1
     right-bearing: 1
 
 
 0x4e:
 'N':
-    @...@
     @...@
     @@..@
     @.@.@
@@ -1145,9 +981,7 @@ pcgeos.font-id: 2560
     @...@
     @...@
     @...@
-    @...@
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -1159,11 +993,8 @@ pcgeos.font-id: 2560
     @...@
     @...@
     @...@
-    @...@
-    @...@
     .@@@.
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -1172,14 +1003,11 @@ pcgeos.font-id: 2560
     @@@@.
     @...@
     @...@
-    @...@
     @@@@.
     @....
     @....
     @....
-    @....
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -1191,14 +1019,10 @@ pcgeos.font-id: 2560
     @...@
     @...@
     @...@
-    @...@
-    @...@
     .@@@.
-    ..@..
-    ...@.
+    ....@
 
-    shift-up: -2
-    left-bearing: 1
+    shift-up: -1
     right-bearing: 1
 
 
@@ -1207,14 +1031,11 @@ pcgeos.font-id: 2560
     @@@@.
     @...@
     @...@
-    @...@
     @@@@.
     @...@
     @...@
     @...@
-    @...@
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -1223,14 +1044,11 @@ pcgeos.font-id: 2560
     .@@@.
     @...@
     @....
-    @....
     .@@@.
-    ....@
     ....@
     @...@
     .@@@.
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -1243,10 +1061,7 @@ pcgeos.font-id: 2560
     ..@..
     ..@..
     ..@..
-    ..@..
-    ..@..
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -1258,11 +1073,8 @@ pcgeos.font-id: 2560
     @...@
     @...@
     @...@
-    @...@
-    @...@
     .@@@.
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -1273,12 +1085,9 @@ pcgeos.font-id: 2560
     @...@
     @...@
     @...@
-    @...@
-    @...@
     .@.@.
     ..@..
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -1288,29 +1097,23 @@ pcgeos.font-id: 2560
     @...@
     @...@
     @...@
-    @...@
-    @...@
     @.@.@
     @@.@@
     @...@
 
-    left-bearing: 1
     right-bearing: 1
 
 
 0x58:
 'X':
     @...@
-    @...@
-    @...@
     .@.@.
+    ..@..
+    ..@..
     ..@..
     .@.@.
     @...@
-    @...@
-    @...@
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -1319,14 +1122,11 @@ pcgeos.font-id: 2560
     @...@
     @...@
     @...@
-    @...@
     .@.@.
     ..@..
     ..@..
     ..@..
-    ..@..
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -1334,49 +1134,39 @@ pcgeos.font-id: 2560
 'Z':
     @@@@@
     ....@
-    ....@
     ...@.
     ..@..
     .@...
     @....
-    @....
     @@@@@
 
-    left-bearing: 1
     right-bearing: 1
 
 
 0x5b:
 '[':
-    @@@
-    @..
-    @..
-    @..
-    @..
-    @..
-    @..
-    @..
-    @..
-    @..
-    @@@
+    @@
+    @.
+    @.
+    @.
+    @.
+    @.
+    @@
 
-    shift-up: -1
     left-bearing: 2
     right-bearing: 2
 
 
 0x5c:
 '\':
-    @....
-    @....
-    .@...
-    .@...
-    ..@..
-    ..@..
-    ...@.
-    ...@.
-    ....@
-    ....@
+    @...
+    @...
+    .@..
+    .@..
+    ..@.
+    ..@.
+    ...@
+    ...@
 
     shift-up: -1
     left-bearing: 1
@@ -1385,37 +1175,31 @@ pcgeos.font-id: 2560
 
 0x5d:
 ']':
-    @@@
-    ..@
-    ..@
-    ..@
-    ..@
-    ..@
-    ..@
-    ..@
-    ..@
-    ..@
-    @@@
+    @@
+    .@
+    .@
+    .@
+    .@
+    .@
+    @@
 
-    shift-up: -1
     left-bearing: 2
     right-bearing: 2
 
 
 0x5e:
 '^':
-    ..@..
-    .@.@.
-    @...@
+    .@.
+    @.@
 
-    shift-up: 6
+    shift-up: 5
     left-bearing: 1
-    right-bearing: 1
+    right-bearing: 2
 
 
 0x5f:
 '_':
-    @@@@@@@
+    @@@@@@
 
 
 
@@ -1424,8 +1208,8 @@ pcgeos.font-id: 2560
     @.
     .@
 
-    shift-up: 7
-    left-bearing: 3
+    shift-up: 5
+    left-bearing: 2
     right-bearing: 2
 
 
@@ -1434,11 +1218,9 @@ pcgeos.font-id: 2560
     .@@@@
     @...@
     @...@
-    @...@
     @..@@
     .@@.@
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -1446,15 +1228,12 @@ pcgeos.font-id: 2560
 'b':
     @....
     @....
-    @....
     @@@@.
-    @...@
     @...@
     @...@
     @...@
     @@@@.
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -1464,10 +1243,8 @@ pcgeos.font-id: 2560
     @...@
     @....
     @....
-    @...@
-    .@@@.
+    .@@@@
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -1475,15 +1252,12 @@ pcgeos.font-id: 2560
 'd':
     ....@
     ....@
-    ....@
     .@@@@
-    @...@
     @...@
     @...@
     @...@
     .@@@@
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -1493,10 +1267,8 @@ pcgeos.font-id: 2560
     @...@
     @@@@@
     @....
-    @...@
-    .@@@.
+    .@@@@
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -1504,15 +1276,13 @@ pcgeos.font-id: 2560
 'f':
     ..@@
     .@..
-    .@..
     @@@.
     .@..
     .@..
     .@..
     .@..
-    .@..
 
-    left-bearing: 2
+    left-bearing: 1
     right-bearing: 1
 
 
@@ -1522,14 +1292,11 @@ pcgeos.font-id: 2560
     @...@
     @...@
     @...@
-    @...@
     .@@@@
     ....@
-    @...@
     .@@@.
 
-    shift-up: -3
-    left-bearing: 1
+    shift-up: -2
     right-bearing: 1
 
 
@@ -1537,21 +1304,17 @@ pcgeos.font-id: 2560
 'h':
     @....
     @....
-    @....
     @@@@.
     @...@
     @...@
     @...@
     @...@
-    @...@
 
-    left-bearing: 1
     right-bearing: 1
 
 
 0x69:
 'i':
-    @
     @
     .
     @
@@ -1559,15 +1322,13 @@ pcgeos.font-id: 2560
     @
     @
     @
-    @
 
-    left-bearing: 3
+    left-bearing: 2
     right-bearing: 3
 
 
 0x6a:
 'j':
-    ..@
     ..@
     ...
     ..@
@@ -1576,12 +1337,9 @@ pcgeos.font-id: 2560
     ..@
     ..@
     ..@
-    ..@
-    ..@
     @@.
 
-    shift-up: -3
-    left-bearing: 1
+    shift-up: -2
     right-bearing: 3
 
 
@@ -1589,15 +1347,12 @@ pcgeos.font-id: 2560
 'k':
     @....
     @....
-    @....
     @..@.
     @.@..
-    @@...
-    @.@..
+    @@@..
     @..@.
     @...@
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -1610,10 +1365,8 @@ pcgeos.font-id: 2560
     @
     @
     @
-    @
-    @
 
-    left-bearing: 3
+    left-bearing: 2
     right-bearing: 3
 
 
@@ -1624,22 +1377,18 @@ pcgeos.font-id: 2560
     @.@.@
     @.@.@
     @.@.@
-    @.@.@
 
-    left-bearing: 1
     right-bearing: 1
 
 
 0x6e:
 'n':
-    @@@@.
-    @...@
-    @...@
+    @.@@.
+    @@..@
     @...@
     @...@
     @...@
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -1649,10 +1398,8 @@ pcgeos.font-id: 2560
     @...@
     @...@
     @...@
-    @...@
     .@@@.
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -1662,13 +1409,11 @@ pcgeos.font-id: 2560
     @...@
     @...@
     @...@
-    @...@
     @@@@.
     @....
     @....
 
     shift-up: -2
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -1678,13 +1423,11 @@ pcgeos.font-id: 2560
     @...@
     @...@
     @...@
-    @...@
     .@@@@
     ....@
     ....@
 
     shift-up: -2
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -1692,25 +1435,21 @@ pcgeos.font-id: 2560
 'r':
     @.@@.
     @@..@
-    @...@
     @....
     @....
     @....
 
-    left-bearing: 1
     right-bearing: 1
 
 
 0x73:
 's':
-    .@@@.
-    @...@
+    .@@@@
+    @....
     .@@@.
     ....@
-    @...@
-    .@@@.
+    @@@@.
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -1722,11 +1461,10 @@ pcgeos.font-id: 2560
     .@..
     .@..
     .@..
-    .@..
     ..@@
 
     left-bearing: 1
-    right-bearing: 2
+    right-bearing: 1
 
 
 0x75:
@@ -1734,11 +1472,9 @@ pcgeos.font-id: 2560
     @...@
     @...@
     @...@
-    @...@
     @..@@
     .@@.@
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -1747,11 +1483,9 @@ pcgeos.font-id: 2560
     @...@
     @...@
     @...@
-    @...@
     .@.@.
     ..@..
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -1761,10 +1495,8 @@ pcgeos.font-id: 2560
     @.@.@
     @.@.@
     @.@.@
-    @.@.@
     .@.@.
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -1773,11 +1505,9 @@ pcgeos.font-id: 2560
     @...@
     .@.@.
     ..@..
-    ..@..
     .@.@.
     @...@
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -1787,14 +1517,11 @@ pcgeos.font-id: 2560
     @...@
     @...@
     @...@
-    @...@
     .@@@@
     ....@
-    @...@
     .@@@.
 
-    shift-up: -3
-    left-bearing: 1
+    shift-up: -2
     right-bearing: 1
 
 
@@ -1804,10 +1531,8 @@ pcgeos.font-id: 2560
     ...@.
     ..@..
     .@...
-    @....
     @@@@@
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -1817,9 +1542,7 @@ pcgeos.font-id: 2560
     .@.
     .@.
     .@.
-    .@.
     @..
-    .@.
     .@.
     .@.
     .@.
@@ -1827,7 +1550,7 @@ pcgeos.font-id: 2560
 
     shift-up: -1
     left-bearing: 2
-    right-bearing: 2
+    right-bearing: 1
 
 
 0x7c:
@@ -1841,11 +1564,9 @@ pcgeos.font-id: 2560
     @
     @
     @
-    @
-    @
 
     shift-up: -1
-    left-bearing: 3
+    left-bearing: 2
     right-bearing: 3
 
 
@@ -1855,16 +1576,14 @@ pcgeos.font-id: 2560
     .@.
     .@.
     .@.
-    .@.
     ..@
-    .@.
     .@.
     .@.
     .@.
     @..
 
     shift-up: -1
-    left-bearing: 2
+    left-bearing: 1
     right-bearing: 2
 
 
@@ -1873,18 +1592,17 @@ pcgeos.font-id: 2560
     .@@.@
     @.@@.
 
-    shift-up: 7
-    left-bearing: 1
+    shift-up: 5
     right-bearing: 1
 
 
 0x7f:
-    ..@@..
-    .@..@.
-    @....@
-    @....@
-    @....@
-    @@@@@@
+    ..@..
+    .@.@.
+    @...@
+    @...@
+    @...@
+    @@@@@
 
     right-bearing: 1
 
@@ -1896,14 +1614,11 @@ pcgeos.font-id: 2560
     .@@@.
     @...@
     @...@
-    @...@
-    @...@
     @@@@@
     @...@
     @...@
     @...@
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -1911,10 +1626,7 @@ pcgeos.font-id: 2560
 'Å':
     ..@..
     .@.@.
-    ..@..
     .@@@.
-    @...@
-    @...@
     @...@
     @...@
     @@@@@
@@ -1922,7 +1634,6 @@ pcgeos.font-id: 2560
     @...@
     @...@
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -1930,19 +1641,15 @@ pcgeos.font-id: 2560
 'Ç':
     .@@@.
     @...@
-    @...@
-    @....
     @....
     @....
     @....
     @...@
     .@@@.
     ..@..
-    ..@..
-    .@...
+    .@@..
 
-    shift-up: -3
-    left-bearing: 1
+    shift-up: -2
     right-bearing: 1
 
 
@@ -1950,18 +1657,14 @@ pcgeos.font-id: 2560
 'É':
     ...@.
     ..@..
-    .....
     @@@@@
-    @....
     @....
     @....
     @@@@.
     @....
     @....
-    @....
     @@@@@
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -1970,17 +1673,12 @@ pcgeos.font-id: 2560
     .@@.@
     @.@@.
     .....
-    @...@
-    @...@
+    @.@@.
     @@..@
-    @.@.@
-    @..@@
-    @...@
     @...@
     @...@
     @...@
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -1994,11 +1692,8 @@ pcgeos.font-id: 2560
     @...@
     @...@
     @...@
-    @...@
-    @...@
     .@@@.
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -2012,11 +1707,8 @@ pcgeos.font-id: 2560
     @...@
     @...@
     @...@
-    @...@
-    @...@
     .@@@.
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -2028,11 +1720,9 @@ pcgeos.font-id: 2560
     .@@@@
     @...@
     @...@
-    @...@
     @..@@
     .@@.@
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -2044,11 +1734,9 @@ pcgeos.font-id: 2560
     .@@@@
     @...@
     @...@
-    @...@
     @..@@
     .@@.@
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -2060,11 +1748,9 @@ pcgeos.font-id: 2560
     .@@@@
     @...@
     @...@
-    @...@
     @..@@
     .@@.@
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -2075,11 +1761,9 @@ pcgeos.font-id: 2560
     .@@@@
     @...@
     @...@
-    @...@
     @..@@
     .@@.@
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -2091,28 +1775,23 @@ pcgeos.font-id: 2560
     .@@@@
     @...@
     @...@
-    @...@
     @..@@
     .@@.@
 
-    left-bearing: 1
     right-bearing: 1
 
 
 0x8c:
 'å':
-    ..@@.
-    .@..@
-    .@..@
-    ..@@.
+    ..@..
+    .@.@.
+    ..@..
     .@@@@
-    @...@
     @...@
     @...@
     @..@@
     .@@.@
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -2121,15 +1800,12 @@ pcgeos.font-id: 2560
     .@@@.
     @...@
     @....
-    @....
     @...@
     .@@@.
     ..@..
-    ..@..
-    .@...
+    .@@..
 
-    shift-up: -3
-    left-bearing: 1
+    shift-up: -2
     right-bearing: 1
 
 
@@ -2142,26 +1818,22 @@ pcgeos.font-id: 2560
     @...@
     @@@@@
     @....
-    @...@
-    .@@@.
+    .@@@@
 
-    left-bearing: 1
     right-bearing: 1
 
 
 0x8f:
 'è':
-    .@...
     ..@..
+    ...@.
     .....
     .@@@.
     @...@
     @@@@@
     @....
-    @...@
-    .@@@.
+    .@@@@
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -2174,10 +1846,8 @@ pcgeos.font-id: 2560
     @...@
     @@@@@
     @....
-    @...@
-    .@@@.
+    .@@@@
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -2189,10 +1859,8 @@ pcgeos.font-id: 2560
     @...@
     @@@@@
     @....
-    @....
     .@@@@
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -2206,9 +1874,8 @@ pcgeos.font-id: 2560
     @.
     @.
     @.
-    @.
 
-    left-bearing: 3
+    left-bearing: 2
     right-bearing: 2
 
 
@@ -2222,9 +1889,8 @@ pcgeos.font-id: 2560
     .@
     .@
     .@
-    .@
 
-    left-bearing: 2
+    left-bearing: 1
     right-bearing: 3
 
 
@@ -2238,9 +1904,8 @@ pcgeos.font-id: 2560
     .@.
     .@.
     .@.
-    .@.
 
-    left-bearing: 2
+    left-bearing: 1
     right-bearing: 2
 
 
@@ -2253,9 +1918,8 @@ pcgeos.font-id: 2560
     .@.
     .@.
     .@.
-    .@.
 
-    left-bearing: 2
+    left-bearing: 1
     right-bearing: 2
 
 
@@ -2269,9 +1933,7 @@ pcgeos.font-id: 2560
     @...@
     @...@
     @...@
-    @...@
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -2284,10 +1946,8 @@ pcgeos.font-id: 2560
     @...@
     @...@
     @...@
-    @...@
     .@@@.
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -2300,26 +1960,22 @@ pcgeos.font-id: 2560
     @...@
     @...@
     @...@
-    @...@
     .@@@.
 
-    left-bearing: 1
     right-bearing: 1
 
 
 0x99:
 'ô':
-    .@@..
-    @..@.
+    ..@..
+    .@.@.
     .....
     .@@@.
     @...@
     @...@
     @...@
-    @...@
     .@@@.
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -2331,10 +1987,8 @@ pcgeos.font-id: 2560
     @...@
     @...@
     @...@
-    @...@
     .@@@.
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -2347,10 +2001,8 @@ pcgeos.font-id: 2560
     @...@
     @...@
     @...@
-    @...@
     .@@@.
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -2362,11 +2014,9 @@ pcgeos.font-id: 2560
     @...@
     @...@
     @...@
-    @...@
     @..@@
     .@@.@
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -2378,11 +2028,9 @@ pcgeos.font-id: 2560
     @...@
     @...@
     @...@
-    @...@
     @..@@
     .@@.@
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -2394,11 +2042,9 @@ pcgeos.font-id: 2560
     @...@
     @...@
     @...@
-    @...@
     @..@@
     .@@.@
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -2409,11 +2055,9 @@ pcgeos.font-id: 2560
     @...@
     @...@
     @...@
-    @...@
     @..@@
     .@@.@
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -2425,8 +2069,8 @@ pcgeos.font-id: 2560
     .@.
     .@.
 
-    shift-up: 4
-    left-bearing: 2
+    shift-up: 2
+    left-bearing: 1
     right-bearing: 2
 
 
@@ -2437,9 +2081,9 @@ pcgeos.font-id: 2560
     @..@
     .@@.
 
-    shift-up: 5
+    shift-up: 4
     left-bearing: 1
-    right-bearing: 2
+    right-bearing: 1
 
 
 0xa2:
@@ -2448,29 +2092,25 @@ pcgeos.font-id: 2560
     .@@@.
     @.@.@
     @.@..
-    @.@..
     @.@.@
     .@@@.
     ..@..
 
     shift-up: -1
-    left-bearing: 1
     right-bearing: 1
 
 
 0xa3:
 '£':
-    ..@@.
-    .@...
-    .@...
-    .@...
+    .@@..
+    @..@.
+    @....
     @@@..
-    .@...
-    .@..@
-    .@..@
+    @....
+    @....
+    @...@
     @@@@.
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -2478,16 +2118,16 @@ pcgeos.font-id: 2560
 '§':
     .@@@.
     @...@
-    .@...
+    .@..@
     @.@..
     @..@.
     .@..@
     ..@.@
-    ...@.
+    @..@.
     @...@
     .@@@.
 
-    left-bearing: 1
+    shift-up: -1
     right-bearing: 1
 
 
@@ -2500,7 +2140,6 @@ pcgeos.font-id: 2560
     .@@@.
 
     shift-up: 1
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -2510,31 +2149,27 @@ pcgeos.font-id: 2560
     @.@.@
     @.@.@
     @.@.@
-    @.@.@
     .@@@@
     ..@.@
     ..@.@
     ..@.@
 
-    left-bearing: 1
     right-bearing: 1
 
 
 0xa7:
 'ß':
-    .@@@.
-    @...@
+    ..@@.
+    .@..@
     @...@
     @..@.
     @..@.
-    @...@
     @...@
     @...@
     @.@@.
     @....
 
     shift-up: -1
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -2542,10 +2177,9 @@ pcgeos.font-id: 2560
 '®':
     .@@@@.
     @....@
-    @@@@.@
-    @@..@@
-    @@@@.@
-    @@..@@
+    @.@@.@
+    @.@@.@
+    @.@@.@
     @....@
     .@@@@.
 
@@ -2556,8 +2190,7 @@ pcgeos.font-id: 2560
     .@@@@.
     @....@
     @.@@.@
-    @@...@
-    @@...@
+    @.@..@
     @.@@.@
     @....@
     .@@@@.
@@ -2570,8 +2203,7 @@ pcgeos.font-id: 2560
     .@.@@@
     .@.@@@
 
-    shift-up: 6
-    right-bearing: 1
+    shift-up: 4
 
 
 0xab:
@@ -2579,8 +2211,8 @@ pcgeos.font-id: 2560
     .@
     @.
 
-    shift-up: 7
-    left-bearing: 3
+    shift-up: 5
+    left-bearing: 2
     right-bearing: 2
 
 
@@ -2588,8 +2220,8 @@ pcgeos.font-id: 2560
 '¨':
     @.@
 
-    shift-up: 8
-    left-bearing: 2
+    shift-up: 6
+    left-bearing: 1
     right-bearing: 2
 
 
@@ -2601,48 +2233,44 @@ pcgeos.font-id: 2560
     @@@@@
     .@...
 
-    shift-up: 2
-    left-bearing: 1
+    shift-up: 1
     right-bearing: 1
 
 
 0xae:
 'Æ':
-    .@@@@@
-    @..@..
-    @..@..
-    @..@..
-    @@@@@@
-    @..@..
-    @..@..
-    @..@..
-    @..@@@
+    .@@@@
+    @.@..
+    @.@..
+    @@@@.
+    @.@..
+    @.@..
+    @.@@@
 
     right-bearing: 1
 
 
 0xaf:
 'Ø':
-    ..@@@@
-    .@..@@
-    .@..@@
-    .@.@.@
-    .@.@.@
-    .@@..@
-    .@@..@
-    .@...@
-    @.@@@.
+    .@@@.
+    @...@
+    @..@@
+    @.@.@
+    @@..@
+    @...@
+    .@@@.
 
     right-bearing: 1
 
 
 0xb0:
 '∞':
-    .@@.@@.
-    @..@..@
-    .@@.@@.
+    @@.@@
+    @.@.@
+    @@.@@
 
     shift-up: 2
+    right-bearing: 1
 
 
 0xb1:
@@ -2652,40 +2280,36 @@ pcgeos.font-id: 2560
     @@@@@
     ..@..
     ..@..
-    .....
     @@@@@
 
-    left-bearing: 1
     right-bearing: 1
 
 
 0xb2:
 '≤':
-    ...@.
-    ..@..
-    .@...
-    @....
-    .@...
-    ..@..
-    ...@.
-    @@@@@
+    ..@
+    .@.
+    @..
+    .@.
+    ..@
+    ...
+    @@@
 
     left-bearing: 1
-    right-bearing: 1
+    right-bearing: 2
 
 
 0xb3:
 '≥':
-    .@...
-    ..@..
-    ...@.
-    ....@
-    ...@.
-    ..@..
-    .@...
-    @@@@@
+    @..
+    .@.
+    ..@
+    .@.
+    @..
+    ...
+    @@@
 
-    left-bearing: 1
+    left-bearing: 2
     right-bearing: 1
 
 
@@ -2698,39 +2322,33 @@ pcgeos.font-id: 2560
     @@@@@
     ..@..
     ..@..
-    ..@..
-    ..@..
 
-    left-bearing: 1
     right-bearing: 1
 
 
 0xb5:
 'µ':
-    @...@
-    @...@
-    @...@
-    @...@
-    @..@@
+    @..@.
+    @..@.
+    @..@.
+    @..@.
     @@@.@
     @....
     @....
 
     shift-up: -2
-    left-bearing: 1
     right-bearing: 1
 
 
 0xb6:
 'δ':
-    .@@..
-    ...@.
-    ..@@@
-    .@..@
-    @...@
-    @...@
-    @..@.
-    .@@..
+    .@..
+    ..@.
+    ..@@
+    .@.@
+    @..@
+    @..@
+    .@@.
 
     left-bearing: 1
     right-bearing: 1
@@ -2739,16 +2357,13 @@ pcgeos.font-id: 2560
 0xb7:
 'Σ':
     @@@@@
-    @...@
-    .@...
+    .@..@
     ..@..
     ...@.
     ..@..
-    .@...
-    @...@
+    .@..@
     @@@@@
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -2761,10 +2376,7 @@ pcgeos.font-id: 2560
     .@.@.
     .@.@.
     .@.@.
-    .@.@.
-    .@.@.
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -2775,9 +2387,7 @@ pcgeos.font-id: 2560
     .@.@.
     .@.@.
     .@.@.
-    .@.@.
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -2793,41 +2403,36 @@ pcgeos.font-id: 2560
     ..@..
     ..@..
     ..@..
-    ..@..
-    ..@..
     @@...
 
     shift-up: -2
-    left-bearing: 1
     right-bearing: 1
 
 
 0xbb:
 'ª':
-    .@@@@
-    @...@
-    @...@
-    @...@
-    .@@@@
-    .....
-    @@@@@
+    .@@@
+    @..@
+    @..@
+    .@@@
+    ....
+    @@@@
 
-    shift-up: 2
+    shift-up: 1
     left-bearing: 1
     right-bearing: 1
 
 
 0xbc:
 'º':
-    .@@@.
-    @...@
-    @...@
-    @...@
-    .@@@.
-    .....
-    @@@@@
+    .@@.
+    @..@
+    @..@
+    .@@.
+    ....
+    @@@@
 
-    shift-up: 2
+    shift-up: 1
     left-bearing: 1
     right-bearing: 1
 
@@ -2839,12 +2444,9 @@ pcgeos.font-id: 2560
     @...@
     @...@
     @...@
-    @...@
-    .@.@.
     .@.@.
     @@.@@
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -2854,10 +2456,8 @@ pcgeos.font-id: 2560
     @.@.@
     @.@@@
     @.@..
-    @.@.@
-    .@@@.
+    .@@@@
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -2867,32 +2467,26 @@ pcgeos.font-id: 2560
     @..@@
     @.@.@
     @@..@
-    @...@
     .@@@.
 
-    left-bearing: 1
     right-bearing: 1
 
 
 0xc0:
 '¿':
     ..@..
-    ..@..
     .....
-    ..@..
     ..@..
     .@...
     @....
     @...@
     .@@@.
 
-    left-bearing: 1
     right-bearing: 1
 
 
 0xc1:
 '¡':
-    @
     @
     .
     @
@@ -2900,10 +2494,9 @@ pcgeos.font-id: 2560
     @
     @
     @
-    @
 
     left-bearing: 3
-    right-bearing: 3
+    right-bearing: 2
 
 
 0xc2:
@@ -2912,8 +2505,7 @@ pcgeos.font-id: 2560
     ....@
     ....@
 
-    shift-up: 2
-    left-bearing: 1
+    shift-up: 1
     right-bearing: 1
 
 
@@ -2921,15 +2513,11 @@ pcgeos.font-id: 2560
 '√':
     ...@@
     ...@.
-    ...@.
-    ...@.
-    ...@.
-    ...@.
-    @@.@.
-    ..@@.
-    ...@.
+    ..@..
+    @.@..
+    .@...
+    .@...
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -2939,9 +2527,7 @@ pcgeos.font-id: 2560
     ..@..
     ..@..
     ..@..
-    ..@..
     .@@@.
-    ..@..
     ..@..
     ..@..
     ..@..
@@ -2950,7 +2536,6 @@ pcgeos.font-id: 2560
     @@...
 
     shift-up: -2
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -2962,8 +2547,7 @@ pcgeos.font-id: 2560
     .@@@.
     @....
 
-    shift-up: 2
-    left-bearing: 1
+    shift-up: 1
     right-bearing: 1
 
 
@@ -2976,33 +2560,26 @@ pcgeos.font-id: 2560
     @...@
     @@@@@
 
-    left-bearing: 1
     right-bearing: 1
 
 
 0xc7:
 '«':
-    ..@.@
-    .@.@.
-    @.@..
-    @.@..
-    .@.@.
-    ..@.@
+    .@..@
+    @..@.
+    @..@.
+    .@..@
 
-    left-bearing: 1
     right-bearing: 1
 
 
 0xc8:
 '»':
-    @.@..
-    .@.@.
-    ..@.@
-    ..@.@
-    .@.@.
-    @.@..
+    @..@.
+    .@..@
+    .@..@
+    @..@.
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -3010,7 +2587,6 @@ pcgeos.font-id: 2560
 '…':
     @.@.@
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -3018,18 +2594,15 @@ pcgeos.font-id: 2560
 u+00a0:
     -
 
-    shift-up: 14
-    right-bearing: 7
+    shift-up: 9
+    right-bearing: 6
 
 
 0xcb:
 'À':
     .@...
     ..@..
-    .....
     .@@@.
-    @...@
-    @...@
     @...@
     @...@
     @@@@@
@@ -3037,7 +2610,6 @@ u+00a0:
     @...@
     @...@
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -3045,10 +2617,7 @@ u+00a0:
 'Ã':
     .@@.@
     @.@@.
-    .....
     .@@@.
-    @...@
-    @...@
     @...@
     @...@
     @@@@@
@@ -3056,7 +2625,6 @@ u+00a0:
     @...@
     @...@
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -3064,10 +2632,7 @@ u+00a0:
 'Õ':
     .@@.@
     @.@@.
-    .....
     .@@@.
-    @...@
-    @...@
     @...@
     @...@
     @...@
@@ -3075,33 +2640,29 @@ u+00a0:
     @...@
     .@@@.
 
-    left-bearing: 1
     right-bearing: 1
 
 
 0xce:
 'Œ':
-    .@@@@@
-    @..@..
-    @..@..
-    @..@..
-    @..@@@
-    @..@..
-    @..@..
-    @..@..
-    .@@@@@
+    .@@@@
+    @.@..
+    @.@..
+    @.@@.
+    @.@..
+    @.@..
+    .@@@@
 
     right-bearing: 1
 
 
 0xcf:
 'œ':
-    .@@@@.
-    @.@..@
-    @.@@@@
-    @.@...
-    @.@..@
-    .@@@@.
+    .@.@.
+    @.@.@
+    @.@@@
+    @.@..
+    .@.@@
 
     right-bearing: 1
 
@@ -3111,37 +2672,35 @@ u+00a0:
     @@@
 
     shift-up: 3
-    left-bearing: 2
+    left-bearing: 1
     right-bearing: 2
 
 
 0xd1:
 '—':
-    @@@@@
+    @@@@@@
 
     shift-up: 3
-    left-bearing: 1
-    right-bearing: 1
 
 
 0xd2:
 '“':
-    .@..@
-    @..@.
-    @@.@@
+    .@.@
+    @.@.
+    @.@.
 
-    shift-up: 6
+    shift-up: 4
     left-bearing: 1
     right-bearing: 1
 
 
 0xd3:
 '”':
-    @@.@@
-    .@..@
-    @..@.
+    .@.@
+    .@.@
+    @.@.
 
-    shift-up: 6
+    shift-up: 4
     left-bearing: 1
     right-bearing: 1
 
@@ -3152,8 +2711,8 @@ u+00a0:
     @.
     @@
 
-    shift-up: 6
-    left-bearing: 3
+    shift-up: 4
+    left-bearing: 2
     right-bearing: 2
 
 
@@ -3163,8 +2722,8 @@ u+00a0:
     .@
     @.
 
-    shift-up: 6
-    left-bearing: 3
+    shift-up: 4
+    left-bearing: 2
     right-bearing: 2
 
 
@@ -3176,8 +2735,7 @@ u+00a0:
     .....
     ..@..
 
-    shift-up: 2
-    left-bearing: 1
+    shift-up: 1
     right-bearing: 1
 
 
@@ -3190,7 +2748,6 @@ u+00a0:
     ..@..
 
     shift-up: 1
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -3202,14 +2759,11 @@ u+00a0:
     @...@
     @...@
     @...@
-    @...@
     .@@@@
-    ....@
     ....@
     .@@@.
 
-    shift-up: -3
-    left-bearing: 1
+    shift-up: -2
     right-bearing: 1
 
 
@@ -3220,39 +2774,35 @@ u+00a0:
     @...@
     @...@
     @...@
-    @...@
     .@.@.
     ..@..
     ..@..
     ..@..
-    ..@..
 
-    left-bearing: 1
     right-bearing: 1
 
 
 0xda:
 '⁄':
-    ......@
-    .....@.
-    ....@..
-    ...@...
-    ..@....
-    .@.....
-    @......
+    .....@
+    ....@.
+    ...@..
+    ..@...
+    .@....
+    @.....
 
 
 
 0xdb:
 '¤':
-    @.@@@.@
-    .@...@.
-    @.....@
-    @.....@
-    @.....@
-    .@...@.
-    @.@@@.@
+    @.@.@
+    .@.@.
+    @...@
+    @...@
+    .@.@.
+    @.@.@
 
+    right-bearing: 1
 
 
 0xdc:
@@ -3260,12 +2810,11 @@ u+00a0:
     ..@
     .@.
     @..
-    @..
     .@.
     ..@
 
     left-bearing: 1
-    right-bearing: 3
+    right-bearing: 2
 
 
 0xdd:
@@ -3273,11 +2822,10 @@ u+00a0:
     @..
     .@.
     ..@
-    ..@
     .@.
     @..
 
-    left-bearing: 3
+    left-bearing: 2
     right-bearing: 1
 
 
@@ -3290,14 +2838,11 @@ u+00a0:
     @...@
     @...@
     @...@
-    @...@
     .@@@@
-    ....@
     ....@
     .@@@.
 
-    shift-up: -3
-    left-bearing: 1
+    shift-up: -2
     right-bearing: 1
 
 
@@ -3305,8 +2850,6 @@ u+00a0:
 'Ý':
     ...@.
     ..@..
-    .....
-    @...@
     @...@
     @...@
     @...@
@@ -3314,9 +2857,7 @@ u+00a0:
     ..@..
     ..@..
     ..@..
-    ..@..
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -3329,8 +2870,8 @@ u+00a0:
     .@.
     .@.
 
-    shift-up: 3
-    left-bearing: 2
+    shift-up: 1
+    left-bearing: 1
     right-bearing: 2
 
 
@@ -3338,44 +2879,39 @@ u+00a0:
 '·':
     @
 
-    shift-up: 5
+    shift-up: 4
     left-bearing: 3
-    right-bearing: 3
+    right-bearing: 2
 
 
 0xe2:
 '‚':
     .@
     @.
-    @@
 
-    shift-up: -2
-    left-bearing: 3
+    shift-up: -1
+    left-bearing: 2
     right-bearing: 2
 
 
 0xe3:
 '„':
-    .@..@
-    @..@.
-    @@.@@
+    .@.@
+    @.@.
 
-    shift-up: -2
-    left-bearing: 1
-    right-bearing: 1
+    shift-up: -1
+    right-bearing: 2
 
 
 0xe4:
 '‰':
-    .@..@..
-    @.@.@..
-    @.@@...
-    .@@@...
-    ..@....
-    .@.@.@.
-    .@@.@.@
-    @.@.@.@
-    @..@.@.
+    .@@@@.
+    @.@.@.
+    @.@@..
+    .@@@@.
+    .@.@.@
+    @@.@.@
+    @.@.@.
 
 
 
@@ -3383,10 +2919,7 @@ u+00a0:
 'Â':
     ..@..
     .@.@.
-    .....
     .@@@.
-    @...@
-    @...@
     @...@
     @...@
     @@@@@
@@ -3394,7 +2927,6 @@ u+00a0:
     @...@
     @...@
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -3402,29 +2934,22 @@ u+00a0:
 'Ê':
     ..@..
     .@.@.
-    .....
     @@@@@
-    @....
     @....
     @....
     @@@@.
     @....
     @....
-    @....
     @@@@@
 
-    left-bearing: 1
     right-bearing: 1
 
 
 0xe7:
 'Á':
+    ...@.
     ..@..
-    .@.@.
-    .....
     .@@@.
-    @...@
-    @...@
     @...@
     @...@
     @@@@@
@@ -3432,7 +2957,6 @@ u+00a0:
     @...@
     @...@
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -3443,14 +2967,11 @@ u+00a0:
     @@@@@
     @....
     @....
-    @....
     @@@@.
-    @....
     @....
     @....
     @@@@@
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -3458,18 +2979,14 @@ u+00a0:
 'È':
     .@...
     ..@..
-    .....
     @@@@@
-    @....
     @....
     @....
     @@@@.
     @....
     @....
-    @....
     @@@@@
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -3477,9 +2994,6 @@ u+00a0:
 'Í':
     .@
     @.
-    ..
-    @.
-    @.
     @.
     @.
     @.
@@ -3488,7 +3002,7 @@ u+00a0:
     @.
     @.
 
-    left-bearing: 3
+    left-bearing: 2
     right-bearing: 2
 
 
@@ -3496,9 +3010,6 @@ u+00a0:
 'Î':
     .@.
     @.@
-    ...
-    .@.
-    .@.
     .@.
     .@.
     .@.
@@ -3507,7 +3018,7 @@ u+00a0:
     .@.
     .@.
 
-    left-bearing: 2
+    left-bearing: 1
     right-bearing: 2
 
 
@@ -3522,10 +3033,8 @@ u+00a0:
     .@.
     .@.
     .@.
-    .@.
-    .@.
 
-    left-bearing: 2
+    left-bearing: 1
     right-bearing: 2
 
 
@@ -3533,9 +3042,6 @@ u+00a0:
 'Ì':
     @.
     .@
-    ..
-    .@
-    .@
     .@
     .@
     .@
@@ -3544,7 +3050,7 @@ u+00a0:
     .@
     .@
 
-    left-bearing: 2
+    left-bearing: 1
     right-bearing: 3
 
 
@@ -3552,10 +3058,7 @@ u+00a0:
 'Ó':
     ...@.
     ..@..
-    .....
     .@@@.
-    @...@
-    @...@
     @...@
     @...@
     @...@
@@ -3563,7 +3066,6 @@ u+00a0:
     @...@
     .@@@.
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -3571,10 +3073,7 @@ u+00a0:
 'Ô':
     ..@..
     .@.@.
-    .....
     .@@@.
-    @...@
-    @...@
     @...@
     @...@
     @...@
@@ -3582,18 +3081,21 @@ u+00a0:
     @...@
     .@@@.
 
-    left-bearing: 1
     right-bearing: 1
+
+
+0xf0:
+    -
+
+    shift-up: 9
+    right-bearing: 6
 
 
 0xf1:
 'Ò':
     .@...
     ..@..
-    .....
     .@@@.
-    @...@
-    @...@
     @...@
     @...@
     @...@
@@ -3601,7 +3103,6 @@ u+00a0:
     @...@
     .@@@.
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -3609,9 +3110,6 @@ u+00a0:
 'Ú':
     ...@.
     ..@..
-    .....
-    @...@
-    @...@
     @...@
     @...@
     @...@
@@ -3620,7 +3118,6 @@ u+00a0:
     @...@
     .@@@.
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -3628,9 +3125,6 @@ u+00a0:
 'Û':
     ..@..
     .@.@.
-    .....
-    @...@
-    @...@
     @...@
     @...@
     @...@
@@ -3639,7 +3133,6 @@ u+00a0:
     @...@
     .@@@.
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -3647,9 +3140,6 @@ u+00a0:
 'Ù':
     .@...
     ..@..
-    .....
-    @...@
-    @...@
     @...@
     @...@
     @...@
@@ -3658,7 +3148,6 @@ u+00a0:
     @...@
     .@@@.
 
-    left-bearing: 1
     right-bearing: 1
 
 
@@ -3669,9 +3158,8 @@ u+00a0:
     @
     @
     @
-    @
 
-    left-bearing: 3
+    left-bearing: 2
     right-bearing: 3
 
 
@@ -3680,8 +3168,8 @@ u+00a0:
     .@.
     @.@
 
-    shift-up: 7
-    left-bearing: 2
+    shift-up: 6
+    left-bearing: 1
     right-bearing: 2
 
 
@@ -3690,24 +3178,23 @@ u+00a0:
     .@@.@
     @.@@.
 
-    shift-up: 7
-    left-bearing: 1
+    shift-up: 6
     right-bearing: 1
 
 
 0xf8:
 '¯':
-    @@@
+    @@@@
 
     shift-up: 7
-    left-bearing: 2
-    right-bearing: 2
+    left-bearing: 1
+    right-bearing: 1
 
 
 0xf9:
 '˘':
-    @...@
-    .@@@.
+    @..@
+    .@@.
 
     shift-up: 6
     left-bearing: 1
@@ -3719,7 +3206,7 @@ u+00a0:
     @
 
     shift-up: 7
-    left-bearing: 3
+    left-bearing: 2
     right-bearing: 3
 
 
@@ -3730,50 +3217,49 @@ u+00a0:
     .@.
 
     shift-up: 6
-    left-bearing: 2
+    left-bearing: 1
     right-bearing: 2
 
 
 0xfc:
 '¸':
-    .@.
-    ..@
-    @@.
+    @.
+    .@
+    @@
 
-    shift-up: -3
+    shift-up: -2
     left-bearing: 2
     right-bearing: 2
 
 
 0xfd:
 '˝':
-    .@..@
-    @..@.
+    .@.@
+    @.@.
 
-    shift-up: 8
+    shift-up: 7
     left-bearing: 1
     right-bearing: 1
 
 
 0xfe:
 '˛':
-    .@.
-    @..
-    .@@
+    .@
+    @.
+    @@
 
-    shift-up: -3
-    left-bearing: 2
-    right-bearing: 2
+    shift-up: -2
+    left-bearing: 1
+    right-bearing: 3
 
 
 0xff:
 'ˇ':
-    @...@
-    .@.@.
-    ..@..
+    @.@
+    .@.
 
-    shift-up: 6
+    shift-up: 7
     left-bearing: 1
-    right-bearing: 1
+    right-bearing: 2
 
 

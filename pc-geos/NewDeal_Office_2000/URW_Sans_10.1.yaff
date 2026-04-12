@@ -2,7 +2,6 @@ name: URW Sans 10
 spacing: proportional
 bounding-box: 10x11
 family: URW Sans
-font-id: 4608
 style: sans serif
 point-size: 10
 average-width: 4.78515625
@@ -10,16 +9,16 @@ max-width: 10
 x-height: 5
 ascent: 7
 descent: 2
-line-height: 65546
+line-height: 10
 encoding: pc-geos
 default-char: 0x2e
 underline-descent: 1
 strikethrough-ascent: 4
-converter: monobit v0.44
+converter: monobit v0.50
 source-name: SANS.FNT
 source-path: NDO2000/USERDATA/FONT/SANS.FNT
 source-format: pcgeos
-history: label -char-from=pc-geos
+pcgeos.font-id: 4608
 
 0x20:
 ' ':
@@ -2170,7 +2169,7 @@ history: label -char-from=pc-geos
 
 
 0xca:
-' ':
+u+00a0:
     -
 
     shift-up: 10
