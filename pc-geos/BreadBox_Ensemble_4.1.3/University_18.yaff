@@ -2,7 +2,6 @@ name: University 18
 spacing: proportional
 bounding-box: 16x22
 family: University
-font-id: 513
 style: sans serif
 point-size: 18
 average-width: 9.01953125
@@ -16,11 +15,11 @@ default-char: 0x2e
 underline-thickness: 2
 underline-descent: 2
 strikethrough-ascent: 7
-converter: monobit v0.44
+converter: monobit v0.50
 source-name: UNIVERSI.FNT
 source-path: ENSEMBLE/USERDATA/FONT/UNIVERSI.FNT
 source-format: pcgeos
-history: label -char-from=pc-geos
+pcgeos.font-id: 513
 
 0x20:
 ' ':
@@ -3322,7 +3321,7 @@ history: label -char-from=pc-geos
 
 
 0xca:
-' ':
+u+00a0:
     -
 
     shift-up: 18

@@ -2,7 +2,6 @@ name: Esquire 18
 spacing: proportional
 bounding-box: 16x22
 family: Esquire
-font-id: 555
 style: sans serif
 point-size: 18
 average-width: 13
@@ -16,11 +15,11 @@ default-char: 0x2e
 underline-thickness: 2
 underline-descent: 2
 strikethrough-ascent: 7
-converter: monobit v0.44
+converter: monobit v0.50
 source-name: ESQUIRE.FNT
 source-path: ENSEMBLE/USERDATA/FONT/ESQUIRE.FNT
 source-format: pcgeos
-history: label -char-from=pc-geos
+pcgeos.font-id: 555
 
 0x00:
 u+0000:
@@ -3429,7 +3428,7 @@ u+007f:
 
 
 0xca:
-' ':
+u+00a0:
     -
 
     shift-up: 18

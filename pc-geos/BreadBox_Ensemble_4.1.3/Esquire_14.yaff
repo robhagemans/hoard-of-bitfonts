@@ -2,7 +2,6 @@ name: Esquire 14
 spacing: proportional
 bounding-box: 13x18
 family: Esquire
-font-id: 555
 style: sans serif
 point-size: 14
 average-width: 10
@@ -15,11 +14,11 @@ encoding: pc-geos
 default-char: 0x2e
 underline-descent: 2
 strikethrough-ascent: 5
-converter: monobit v0.44
+converter: monobit v0.50
 source-name: ESQUIRE.FNT
 source-path: ENSEMBLE/USERDATA/FONT/ESQUIRE.FNT
 source-format: pcgeos
-history: label -char-from=pc-geos
+pcgeos.font-id: 555
 
 0x00:
 u+0000:
@@ -2982,7 +2981,7 @@ u+007f:
 
 
 0xca:
-' ':
+u+00a0:
     -
 
     shift-up: 14

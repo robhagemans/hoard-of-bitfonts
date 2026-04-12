@@ -2,7 +2,6 @@ name: Sather Gothic 18
 spacing: proportional
 bounding-box: 23x18
 family: Sather Gothic
-font-id: 4612
 style: sans serif
 point-size: 18
 average-width: 7.92578125
@@ -10,16 +9,16 @@ max-width: 17
 x-height: 8
 ascent: 14
 descent: 2
-line-height: 65554
+line-height: 18
 encoding: pc-geos
 default-char: 0x2e
 underline-descent: 1
 strikethrough-ascent: 6
-converter: monobit v0.44
+converter: monobit v0.50
 source-name: FGOTHIC.FNT
 source-path: ENSEMBLE/USERDATA/FONT/FGOTHIC.FNT
 source-format: pcgeos
-history: label -char-from=pc-geos
+pcgeos.font-id: 4612
 
 0x20:
 ' ':
@@ -3091,7 +3090,7 @@ history: label -char-from=pc-geos
 
 
 0xca:
-' ':
+u+00a0:
     -
 
     shift-up: 17
