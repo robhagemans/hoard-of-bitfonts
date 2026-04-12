@@ -2,7 +2,6 @@ name: Berkeley 10
 spacing: proportional
 bounding-box: 13x12
 family: Berkeley
-font-id: 514
 style: sans serif
 point-size: 10
 average-width: 6.04296875
@@ -15,11 +14,11 @@ encoding: pc-geos
 default-char: 0x2e
 underline-descent: 1
 strikethrough-ascent: 4
-converter: monobit v0.44
+converter: monobit v0.50
 source-name: BERKELEY.FNT
 source-path: GEOS20/USERDATA/FONT/BERKELEY.FNT
 source-format: pcgeos
-history: label -char-from=pc-geos
+pcgeos.font-id: 514
 
 0x20:
 ' ':
@@ -2313,7 +2312,7 @@ history: label -char-from=pc-geos
 
 
 0xca:
-' ':
+u+00a0:
     -
 
     shift-up: 10

@@ -2,23 +2,22 @@ name: URW Mono 14
 spacing: proportional
 bounding-box: 11x14
 family: URW Mono
-font-id: 6656
 point-size: 14
 average-width: 8.3984375
 max-width: 8
 x-height: 6
 ascent: 10
 descent: 2
-line-height: 65550
+line-height: 14
 encoding: pc-geos
 default-char: 0x2e
 underline-descent: 1
 strikethrough-ascent: 4
-converter: monobit v0.44
+converter: monobit v0.50
 source-name: MONO.FNT
 source-path: GEOS20/USERDATA/FONT/MONO.FNT
 source-format: pcgeos
-history: label -char-from=pc-geos
+pcgeos.font-id: 6656
 
 0x20:
 ' ':
@@ -2540,7 +2539,7 @@ history: label -char-from=pc-geos
 
 
 0xca:
-' ':
+u+00a0:
     -
 
     shift-up: 11

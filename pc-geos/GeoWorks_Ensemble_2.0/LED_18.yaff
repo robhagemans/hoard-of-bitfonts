@@ -2,7 +2,6 @@ name: LED 18
 spacing: proportional
 bounding-box: 12x18
 family: LED
-font-id: 1536
 point-size: 18
 average-width: 12
 max-width: 12
@@ -15,11 +14,11 @@ default-char: 0x30
 underline-thickness: 2
 underline-descent: 2
 strikethrough-ascent: 6
-converter: monobit v0.44
+converter: monobit v0.50
 source-name: LED.FNT
 source-path: GEOS20/USERDATA/FONT/LED.FNT
 source-format: pcgeos
-history: label -char-from=pc-geos
+pcgeos.font-id: 1536
 
 0x20:
 ' ':

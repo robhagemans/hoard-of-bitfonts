@@ -2,7 +2,6 @@ name: Bison 14
 spacing: proportional
 bounding-box: 28x18
 family: Bison
-font-id: 2560
 style: serif
 point-size: 14
 average-width: 9
@@ -15,11 +14,11 @@ encoding: pc-geos
 default-char: 0x2e
 underline-descent: 2
 strikethrough-ascent: 5
-converter: monobit v0.44
+converter: monobit v0.50
 source-name: BISON.FNT
 source-path: GEOS20/USERDATA/FONT/BISON.FNT
 source-format: pcgeos
-history: label -char-from=pc-geos
+pcgeos.font-id: 2560
 
 0x00:
     .....@@@@@@@@@
@@ -3286,7 +3285,7 @@ u+007f:
 
 
 0xca:
-' ':
+u+00a0:
     -
 
     shift-up: 14
