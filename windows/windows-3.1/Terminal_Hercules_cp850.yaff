@@ -5,7 +5,7 @@ point-size: 13
 dpi: 108 78
 spacing: character-cell
 shift-up: -2
-encoding: 850
+encoding: cp850
 default-char: 0x20
 word-boundary: 0x20
 converter: monobit v0.10
