@@ -1,6 +1,6 @@
 # Poisk-1 (1989) BIOS character set
 # range 0x00--0x7f offset=0x1a6e
-# range 0x80--0xff [offset=0x2e7
+# range 0x80--0xff offset=0x2e7
 
 name: Poisk-1 (1989)
 spacing: character-cell
