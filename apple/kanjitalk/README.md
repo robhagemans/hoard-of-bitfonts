@@ -5,12 +5,12 @@ Apple KanjiTalk fonts
 KanjiTalk / 漢字Talk / かんじトーク was the Japanese-language version of classic Mac OS.
 These are the fonts supplied with KanjiTalk 6.0.7. 
 
-- Hosomincho 細明朝
 - Kyoto 京都
+- Osaka 大阪
 - Medium Gothic 中ゴシック体
+- Thin Mincho 細明朝
 - Monospace Gothic 等幅ゴシック
 - Monospace Mincho 等幅明朝
-- Osaka 大阪
 
 The fullwidth strikes of these fonts were distributed in the `fbit` resource format, for which Apple has since dropped support.
 
