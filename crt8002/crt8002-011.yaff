@@ -1,11 +1,10 @@
-# font used in Steve Ciarcia, "Build your own Z80 computer"
-# based on https://books.google.com/books?id=mVQnFgWzX0AC  appendix C9
-# see also datasheet https://rocelec.widen.net/view/pdf/r6gtaq06b2/SMSCS01026-1.pdf
+# CRT-8002 datasheet https://rocelec.widen.net/view/pdf/r6gtaq06b2/SMSCS01026-1.pdf
 # -011 is identical to -005, except for the underline positioning
 
 name: CRT8002-011
 spacing: character-cell
 cell-size: 8x16
+source-url: https://rocelec.widen.net/view/pdf/r6gtaq06b2/SMSCS01026-1.pdf
 
 left-bearing: 1
 line-height: 16
