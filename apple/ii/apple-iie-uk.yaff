@@ -1,7 +1,6 @@
 name: Apple IIe UK-USA
 spacing: character-cell
 cell-size: 8x8
-encoding: apple-ii
 converter: monobit v0.53
 source-format: raw [msb=r count=0x80]
 source-name: Apple IIe Video UK-USA - Unenhanced - 341-0160-A - 2764.bin

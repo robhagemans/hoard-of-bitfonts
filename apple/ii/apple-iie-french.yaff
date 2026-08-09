@@ -5,7 +5,6 @@
 name: Apple IIe French-USA
 spacing: character-cell
 cell-size: 8x8
-encoding: apple-iie
 converter: monobit v0.53
 source-format: raw [msb=r count=0x80]
 source-name: Apple IIe Video French-US - Unenhanced - 342-0274-A - 2764.bin

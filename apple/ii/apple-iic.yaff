@@ -4,7 +4,6 @@
 name: Apple IIe Enhanced
 spacing: character-cell
 cell-size: 8x8
-encoding: apple-ii
 converter: monobit v0.53
 source-name: Apple IIe Video - Enhanced - 342-0265-A - 2732.bin
 source-format: raw [count=128 msb=r]

@@ -1,7 +1,6 @@
 name: Apple IIe German-USA
 spacing: character-cell
 cell-size: 8x8
-encoding: apple-iie
 converter: monobit v0.53
 source-name: Apple IIe Video German-US - Unenhanced - 341-0161-A - 2764.bin
 source-url: https://downloads.reactivemicro.com/Apple%20II%20Items/ROM_and_JEDEC/IIe/Video%20ROM/Dual-Euro/Apple%20IIe%20Video%20German-US%20-%20Unenhanced%20-%20341-0161-A%20-%202764.bin
