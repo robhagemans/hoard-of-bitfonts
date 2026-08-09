@@ -3,12 +3,21 @@
 
 name: CRT8001-001
 spacing: character-cell
-cell-size: 7x11
+cell-size: 8x16
 converter: monobit v0.48
-source-name: 7x11
-source-path: /home/rob/Projects/bitfont/crt8002-001/7x11
 source-format: imageset [prefix=crt-8002-001- base=16]
 source-url: https://github.com/user-attachments/files/18549478/crt8002-001.tar.gz
+
+left-bearing: 1
+line-height: 16
+shift-up: -2
+# > Underline will be a single horizontal line at row R11
+underline-thickness: 1
+underline-descent: 2
+# > The strike-thru will be a double line at rows R5 and R6
+strikethrough-thickness: 2
+strikethrough-ascent: 5
+
 
 0x00:
     .......

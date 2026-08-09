@@ -5,10 +5,20 @@
 
 name: CRT8002-018
 spacing: character-cell
-cell-size: 7x11
+cell-size: 8x16
 converter: manual
 source-format: raw [padding=5 offset=1 cell=7x11 align=right]
 encoding: ascii
+
+left-bearing: 1
+line-height: 16
+shift-up: -4
+# > Underline will be a double horizontal line at R7 and R8
+underline-thickness: 2
+underline-descent: 2
+# > The strike-thru will be a single horizontal line at R4
+strikethrough-thickness: 1
+strikethrough-ascent: 3
 
 
 0x00:
