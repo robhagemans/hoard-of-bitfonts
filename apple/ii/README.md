@@ -5,6 +5,7 @@ These are the fonts used by the various Apple II versions:
 - Apple ][
 - Apple //e
 - Apple //e (Enhanced) and Apple //c
+- Apple IIGS (Apple II compatibility mode)
 
 International versions:
 - Apple ][ JPlus (Japanese)
